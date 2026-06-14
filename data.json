@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T02:13:21.180307Z",
+  "updated": "2026-06-14T02:21:59.107194Z",
   "matches": [
     {
       "id": "wc26-760420",
@@ -30,7 +30,7 @@
       "status": "live",
       "scoreA": 0,
       "scoreB": 1,
-      "minute": "48'"
+      "minute": "58'"
     }
   ],
   "groups": {
@@ -578,7 +578,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 10.5
+      "pct": 11.5
     },
     {
       "code": "England",
@@ -681,7 +681,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 12.2
+        "pct": 12.6
       },
       {
         "code": "Haiti",
@@ -852,12 +852,12 @@
     ]
   },
   "news": [
-    "Brazil battle back to draw with Morocco in 2026 World Cup clash: Live updates and reaction",
-    "Brazil and Morocco share 1-1 draw in their World Cup opener – updates",
-    "Brazil’s Vinícius Júnior nets equalizer against Morocco | 2026 FIFA World Cup™",
-    "Haiti v Scotland: World Cup 2026 – live",
-    "Haiti vs Scotland live updates: World Cup 2026 game latest lineups, predictions",
     "John McGinn scores Scotland’s first goal of 2026 FIFA World Cup™, taking lead over Haiti",
+    "Australia v Turkey: World Cup 2026 – live",
+    "Haiti vs. Scotland LIVE: World Cup 2026 updates as McGinn scores opener",
+    "Brazil battle back to draw with Morocco in 2026 World Cup clash: Live updates and reaction",
+    "Brazil 1-1 Morocco: World Cup 2026 – as it happened",
+    "Brazil’s Vinícius Júnior nets equalizer against Morocco | 2026 FIFA World Cup™",
     "United States vs Paraguay Highlights | 2026 FIFA World Cup™",
     "Ten observations after attending a World Cup match in the US"
   ],
