@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T02:42:06.256190Z",
+  "updated": "2026-06-14T03:04:31.446236Z",
   "matches": [
     {
       "id": "wc26-760420",
@@ -27,10 +27,9 @@
       "grp": "GROUP C",
       "a": "Haiti",
       "b": "Scotland",
-      "status": "live",
+      "status": "ft",
       "scoreA": 0,
-      "scoreB": 1,
-      "minute": "77'"
+      "scoreB": 1
     }
   ],
   "groups": {
@@ -146,23 +145,23 @@
         ],
         [
           "Haiti",
+          1,
           0,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
+          1,
           0
         ],
         [
           "Scotland",
+          1,
+          1,
           0,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0
+          3
         ]
       ]
     },
@@ -563,10 +562,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "Haiti",
-    "Scotland"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
@@ -578,7 +574,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 11.5
+      "pct": 11.8
     },
     {
       "code": "England",
@@ -606,7 +602,7 @@
     },
     {
       "code": "Morocco",
-      "pct": 2.4
+      "pct": 2.2
     },
     {
       "code": "USA",
@@ -626,7 +622,7 @@
     },
     {
       "code": "Turkiye",
-      "pct": 1.5
+      "pct": 1.4
     },
     {
       "code": "Mexico",
@@ -667,7 +663,7 @@
       },
       {
         "code": "Qatar",
-        "pct": 2.4
+        "pct": 2.3
       }
     ],
     "C": [
@@ -677,21 +673,21 @@
       },
       {
         "code": "Morocco",
-        "pct": 27.5
+        "pct": 28.5
       },
       {
         "code": "Scotland",
-        "pct": 11.9
+        "pct": 11.3
       },
       {
         "code": "Haiti",
-        "pct": 1.2
+        "pct": 1.5
       }
     ],
     "D": [
       {
         "code": "USA",
-        "pct": 63.0
+        "pct": 62.5
       },
       {
         "code": "Turkey",
@@ -854,12 +850,12 @@
   "news": [
     "World Cup 2026: Brazil ready to party; Scotland’s big return; England recover stolen boots – as it happened",
     "John McGinn scores Scotland’s first goal of 2026 FIFA World Cup™, taking lead over Haiti",
-    "Haiti vs. Scotland LIVE: World Cup 2026 updates as McGinn scores opener",
-    "University of Portland lands unique role in FIFA World Cup 2026",
+    "Australia vs. Türkiye LIVE: World Cup 2026 updates from Group D clash",
     "Brazil vs Morocco Highlights | 2026 FIFA World Cup™",
     "Brazil 1-1 Morocco Highlights - World Cup 2026 - 14 June 2026",
     "Brazil 1-1 Morocco: World Cup 2026 – as it happened",
-    "Ten observations after attending a World Cup match in the US"
+    "Qatar 1-1 Switzerland: World Cup 2026 – as it happened",
+    "Switzerland’s Breel Embolo converts penalty kick, taking lead over Qatar | 2026 FIFA World Cup"
   ],
   "nextMatch": {
     "a": "Australia",
@@ -871,7 +867,7 @@
     "city": "Vancouver",
     "stadium": "BC Place",
     "weather": {
-      "tempF": 77,
+      "tempF": 75,
       "windMph": 7,
       "description": "Clear sky"
     }
