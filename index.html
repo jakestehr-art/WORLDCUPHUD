@@ -162,6 +162,7 @@
   .clip .thumb{
     height: 110px; position:relative;
     display:flex; align-items:center; justify-content:center;
+    background-size: cover; background-position: center; cursor: pointer;
   }
   .clip .thumb .dur{
     position:absolute; bottom:6px; right:6px;
@@ -434,28 +435,62 @@
   }
 
   // ---------- HIGHLIGHTS ----------
-  const highlights = [
+  // Fallback cards shown until data.json provides real FIFA YouTube uploads
+  const fallbackHighlights = [
     { grp:'GROUP A', title:'Mexico 2–0 South Africa', desc:'Hosts open the tournament with a clean win', dur:'4:32', grad:'135deg,#0a6b3f,#c8102e' },
     { grp:'GROUP D', title:'USA 4–1 Paraguay', desc:'Balogun brace sparks a rout at SoFi Stadium', dur:'5:10', grad:'135deg,#0a3161,#b22234' },
     { grp:'GROUP A', title:'South Korea 2–1 Czechia', desc:"Group A's first comeback win", dur:'3:48', grad:'135deg,#c60c30,#0047a0' },
     { grp:'GROUP B', title:'Canada 1–1 Bosnia & Herz.', desc:'Late equalizer at BMO Field', dur:'2:55', grad:'135deg,#ff0000,#002395' },
   ];
-  function buildHighlights(){
+
+  function buildHighlights(items){
     const grid = document.getElementById('highlightGrid');
-    grid.innerHTML = highlights.map(h => `
+
+    if (!items || !items.length){
+      grid.innerHTML = fallbackHighlights.map(h => `
+        <div class="clip">
+          <div class="thumb" style="background:linear-gradient(${h.grad})">
+            <div class="play"></div>
+            <div class="dur">${h.dur}</div>
+          </div>
+          <div class="info">
+            <span class="grp">${h.grp}</span>
+            <h3>${h.title}</h3>
+            <p>${h.desc}</p>
+          </div>
+        </div>`).join('');
+      return;
+    }
+
+    grid.innerHTML = items.map((h,i) => `
       <div class="clip">
-        <div class="thumb" style="background:linear-gradient(${h.grad})">
+        <div class="thumb" data-video-id="${h.videoId}" data-loaded="false"
+             style="background-image:url('https://i.ytimg.com/vi/${h.videoId}/hqdefault.jpg')">
           <div class="play"></div>
-          <div class="dur">${h.dur}</div>
         </div>
         <div class="info">
-          <span class="grp">${h.grp}</span>
+          <span class="grp">FIFA · YOUTUBE</span>
           <h3>${h.title}</h3>
-          <p>${h.desc}</p>
         </div>
       </div>`).join('');
+
+    // Click-to-load: swap the thumbnail for a real YouTube embed only when tapped,
+    // so nothing autoplays while the HUD just sits open.
+    grid.querySelectorAll('.thumb[data-video-id]').forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        if (thumb.dataset.loaded === 'true') return;
+        const id = thumb.dataset.videoId;
+        thumb.innerHTML = `<iframe width="100%" height="100%" style="border:0; display:block;"
+          src="https://www.youtube.com/embed/${id}?autoplay=1"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>`;
+        thumb.style.backgroundImage = 'none';
+        thumb.dataset.loaded = 'true';
+      });
+    });
   }
-  buildHighlights();
+  buildHighlights([]);
 
   // ---------- STANDINGS ----------
   // Populated from data.json. Each team: [name, MP, W, D, L, GF, GA, Pts]
@@ -523,6 +558,7 @@
       buildMatches();
       renderStandings(activeGroup);
       buildNewsTrack(data.news || []);
+      buildHighlights(data.highlights || []);
       const stamp = document.getElementById('lastUpdated');
       if (stamp && data.updated){
         const d = new Date(data.updated);
