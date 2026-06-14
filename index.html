@@ -191,24 +191,32 @@
   .status.upcoming{ background: rgba(63,124,224,.12); color: var(--blue); }
   .status.ft{ background: rgba(126,141,160,.15); color: var(--text-dim); }
   .score{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px; color:var(--lime); }
+  .upset-badge{
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:9px;
+    letter-spacing:0.1em; color: var(--bg); background: var(--lime);
+    padding: 2px 6px; border-radius:2px; flex-shrink:0;
+  }
 
-  /* ---- Highlights ---- */
-  .highlights-grid{
-    display:grid; grid-template-columns: 1fr 1fr; gap:10px;
+  /* ---- Next Up (countdown + weather) ---- */
+  .nextup{ text-align:center; padding: 18px 14px; }
+  .nextup-teams{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color: var(--text); }
+  .nextup-teams .vs{
+    color: var(--text-dim); font-weight:500; font-size:11px;
+    text-transform:uppercase; letter-spacing:0.15em; margin: 0 8px;
   }
-  @media (max-width: 700px){ .highlights-grid{ grid-template-columns: 1fr; } }
-  .clip{
-    display:block; border:1px solid var(--line); border-radius:4px; overflow:hidden;
-    background: var(--panel-2); text-decoration:none; color: inherit;
+  .nextup-countdown{
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:24px;
+    color: var(--lime); margin-top:12px; letter-spacing:0.02em;
   }
-  .clip .thumb{
-    height: 110px; position:relative;
-    background-size: cover; background-position: center;
+  .nextup-when{
+    font-size:11px; color: var(--text-dim); margin-top:10px;
+    text-transform:uppercase; letter-spacing:0.1em;
   }
-  .clip .info{ padding: 8px 10px; }
-  .clip .info .grp{ font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--lime); letter-spacing:0.1em; }
-  .clip .info h3{ font-size:13px; font-weight:700; margin: 3px 0 2px; line-height:1.3; }
-  .clip .info p{ font-size:11px; color: var(--text-dim); }
+  .nextup-venue{ font-size:12px; color: var(--text); margin-top:8px; }
+  .nextup-weather{
+    font-family:'JetBrains Mono',monospace; font-size:13px; color: var(--lime);
+    margin-top:4px; font-weight:700;
+  }
 
   /* ---- Standings ---- */
   .tabs{ display:flex; flex-wrap:wrap; gap:4px; padding: 10px 10px 0; }
@@ -236,6 +244,41 @@
     content:' ●'; color: var(--red); animation: pulse 1.2s infinite;
   }
   .standings-note{ padding: 8px 10px 12px; font-size:11px; color: var(--text-dim); }
+
+  .fixtures-list{ padding: 0 10px 12px; }
+  .fixtures-list .fx-heading{
+    font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--text-dim);
+    letter-spacing:0.15em; text-transform:uppercase; padding: 8px 0 6px;
+    border-top: 1px solid var(--line);
+  }
+  .fixtures-list .fx-team{
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:10px; padding:4px 0; font-size:11px;
+  }
+  .fixtures-list .fx-name{ color: var(--text); font-weight:700; flex-shrink:0; }
+  .fixtures-list .fx-games{ color: var(--text-dim); text-align:right; font-family:'JetBrains Mono',monospace; }
+
+  /* ---- Golden Boot strip ---- */
+  .goldenboot{ grid-column: 1 / -1; }
+  .scorer-row{ display:flex; overflow-x:auto; }
+  .scorer-item{
+    flex: 1 0 130px; min-width:130px; text-align:center;
+    padding: 14px 10px; border-right: 1px dashed var(--line);
+  }
+  .scorer-item:last-child{ border-right:none; }
+  .scorer-item .rank{
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; color: var(--text-dim);
+  }
+  .scorer-item:first-child .rank{ color: var(--lime); }
+  .scorer-item .goals{
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:20px;
+    color: var(--lime); margin-top:2px;
+  }
+  .scorer-item .player{ font-size:12px; font-weight:600; margin-top:4px; }
+  .scorer-item .team{
+    font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--text-dim);
+    text-transform:uppercase; letter-spacing:0.1em; margin-top:2px;
+  }
 
   /* ---- Bracket strip ---- */
   .bracket{
@@ -314,14 +357,14 @@
       <div class="panel-body" id="matchList"></div>
     </div>
 
-    <!-- HIGHLIGHTS -->
+    <!-- NEXT UP: countdown + venue weather -->
     <div class="panel">
       <div class="panel-head">
-        <h2>Photos</h2>
-        <span class="tag">WIKIMEDIA COMMONS</span>
+        <h2>Next Up</h2>
+        <span class="tag" id="nextGroupTag">—</span>
       </div>
-      <div class="panel-body">
-        <div class="highlights-grid" id="highlightGrid"></div>
+      <div class="panel-body nextup" id="nextUp">
+        <div class="nextup-teams">—</div>
       </div>
     </div>
 
@@ -340,18 +383,28 @@
           <tbody id="standingsBody"></tbody>
         </table>
         <div class="standings-note">Green edge = qualification position (top 2 advance, plus best third-place teams). "Win Grp" is Polymarket's live implied probability of that team winning the group.</div>
+        <div class="fixtures-list" id="fixturesList"></div>
       </div>
     </div>
 
     <!-- BRACKET / TOURNAMENT PATH -->
     <div class="panel bracket" id="bracket"></div>
 
+    <!-- GOLDEN BOOT -->
+    <div class="panel goldenboot">
+      <div class="panel-head">
+        <h2>Golden Boot</h2>
+        <span class="tag">TOP SCORERS</span>
+      </div>
+      <div class="scorer-row" id="goldenBoot"></div>
+    </div>
+
   </div>
 
   <footer>
-    Sample dashboard layout for the 2026 FIFA World Cup. Standings reflect results through June 13, 2026;
-    advance-probability figures and the news wire are placeholder/sample data — wire this up to a live odds
-    feed and news API (e.g. via <a href="#">sportsradar / a news RSS source</a>) to make it fully live.
+    Live data refreshed every ~5 minutes via GitHub Actions: scores and standings from ESPN, title/group odds
+    from Polymarket, headlines from Google News, and host-city weather from Open-Meteo. The "Win Grp", "UPSET",
+    and "Golden Boot" figures are derived from these feeds and may lag slightly behind broadcast coverage.
   </footer>
 
 <script>
@@ -450,6 +503,10 @@
       const scoreHtml = (m.status === 'ft' || m.status === 'live')
         ? `<div class="score">${m.scoreA} – ${m.scoreB}</div>` : '';
 
+      const upsetHtml = m.upset
+        ? `<span class="upset-badge" title="${m.favored} entered as the group favorite (${m.favoredPct}%)">UPSET</span>`
+        : '';
+
       return `
         <div class="match" data-id="${m.id}">
           <div class="when">${m.when}<br>ET</div>
@@ -458,47 +515,55 @@
             ${m.a} vs ${m.b}
           </div>
           ${scoreHtml}
+          ${upsetHtml}
           ${statusHtml}
         </div>`;
     }).join('');
   }
 
-  // ---------- PHOTOS ----------
-  // Fallback cards shown until data.json provides real Wikimedia Commons photos
-  const fallbackHighlights = [
-    { grp:'GROUP A', title:'Mexico 2–0 South Africa', desc:'Hosts open the tournament with a clean win', grad:'135deg,#0a6b3f,#c8102e' },
-    { grp:'GROUP D', title:'USA 4–1 Paraguay', desc:'Balogun brace sparks a rout at SoFi Stadium', grad:'135deg,#0a3161,#b22234' },
-    { grp:'GROUP A', title:'South Korea 2–1 Czechia', desc:"Group A's first comeback win", grad:'135deg,#c60c30,#0047a0' },
-    { grp:'GROUP B', title:'Canada 1–1 Bosnia & Herz.', desc:'Late equalizer at BMO Field', grad:'135deg,#ff0000,#002395' },
-  ];
+  // ---------- NEXT UP: countdown + venue weather ----------
+  let nextMatch = null;
 
-  function buildHighlights(items){
-    const grid = document.getElementById('highlightGrid');
-
-    if (!items || !items.length){
-      grid.innerHTML = fallbackHighlights.map(h => `
-        <div class="clip">
-          <div class="thumb" style="background:linear-gradient(${h.grad})"></div>
-          <div class="info">
-            <span class="grp">${h.grp}</span>
-            <h3>${h.title}</h3>
-            <p>${h.desc}</p>
-          </div>
-        </div>`).join('');
+  function buildNextUp(nm){
+    const el = document.getElementById('nextUp');
+    const tag = document.getElementById('nextGroupTag');
+    if (!nm){
+      tag.textContent = '—';
+      el.innerHTML = '<div class="nextup-teams">No upcoming matches found</div>';
       return;
     }
-
-    grid.innerHTML = items.map(h => `
-      <a class="clip" href="${h.pageUrl}" target="_blank" rel="noopener">
-        <div class="thumb" style="background-image:url('${h.thumbUrl}')"></div>
-        <div class="info">
-          <span class="grp">WIKIMEDIA COMMONS</span>
-          <h3>${h.title}</h3>
-          <p>${h.attribution ? 'Photo: ' + h.attribution + ' · ' : ''}${h.license || ''}</p>
-        </div>
-      </a>`).join('');
+    tag.textContent = nm.grp || '—';
+    const weather = nm.weather
+      ? `${nm.weather.tempF}°F · ${nm.weather.description}${nm.weather.windMph != null ? ' · Wind ' + nm.weather.windMph + ' mph' : ''}`
+      : '';
+    const venueLine = [nm.stadium, nm.city].filter(Boolean).join(' · ');
+    el.innerHTML = `
+      <div class="nextup-teams">${nm.a} <span class="vs">vs</span> ${nm.b}</div>
+      <div class="nextup-countdown" id="countdown">--:--:--:--</div>
+      <div class="nextup-when">${nm.when || ''}</div>
+      ${venueLine ? `<div class="nextup-venue">${venueLine}</div>` : ''}
+      ${weather ? `<div class="nextup-weather">${weather}</div>` : ''}
+    `;
+    updateCountdown();
   }
-  buildHighlights([]);
+
+  function updateCountdown(){
+    const el = document.getElementById('countdown');
+    if (!el || !nextMatch || !nextMatch.kickoffISO) return;
+    const diff = new Date(nextMatch.kickoffISO).getTime() - Date.now();
+    if (diff <= 0){
+      el.textContent = 'KICKOFF!';
+      return;
+    }
+    const totalSec = Math.floor(diff / 1000);
+    const days = Math.floor(totalSec / 86400);
+    const hours = Math.floor((totalSec % 86400) / 3600);
+    const mins = Math.floor((totalSec % 3600) / 60);
+    const secs = totalSec % 60;
+    const pad = n => String(n).padStart(2, '0');
+    el.textContent = `${days}d ${pad(hours)}h ${pad(mins)}m ${pad(secs)}s`;
+  }
+  setInterval(updateCountdown, 1000);
 
   // ---------- STANDINGS ----------
   // Populated from data.json. Each team: [name, MP, W, D, L, GF, GA, Pts]
@@ -506,6 +571,7 @@
   let groups = {};
   let liveTeams = [];
   let groupOdds = {};
+  let remainingFixtures = {};
   let activeGroup = 'A';
 
   function buildTabs(){
@@ -551,10 +617,43 @@
         <td>${gdStr}</td><td class="pts">${t[7]}</td><td class="pts">${winStr}</td>
       </tr>`;
     }).join('');
+
+    // Qualification scenario: remaining group-stage fixtures for teams with games left
+    const fxList = document.getElementById('fixturesList');
+    const stillToPlay = sorted.filter(t => t[1] < 3);
+    if (!stillToPlay.length){
+      fxList.innerHTML = '<div class="fx-heading">Group stage complete</div>';
+    } else {
+      const rows = stillToPlay.map(t => {
+        const games = (remainingFixtures[t[0]] || []).join('  ·  ') || 'Schedule TBD';
+        return `<div class="fx-team"><span class="fx-name">${t[0]}</span><span class="fx-games">${games}</span></div>`;
+      }).join('');
+      fxList.innerHTML = '<div class="fx-heading">Remaining Group Fixtures</div>' + rows;
+    }
   }
 
   buildTabs();
   renderStandings(activeGroup);
+
+  // ---------- GOLDEN BOOT ----------
+  const fallbackScorers = [
+    { player: 'Folarin Balogun', team: 'United States', goals: 2 },
+    { player: 'Hwang Hee-chan', team: 'South Korea', goals: 1 },
+    { player: 'Raphinha', team: 'Brazil', goals: 1 },
+  ];
+
+  function buildGoldenBoot(items){
+    const row = document.getElementById('goldenBoot');
+    const data = (items && items.length) ? items : fallbackScorers;
+    row.innerHTML = data.map((s,i) => `
+      <div class="scorer-item">
+        <div class="rank">${i+1}</div>
+        <div class="goals">${s.goals}</div>
+        <div class="player">${s.player}</div>
+        <div class="team">${s.team}</div>
+      </div>`).join('');
+  }
+  buildGoldenBoot([]);
 
   // ---------- DATA REFRESH ----------
   // data.json is rewritten every ~5 minutes by a scheduled GitHub Action.
@@ -571,10 +670,13 @@
       groups = data.groups || {};
       liveTeams = data.liveTeams || [];
       groupOdds = data.groupOdds || {};
+      remainingFixtures = data.remainingFixtures || {};
+      nextMatch = data.nextMatch || null;
       buildMatches();
       renderStandings(activeGroup);
       buildNewsTrack(data.news || []);
-      buildHighlights(data.highlights || []);
+      buildNextUp(nextMatch);
+      buildGoldenBoot(data.topScorers || []);
       buildProbTrack(data.probabilities || []);
       const stamp = document.getElementById('lastUpdated');
       if (stamp && data.updated){
