@@ -5,51 +5,81 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MATCH CENTER — World Cup 2026</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
   :root{
-    --bg: #090d12;
-    --panel: #121922;
-    --panel-2: #1a232e;
-    --line: #283341;
-    --text: #eef2f6;
-    --text-dim: #7e8da0;
-    --lime: #b6ff3c;
-    --amber: #ffb347;
-    --red: #ff4d5e;
-    --blue: #4aa8ff;
-    --radius: 6px;
+    --bg: #0a0a0c;
+    --panel: #141318;
+    --panel-2: #1c1b22;
+    --line: #322f38;
+    --text: #f6f4ee;
+    --text-dim: #8d8a96;
+    --lime: #d4af37;
+    --amber: #2fae66;
+    --red: #e6394a;
+    --blue: #3f7ce0;
+    --radius: 2px;
+    --glow: 0 0 6px currentColor;
   }
 
   *{ box-sizing: border-box; margin:0; padding:0; }
   html,body{ background: var(--bg); color: var(--text); font-family:'Inter',sans-serif; }
-  body{ min-height:100vh; padding-bottom: 40px; }
+  body{
+    min-height:100vh; padding-bottom: 40px;
+    background-image:
+      repeating-linear-gradient(115deg, rgba(212,175,55,0.03) 0px, rgba(212,175,55,0.03) 2px, transparent 2px, transparent 120px);
+    position: relative;
+  }
+  /* Oversized "26" watermark, nodding to the tournament's numeral motif without
+     reproducing the official emblem (no trophy, no FIFA wordmark) */
+  body::before{
+    content:'26';
+    position:fixed; right:-40px; bottom:-90px;
+    font-family:'Space Grotesk',sans-serif; font-weight:700;
+    font-size: 520px; line-height:1; letter-spacing:-0.04em;
+    color: rgba(212,175,55,0.035);
+    z-index:0; pointer-events:none;
+  }
+  @keyframes blink{ 0%,49%{ opacity:1; } 50%,100%{ opacity:0; } }
 
   .mono{ font-family:'JetBrains Mono',monospace; }
-  .display{ font-family:'Teko',sans-serif; font-weight:600; letter-spacing:0.02em; }
+  .display{ font-family:'Space Grotesk',sans-serif; font-weight:700; letter-spacing:0.02em; }
+
+  /* ============ HOST-NATION ACCENT BAR ============ */
+  .accent-bar{
+    height: 5px; width:100%;
+    background: linear-gradient(90deg,
+      var(--red) 0%, var(--red) 25%,
+      var(--lime) 25%, var(--lime) 50%,
+      var(--text) 50%, var(--text) 75%,
+      var(--blue) 75%, var(--blue) 100%);
+  }
 
   /* ============ TOP BAR ============ */
   .topbar{
     display:flex; align-items:center; justify-content:space-between;
     padding: 14px 24px;
     border-bottom: 1px solid var(--line);
-    background: linear-gradient(180deg, #0d131a, #090d12);
+    background: linear-gradient(180deg, #161519, #0a0a0c);
+    position: relative; z-index:1;
   }
   .brand{ display:flex; align-items:center; gap:14px; }
   .brand .dot{
     width:12px; height:12px; border-radius:50%;
-    background: var(--lime); box-shadow: 0 0 12px var(--lime);
+    background: var(--red); box-shadow: 0 0 8px var(--red), 0 0 16px var(--red);
     animation: pulse 1.6s ease-in-out infinite;
   }
   @keyframes pulse{ 0%,100%{ opacity:1; transform:scale(1);} 50%{ opacity:.4; transform:scale(.7);} }
   .brand h1{
-    font-family:'Teko',sans-serif; font-weight:700; font-size: 30px;
-    letter-spacing: 0.08em; line-height:1;
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size: 30px;
+    letter-spacing: 0.04em; line-height:1; color: var(--text);
   }
   .brand h1 span{ color: var(--lime); }
   .brand .sub{ font-size:11px; color: var(--text-dim); letter-spacing:0.18em; text-transform:uppercase; margin-top:2px;}
   .clockblock{ text-align:right; }
-  .clockblock .time{ font-size:22px; font-family:'JetBrains Mono',monospace; font-weight:700; color: var(--lime); }
+  .clockblock .time{
+    font-size:22px; font-family:'JetBrains Mono',monospace; font-weight:700; color: var(--lime);
+  }
   .clockblock .label{ font-size:11px; color: var(--text-dim); letter-spacing:0.18em; text-transform:uppercase; }
 
   /* ============ TICKERS ============ */
@@ -58,20 +88,20 @@
     border-bottom: 1px solid var(--line);
     position:relative;
   }
-  .ticker-wrap.probability{ background: #0e141b; padding: 10px 0; }
+  .ticker-wrap.probability{ background: #0e0d11; padding: 10px 0; }
   .ticker-wrap.news{ background: var(--amber); padding: 8px 0; }
   .ticker-tag{
     position:absolute; left:0; top:0; bottom:0;
     display:flex; align-items:center; padding: 0 14px;
-    font-family:'Teko',sans-serif; font-weight:700; font-size:13px;
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:12px;
     letter-spacing:0.18em; z-index:2;
   }
   .ticker-wrap.probability .ticker-tag{
-    background: #0e141b; color: var(--lime); border-right:1px solid var(--line);
-    box-shadow: 14px 0 14px -8px #0e141b;
+    background: #0e0d11; color: var(--lime); border-right:1px solid var(--line);
+    box-shadow: 14px 0 14px -8px #0e0d11;
   }
   .ticker-wrap.news .ticker-tag{
-    background: var(--amber); color:#241a04; border-right:1px solid rgba(0,0,0,.15);
+    background: var(--amber); color:#06140c; border-right:1px solid rgba(0,0,0,.2);
     box-shadow: 14px 0 14px -8px var(--amber);
   }
   .ticker-track{
@@ -88,12 +118,15 @@
     font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--text);
     min-width: 34px; display:inline-block; letter-spacing:0.05em; white-space:nowrap;
   }
-  .prob-bar{ width:90px; height:6px; background: var(--line); border-radius:3px; overflow:hidden; }
-  .prob-bar i{ display:block; height:100%; background: linear-gradient(90deg, #4f7d1a, var(--lime)); }
-  .prob-pct{ font-family:'JetBrains Mono',monospace; font-size:13px; color: var(--lime); font-weight:700; width:38px; }
+  .prob-bar{ width:90px; height:8px; background: var(--line); border-radius:0; overflow:hidden; border:1px solid rgba(57,255,143,0.25); }
+  .prob-bar i{ display:block; height:100%; background: var(--lime); box-shadow: 0 0 6px var(--lime); }
+  .prob-pct{ font-family:'JetBrains Mono',monospace; font-size:13px; color: var(--lime); font-weight:700; width:38px; text-shadow: 0 0 6px rgba(57,255,143,0.5); }
 
-  .news-item{ font-family:'Inter',sans-serif; font-size:13px; font-weight:600; color:#241a04; }
-  .news-item b{ font-family:'Teko',sans-serif; font-size:14px; letter-spacing:0.05em; margin-right:8px; }
+  .news-item{
+    font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:#1a1200;
+    background: rgba(10,7,0,0.55); padding: 3px 10px;
+  }
+  .news-item b{ font-family:'Space Grotesk',sans-serif; font-size:16px; letter-spacing:0.05em; margin-right:8px; color: var(--amber); text-shadow: 0 0 6px rgba(255,176,0,0.7); }
 
   /* ============ LAYOUT ============ */
   .dash{
@@ -115,14 +148,17 @@
   }
   .panel-head{
     display:flex; align-items:center; justify-content:space-between;
-    padding: 12px 16px;
+    padding: 10px 16px;
     border-bottom: 1px solid var(--line);
     background: var(--panel-2);
   }
   .panel-head h2{
-    font-family:'Teko',sans-serif; font-weight:600; font-size:18px;
-    letter-spacing:0.14em; text-transform:uppercase; color: var(--text);
+    font-family:'Space Grotesk',sans-serif; font-weight:400; font-size:24px;
+    letter-spacing:0.16em; text-transform:uppercase; color: var(--lime);
+    text-shadow: 0 0 6px rgba(57,255,143,0.5);
   }
+  .panel-head h2::before{ content:'[ '; color: var(--text-dim); text-shadow:none; }
+  .panel-head h2::after{ content:' ]'; color: var(--text-dim); text-shadow:none; }
   .panel-head .tag{
     font-family:'JetBrains Mono',monospace; font-size:11px; color: var(--text-dim);
   }
@@ -157,27 +193,12 @@
   }
   @media (max-width: 700px){ .highlights-grid{ grid-template-columns: 1fr; } }
   .clip{
-    border:1px solid var(--line); border-radius:4px; overflow:hidden; background: var(--panel-2);
+    display:block; border:1px solid var(--line); border-radius:4px; overflow:hidden;
+    background: var(--panel-2); text-decoration:none; color: inherit;
   }
   .clip .thumb{
     height: 110px; position:relative;
-    display:flex; align-items:center; justify-content:center;
-    background-size: cover; background-position: center; cursor: pointer;
-  }
-  .clip .thumb .dur{
-    position:absolute; bottom:6px; right:6px;
-    background: rgba(0,0,0,.55); color:#fff; font-family:'JetBrains Mono',monospace;
-    font-size:11px; padding:2px 6px; border-radius:3px;
-  }
-  .clip .thumb .play{
-    width:38px; height:38px; border-radius:50%;
-    background: rgba(255,255,255,.18); border:1.5px solid rgba(255,255,255,.6);
-    display:flex; align-items:center; justify-content:center;
-  }
-  .clip .thumb .play::after{
-    content:''; display:block; width:0; height:0;
-    border-left: 12px solid #fff; border-top:7px solid transparent; border-bottom:7px solid transparent;
-    margin-left:2px;
+    background-size: cover; background-position: center;
   }
   .clip .info{ padding: 8px 10px; }
   .clip .info .grp{ font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--lime); letter-spacing:0.1em; }
@@ -223,7 +244,7 @@
   }
   .stage:last-child{ border-right:none; }
   .stage .num{
-    font-family:'Teko',sans-serif; font-size:26px; font-weight:700; color: var(--text-dim);
+    font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:700; color: var(--text-dim);
     line-height:1;
   }
   .stage.active .num{ color: var(--lime); }
@@ -264,7 +285,7 @@
 
   <!-- PROBABILITY TICKER -->
   <div class="ticker-wrap probability">
-    <div class="ticker-tag">WIN % (TODAY) ▸</div>
+    <div class="ticker-tag">TITLE ODDS ▸</div>
     <div class="ticker-track" id="probTrack"></div>
   </div>
 
@@ -289,8 +310,8 @@
     <!-- HIGHLIGHTS -->
     <div class="panel">
       <div class="panel-head">
-        <h2>Highlights</h2>
-        <span class="tag">MATCHDAY 1–3</span>
+        <h2>Photos</h2>
+        <span class="tag">WIKIMEDIA COMMONS</span>
       </div>
       <div class="panel-body">
         <div class="highlights-grid" id="highlightGrid"></div>
@@ -307,11 +328,11 @@
       <div class="panel-body">
         <table class="standings">
           <thead>
-            <tr><th style="text-align:left">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr>
+            <tr><th style="text-align:left">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th><th>Win Grp</th></tr>
           </thead>
           <tbody id="standingsBody"></tbody>
         </table>
-        <div class="standings-note">Green edge = qualification position (top 2 advance, plus best third-place teams).</div>
+        <div class="standings-note">Green edge = qualification position (top 2 advance, plus best third-place teams). "Win Grp" is Polymarket's live implied probability of that team winning the group.</div>
       </div>
     </div>
 
@@ -375,12 +396,11 @@
   });
 
   // ---------- PROBABILITY TICKER ----------
-  // Fallback sample shown until data.json provides real odds-derived probabilities
+  // Fallback sample shown until data.json provides real Polymarket title odds
   const fallbackProb = [
-    {code:'USA', pct:78}, {code:'BRA', pct:91}, {code:'MEX', pct:74}, {code:'ARG', pct:88},
-    {code:'FRA', pct:85}, {code:'ENG', pct:82}, {code:'GER', pct:80}, {code:'POR', pct:76},
-    {code:'NED', pct:70}, {code:'ESP', pct:84}, {code:'BEL', pct:62}, {code:'KOR', pct:55},
-    {code:'CAN', pct:58}, {code:'SUI', pct:53}, {code:'MAR', pct:60}, {code:'SCO', pct:41},
+    {code:'Spain', pct:17.0}, {code:'France', pct:16.0}, {code:'Portugal', pct:11.3}, {code:'England', pct:10.9},
+    {code:'Argentina', pct:8.8}, {code:'Brazil', pct:8.3}, {code:'Germany', pct:6.5}, {code:'Netherlands', pct:5.0},
+    {code:'Belgium', pct:3.5}, {code:'United States', pct:3.0}, {code:'Mexico', pct:1.8}, {code:'Croatia', pct:1.5},
   ];
   function buildProbTrack(items){
     const track = document.getElementById('probTrack');
@@ -436,13 +456,13 @@
     }).join('');
   }
 
-  // ---------- HIGHLIGHTS ----------
-  // Fallback cards shown until data.json provides real FIFA YouTube uploads
+  // ---------- PHOTOS ----------
+  // Fallback cards shown until data.json provides real Wikimedia Commons photos
   const fallbackHighlights = [
-    { grp:'GROUP A', title:'Mexico 2–0 South Africa', desc:'Hosts open the tournament with a clean win', dur:'4:32', grad:'135deg,#0a6b3f,#c8102e' },
-    { grp:'GROUP D', title:'USA 4–1 Paraguay', desc:'Balogun brace sparks a rout at SoFi Stadium', dur:'5:10', grad:'135deg,#0a3161,#b22234' },
-    { grp:'GROUP A', title:'South Korea 2–1 Czechia', desc:"Group A's first comeback win", dur:'3:48', grad:'135deg,#c60c30,#0047a0' },
-    { grp:'GROUP B', title:'Canada 1–1 Bosnia & Herz.', desc:'Late equalizer at BMO Field', dur:'2:55', grad:'135deg,#ff0000,#002395' },
+    { grp:'GROUP A', title:'Mexico 2–0 South Africa', desc:'Hosts open the tournament with a clean win', grad:'135deg,#0a6b3f,#c8102e' },
+    { grp:'GROUP D', title:'USA 4–1 Paraguay', desc:'Balogun brace sparks a rout at SoFi Stadium', grad:'135deg,#0a3161,#b22234' },
+    { grp:'GROUP A', title:'South Korea 2–1 Czechia', desc:"Group A's first comeback win", grad:'135deg,#c60c30,#0047a0' },
+    { grp:'GROUP B', title:'Canada 1–1 Bosnia & Herz.', desc:'Late equalizer at BMO Field', grad:'135deg,#ff0000,#002395' },
   ];
 
   function buildHighlights(items){
@@ -451,10 +471,7 @@
     if (!items || !items.length){
       grid.innerHTML = fallbackHighlights.map(h => `
         <div class="clip">
-          <div class="thumb" style="background:linear-gradient(${h.grad})">
-            <div class="play"></div>
-            <div class="dur">${h.dur}</div>
-          </div>
+          <div class="thumb" style="background:linear-gradient(${h.grad})"></div>
           <div class="info">
             <span class="grp">${h.grp}</span>
             <h3>${h.title}</h3>
@@ -464,33 +481,15 @@
       return;
     }
 
-    grid.innerHTML = items.map((h,i) => `
-      <div class="clip">
-        <div class="thumb" data-video-id="${h.videoId}" data-loaded="false"
-             style="background-image:url('https://i.ytimg.com/vi/${h.videoId}/hqdefault.jpg')">
-          <div class="play"></div>
-        </div>
+    grid.innerHTML = items.map(h => `
+      <a class="clip" href="${h.pageUrl}" target="_blank" rel="noopener">
+        <div class="thumb" style="background-image:url('${h.thumbUrl}')"></div>
         <div class="info">
-          <span class="grp">FIFA · YOUTUBE</span>
+          <span class="grp">WIKIMEDIA COMMONS</span>
           <h3>${h.title}</h3>
+          <p>${h.attribution ? 'Photo: ' + h.attribution + ' · ' : ''}${h.license || ''}</p>
         </div>
-      </div>`).join('');
-
-    // Click-to-load: swap the thumbnail for a real YouTube embed only when tapped,
-    // so nothing autoplays while the HUD just sits open.
-    grid.querySelectorAll('.thumb[data-video-id]').forEach(thumb => {
-      thumb.addEventListener('click', () => {
-        if (thumb.dataset.loaded === 'true') return;
-        const id = thumb.dataset.videoId;
-        thumb.innerHTML = `<iframe width="100%" height="100%" style="border:0; display:block;"
-          src="https://www.youtube.com/embed/${id}?autoplay=1"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>`;
-        thumb.style.backgroundImage = 'none';
-        thumb.dataset.loaded = 'true';
-      });
-    });
+      </a>`).join('');
   }
   buildHighlights([]);
 
@@ -499,6 +498,7 @@
   const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L'];
   let groups = {};
   let liveTeams = [];
+  let groupOdds = {};
   let activeGroup = 'A';
 
   function buildTabs(){
@@ -520,7 +520,11 @@
   function renderStandings(g){
     const body = document.getElementById('standingsBody');
     const groupData = groups[g];
-    if (!groupData){ body.innerHTML = '<tr><td colspan="7" style="color:var(--text-dim); padding:14px;">No data yet</td></tr>'; return; }
+    if (!groupData){ body.innerHTML = '<tr><td colspan="8" style="color:var(--text-dim); padding:14px;">No data yet</td></tr>'; return; }
+
+    const oddsLookup = {};
+    (groupOdds[g] || []).forEach(o => { oddsLookup[o.code] = o.pct; });
+
     const sorted = [...groupData.teams].sort((a,b) => {
       if (b[7] !== a[7]) return b[7] - a[7];          // Pts
       const gdA = a[5]-a[6], gdB = b[5]-b[6];
@@ -532,10 +536,12 @@
       const gdStr = gd > 0 ? '+'+gd : gd;
       const qualifyClass = i < 2 ? 'qualify' : '';
       const liveClass = liveTeams.includes(t[0]) ? 'live' : '';
+      const winPct = oddsLookup[t[0]];
+      const winStr = (winPct !== undefined) ? winPct.toFixed(1) + '%' : '—';
       return `<tr class="${qualifyClass} ${liveClass}">
         <td class="team">${t[0]}</td>
         <td>${t[1]}</td><td>${t[2]}</td><td>${t[3]}</td><td>${t[4]}</td>
-        <td>${gdStr}</td><td class="pts">${t[7]}</td>
+        <td>${gdStr}</td><td class="pts">${t[7]}</td><td class="pts">${winStr}</td>
       </tr>`;
     }).join('');
   }
@@ -544,10 +550,10 @@
   renderStandings(activeGroup);
 
   // ---------- DATA REFRESH ----------
-  // data.json is rewritten every 15 minutes by a scheduled GitHub Action.
+  // data.json is rewritten every ~5 minutes by a scheduled GitHub Action.
   // We re-fetch it on the same cadence so the open tab picks up each rebuild.
   const DATA_URL = './data.json';
-  const REFRESH_MS = 15 * 60 * 1000; // 15 minutes
+  const REFRESH_MS = 5 * 60 * 1000; // 5 minutes
 
   async function fetchData(){
     try {
@@ -557,6 +563,7 @@
       matches = data.matches || [];
       groups = data.groups || {};
       liveTeams = data.liveTeams || [];
+      groupOdds = data.groupOdds || {};
       buildMatches();
       renderStandings(activeGroup);
       buildNewsTrack(data.news || []);
