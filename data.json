@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:00:03.067807Z",
+  "updated": "2026-06-14T20:54:32.206096Z",
   "matches": [
     {
       "id": "wc26-760421",
@@ -17,7 +17,10 @@
       "grp": "GROUP F",
       "a": "Netherlands",
       "b": "Japan",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "45'+3'"
     },
     {
       "id": "wc26-760423",
@@ -566,11 +569,14 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Japan",
+    "Netherlands"
+  ],
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 16.7
+      "pct": 16.4
     },
     {
       "code": "France",
@@ -590,15 +596,15 @@
     },
     {
       "code": "Brazil",
-      "pct": 7.4
+      "pct": 6.8
     },
     {
       "code": "Germany",
-      "pct": 5.5
+      "pct": 6.2
     },
     {
       "code": "Netherlands",
-      "pct": 5.0
+      "pct": 5.5
     },
     {
       "code": "Norway",
@@ -613,12 +619,12 @@
       "pct": 2.1
     },
     {
-      "code": "Belgium",
+      "code": "Japan",
       "pct": 1.9
     },
     {
-      "code": "Japan",
-      "pct": 1.7
+      "code": "Belgium",
+      "pct": 1.9
     },
     {
       "code": "Colombia",
@@ -626,7 +632,7 @@
     },
     {
       "code": "Mexico",
-      "pct": 1.2
+      "pct": 1.4
     },
     {
       "code": "Switzerland",
@@ -667,7 +673,7 @@
       },
       {
         "code": "Qatar",
-        "pct": 2.2
+        "pct": 2.4
       }
     ],
     "C": [
@@ -677,15 +683,15 @@
       },
       {
         "code": "Morocco",
-        "pct": 29.5
+        "pct": 28.5
       },
       {
         "code": "Scotland",
-        "pct": 10.0
+        "pct": 10.1
       },
       {
         "code": "Haiti",
-        "pct": 0.8
+        "pct": 0.6
       }
     ],
     "D": [
@@ -709,15 +715,15 @@
     "E": [
       {
         "code": "Germany",
-        "pct": 67.5
+        "pct": 70.5
       },
       {
         "code": "Ecuador",
-        "pct": 22.5
+        "pct": 19.5
       },
       {
         "code": "Ivory Coast",
-        "pct": 11.8
+        "pct": 10.2
       },
       {
         "code": "Curaçao",
@@ -727,11 +733,11 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 53.5
+        "pct": 55.5
       },
       {
         "code": "Japan",
-        "pct": 28.5
+        "pct": 27.5
       },
       {
         "code": "Sweden",
@@ -739,7 +745,7 @@
       },
       {
         "code": "Tunisia",
-        "pct": 4.2
+        "pct": 4.0
       }
     ],
     "G": [
@@ -763,15 +769,15 @@
     "H": [
       {
         "code": "Spain",
-        "pct": 79.0
+        "pct": 78.5
       },
       {
         "code": "Uruguay",
-        "pct": 19.5
+        "pct": 19.0
       },
       {
         "code": "Saudi Arabia",
-        "pct": 1.8
+        "pct": 2.0
       },
       {
         "code": "Cape Verde",
@@ -781,11 +787,11 @@
     "I": [
       {
         "code": "France",
-        "pct": 67.5
+        "pct": 68.0
       },
       {
         "code": "Norway",
-        "pct": 23.5
+        "pct": 23.0
       },
       {
         "code": "Senegal",
@@ -807,11 +813,11 @@
       },
       {
         "code": "Algeria",
-        "pct": 9.0
+        "pct": 8.9
       },
       {
         "code": "Jordan",
-        "pct": 1.2
+        "pct": 1.1
       }
     ],
     "K": [
@@ -839,11 +845,11 @@
       },
       {
         "code": "Croatia",
-        "pct": 22.0
+        "pct": 21.5
       },
       {
         "code": "Ghana",
-        "pct": 4.5
+        "pct": 4.4
       },
       {
         "code": "Panama",
@@ -852,37 +858,27 @@
     ]
   },
   "news": [
-    "Perceived corruption of World Cup countries",
-    "Tom Cruise, David Beckham, Katy Perry and more celebrities spotted at 2026 FIFA World Cup matches",
-    "Australia vs Türkiye Highlights | 2026 FIFA World Cup™",
-    "Germany v Curaçao: World Cup 2026 – live",
+    "Netherlands v Japan: World Cup 2026 – live",
+    "LIVE: Netherlands vs Japan – World Cup 2026",
+    "Germany in seventh heaven after big win over Curacao at 2026 World Cup: Live updates and reaction",
     "World Cup scores, results: Brazil and Morocco battle to 1-1 draw while Australia stuns Türkiye in the nightcap",
     "World Cup 2026: Has Vinicius Jr brilliance just papered over the Brazilian cracks?",
-    "Brazil 1-1 Morocco: World Cup 2026 – as it happened",
-    "Fifa World Cup 2026: Can Germany & Netherlands join Scotland as European winners"
+    "World Cup 2026: Ugly win has Scotland sitting pretty but what next?",
+    "2026 World Cup Opening Ceremonies: How to Watch Today, Who is Performing, Start Times",
+    "Shakira, Burna Boy, J Balvin & More Kick Off 2026 World Cup Opening Ceremony in Mexico: Best Moments"
   ],
   "nextMatch": {
-    "a": "Netherlands",
-    "b": "Japan",
-    "grp": "GROUP F",
-    "kickoffISO": "2026-06-14T20:00:00Z",
-    "when": "Sun 4:00 PM ET",
-    "venue": "AT&T Stadium",
-    "city": "Arlington, Texas",
-    "stadium": "AT&T Stadium",
+    "a": "Ivory Coast",
+    "b": "Ecuador",
+    "grp": "GROUP E",
+    "kickoffISO": "2026-06-14T23:00:00Z",
+    "when": "Sun 7:00 PM ET",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "stadium": "Lincoln Financial Field",
     "weather": null
   },
   "remainingFixtures": {
-    "Netherlands": [
-      "vs Japan (Jun 14)",
-      "vs Sweden (Jun 20)",
-      "vs Tunisia (Jun 25)"
-    ],
-    "Japan": [
-      "vs Netherlands (Jun 14)",
-      "vs Tunisia (Jun 21)",
-      "vs Sweden (Jun 25)"
-    ],
     "Ivory Coast": [
       "vs Ecuador (Jun 14)",
       "vs Germany (Jun 20)"
@@ -1072,9 +1068,17 @@
       "vs Turkey (Jun 19)",
       "vs Australia (Jun 25)"
     ],
+    "Netherlands": [
+      "vs Sweden (Jun 20)",
+      "vs Tunisia (Jun 25)"
+    ],
     "Germany": [
       "vs Ivory Coast (Jun 20)",
       "vs Ecuador (Jun 25)"
+    ],
+    "Japan": [
+      "vs Tunisia (Jun 21)",
+      "vs Sweden (Jun 25)"
     ],
     "Switzerland": [
       "vs Canada (Jun 24)"
