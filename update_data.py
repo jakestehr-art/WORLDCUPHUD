@@ -205,8 +205,8 @@ def fetch_match_probabilities(events, groups_out, today_et):
         home_pct = away_pct = None
 
         odds_list = comp.get("odds") or []
-        if odds_list:
-            o = odds_list[0]
+        o = odds_list[0] if odds_list else None
+        if o:
             home_odds = o.get("homeTeamOdds", {}) or {}
             away_odds = o.get("awayTeamOdds", {}) or {}
             draw_odds = o.get("drawOdds", {}) or {}
@@ -236,7 +236,7 @@ def fetch_match_probabilities(events, groups_out, today_et):
     return results
 
 
-
+def fetch_highlights(limit=6):
     """Returns recent FIFA YouTube uploads as [{videoId, title}, ...]."""
     ns = {
         "atom": "http://www.w3.org/2005/Atom",
