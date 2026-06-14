@@ -65,7 +65,7 @@ def fetch_events():
     return resp.json().get("events", [])
 
 
-def build_standings_and_matches(events):
+def build_standings_and_matches(events, today_et):
     # init empty standings table
     groups = {
         letter: {team: {"mp": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0, "pts": 0} for team in teams}
@@ -74,7 +74,6 @@ def build_standings_and_matches(events):
 
     matches = []
     live_teams = []
-    today_et = datetime.now(ET_ZONE).date()
 
     for event in events:
         comp = event["competitions"][0]
@@ -159,7 +158,85 @@ def build_standings_and_matches(events):
     return groups_out, matches, live_teams
 
 
-def fetch_highlights(limit=6):
+def implied_prob_from_moneyline(ml):
+    """American moneyline -> raw implied probability (0-1), before removing the vig."""
+    if ml is None:
+        return None
+    try:
+        ml = float(ml)
+    except (TypeError, ValueError):
+        return None
+    if ml > 0:
+        return 100.0 / (ml + 100.0)
+    return -ml / (-ml + 100.0)
+
+
+def fetch_match_probabilities(events, groups_out, today_et):
+    """Win probability for each team in today's matches.
+
+    Prefers ESPN's odds (winPercentage if provided, else moneyline converted
+    and de-vigged). Falls back to a simple standings-based estimate — each
+    team starts at 50% and is nudged by the points gap with their opponent —
+    when no odds are available for that match.
+    """
+    # quick lookup: canonical team name -> current points
+    points_by_team = {}
+    for letter, g in groups_out.items():
+        for row in g["teams"]:
+            points_by_team[row[0]] = row[7]
+
+    results = []
+    for event in events:
+        comp = event["competitions"][0]
+        kickoff_utc = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+        kickoff_et = kickoff_utc.astimezone(ET_ZONE)
+        if kickoff_et.date() != today_et:
+            continue
+
+        competitors = comp["competitors"]
+        home = next(c for c in competitors if c["homeAway"] == "home")
+        away = next(c for c in competitors if c["homeAway"] == "away")
+        home_norm, away_norm = normalize(home["team"]["displayName"]), normalize(away["team"]["displayName"])
+        if home_norm not in TEAM_INFO or away_norm not in TEAM_INFO:
+            continue
+        _, home_name = TEAM_INFO[home_norm]
+        _, away_name = TEAM_INFO[away_norm]
+
+        home_pct = away_pct = None
+
+        odds_list = comp.get("odds") or []
+        if odds_list:
+            o = odds_list[0]
+            home_odds = o.get("homeTeamOdds", {}) or {}
+            away_odds = o.get("awayTeamOdds", {}) or {}
+            draw_odds = o.get("drawOdds", {}) or {}
+
+            # 1) ESPN sometimes provides a pre-computed implied win percentage directly
+            hwp, awp = home_odds.get("winPercentage"), away_odds.get("winPercentage")
+            if hwp is not None and awp is not None:
+                home_pct, away_pct = hwp * 100, awp * 100
+            else:
+                # 2) otherwise derive from moneylines, de-vigging across the 3-way market
+                hp = implied_prob_from_moneyline(home_odds.get("moneyLine"))
+                ap = implied_prob_from_moneyline(away_odds.get("moneyLine"))
+                dp = implied_prob_from_moneyline(draw_odds.get("moneyLine")) or 0
+                if hp is not None and ap is not None:
+                    total = hp + ap + dp
+                    home_pct, away_pct = (hp / total) * 100, (ap / total) * 100
+
+        if home_pct is None:
+            # Fallback: nudge 50/50 by current group-stage points gap (5 pts per point of gap)
+            gap = points_by_team.get(home_name, 0) - points_by_team.get(away_name, 0)
+            home_pct = max(10, min(90, 50 + gap * 5))
+            away_pct = 100 - home_pct
+
+        results.append({"code": home_name, "pct": round(home_pct)})
+        results.append({"code": away_name, "pct": round(away_pct)})
+
+    return results
+
+
+
     """Returns recent FIFA YouTube uploads as [{videoId, title}, ...]."""
     ns = {
         "atom": "http://www.w3.org/2005/Atom",
@@ -199,7 +276,9 @@ def fetch_news(limit=8):
 
 def main():
     events = fetch_events()
-    groups, matches, live_teams = build_standings_and_matches(events)
+    today_et = datetime.now(ET_ZONE).date()
+    groups, matches, live_teams = build_standings_and_matches(events, today_et)
+    probabilities = fetch_match_probabilities(events, groups, today_et)
     news = fetch_news()
     highlights = fetch_highlights()
 
@@ -208,6 +287,7 @@ def main():
         "matches": matches,
         "groups": groups,
         "liveTeams": sorted(set(live_teams)),
+        "probabilities": probabilities,
         "news": news,
         "highlights": highlights,
     }
@@ -215,8 +295,8 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote data.json: {len(matches)} matches today, {len(news)} headlines, "
-          f"{len(highlights)} highlight videos, {len(live_teams)} live teams")
+    print(f"Wrote data.json: {len(matches)} matches today, {len(probabilities)} probability entries, "
+          f"{len(news)} headlines, {len(highlights)} highlight videos, {len(live_teams)} live teams")
 
 
 if __name__ == "__main__":
