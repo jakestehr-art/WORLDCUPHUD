@@ -1,908 +1,124 @@
 {
-  "updated": "2026-06-14T02:28:17.490809Z",
+  "updated": "2026-06-13T22:30:00Z",
   "matches": [
-    {
-      "id": "wc26-760420",
-      "when": "3:00 PM",
-      "grp": "GROUP B",
-      "a": "Qatar",
-      "b": "Switzerland",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760419",
-      "when": "6:00 PM",
-      "grp": "GROUP C",
-      "a": "Brazil",
-      "b": "Morocco",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760418",
-      "when": "9:00 PM",
-      "grp": "GROUP C",
-      "a": "Haiti",
-      "b": "Scotland",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 1,
-      "minute": "64'"
-    }
+    { "id": "wc26-a-mex-kor", "when": "12:00 PM", "grp": "GROUP A", "a": "Mexico", "b": "South Korea", "status": "ft", "scoreA": 1, "scoreB": 2, "upset": true, "favored": "Mexico", "favoredPct": 45.0 },
+    { "id": "wc26-b-sui-qat", "when": "3:00 PM", "grp": "GROUP B", "a": "Switzerland", "b": "Qatar", "status": "ft", "scoreA": 1, "scoreB": 1 },
+    { "id": "wc26-c-bra-mar", "when": "6:00 PM", "grp": "GROUP C", "a": "Brazil", "b": "Morocco", "status": "live", "scoreA": 1, "scoreB": 1, "minute": "90+2'" },
+    { "id": "wc26-c-hai-sco", "when": "9:00 PM", "grp": "GROUP C", "a": "Haiti", "b": "Scotland", "status": "upcoming" },
+    { "id": "wc26-d-aus-tur", "when": "12:00 AM", "grp": "GROUP D (6/14)", "a": "Australia", "b": "Türkiye", "status": "upcoming" }
   ],
   "groups": {
-    "A": {
-      "teams": [
-        [
-          "Mexico",
-          1,
-          1,
-          0,
-          0,
-          2,
-          0,
-          3
-        ],
-        [
-          "South Africa",
-          1,
-          0,
-          0,
-          1,
-          0,
-          2,
-          0
-        ],
-        [
-          "South Korea",
-          1,
-          1,
-          0,
-          0,
-          2,
-          1,
-          3
-        ],
-        [
-          "Czechia",
-          1,
-          0,
-          0,
-          1,
-          1,
-          2,
-          0
-        ]
-      ]
-    },
-    "B": {
-      "teams": [
-        [
-          "Canada",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Bosnia and Herzegovina",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Qatar",
-          1,
-          0,
-          1,
-          0,
-          1,
-          1,
-          1
-        ],
-        [
-          "Switzerland",
-          1,
-          0,
-          1,
-          0,
-          1,
-          1,
-          1
-        ]
-      ]
-    },
-    "C": {
-      "teams": [
-        [
-          "Brazil",
-          1,
-          0,
-          1,
-          0,
-          1,
-          1,
-          1
-        ],
-        [
-          "Morocco",
-          1,
-          0,
-          1,
-          0,
-          1,
-          1,
-          1
-        ],
-        [
-          "Haiti",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Scotland",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "D": {
-      "teams": [
-        [
-          "United States",
-          1,
-          1,
-          0,
-          0,
-          4,
-          1,
-          3
-        ],
-        [
-          "Paraguay",
-          1,
-          0,
-          0,
-          1,
-          1,
-          4,
-          0
-        ],
-        [
-          "Australia",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Turkey",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "E": {
-      "teams": [
-        [
-          "Germany",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Curacao",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Ivory Coast",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Ecuador",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "F": {
-      "teams": [
-        [
-          "Netherlands",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Japan",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Sweden",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Tunisia",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "G": {
-      "teams": [
-        [
-          "Belgium",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Egypt",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Iran",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "New Zealand",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "H": {
-      "teams": [
-        [
-          "Spain",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Cape Verde",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Saudi Arabia",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Uruguay",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "I": {
-      "teams": [
-        [
-          "France",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Senegal",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Iraq",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Norway",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "J": {
-      "teams": [
-        [
-          "Argentina",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Algeria",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Austria",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Jordan",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "K": {
-      "teams": [
-        [
-          "Portugal",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "DR Congo",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Uzbekistan",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Colombia",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    },
-    "L": {
-      "teams": [
-        [
-          "England",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Croatia",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Ghana",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          "Panama",
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      ]
-    }
+    "A": { "teams": [
+      ["South Korea", 1, 1, 0, 0, 2, 1, 3],
+      ["Mexico", 1, 0, 0, 1, 1, 2, 0],
+      ["Czechia", 0, 0, 0, 0, 0, 0, 0],
+      ["South Africa", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "B": { "teams": [
+      ["Canada", 1, 0, 1, 0, 1, 1, 1],
+      ["Bosnia & Herzegovina", 1, 0, 1, 0, 1, 1, 1],
+      ["Switzerland", 1, 0, 1, 0, 1, 1, 1],
+      ["Qatar", 1, 0, 1, 0, 1, 1, 1]
+    ]},
+    "C": { "teams": [
+      ["Brazil", 0, 0, 0, 0, 0, 0, 0],
+      ["Morocco", 0, 0, 0, 0, 0, 0, 0],
+      ["Scotland", 0, 0, 0, 0, 0, 0, 0],
+      ["Haiti", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "D": { "teams": [
+      ["United States", 1, 1, 0, 0, 4, 1, 3],
+      ["Australia", 0, 0, 0, 0, 0, 0, 0],
+      ["Türkiye", 0, 0, 0, 0, 0, 0, 0],
+      ["Paraguay", 1, 0, 0, 1, 1, 4, 0]
+    ]},
+    "E": { "teams": [
+      ["Germany", 0, 0, 0, 0, 0, 0, 0],
+      ["Ivory Coast", 0, 0, 0, 0, 0, 0, 0],
+      ["Ecuador", 0, 0, 0, 0, 0, 0, 0],
+      ["Curaçao", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "F": { "teams": [
+      ["Netherlands", 0, 0, 0, 0, 0, 0, 0],
+      ["Japan", 0, 0, 0, 0, 0, 0, 0],
+      ["Sweden", 0, 0, 0, 0, 0, 0, 0],
+      ["Tunisia", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "G": { "teams": [
+      ["Belgium", 0, 0, 0, 0, 0, 0, 0],
+      ["Egypt", 0, 0, 0, 0, 0, 0, 0],
+      ["Iran", 0, 0, 0, 0, 0, 0, 0],
+      ["New Zealand", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "H": { "teams": [
+      ["Spain", 0, 0, 0, 0, 0, 0, 0],
+      ["Uruguay", 0, 0, 0, 0, 0, 0, 0],
+      ["Saudi Arabia", 0, 0, 0, 0, 0, 0, 0],
+      ["Cape Verde", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "I": { "teams": [
+      ["France", 0, 0, 0, 0, 0, 0, 0],
+      ["Norway", 0, 0, 0, 0, 0, 0, 0],
+      ["Senegal", 0, 0, 0, 0, 0, 0, 0],
+      ["Iraq", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "J": { "teams": [
+      ["Argentina", 0, 0, 0, 0, 0, 0, 0],
+      ["Austria", 0, 0, 0, 0, 0, 0, 0],
+      ["Algeria", 0, 0, 0, 0, 0, 0, 0],
+      ["Jordan", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "K": { "teams": [
+      ["Portugal", 0, 0, 0, 0, 0, 0, 0],
+      ["Colombia", 0, 0, 0, 0, 0, 0, 0],
+      ["Uzbekistan", 0, 0, 0, 0, 0, 0, 0],
+      ["DR Congo", 0, 0, 0, 0, 0, 0, 0]
+    ]},
+    "L": { "teams": [
+      ["England", 0, 0, 0, 0, 0, 0, 0],
+      ["Croatia", 0, 0, 0, 0, 0, 0, 0],
+      ["Ghana", 0, 0, 0, 0, 0, 0, 0],
+      ["Panama", 0, 0, 0, 0, 0, 0, 0]
+    ]}
   },
-  "liveTeams": [
-    "Haiti",
-    "Scotland"
-  ],
+  "liveTeams": ["Brazil", "Morocco"],
   "probabilities": [
-    {
-      "code": "Spain",
-      "pct": 16.6
-    },
-    {
-      "code": "France",
-      "pct": 16.1
-    },
-    {
-      "code": "Portugal",
-      "pct": 11.5
-    },
-    {
-      "code": "England",
-      "pct": 9.7
-    },
-    {
-      "code": "Argentina",
-      "pct": 7.8
-    },
-    {
-      "code": "Brazil",
-      "pct": 7.4
-    },
-    {
-      "code": "Germany",
-      "pct": 5.1
-    },
-    {
-      "code": "Netherlands",
-      "pct": 4.9
-    },
-    {
-      "code": "Norway",
-      "pct": 2.5
-    },
-    {
-      "code": "Morocco",
-      "pct": 2.4
-    },
-    {
-      "code": "USA",
-      "pct": 2.1
-    },
-    {
-      "code": "Belgium",
-      "pct": 2.1
-    },
-    {
-      "code": "Colombia",
-      "pct": 1.7
-    },
-    {
-      "code": "Japan",
-      "pct": 1.7
-    },
-    {
-      "code": "Turkiye",
-      "pct": 1.5
-    },
-    {
-      "code": "Mexico",
-      "pct": 1.4
-    }
+    {"code": "Spain", "pct": 17.0},
+    {"code": "France", "pct": 16.0},
+    {"code": "Portugal", "pct": 11.3},
+    {"code": "England", "pct": 10.9},
+    {"code": "Argentina", "pct": 8.8},
+    {"code": "Brazil", "pct": 8.3}
   ],
   "groupOdds": {
     "A": [
-      {
-        "code": "Mexico",
-        "pct": 62.5
-      },
-      {
-        "code": "South Korea",
-        "pct": 33.5
-      },
-      {
-        "code": "Czechia",
-        "pct": 3.4
-      },
-      {
-        "code": "South Africa",
-        "pct": 0.5
-      }
-    ],
-    "B": [
-      {
-        "code": "Switzerland",
-        "pct": 46.5
-      },
-      {
-        "code": "Canada",
-        "pct": 36.5
-      },
-      {
-        "code": "Bosnia and Herzegovina",
-        "pct": 16.5
-      },
-      {
-        "code": "Qatar",
-        "pct": 2.4
-      }
-    ],
-    "C": [
-      {
-        "code": "Brazil",
-        "pct": 60.5
-      },
-      {
-        "code": "Morocco",
-        "pct": 27.5
-      },
-      {
-        "code": "Scotland",
-        "pct": 11.9
-      },
-      {
-        "code": "Haiti",
-        "pct": 1.2
-      }
-    ],
-    "D": [
-      {
-        "code": "USA",
-        "pct": 63.0
-      },
-      {
-        "code": "Turkey",
-        "pct": 30.5
-      },
-      {
-        "code": "Australia",
-        "pct": 5.9
-      },
-      {
-        "code": "Paraguay",
-        "pct": 1.2
-      }
-    ],
-    "E": [
-      {
-        "code": "Germany",
-        "pct": 66.5
-      },
-      {
-        "code": "Ecuador",
-        "pct": 22.5
-      },
-      {
-        "code": "Ivory Coast",
-        "pct": 12.2
-      },
-      {
-        "code": "Curaçao",
-        "pct": 0.1
-      }
-    ],
-    "F": [
-      {
-        "code": "Netherlands",
-        "pct": 53.5
-      },
-      {
-        "code": "Japan",
-        "pct": 27.5
-      },
-      {
-        "code": "Sweden",
-        "pct": 14.5
-      },
-      {
-        "code": "Tunisia",
-        "pct": 4.2
-      }
-    ],
-    "G": [
-      {
-        "code": "Belgium",
-        "pct": 70.5
-      },
-      {
-        "code": "Egypt",
-        "pct": 16.0
-      },
-      {
-        "code": "Iran",
-        "pct": 10.9
-      },
-      {
-        "code": "New Zealand",
-        "pct": 3.0
-      }
-    ],
-    "H": [
-      {
-        "code": "Spain",
-        "pct": 79.5
-      },
-      {
-        "code": "Uruguay",
-        "pct": 19.5
-      },
-      {
-        "code": "Saudi Arabia",
-        "pct": 1.8
-      },
-      {
-        "code": "Cape Verde",
-        "pct": 1.2
-      }
-    ],
-    "I": [
-      {
-        "code": "France",
-        "pct": 65.5
-      },
-      {
-        "code": "Norway",
-        "pct": 24.5
-      },
-      {
-        "code": "Senegal",
-        "pct": 10.5
-      },
-      {
-        "code": "Iraq",
-        "pct": 0.8
-      }
-    ],
-    "J": [
-      {
-        "code": "Argentina",
-        "pct": 72.5
-      },
-      {
-        "code": "Austria",
-        "pct": 19.5
-      },
-      {
-        "code": "Algeria",
-        "pct": 8.5
-      },
-      {
-        "code": "Jordan",
-        "pct": 1.1
-      }
-    ],
-    "K": [
-      {
-        "code": "Portugal",
-        "pct": 62.5
-      },
-      {
-        "code": "Colombia",
-        "pct": 32.5
-      },
-      {
-        "code": "DR Congo",
-        "pct": 3.9
-      },
-      {
-        "code": "Uzbekistan",
-        "pct": 2.8
-      }
-    ],
-    "L": [
-      {
-        "code": "England",
-        "pct": 70.5
-      },
-      {
-        "code": "Croatia",
-        "pct": 23.0
-      },
-      {
-        "code": "Ghana",
-        "pct": 5.5
-      },
-      {
-        "code": "Panama",
-        "pct": 2.4
-      }
+      {"code": "Mexico", "pct": 45.0},
+      {"code": "South Korea", "pct": 34.5},
+      {"code": "Czechia", "pct": 12.0},
+      {"code": "South Africa", "pct": 8.5}
     ]
   },
-  "news": [
-    "John McGinn scores Scotland’s first goal of 2026 FIFA World Cup™, taking lead over Haiti",
-    "Australia v Turkey: World Cup 2026 – live",
-    "Haiti vs. Scotland LIVE: World Cup 2026 updates as McGinn scores opener",
-    "Brazil battle back to draw with Morocco in 2026 World Cup clash: Live updates and reaction",
-    "Brazil and Morocco share 1-1 draw in their World Cup opener – updates",
-    "Brazil vs Morocco Highlights | 2026 FIFA World Cup™",
-    "United States vs Paraguay Highlights | 2026 FIFA World Cup™",
-    "Ten observations after attending a World Cup match in the US"
+  "nextMatch": {
+    "a": "Haiti", "b": "Scotland", "grp": "GROUP C",
+    "kickoffISO": "2026-06-13T21:00:00Z", "when": "Sat 9:00 PM ET",
+    "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "stadium": "Mercedes-Benz Stadium",
+    "weather": {"tempF": 88, "windMph": 7, "description": "Partly cloudy"}
+  },
+  "remainingFixtures": {
+    "Mexico": ["vs Czechia (Jun 18)", "vs South Africa (Jun 24)"],
+    "South Korea": ["vs South Africa (Jun 18)", "vs Czechia (Jun 24)"],
+    "Czechia": ["vs Mexico (Jun 18)", "vs South Korea (Jun 24)"],
+    "South Africa": ["vs South Korea (Jun 18)", "vs Mexico (Jun 24)"]
+  },
+  "topScorers": [
+    {"player": "Son Heung-min", "team": "South Korea", "goals": 2},
+    {"player": "Folarin Balogun", "team": "United States", "goals": 2},
+    {"player": "Raul Jimenez", "team": "Mexico", "goals": 1}
   ],
-  "highlights": [
-    {
-      "title": "Map World Cup appearances 2022 (enwiki).png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Map_World_Cup_appearances_2022_%28enwiki%29.png/960px-Map_World_Cup_appearances_2022_%28enwiki%29.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2022_(enwiki).png",
-      "attribution": "Guilherme Schilling",
-      "license": "CC0"
-    },
-    {
-      "title": "QAT-SUI 2026-06-13.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/QAT-SUI_2026-06-13.svg/960px-QAT-SUI_2026-06-13.svg.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:QAT-SUI_2026-06-13.svg",
-      "attribution": "S.A. Julio",
-      "license": "CC0"
-    },
-    {
-      "title": "BRA-MAR 2026-06-13.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/BRA-MAR_2026-06-13.svg/960px-BRA-MAR_2026-06-13.svg.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:BRA-MAR_2026-06-13.svg",
-      "attribution": "S.A. Julio",
-      "license": "CC0"
-    },
-    {
-      "title": "Map World Cup appearances 2014 (enwiki).png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Map_World_Cup_appearances_2014_%28enwiki%29.png/960px-Map_World_Cup_appearances_2014_%28enwiki%29.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2014_(enwiki).png",
-      "attribution": "Dufo",
-      "license": "Public domain"
-    },
-    {
-      "title": "Map World Cup appearances 2018 (enwiki).png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Map_World_Cup_appearances_2018_%28enwiki%29.png/960px-Map_World_Cup_appearances_2018_%28enwiki%29.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2018_(enwiki).png",
-      "attribution": "Dufo",
-      "license": "Public domain"
-    },
-    {
-      "title": "World cup appearances 2014.png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/World_cup_appearances_2014.png/960px-World_cup_appearances_2014.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_cup_appearances_2014.png",
-      "attribution": "Dufo",
-      "license": "Public domain"
-    }
+  "news": [
+    "Brazilian supporters pack New York ahead of Group C opener against Morocco at MetLife Stadium",
+    "USMNT open the tournament with a 4-1 win over Paraguay behind a Folarin Balogun brace",
+    "South Korea pull off Group A upset, coming from behind to beat Mexico 2-1",
+    "Scotland's traveling fans arrive in force for their first World Cup appearance in decades"
   ]
 }
