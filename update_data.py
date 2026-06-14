@@ -1,12 +1,14 @@
 """
-Pulls FIFA World Cup 2026 match data from ESPN's public (no-auth) scoreboard API
-and headlines from Google News RSS (also no-auth), then writes data.json for the
-HUD page to consume.
+Pulls FIFA World Cup 2026 match data from ESPN's public (no-auth) scoreboard API,
+headlines from Google News RSS, match photos from Wikimedia Commons, and
+tournament-winner odds from Polymarket's public Gamma API — then writes
+data.json for the HUD page to consume.
 
-No API key or signup required for either source.
+No API key or signup required for any of these sources.
 """
 
 import json
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -16,8 +18,8 @@ ET_ZONE = timezone(timedelta(hours=-4))  # EDT — correct for the June/July Wor
 
 SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 NEWS_URL = "https://news.google.com/rss/search"
-YOUTUBE_RSS_URL = "https://www.youtube.com/feeds/videos.xml"
-FIFA_YOUTUBE_CHANNEL_ID = "UCpcTrCXblq78GZrTUTLWeBw"  # FIFA's official channel
+COMMONS_API_URL = "https://commons.wikimedia.org/w/api.php"
+POLYMARKET_EVENTS_URL = "https://gamma-api.polymarket.com/events"
 
 # Static 2026 World Cup group assignments (group stage is fixed for the whole tournament)
 GROUP_ROSTER = {
@@ -158,104 +160,156 @@ def build_standings_and_matches(events, today_et):
     return groups_out, matches, live_teams
 
 
-def implied_prob_from_moneyline(ml):
-    """American moneyline -> raw implied probability (0-1), before removing the vig."""
-    if ml is None:
-        return None
-    try:
-        ml = float(ml)
-    except (TypeError, ValueError):
-        return None
-    if ml > 0:
-        return 100.0 / (ml + 100.0)
-    return -ml / (-ml + 100.0)
+def fetch_title_odds(limit=16):
+    """World Cup outright-winner odds from Polymarket's public Gamma API.
 
-
-def fetch_match_probabilities(events, groups_out, today_et):
-    """Win probability for each team in today's matches.
-
-    Prefers ESPN's odds (winPercentage if provided, else moneyline converted
-    and de-vigged). Falls back to a simple standings-based estimate — each
-    team starts at 50% and is nudged by the points gap with their opponent —
-    when no odds are available for that match.
+    Each sub-market in the 'world-cup-winner' event is a Yes/No question
+    ("Will <team> win the 2026 FIFA World Cup?"); the Yes price is the
+    market's implied probability (0-1). Returns the top `limit` teams by
+    probability as [{code, pct}, ...].
     """
-    # quick lookup: canonical team name -> current points
-    points_by_team = {}
-    for letter, g in groups_out.items():
-        for row in g["teams"]:
-            points_by_team[row[0]] = row[7]
+    try:
+        resp = requests.get(POLYMARKET_EVENTS_URL, params={"slug": "world-cup-winner"}, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        event = data[0] if isinstance(data, list) else data
+        if not event:
+            return []
+
+        results = []
+        for m in event.get("markets", []):
+            try:
+                outcomes = json.loads(m.get("outcomes", "[]"))
+                prices = json.loads(m.get("outcomePrices", "[]"))
+            except (TypeError, json.JSONDecodeError):
+                continue
+            if not outcomes or not prices or len(outcomes) != len(prices):
+                continue
+
+            yes_idx = outcomes.index("Yes") if "Yes" in outcomes else 0
+            pct = float(prices[yes_idx]) * 100
+
+            team = m.get("groupItemTitle") or m.get("question", "")
+            team = re.sub(r"^Will\s+", "", team)
+            team = re.sub(r"\s+win the.*$", "", team, flags=re.IGNORECASE).strip()
+            if not team:
+                continue
+
+            results.append({"code": team, "pct": round(pct, 1)})
+
+        results.sort(key=lambda r: r["pct"], reverse=True)
+        return results[:limit]
+    except Exception as e:
+        print("Polymarket title odds fetch failed:", e)
+        return []
+
+
+def fetch_photos(matches, limit=6):
+    """Photos for today's matches from Wikimedia Commons (CC-licensed, with attribution).
+
+    For each of today's matches, searches Commons (restricted to the
+    '2026 FIFA World Cup' category tree) for files mentioning both teams,
+    and returns thumbnail URLs plus attribution/license info. Falls back to
+    a generic tournament search if there are no matches today or nothing
+    is found yet.
+    """
+    def search_commons(query, n):
+        params = {
+            "action": "query",
+            "format": "json",
+            "generator": "search",
+            "gsrsearch": f'deepcat:"2026 FIFA World Cup" {query}',
+            "gsrnamespace": 6,  # File namespace
+            "gsrlimit": n,
+            "prop": "imageinfo",
+            "iiprop": "url|extmetadata",
+            "iiurlwidth": 640,
+        }
+        resp = requests.get(COMMONS_API_URL, params=params, timeout=15)
+        resp.raise_for_status()
+        pages = resp.json().get("query", {}).get("pages", {})
+
+        photos = []
+        for page in pages.values():
+            info = (page.get("imageinfo") or [None])[0]
+            if not info:
+                continue
+            meta = info.get("extmetadata", {})
+            artist = meta.get("Artist", {}).get("value", "")
+            artist = re.sub(r"<[^>]+>", "", artist).strip()  # strip embedded HTML links
+            license_name = meta.get("LicenseShortName", {}).get("value", "")
+            photos.append({
+                "title": page.get("title", "").replace("File:", ""),
+                "thumbUrl": info.get("thumburl") or info.get("url"),
+                "pageUrl": info.get("descriptionurl", ""),
+                "attribution": artist,
+                "license": license_name,
+            })
+        return photos
 
     results = []
-    for event in events:
-        comp = event["competitions"][0]
-        kickoff_utc = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
-        kickoff_et = kickoff_utc.astimezone(ET_ZONE)
-        if kickoff_et.date() != today_et:
-            continue
-
-        competitors = comp["competitors"]
-        home = next(c for c in competitors if c["homeAway"] == "home")
-        away = next(c for c in competitors if c["homeAway"] == "away")
-        home_norm, away_norm = normalize(home["team"]["displayName"]), normalize(away["team"]["displayName"])
-        if home_norm not in TEAM_INFO or away_norm not in TEAM_INFO:
-            continue
-        _, home_name = TEAM_INFO[home_norm]
-        _, away_name = TEAM_INFO[away_norm]
-
-        home_pct = away_pct = None
-
-        odds_list = comp.get("odds") or []
-        o = odds_list[0] if odds_list else None
-        if o:
-            home_odds = o.get("homeTeamOdds", {}) or {}
-            away_odds = o.get("awayTeamOdds", {}) or {}
-            draw_odds = o.get("drawOdds", {}) or {}
-
-            # 1) ESPN sometimes provides a pre-computed implied win percentage directly
-            hwp, awp = home_odds.get("winPercentage"), away_odds.get("winPercentage")
-            if hwp is not None and awp is not None:
-                home_pct, away_pct = hwp * 100, awp * 100
-            else:
-                # 2) otherwise derive from moneylines, de-vigging across the 3-way market
-                hp = implied_prob_from_moneyline(home_odds.get("moneyLine"))
-                ap = implied_prob_from_moneyline(away_odds.get("moneyLine"))
-                dp = implied_prob_from_moneyline(draw_odds.get("moneyLine")) or 0
-                if hp is not None and ap is not None:
-                    total = hp + ap + dp
-                    home_pct, away_pct = (hp / total) * 100, (ap / total) * 100
-
-        if home_pct is None:
-            # Fallback: nudge 50/50 by current group-stage points gap (5 pts per point of gap)
-            gap = points_by_team.get(home_name, 0) - points_by_team.get(away_name, 0)
-            home_pct = max(10, min(90, 50 + gap * 5))
-            away_pct = 100 - home_pct
-
-        results.append({"code": home_name, "pct": round(home_pct)})
-        results.append({"code": away_name, "pct": round(away_pct)})
-
-    return results
-
-
-def fetch_highlights(limit=6):
-    """Returns recent FIFA YouTube uploads as [{videoId, title}, ...]."""
-    ns = {
-        "atom": "http://www.w3.org/2005/Atom",
-        "yt": "http://www.youtube.com/xml/schemas/2015",
-    }
     try:
-        resp = requests.get(YOUTUBE_RSS_URL, params={"channel_id": FIFA_YOUTUBE_CHANNEL_ID}, timeout=15)
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
-        highlights = []
-        for entry in root.findall("atom:entry", ns)[:limit]:
-            video_id = entry.findtext("yt:videoId", default="", namespaces=ns)
-            title = entry.findtext("atom:title", default="", namespaces=ns)
-            if video_id:
-                highlights.append({"videoId": video_id, "title": title})
-        return highlights
+        for m in matches:
+            if len(results) >= limit:
+                break
+            found = search_commons(f"{m['a']} {m['b']}", 2)
+            results.extend(found)
+
+        if not results:
+            results = search_commons("stadium fans", limit)
     except Exception as e:
-        print("Highlights fetch failed:", e)
+        print("Photo fetch failed:", e)
         return []
+
+    return results[:limit]
+
+
+def fetch_group_odds():
+    """Group-stage winner odds from Polymarket, one event per group (A-L).
+
+    Returns {"A": [{code, pct}, ...], ...}, team names normalized to the
+    canonical GROUP_ROSTER names so they line up with the standings table.
+    """
+    group_odds = {}
+    for letter in GROUP_ROSTER:
+        slug = f"world-cup-group-{letter.lower()}-winner"
+        try:
+            resp = requests.get(POLYMARKET_EVENTS_URL, params={"slug": slug}, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            event = data[0] if isinstance(data, list) and data else None
+            if not event:
+                group_odds[letter] = []
+                continue
+
+            entries = []
+            for m in event.get("markets", []):
+                try:
+                    outcomes = json.loads(m.get("outcomes", "[]"))
+                    prices = json.loads(m.get("outcomePrices", "[]"))
+                except (TypeError, json.JSONDecodeError):
+                    continue
+                if not outcomes or not prices or len(outcomes) != len(prices):
+                    continue
+
+                yes_idx = outcomes.index("Yes") if "Yes" in outcomes else 0
+                pct = float(prices[yes_idx]) * 100
+
+                team_raw = m.get("groupItemTitle") or m.get("question", "")
+                team_raw = re.sub(r"^Will\s+", "", team_raw)
+                team_raw = re.sub(r"\s+win.*$", "", team_raw, flags=re.IGNORECASE).strip()
+
+                norm = normalize(team_raw)
+                canonical = TEAM_INFO[norm][1] if norm in TEAM_INFO else team_raw
+                entries.append({"code": canonical, "pct": round(pct, 1)})
+
+            entries.sort(key=lambda r: r["pct"], reverse=True)
+            group_odds[letter] = entries
+        except Exception as e:
+            print(f"Group {letter} odds fetch failed:", e)
+            group_odds[letter] = []
+
+    return group_odds
 
 
 def fetch_news(limit=8):
@@ -278,9 +332,10 @@ def main():
     events = fetch_events()
     today_et = datetime.now(ET_ZONE).date()
     groups, matches, live_teams = build_standings_and_matches(events, today_et)
-    probabilities = fetch_match_probabilities(events, groups, today_et)
+    probabilities = fetch_title_odds()
+    group_odds = fetch_group_odds()
     news = fetch_news()
-    highlights = fetch_highlights()
+    photos = fetch_photos(matches)
 
     output = {
         "updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -288,15 +343,17 @@ def main():
         "groups": groups,
         "liveTeams": sorted(set(live_teams)),
         "probabilities": probabilities,
+        "groupOdds": group_odds,
         "news": news,
-        "highlights": highlights,
+        "highlights": photos,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote data.json: {len(matches)} matches today, {len(probabilities)} probability entries, "
-          f"{len(news)} headlines, {len(highlights)} highlight videos, {len(live_teams)} live teams")
+    print(f"Wrote data.json: {len(matches)} matches today, {len(probabilities)} title-odds entries, "
+          f"group odds for {len(group_odds)} groups, {len(news)} headlines, {len(photos)} photos, "
+          f"{len(live_teams)} live teams")
 
 
 if __name__ == "__main__":
