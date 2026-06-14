@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T11:36:39.151597Z",
+  "updated": "2026-06-14T17:00:03.067807Z",
   "matches": [
     {
       "id": "wc26-760421",
@@ -578,7 +578,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 11.8
+      "pct": 11.2
     },
     {
       "code": "England",
@@ -594,7 +594,7 @@
     },
     {
       "code": "Germany",
-      "pct": 5.1
+      "pct": 5.5
     },
     {
       "code": "Netherlands",
@@ -605,11 +605,11 @@
       "pct": 2.5
     },
     {
-      "code": "Morocco",
-      "pct": 2.2
+      "code": "USA",
+      "pct": 2.1
     },
     {
-      "code": "USA",
+      "code": "Morocco",
       "pct": 2.1
     },
     {
@@ -617,11 +617,11 @@
       "pct": 1.9
     },
     {
-      "code": "Colombia",
-      "pct": 1.6
+      "code": "Japan",
+      "pct": 1.7
     },
     {
-      "code": "Japan",
+      "code": "Colombia",
       "pct": 1.6
     },
     {
@@ -645,11 +645,11 @@
       },
       {
         "code": "Czechia",
-        "pct": 3.4
+        "pct": 3.5
       },
       {
         "code": "South Africa",
-        "pct": 0.8
+        "pct": 0.7
       }
     ],
     "B": [
@@ -681,7 +681,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 10.2
+        "pct": 10.0
       },
       {
         "code": "Haiti",
@@ -691,19 +691,19 @@
     "D": [
       {
         "code": "USA",
-        "pct": 70.5
+        "pct": 71.5
       },
       {
         "code": "Australia",
-        "pct": 18.9
+        "pct": 19.9
       },
       {
         "code": "Turkey",
-        "pct": 9.5
+        "pct": 7.5
       },
       {
         "code": "Paraguay",
-        "pct": 1.3
+        "pct": 1.6
       }
     ],
     "E": [
@@ -717,11 +717,11 @@
       },
       {
         "code": "Ivory Coast",
-        "pct": 12.3
+        "pct": 11.8
       },
       {
         "code": "Curaçao",
-        "pct": 0.6
+        "pct": 0.1
       }
     ],
     "F": [
@@ -745,7 +745,7 @@
     "G": [
       {
         "code": "Belgium",
-        "pct": 69.5
+        "pct": 70.5
       },
       {
         "code": "Egypt",
@@ -781,19 +781,19 @@
     "I": [
       {
         "code": "France",
-        "pct": 66.5
+        "pct": 67.5
       },
       {
         "code": "Norway",
-        "pct": 24.5
+        "pct": 23.5
       },
       {
         "code": "Senegal",
-        "pct": 10.5
+        "pct": 10.0
       },
       {
         "code": "Iraq",
-        "pct": 0.7
+        "pct": 0.8
       }
     ],
     "J": [
@@ -807,7 +807,7 @@
       },
       {
         "code": "Algeria",
-        "pct": 8.5
+        "pct": 9.0
       },
       {
         "code": "Jordan",
@@ -829,13 +829,13 @@
       },
       {
         "code": "Uzbekistan",
-        "pct": 2.7
+        "pct": 2.5
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 71.5
+        "pct": 71.0
       },
       {
         "code": "Croatia",
@@ -843,23 +843,23 @@
       },
       {
         "code": "Ghana",
-        "pct": 3.4
+        "pct": 4.5
       },
       {
         "code": "Panama",
-        "pct": 2.4
+        "pct": 2.5
       }
     ]
   },
   "news": [
-    "Brazil’s Vinícius Júnior nets equalizer against Morocco | 2026 FIFA World Cup™",
+    "Perceived corruption of World Cup countries",
+    "Tom Cruise, David Beckham, Katy Perry and more celebrities spotted at 2026 FIFA World Cup matches",
+    "Australia vs Türkiye Highlights | 2026 FIFA World Cup™",
+    "Germany v Curaçao: World Cup 2026 – live",
     "World Cup scores, results: Brazil and Morocco battle to 1-1 draw while Australia stuns Türkiye in the nightcap",
-    "Top five takeaways from Brazil’s World Cup clash with Morocco",
-    "World Cup 2026: Scotland react to first victory in 36 years as Australia beat Turkey – live",
-    "Fifa World Cup 2026: Can Germany & Netherlands join Scotland as European winners",
-    "Haiti 0-1 Scotland: World Cup 2026 – as it happened",
-    "World Cup 2026: Scotland return to big stage against Haiti – in pictures",
-    "Qatar 1-1 Switzerland: World Cup 2026 – as it happened"
+    "World Cup 2026: Has Vinicius Jr brilliance just papered over the Brazilian cracks?",
+    "Brazil 1-1 Morocco: World Cup 2026 – as it happened",
+    "Fifa World Cup 2026: Can Germany & Netherlands join Scotland as European winners"
   ],
   "nextMatch": {
     "a": "Netherlands",
