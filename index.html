@@ -86,7 +86,7 @@
   .prob-item{ display:inline-flex; align-items:center; gap:10px; }
   .prob-item .code{
     font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--text);
-    width: 34px; display:inline-block; letter-spacing:0.05em;
+    min-width: 34px; display:inline-block; letter-spacing:0.05em; white-space:nowrap;
   }
   .prob-bar{ width:90px; height:6px; background: var(--line); border-radius:3px; overflow:hidden; }
   .prob-bar i{ display:block; height:100%; background: linear-gradient(90deg, #4f7d1a, var(--lime)); }
@@ -264,7 +264,7 @@
 
   <!-- PROBABILITY TICKER -->
   <div class="ticker-wrap probability">
-    <div class="ticker-tag">ADVANCE % ▸</div>
+    <div class="ticker-tag">WIN % (TODAY) ▸</div>
     <div class="ticker-track" id="probTrack"></div>
   </div>
 
@@ -374,16 +374,18 @@
     }
   });
 
-  // ---------- PROBABILITY TICKER (sample data) ----------
-  const probData = [
+  // ---------- PROBABILITY TICKER ----------
+  // Fallback sample shown until data.json provides real odds-derived probabilities
+  const fallbackProb = [
     {code:'USA', pct:78}, {code:'BRA', pct:91}, {code:'MEX', pct:74}, {code:'ARG', pct:88},
     {code:'FRA', pct:85}, {code:'ENG', pct:82}, {code:'GER', pct:80}, {code:'POR', pct:76},
     {code:'NED', pct:70}, {code:'ESP', pct:84}, {code:'BEL', pct:62}, {code:'KOR', pct:55},
     {code:'CAN', pct:58}, {code:'SUI', pct:53}, {code:'MAR', pct:60}, {code:'SCO', pct:41},
   ];
-  function buildProbTrack(){
+  function buildProbTrack(items){
     const track = document.getElementById('probTrack');
-    const html = probData.map(t => `
+    const data = (items && items.length) ? items : fallbackProb;
+    const html = data.map(t => `
       <div class="prob-item">
         <span class="code">${t.code}</span>
         <div class="prob-bar"><i style="width:${t.pct}%"></i></div>
@@ -391,7 +393,7 @@
       </div>`).join('');
     track.innerHTML = html + html; // duplicate for seamless loop
   }
-  buildProbTrack();
+  buildProbTrack([]);
 
   // ---------- NEWS TICKER ----------
   // Populated from data.json (Google News RSS, fetched server-side by the Action)
@@ -559,6 +561,7 @@
       renderStandings(activeGroup);
       buildNewsTrack(data.news || []);
       buildHighlights(data.highlights || []);
+      buildProbTrack(data.probabilities || []);
       const stamp = document.getElementById('lastUpdated');
       if (stamp && data.updated){
         const d = new Date(data.updated);
