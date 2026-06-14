@@ -16,6 +16,8 @@ ET_ZONE = timezone(timedelta(hours=-4))  # EDT — correct for the June/July Wor
 
 SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 NEWS_URL = "https://news.google.com/rss/search"
+YOUTUBE_RSS_URL = "https://www.youtube.com/feeds/videos.xml"
+FIFA_YOUTUBE_CHANNEL_ID = "UCpcTrCXblq78GZrTUTLWeBw"  # FIFA's official channel
 
 # Static 2026 World Cup group assignments (group stage is fixed for the whole tournament)
 GROUP_ROSTER = {
@@ -157,6 +159,28 @@ def build_standings_and_matches(events):
     return groups_out, matches, live_teams
 
 
+def fetch_highlights(limit=6):
+    """Returns recent FIFA YouTube uploads as [{videoId, title}, ...]."""
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+    }
+    try:
+        resp = requests.get(YOUTUBE_RSS_URL, params={"channel_id": FIFA_YOUTUBE_CHANNEL_ID}, timeout=15)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        highlights = []
+        for entry in root.findall("atom:entry", ns)[:limit]:
+            video_id = entry.findtext("yt:videoId", default="", namespaces=ns)
+            title = entry.findtext("atom:title", default="", namespaces=ns)
+            if video_id:
+                highlights.append({"videoId": video_id, "title": title})
+        return highlights
+    except Exception as e:
+        print("Highlights fetch failed:", e)
+        return []
+
+
 def fetch_news(limit=8):
     try:
         resp = requests.get(NEWS_URL, params={"q": "World Cup 2026", "hl": "en-US", "gl": "US", "ceid": "US:en"}, timeout=15)
@@ -177,6 +201,7 @@ def main():
     events = fetch_events()
     groups, matches, live_teams = build_standings_and_matches(events)
     news = fetch_news()
+    highlights = fetch_highlights()
 
     output = {
         "updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -184,12 +209,14 @@ def main():
         "groups": groups,
         "liveTeams": sorted(set(live_teams)),
         "news": news,
+        "highlights": highlights,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote data.json: {len(matches)} matches today, {len(news)} headlines, {len(live_teams)} live teams")
+    print(f"Wrote data.json: {len(matches)} matches today, {len(news)} headlines, "
+          f"{len(highlights)} highlight videos, {len(live_teams)} live teams")
 
 
 if __name__ == "__main__":
