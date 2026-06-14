@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MATCH CENTER — World Cup 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+  :root{
+    --bg: #090d12;
+    --panel: #121922;
+    --panel-2: #1a232e;
+    --line: #283341;
+    --text: #eef2f6;
+    --text-dim: #7e8da0;
+    --lime: #b6ff3c;
+    --amber: #ffb347;
+    --red: #ff4d5e;
+    --blue: #4aa8ff;
+    --radius: 6px;
+  }
+
+  *{ box-sizing: border-box; margin:0; padding:0; }
+  html,body{ background: var(--bg); color: var(--text); font-family:'Inter',sans-serif; }
+  body{ min-height:100vh; padding-bottom: 40px; }
+
+  .mono{ font-family:'JetBrains Mono',monospace; }
+  .display{ font-family:'Teko',sans-serif; font-weight:600; letter-spacing:0.02em; }
+
+  /* ============ TOP BAR ============ */
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, #0d131a, #090d12);
+  }
+  .brand{ display:flex; align-items:center; gap:14px; }
+  .brand .dot{
+    width:12px; height:12px; border-radius:50%;
+    background: var(--lime); box-shadow: 0 0 12px var(--lime);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse{ 0%,100%{ opacity:1; transform:scale(1);} 50%{ opacity:.4; transform:scale(.7);} }
+  .brand h1{
+    font-family:'Teko',sans-serif; font-weight:700; font-size: 30px;
+    letter-spacing: 0.08em; line-height:1;
+  }
+  .brand h1 span{ color: var(--lime); }
+  .brand .sub{ font-size:11px; color: var(--text-dim); letter-spacing:0.18em; text-transform:uppercase; margin-top:2px;}
+  .clockblock{ text-align:right; }
+  .clockblock .time{ font-size:22px; font-family:'JetBrains Mono',monospace; font-weight:700; color: var(--lime); }
+  .clockblock .label{ font-size:11px; color: var(--text-dim); letter-spacing:0.18em; text-transform:uppercase; }
+
+  /* ============ TICKERS ============ */
+  .ticker-wrap{
+    overflow:hidden; white-space:nowrap;
+    border-bottom: 1px solid var(--line);
+    position:relative;
+  }
+  .ticker-wrap.probability{ background: #0e141b; padding: 10px 0; }
+  .ticker-wrap.news{ background: var(--amber); padding: 8px 0; }
+  .ticker-tag{
+    position:absolute; left:0; top:0; bottom:0;
+    display:flex; align-items:center; padding: 0 14px;
+    font-family:'Teko',sans-serif; font-weight:700; font-size:13px;
+    letter-spacing:0.18em; z-index:2;
+  }
+  .ticker-wrap.probability .ticker-tag{
+    background: #0e141b; color: var(--lime); border-right:1px solid var(--line);
+    box-shadow: 14px 0 14px -8px #0e141b;
+  }
+  .ticker-wrap.news .ticker-tag{
+    background: var(--amber); color:#241a04; border-right:1px solid rgba(0,0,0,.15);
+    box-shadow: 14px 0 14px -8px var(--amber);
+  }
+  .ticker-track{
+    display:inline-flex; align-items:center; gap:36px;
+    padding-left: 130px;
+    animation: scroll 55s linear infinite;
+  }
+  .ticker-wrap.news .ticker-track{ animation-duration: 70s; gap:48px; }
+  .ticker-wrap:hover .ticker-track{ animation-play-state: paused; }
+  @keyframes scroll{ from{ transform: translateX(0); } to{ transform: translateX(-50%); } }
+
+  .prob-item{ display:inline-flex; align-items:center; gap:10px; }
+  .prob-item .code{
+    font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--text);
+    width: 34px; display:inline-block; letter-spacing:0.05em;
+  }
+  .prob-bar{ width:90px; height:6px; background: var(--line); border-radius:3px; overflow:hidden; }
+  .prob-bar i{ display:block; height:100%; background: linear-gradient(90deg, #4f7d1a, var(--lime)); }
+  .prob-pct{ font-family:'JetBrains Mono',monospace; font-size:13px; color: var(--lime); font-weight:700; width:38px; }
+
+  .news-item{ font-family:'Inter',sans-serif; font-size:13px; font-weight:600; color:#241a04; }
+  .news-item b{ font-family:'Teko',sans-serif; font-size:14px; letter-spacing:0.05em; margin-right:8px; }
+
+  /* ============ LAYOUT ============ */
+  .dash{
+    display:grid;
+    grid-template-columns: 320px 1fr 380px;
+    gap: 16px;
+    padding: 18px 24px;
+    align-items:start;
+  }
+  @media (max-width: 1100px){
+    .dash{ grid-template-columns: 1fr; }
+  }
+
+  .panel{
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow:hidden;
+  }
+  .panel-head{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel-2);
+  }
+  .panel-head h2{
+    font-family:'Teko',sans-serif; font-weight:600; font-size:18px;
+    letter-spacing:0.14em; text-transform:uppercase; color: var(--text);
+  }
+  .panel-head .tag{
+    font-family:'JetBrains Mono',monospace; font-size:11px; color: var(--text-dim);
+  }
+  .panel-body{ padding: 10px; }
+
+  /* ---- Schedule ---- */
+  .match{
+    display:flex; align-items:center; gap:10px;
+    padding: 10px 8px; border-radius:4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .match:last-child{ border-bottom:none; }
+  .match .when{
+    font-family:'JetBrains Mono',monospace; font-size:12px; color: var(--text-dim);
+    width: 56px; flex-shrink:0; line-height:1.3;
+  }
+  .match .teams{ flex:1; font-size:13px; font-weight:600; line-height:1.4; }
+  .match .grp{ font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--text-dim); display:block; }
+  .status{
+    font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700;
+    letter-spacing:0.1em; padding: 3px 7px; border-radius: 3px; flex-shrink:0;
+  }
+  .status.live{ background: rgba(255,77,94,.15); color: var(--red); }
+  .status.live::before{ content:'● '; animation: pulse 1.2s infinite; }
+  .status.upcoming{ background: rgba(74,168,255,.12); color: var(--blue); }
+  .status.ft{ background: rgba(126,141,160,.15); color: var(--text-dim); }
+  .score{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px; color:var(--lime); }
+
+  /* ---- Highlights ---- */
+  .highlights-grid{
+    display:grid; grid-template-columns: 1fr 1fr; gap:10px;
+  }
+  @media (max-width: 700px){ .highlights-grid{ grid-template-columns: 1fr; } }
+  .clip{
+    border:1px solid var(--line); border-radius:4px; overflow:hidden; background: var(--panel-2);
+  }
+  .clip .thumb{
+    height: 110px; position:relative;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .clip .thumb .dur{
+    position:absolute; bottom:6px; right:6px;
+    background: rgba(0,0,0,.55); color:#fff; font-family:'JetBrains Mono',monospace;
+    font-size:11px; padding:2px 6px; border-radius:3px;
+  }
+  .clip .thumb .play{
+    width:38px; height:38px; border-radius:50%;
+    background: rgba(255,255,255,.18); border:1.5px solid rgba(255,255,255,.6);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .clip .thumb .play::after{
+    content:''; display:block; width:0; height:0;
+    border-left: 12px solid #fff; border-top:7px solid transparent; border-bottom:7px solid transparent;
+    margin-left:2px;
+  }
+  .clip .info{ padding: 8px 10px; }
+  .clip .info .grp{ font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--lime); letter-spacing:0.1em; }
+  .clip .info h3{ font-size:13px; font-weight:700; margin: 3px 0 2px; line-height:1.3; }
+  .clip .info p{ font-size:11px; color: var(--text-dim); }
+
+  /* ---- Standings ---- */
+  .tabs{ display:flex; flex-wrap:wrap; gap:4px; padding: 10px 10px 0; }
+  .tab{
+    font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700;
+    background: var(--panel-2); color: var(--text-dim); border:1px solid var(--line);
+    border-radius:3px; padding: 5px 9px; cursor:pointer; transition:.15s;
+  }
+  .tab:hover{ color: var(--text); }
+  .tab.active{ background: var(--lime); color:#0a0e08; border-color: var(--lime); }
+  .tab:focus-visible{ outline: 2px solid var(--blue); outline-offset:1px; }
+
+  table.standings{ width:100%; border-collapse:collapse; margin-top:10px; font-size:12px; }
+  table.standings th, table.standings td{
+    padding: 7px 6px; text-align:center; border-bottom:1px solid var(--line);
+  }
+  table.standings th{
+    font-family:'JetBrains Mono',monospace; font-size:10px; color: var(--text-dim);
+    letter-spacing:0.08em; font-weight:600;
+  }
+  table.standings td.team{ text-align:left; font-weight:600; }
+  table.standings td.pts{ color: var(--lime); font-weight:700; font-family:'JetBrains Mono',monospace; }
+  table.standings tr.qualify td.team{ border-left: 2px solid var(--lime); padding-left:8px; }
+  table.standings tr.live td.team::after{
+    content:' ●'; color: var(--red); animation: pulse 1.2s infinite;
+  }
+  .standings-note{ padding: 8px 10px 12px; font-size:11px; color: var(--text-dim); }
+
+  /* ---- Bracket strip ---- */
+  .bracket{
+    grid-column: 1 / -1;
+    display:flex; align-items:stretch; gap:0;
+    padding: 4px;
+  }
+  .stage{
+    flex:1; padding: 16px 10px; text-align:center;
+    border-right: 1px dashed var(--line); position:relative;
+  }
+  .stage:last-child{ border-right:none; }
+  .stage .num{
+    font-family:'Teko',sans-serif; font-size:26px; font-weight:700; color: var(--text-dim);
+    line-height:1;
+  }
+  .stage.active .num{ color: var(--lime); }
+  .stage h4{
+    font-family:'JetBrains Mono',monospace; font-size:11px; text-transform:uppercase;
+    letter-spacing:0.12em; margin-top:6px; color: var(--text);
+  }
+  .stage p{ font-size:11px; color: var(--text-dim); margin-top:4px; }
+  .stage.active{ background: rgba(182,255,60,.05); }
+  .stage.active h4{ color: var(--lime); }
+
+  footer{
+    padding: 14px 24px; color: var(--text-dim); font-size:11px;
+    border-top: 1px solid var(--line); margin-top: 10px;
+  }
+  footer a{ color: var(--blue); text-decoration:none; }
+</style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="brand">
+      <div class="dot"></div>
+      <div>
+        <h1>MATCH<span>CENTER</span> // WC26</h1>
+        <div class="sub">USA · CANADA · MEXICO — GROUP STAGE</div>
+      </div>
+    </div>
+    <div style="display:flex; align-items:center; gap:18px;">
+      <button id="wakeBtn" class="tab" style="font-size:11px; padding:8px 12px;">KEEP SCREEN ON</button>
+      <div class="clockblock">
+        <div class="time" id="clock">--:--:--</div>
+        <div class="label" id="dateline">— ET</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROBABILITY TICKER -->
+  <div class="ticker-wrap probability">
+    <div class="ticker-tag">ADVANCE % ▸</div>
+    <div class="ticker-track" id="probTrack"></div>
+  </div>
+
+  <!-- NEWS TICKER -->
+  <div class="ticker-wrap news">
+    <div class="ticker-tag">WC26 WIRE ▸</div>
+    <div class="ticker-track" id="newsTrack"></div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div class="dash">
+
+    <!-- TODAY'S MATCHES -->
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Today's Matches</h2>
+        <span class="tag" id="lastUpdated">SAT JUN 13</span>
+      </div>
+      <div class="panel-body" id="matchList"></div>
+    </div>
+
+    <!-- HIGHLIGHTS -->
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Highlights</h2>
+        <span class="tag">MATCHDAY 1–3</span>
+      </div>
+      <div class="panel-body">
+        <div class="highlights-grid" id="highlightGrid"></div>
+      </div>
+    </div>
+
+    <!-- STANDINGS -->
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Group Standings</h2>
+        <span class="tag" id="groupTag">GROUP A</span>
+      </div>
+      <div class="tabs" id="groupTabs"></div>
+      <div class="panel-body">
+        <table class="standings">
+          <thead>
+            <tr><th style="text-align:left">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr>
+          </thead>
+          <tbody id="standingsBody"></tbody>
+        </table>
+        <div class="standings-note">Green edge = qualification position (top 2 advance, plus best third-place teams).</div>
+      </div>
+    </div>
+
+    <!-- BRACKET / TOURNAMENT PATH -->
+    <div class="panel bracket" id="bracket"></div>
+
+  </div>
+
+  <footer>
+    Sample dashboard layout for the 2026 FIFA World Cup. Standings reflect results through June 13, 2026;
+    advance-probability figures and the news wire are placeholder/sample data — wire this up to a live odds
+    feed and news API (e.g. via <a href="#">sportsradar / a news RSS source</a>) to make it fully live.
+  </footer>
+
+<script>
+  // ---------- CLOCK ----------
+  function tick(){
+    const now = new Date();
+    const opts = { timeZone:'America/New_York', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false };
+    document.getElementById('clock').textContent = now.toLocaleTimeString('en-US', opts);
+    const dateOpts = { timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric' };
+    document.getElementById('dateline').textContent = now.toLocaleDateString('en-US', dateOpts).toUpperCase() + ' — ET';
+  }
+  tick(); setInterval(tick, 1000);
+
+  // ---------- WAKE LOCK (keep screen on) ----------
+  let wakeLock = null;
+  const wakeBtn = document.getElementById('wakeBtn');
+
+  async function enableWakeLock(){
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeBtn.textContent = 'SCREEN ON ●';
+      wakeBtn.classList.add('active');
+      wakeLock.addEventListener('release', () => {
+        wakeBtn.textContent = 'KEEP SCREEN ON';
+        wakeBtn.classList.remove('active');
+      });
+    } catch (err) {
+      wakeBtn.textContent = 'WAKE LOCK UNAVAILABLE';
+      console.warn('Wake Lock failed:', err);
+    }
+  }
+
+  wakeBtn.addEventListener('click', async () => {
+    if (wakeLock) {
+      await wakeLock.release();
+      wakeLock = null;
+    } else if ('wakeLock' in navigator) {
+      enableWakeLock();
+    } else {
+      wakeBtn.textContent = 'WAKE LOCK UNAVAILABLE';
+    }
+  });
+
+  // Re-acquire if the page regains visibility (iOS releases the lock when you switch apps/tabs)
+  document.addEventListener('visibilitychange', () => {
+    if (wakeLock !== null && document.visibilityState === 'visible') {
+      enableWakeLock();
+    }
+  });
+
+  // ---------- PROBABILITY TICKER (sample data) ----------
+  const probData = [
+    {code:'USA', pct:78}, {code:'BRA', pct:91}, {code:'MEX', pct:74}, {code:'ARG', pct:88},
+    {code:'FRA', pct:85}, {code:'ENG', pct:82}, {code:'GER', pct:80}, {code:'POR', pct:76},
+    {code:'NED', pct:70}, {code:'ESP', pct:84}, {code:'BEL', pct:62}, {code:'KOR', pct:55},
+    {code:'CAN', pct:58}, {code:'SUI', pct:53}, {code:'MAR', pct:60}, {code:'SCO', pct:41},
+  ];
+  function buildProbTrack(){
+    const track = document.getElementById('probTrack');
+    const html = probData.map(t => `
+      <div class="prob-item">
+        <span class="code">${t.code}</span>
+        <div class="prob-bar"><i style="width:${t.pct}%"></i></div>
+        <span class="prob-pct">${t.pct}%</span>
+      </div>`).join('');
+    track.innerHTML = html + html; // duplicate for seamless loop
+  }
+  buildProbTrack();
+
+  // ---------- NEWS TICKER ----------
+  // Populated from data.json (Google News RSS, fetched server-side by the Action)
+  function buildNewsTrack(items){
+    const track = document.getElementById('newsTrack');
+    if (!items || !items.length){
+      track.innerHTML = '<span class="news-item"><b>WIRE</b>No headlines available</span>';
+      return;
+    }
+    const html = items.map(n => `<span class="news-item"><b>WIRE</b>${n}</span>`).join('');
+    track.innerHTML = html + html;
+  }
+  buildNewsTrack([]);
+
+  // ---------- TODAY'S MATCHES ----------
+  // Populated from data.json (written by the scheduled GitHub Action)
+  let matches = [];
+
+  function buildMatches(){
+    const list = document.getElementById('matchList');
+    list.innerHTML = matches.map(m => {
+      let statusHtml;
+      if (m.status === 'live') statusHtml = `<span class="status live">${m.minute || 'LIVE'}</span>`;
+      else if (m.status === 'ft') statusHtml = `<span class="status ft">FT</span>`;
+      else statusHtml = `<span class="status upcoming">UPCOMING</span>`;
+
+      const scoreHtml = (m.status === 'ft' || m.status === 'live')
+        ? `<div class="score">${m.scoreA} – ${m.scoreB}</div>` : '';
+
+      return `
+        <div class="match" data-id="${m.id}">
+          <div class="when">${m.when}<br>ET</div>
+          <div class="teams">
+            <span class="grp">${m.grp}</span>
+            ${m.a} vs ${m.b}
+          </div>
+          ${scoreHtml}
+          ${statusHtml}
+        </div>`;
+    }).join('');
+  }
+
+  // ---------- HIGHLIGHTS ----------
+  const highlights = [
+    { grp:'GROUP A', title:'Mexico 2–0 South Africa', desc:'Hosts open the tournament with a clean win', dur:'4:32', grad:'135deg,#0a6b3f,#c8102e' },
+    { grp:'GROUP D', title:'USA 4–1 Paraguay', desc:'Balogun brace sparks a rout at SoFi Stadium', dur:'5:10', grad:'135deg,#0a3161,#b22234' },
+    { grp:'GROUP A', title:'South Korea 2–1 Czechia', desc:"Group A's first comeback win", dur:'3:48', grad:'135deg,#c60c30,#0047a0' },
+    { grp:'GROUP B', title:'Canada 1–1 Bosnia & Herz.', desc:'Late equalizer at BMO Field', dur:'2:55', grad:'135deg,#ff0000,#002395' },
+  ];
+  function buildHighlights(){
+    const grid = document.getElementById('highlightGrid');
+    grid.innerHTML = highlights.map(h => `
+      <div class="clip">
+        <div class="thumb" style="background:linear-gradient(${h.grad})">
+          <div class="play"></div>
+          <div class="dur">${h.dur}</div>
+        </div>
+        <div class="info">
+          <span class="grp">${h.grp}</span>
+          <h3>${h.title}</h3>
+          <p>${h.desc}</p>
+        </div>
+      </div>`).join('');
+  }
+  buildHighlights();
+
+  // ---------- STANDINGS ----------
+  // Populated from data.json. Each team: [name, MP, W, D, L, GF, GA, Pts]
+  const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+  let groups = {};
+  let liveTeams = [];
+  let activeGroup = 'A';
+
+  function buildTabs(){
+    const tabs = document.getElementById('groupTabs');
+    tabs.innerHTML = GROUP_LETTERS.map((g,i) =>
+      `<button class="tab ${g===activeGroup?'active':''}" data-group="${g}">GRP ${g}</button>`
+    ).join('');
+    tabs.querySelectorAll('.tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabs.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeGroup = btn.dataset.group;
+        document.getElementById('groupTag').textContent = 'GROUP ' + activeGroup;
+        renderStandings(activeGroup);
+      });
+    });
+  }
+
+  function renderStandings(g){
+    const body = document.getElementById('standingsBody');
+    const groupData = groups[g];
+    if (!groupData){ body.innerHTML = '<tr><td colspan="7" style="color:var(--text-dim); padding:14px;">No data yet</td></tr>'; return; }
+    const sorted = [...groupData.teams].sort((a,b) => {
+      if (b[7] !== a[7]) return b[7] - a[7];          // Pts
+      const gdA = a[5]-a[6], gdB = b[5]-b[6];
+      if (gdB !== gdA) return gdB - gdA;              // GD
+      return b[5] - a[5];                              // GF
+    });
+    body.innerHTML = sorted.map((t,i) => {
+      const gd = t[5]-t[6];
+      const gdStr = gd > 0 ? '+'+gd : gd;
+      const qualifyClass = i < 2 ? 'qualify' : '';
+      const liveClass = liveTeams.includes(t[0]) ? 'live' : '';
+      return `<tr class="${qualifyClass} ${liveClass}">
+        <td class="team">${t[0]}</td>
+        <td>${t[1]}</td><td>${t[2]}</td><td>${t[3]}</td><td>${t[4]}</td>
+        <td>${gdStr}</td><td class="pts">${t[7]}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  buildTabs();
+  renderStandings(activeGroup);
+
+  // ---------- DATA REFRESH ----------
+  // data.json is rewritten every 15 minutes by a scheduled GitHub Action.
+  // We re-fetch it on the same cadence so the open tab picks up each rebuild.
+  const DATA_URL = './data.json';
+  const REFRESH_MS = 15 * 60 * 1000; // 15 minutes
+
+  async function fetchData(){
+    try {
+      const res = await fetch(DATA_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error('Bad response: ' + res.status);
+      const data = await res.json();
+      matches = data.matches || [];
+      groups = data.groups || {};
+      liveTeams = data.liveTeams || [];
+      buildMatches();
+      renderStandings(activeGroup);
+      buildNewsTrack(data.news || []);
+      const stamp = document.getElementById('lastUpdated');
+      if (stamp && data.updated){
+        const d = new Date(data.updated);
+        stamp.textContent = 'UPDATED ' + d.toLocaleTimeString('en-US', { timeZone:'America/New_York', hour:'2-digit', minute:'2-digit' }) + ' ET';
+      }
+    } catch (err) {
+      console.warn('data.json fetch failed, keeping last known data:', err);
+    }
+  }
+  fetchData();
+  setInterval(fetchData, REFRESH_MS);
+
+  // ---------- BRACKET / TOURNAMENT PATH ----------
+  const stages = [
+    { num:'01', name:'Group Stage', note:'Jun 11 – 27 · Matchday 1 of 3', active:true },
+    { num:'02', name:'Round of 32', note:'Jun 28 – Jul 3 · TBD', active:false },
+    { num:'03', name:'Round of 16', note:'Jul 4 – 7 · TBD', active:false },
+    { num:'04', name:'Quarterfinals', note:'Jul · TBD', active:false },
+    { num:'05', name:'Semifinals', note:'Jul · TBD', active:false },
+    { num:'06', name:'Final', note:'Jul 19 · MetLife Stadium', active:false },
+  ];
+  document.getElementById('bracket').innerHTML = stages.map(s => `
+    <div class="stage ${s.active?'active':''}">
+      <div class="num mono">${s.num}</div>
+      <h4>${s.name}</h4>
+      <p>${s.note}</p>
+    </div>`).join('');
+</script>
+
+</body>
+</html>
