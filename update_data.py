@@ -205,27 +205,30 @@ def fetch_title_odds(limit=16):
 
 
 def fetch_photos(matches, limit=6):
-    """Photos for today's matches from Wikimedia Commons (CC-licensed, with attribution).
+    """Photos related to the 2026 World Cup from Wikimedia Commons (CC-licensed, attributed).
 
-    For each of today's matches, searches Commons (restricted to the
-    '2026 FIFA World Cup' category tree) for files mentioning both teams,
-    and returns thumbnail URLs plus attribution/license info. Falls back to
-    a generic tournament search if there are no matches today or nothing
-    is found yet.
+    Tries an increasingly general set of plain-text searches — today's
+    specific matchups first, then the tournament generally — combining
+    results until `limit` is reached. (An earlier version restricted
+    searches with `deepcat:`, which is slow/unreliable on Commons and
+    often returns nothing even when matching files exist.)
     """
     def search_commons(query, n):
         params = {
             "action": "query",
             "format": "json",
             "generator": "search",
-            "gsrsearch": f'deepcat:"2026 FIFA World Cup" {query}',
+            "gsrsearch": query,
             "gsrnamespace": 6,  # File namespace
             "gsrlimit": n,
             "prop": "imageinfo",
-            "iiprop": "url|extmetadata",
+            "iiprop": "url|extmetadata|mime",
             "iiurlwidth": 640,
         }
-        resp = requests.get(COMMONS_API_URL, params=params, timeout=15)
+        resp = requests.get(
+            COMMONS_API_URL, params=params, timeout=15,
+            headers={"User-Agent": "WorldCupHUD/1.0 (GitHub Pages dashboard; no contact on file)"},
+        )
         resp.raise_for_status()
         pages = resp.json().get("query", {}).get("pages", {})
 
@@ -234,32 +237,41 @@ def fetch_photos(matches, limit=6):
             info = (page.get("imageinfo") or [None])[0]
             if not info:
                 continue
+            if not info.get("mime", "").startswith("image/"):
+                continue  # skip videos, PDFs, etc.
+            thumb = info.get("thumburl") or info.get("url")
+            if not thumb:
+                continue
             meta = info.get("extmetadata", {})
             artist = meta.get("Artist", {}).get("value", "")
             artist = re.sub(r"<[^>]+>", "", artist).strip()  # strip embedded HTML links
             license_name = meta.get("LicenseShortName", {}).get("value", "")
             photos.append({
                 "title": page.get("title", "").replace("File:", ""),
-                "thumbUrl": info.get("thumburl") or info.get("url"),
+                "thumbUrl": thumb,
                 "pageUrl": info.get("descriptionurl", ""),
                 "attribution": artist,
                 "license": license_name,
             })
         return photos
 
+    seen = set()
     results = []
-    try:
-        for m in matches:
-            if len(results) >= limit:
-                break
-            found = search_commons(f"{m['a']} {m['b']}", 2)
-            results.extend(found)
 
-        if not results:
-            results = search_commons("stadium fans", limit)
-    except Exception as e:
-        print("Photo fetch failed:", e)
-        return []
+    queries = [f"{m['a']} {m['b']} 2026 FIFA World Cup" for m in matches[:4]]
+    queries.append("2026 FIFA World Cup")
+    queries.append("FIFA World Cup 2026 stadium fans")
+
+    for q in queries:
+        if len(results) >= limit:
+            break
+        try:
+            for photo in search_commons(q, limit - len(results) + 2):
+                if photo["title"] not in seen:
+                    seen.add(photo["title"])
+                    results.append(photo)
+        except Exception as e:
+            print(f"Photo search failed for '{q}':", e)
 
     return results[:limit]
 
