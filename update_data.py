@@ -1,7 +1,7 @@
 """
 Pulls FIFA World Cup 2026 match data from ESPN's public (no-auth) scoreboard API,
-headlines from Google News RSS, match photos from Wikimedia Commons, and
-tournament-winner odds from Polymarket's public Gamma API — then writes
+headlines from Google News RSS, tournament/group odds from Polymarket's public
+Gamma API, and host-city weather from Open-Meteo (also no-auth) — then writes
 data.json for the HUD page to consume.
 
 No API key or signup required for any of these sources.
@@ -18,8 +18,55 @@ ET_ZONE = timezone(timedelta(hours=-4))  # EDT — correct for the June/July Wor
 
 SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 NEWS_URL = "https://news.google.com/rss/search"
-COMMONS_API_URL = "https://commons.wikimedia.org/w/api.php"
+OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
 POLYMARKET_EVENTS_URL = "https://gamma-api.polymarket.com/events"
+
+# Group stage runs through June 27, 2026 — used to distinguish "remaining group
+# fixtures" from later knockout-round placeholder matches in the events feed.
+GROUP_STAGE_CUTOFF = datetime(2026, 6, 28, tzinfo=timezone.utc)
+
+# The 16 confirmed 2026 World Cup host venues, keyed by the city name as it's
+# likely to appear in ESPN's venue.address.city field. Several cities map to
+# the same stadium under different common names.
+HOST_VENUES = {
+    "atlanta": {"stadium": "Mercedes-Benz Stadium", "lat": 33.7554, "lon": -84.4008},
+    "foxborough": {"stadium": "Gillette Stadium", "lat": 42.0909, "lon": -71.2643},
+    "boston": {"stadium": "Gillette Stadium", "lat": 42.0909, "lon": -71.2643},
+    "arlington": {"stadium": "AT&T Stadium", "lat": 32.7473, "lon": -97.0945},
+    "dallas": {"stadium": "AT&T Stadium", "lat": 32.7473, "lon": -97.0945},
+    "houston": {"stadium": "NRG Stadium", "lat": 29.6847, "lon": -95.4107},
+    "kansas city": {"stadium": "Arrowhead Stadium", "lat": 39.0489, "lon": -94.4839},
+    "inglewood": {"stadium": "SoFi Stadium", "lat": 33.9535, "lon": -118.3392},
+    "los angeles": {"stadium": "SoFi Stadium", "lat": 33.9535, "lon": -118.3392},
+    "miami gardens": {"stadium": "Hard Rock Stadium", "lat": 25.9580, "lon": -80.2389},
+    "miami": {"stadium": "Hard Rock Stadium", "lat": 25.9580, "lon": -80.2389},
+    "east rutherford": {"stadium": "MetLife Stadium", "lat": 40.8135, "lon": -74.0744},
+    "new york": {"stadium": "MetLife Stadium", "lat": 40.8135, "lon": -74.0744},
+    "new york/new jersey": {"stadium": "MetLife Stadium", "lat": 40.8135, "lon": -74.0744},
+    "philadelphia": {"stadium": "Lincoln Financial Field", "lat": 39.9008, "lon": -75.1675},
+    "santa clara": {"stadium": "Levi's Stadium", "lat": 37.4032, "lon": -121.9697},
+    "san francisco bay area": {"stadium": "Levi's Stadium", "lat": 37.4032, "lon": -121.9697},
+    "seattle": {"stadium": "Lumen Field", "lat": 47.5952, "lon": -122.3316},
+    "toronto": {"stadium": "BMO Field", "lat": 43.6332, "lon": -79.4187},
+    "vancouver": {"stadium": "BC Place", "lat": 49.2768, "lon": -123.1119},
+    "guadalajara": {"stadium": "Estadio Akron", "lat": 20.6822, "lon": -103.4625},
+    "mexico city": {"stadium": "Estadio Banorte", "lat": 19.3029, "lon": -99.1505},
+    "monterrey": {"stadium": "Estadio BBVA", "lat": 25.6628, "lon": -100.2453},
+}
+
+# WMO weather codes (used by Open-Meteo) -> short description
+WMO_WEATHER_CODES = {
+    0: "Clear sky", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast",
+    45: "Fog", 48: "Freezing fog",
+    51: "Light drizzle", 53: "Drizzle", 55: "Heavy drizzle",
+    56: "Freezing drizzle", 57: "Freezing drizzle",
+    61: "Light rain", 63: "Rain", 65: "Heavy rain",
+    66: "Freezing rain", 67: "Freezing rain",
+    71: "Light snow", 73: "Snow", 75: "Heavy snow", 77: "Snow grains",
+    80: "Light showers", 81: "Showers", 82: "Heavy showers",
+    85: "Snow showers", 86: "Snow showers",
+    95: "Thunderstorm", 96: "Thunderstorm w/ hail", 99: "Severe thunderstorm",
+}
 
 # Static 2026 World Cup group assignments (group stage is fixed for the whole tournament)
 GROUP_ROSTER = {
@@ -59,6 +106,17 @@ TEAM_INFO = {}
 for letter, teams in GROUP_ROSTER.items():
     for t in teams:
         TEAM_INFO[normalize(t)] = (letter, t)
+
+
+def venue_info(comp):
+    """Extract (city, stadium full name) from an ESPN competition object."""
+    venue = comp.get("venue", {}) or {}
+    address = venue.get("address", {}) or {}
+    return address.get("city", ""), venue.get("fullName", "")
+
+
+def lookup_venue(city):
+    return HOST_VENUES.get((city or "").strip().lower())
 
 
 def fetch_events():
@@ -204,76 +262,160 @@ def fetch_title_odds(limit=16):
         return []
 
 
-def fetch_photos(matches, limit=6):
-    """Photos related to the 2026 World Cup from Wikimedia Commons (CC-licensed, attributed).
-
-    Tries an increasingly general set of plain-text searches — today's
-    specific matchups first, then the tournament generally — combining
-    results until `limit` is reached. (An earlier version restricted
-    searches with `deepcat:`, which is slow/unreliable on Commons and
-    often returns nothing even when matching files exist.)
-    """
-    def search_commons(query, n):
-        params = {
-            "action": "query",
-            "format": "json",
-            "generator": "search",
-            "gsrsearch": query,
-            "gsrnamespace": 6,  # File namespace
-            "gsrlimit": n,
-            "prop": "imageinfo",
-            "iiprop": "url|extmetadata|mime",
-            "iiurlwidth": 640,
-        }
-        resp = requests.get(
-            COMMONS_API_URL, params=params, timeout=15,
-            headers={"User-Agent": "WorldCupHUD/1.0 (GitHub Pages dashboard; no contact on file)"},
-        )
+def fetch_weather(lat, lon):
+    """Current conditions at a venue from Open-Meteo (no key required)."""
+    try:
+        resp = requests.get(OPEN_METEO_URL, params={
+            "latitude": lat, "longitude": lon,
+            "current": "temperature_2m,weather_code,wind_speed_10m",
+            "temperature_unit": "fahrenheit",
+            "wind_speed_unit": "mph",
+            "timezone": "auto",
+        }, timeout=15)
         resp.raise_for_status()
-        pages = resp.json().get("query", {}).get("pages", {})
+        cur = resp.json().get("current", {})
+        code = cur.get("weather_code")
+        return {
+            "tempF": round(cur["temperature_2m"]) if "temperature_2m" in cur else None,
+            "windMph": round(cur["wind_speed_10m"]) if "wind_speed_10m" in cur else None,
+            "description": WMO_WEATHER_CODES.get(code, "—"),
+        }
+    except Exception as e:
+        print("Weather fetch failed:", e)
+        return None
 
-        photos = []
-        for page in pages.values():
-            info = (page.get("imageinfo") or [None])[0]
-            if not info:
-                continue
-            if not info.get("mime", "").startswith("image/"):
-                continue  # skip videos, PDFs, etc.
-            thumb = info.get("thumburl") or info.get("url")
-            if not thumb:
-                continue
-            meta = info.get("extmetadata", {})
-            artist = meta.get("Artist", {}).get("value", "")
-            artist = re.sub(r"<[^>]+>", "", artist).strip()  # strip embedded HTML links
-            license_name = meta.get("LicenseShortName", {}).get("value", "")
-            photos.append({
-                "title": page.get("title", "").replace("File:", ""),
-                "thumbUrl": thumb,
-                "pageUrl": info.get("descriptionurl", ""),
-                "attribution": artist,
-                "license": license_name,
-            })
-        return photos
 
-    seen = set()
-    results = []
+def fetch_top_scorers(events, limit=8):
+    """Golden Boot leaderboard, aggregated from ESPN's per-match scoring-play
+    'details' feed.
 
-    queries = [f"{m['a']} {m['b']} 2026 FIFA World Cup" for m in matches[:4]]
-    queries.append("2026 FIFA World Cup")
-    queries.append("FIFA World Cup 2026 stadium fans")
+    ESPN's field names for this feed aren't formally documented, so this is
+    written defensively: each event is processed independently (one bad
+    entry doesn't break the rest), and if the expected fields aren't present
+    at all, this simply returns an empty list rather than failing the run.
+    """
+    tally = {}  # (player, team canonical name) -> goal count
 
-    for q in queries:
-        if len(results) >= limit:
-            break
+    for event in events:
         try:
-            for photo in search_commons(q, limit - len(results) + 2):
-                if photo["title"] not in seen:
-                    seen.add(photo["title"])
-                    results.append(photo)
-        except Exception as e:
-            print(f"Photo search failed for '{q}':", e)
+            comp = event["competitions"][0]
+            for d in (comp.get("details") or []):
+                if not d.get("scoringPlay"):
+                    continue
+                type_text = ((d.get("type") or {}).get("text") or "").lower()
+                if "goal" not in type_text or "own goal" in type_text:
+                    continue
 
-    return results[:limit]
+                team_id = (d.get("team") or {}).get("id")
+                team_name = ""
+                for c in comp["competitors"]:
+                    if c.get("team", {}).get("id") == team_id:
+                        team_name = c["team"].get("displayName", "")
+                        break
+                norm = normalize(team_name)
+                canonical = TEAM_INFO[norm][1] if norm in TEAM_INFO else team_name
+
+                athletes = d.get("athletesInvolved") or []
+                player = ""
+                if athletes:
+                    player = athletes[0].get("displayName") or athletes[0].get("shortName") or ""
+                if not player:
+                    continue
+
+                key = (player, canonical)
+                tally[key] = tally.get(key, 0) + 1
+        except Exception:
+            continue
+
+    scorers = [{"player": p, "team": t, "goals": g} for (p, t), g in tally.items()]
+    scorers.sort(key=lambda r: r["goals"], reverse=True)
+    return scorers[:limit]
+
+
+def compute_next_match_and_fixtures(events):
+    """Returns (next_match, remaining_fixtures).
+
+    next_match: info (teams, kickoff time, venue) for the soonest upcoming
+    match across the whole tournament — used for the "Next Up" countdown
+    and venue weather, independent of "today's matches".
+
+    remaining_fixtures: {team_name: ["vs Opponent (Jun 18)", ...]} for each
+    team's still-to-be-played group-stage matches.
+    """
+    now_utc = datetime.now(timezone.utc)
+    next_match = None
+    fixtures = {}
+
+    for event in events:
+        comp = event["competitions"][0]
+        state = comp["status"]["type"]["state"]
+        competitors = comp["competitors"]
+        home = next(c for c in competitors if c["homeAway"] == "home")
+        away = next(c for c in competitors if c["homeAway"] == "away")
+
+        home_norm, away_norm = normalize(home["team"]["displayName"]), normalize(away["team"]["displayName"])
+        if home_norm not in TEAM_INFO or away_norm not in TEAM_INFO:
+            continue
+        home_group, home_name = TEAM_INFO[home_norm]
+        _, away_name = TEAM_INFO[away_norm]
+
+        kickoff_utc = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+
+        if state == "pre" and kickoff_utc <= GROUP_STAGE_CUTOFF:
+            date_str = kickoff_utc.astimezone(ET_ZONE).strftime("%b %-d")
+            fixtures.setdefault(home_name, []).append(f"vs {away_name} ({date_str})")
+            fixtures.setdefault(away_name, []).append(f"vs {home_name} ({date_str})")
+
+        if state == "pre" and kickoff_utc > now_utc:
+            if next_match is None or kickoff_utc < next_match["_kickoff_utc"]:
+                city, stadium = venue_info(comp)
+                next_match = {
+                    "_kickoff_utc": kickoff_utc,
+                    "a": home_name,
+                    "b": away_name,
+                    "grp": f"GROUP {home_group}",
+                    "kickoffISO": kickoff_utc.isoformat().replace("+00:00", "Z"),
+                    "when": kickoff_utc.astimezone(ET_ZONE).strftime("%a %-I:%M %p ET"),
+                    "venue": stadium,
+                    "city": city,
+                }
+
+    for team in fixtures:
+        fixtures[team] = fixtures[team][:3]
+
+    if next_match:
+        del next_match["_kickoff_utc"]
+
+    return next_match, fixtures
+
+
+def annotate_upsets(matches, group_odds):
+    """Flags completed matches today where the team favored by Polymarket's
+    group-winner odds lost. Mutates `matches` in place, adding 'upset',
+    'favored', and 'favoredPct' to flagged entries.
+    """
+    for m in matches:
+        if m.get("status") != "ft":
+            continue
+        letter = m["grp"].replace("GROUP ", "").strip()
+        odds = {o["code"]: o["pct"] for o in group_odds.get(letter, [])}
+        a_pct, b_pct = odds.get(m["a"]), odds.get(m["b"])
+        if a_pct is None or b_pct is None:
+            continue
+
+        sa, sb = m["scoreA"], m["scoreB"]
+        if sa == sb:
+            continue  # draws aren't flagged
+
+        if sa > sb:
+            loser, loser_pct, winner_pct = m["b"], b_pct, a_pct
+        else:
+            loser, loser_pct, winner_pct = m["a"], a_pct, b_pct
+
+        if loser_pct > winner_pct:  # the loser entered as the group favorite
+            m["upset"] = True
+            m["favored"] = loser
+            m["favoredPct"] = loser_pct
 
 
 def fetch_group_odds():
@@ -344,10 +486,23 @@ def main():
     events = fetch_events()
     today_et = datetime.now(ET_ZONE).date()
     groups, matches, live_teams = build_standings_and_matches(events, today_et)
+
     probabilities = fetch_title_odds()
     group_odds = fetch_group_odds()
+    annotate_upsets(matches, group_odds)
+
     news = fetch_news()
-    photos = fetch_photos(matches)
+    top_scorers = fetch_top_scorers(events)
+    next_match, remaining_fixtures = compute_next_match_and_fixtures(events)
+
+    if next_match:
+        venue = lookup_venue(next_match.get("city"))
+        if venue:
+            next_match["stadium"] = next_match["venue"] or venue["stadium"]
+            next_match["weather"] = fetch_weather(venue["lat"], venue["lon"])
+        else:
+            next_match["stadium"] = next_match["venue"]
+            next_match["weather"] = None
 
     output = {
         "updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -357,14 +512,19 @@ def main():
         "probabilities": probabilities,
         "groupOdds": group_odds,
         "news": news,
-        "highlights": photos,
+        "nextMatch": next_match,
+        "remainingFixtures": remaining_fixtures,
+        "topScorers": top_scorers,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote data.json: {len(matches)} matches today, {len(probabilities)} title-odds entries, "
-          f"group odds for {len(group_odds)} groups, {len(news)} headlines, {len(photos)} photos, "
+    upsets = sum(1 for m in matches if m.get("upset"))
+    print(f"Wrote data.json: {len(matches)} matches today ({upsets} upsets), "
+          f"{len(probabilities)} title-odds entries, group odds for {len(group_odds)} groups, "
+          f"{len(news)} headlines, {len(top_scorers)} top scorers, "
+          f"next match: {next_match['a'] + ' vs ' + next_match['b'] if next_match else 'none found'}, "
           f"{len(live_teams)} live teams")
 
 
