@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T02:21:59.107194Z",
+  "updated": "2026-06-14T02:28:17.490809Z",
   "matches": [
     {
       "id": "wc26-760420",
@@ -30,7 +30,7 @@
       "status": "live",
       "scoreA": 0,
       "scoreB": 1,
-      "minute": "58'"
+      "minute": "64'"
     }
   ],
   "groups": {
@@ -681,7 +681,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 12.6
+        "pct": 11.9
       },
       {
         "code": "Haiti",
@@ -753,7 +753,7 @@
       },
       {
         "code": "Iran",
-        "pct": 10.8
+        "pct": 10.9
       },
       {
         "code": "New Zealand",
@@ -856,10 +856,53 @@
     "Australia v Turkey: World Cup 2026 – live",
     "Haiti vs. Scotland LIVE: World Cup 2026 updates as McGinn scores opener",
     "Brazil battle back to draw with Morocco in 2026 World Cup clash: Live updates and reaction",
-    "Brazil 1-1 Morocco: World Cup 2026 – as it happened",
-    "Brazil’s Vinícius Júnior nets equalizer against Morocco | 2026 FIFA World Cup™",
+    "Brazil and Morocco share 1-1 draw in their World Cup opener – updates",
+    "Brazil vs Morocco Highlights | 2026 FIFA World Cup™",
     "United States vs Paraguay Highlights | 2026 FIFA World Cup™",
     "Ten observations after attending a World Cup match in the US"
   ],
-  "highlights": []
+  "highlights": [
+    {
+      "title": "Map World Cup appearances 2022 (enwiki).png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Map_World_Cup_appearances_2022_%28enwiki%29.png/960px-Map_World_Cup_appearances_2022_%28enwiki%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2022_(enwiki).png",
+      "attribution": "Guilherme Schilling",
+      "license": "CC0"
+    },
+    {
+      "title": "QAT-SUI 2026-06-13.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/QAT-SUI_2026-06-13.svg/960px-QAT-SUI_2026-06-13.svg.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:QAT-SUI_2026-06-13.svg",
+      "attribution": "S.A. Julio",
+      "license": "CC0"
+    },
+    {
+      "title": "BRA-MAR 2026-06-13.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/BRA-MAR_2026-06-13.svg/960px-BRA-MAR_2026-06-13.svg.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:BRA-MAR_2026-06-13.svg",
+      "attribution": "S.A. Julio",
+      "license": "CC0"
+    },
+    {
+      "title": "Map World Cup appearances 2014 (enwiki).png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Map_World_Cup_appearances_2014_%28enwiki%29.png/960px-Map_World_Cup_appearances_2014_%28enwiki%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2014_(enwiki).png",
+      "attribution": "Dufo",
+      "license": "Public domain"
+    },
+    {
+      "title": "Map World Cup appearances 2018 (enwiki).png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Map_World_Cup_appearances_2018_%28enwiki%29.png/960px-Map_World_Cup_appearances_2018_%28enwiki%29.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Map_World_Cup_appearances_2018_(enwiki).png",
+      "attribution": "Dufo",
+      "license": "Public domain"
+    },
+    {
+      "title": "World cup appearances 2014.png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/World_cup_appearances_2014.png/960px-World_cup_appearances_2014.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_cup_appearances_2014.png",
+      "attribution": "Dufo",
+      "license": "Public domain"
+    }
+  ]
 }
