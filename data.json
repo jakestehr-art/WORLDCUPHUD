@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T12:27:50.629696Z",
+  "updated": "2026-06-15T16:26:49.789426Z",
   "matches": [
     {
       "id": "wc26-760428",
@@ -7,7 +7,10 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Cape Verde",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "25'"
     },
     {
       "id": "wc26-760426",
@@ -564,15 +567,18 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Cape Verde",
+    "Spain"
+  ],
   "probabilities": [
+    {
+      "code": "France",
+      "pct": 16.4
+    },
     {
       "code": "Spain",
       "pct": 16.2
-    },
-    {
-      "code": "France",
-      "pct": 16.1
     },
     {
       "code": "Portugal",
@@ -580,7 +586,7 @@
     },
     {
       "code": "England",
-      "pct": 9.7
+      "pct": 9.8
     },
     {
       "code": "Argentina",
@@ -604,19 +610,19 @@
     },
     {
       "code": "Morocco",
-      "pct": 2.2
+      "pct": 2.4
     },
     {
       "code": "USA",
       "pct": 2.1
     },
     {
-      "code": "Japan",
-      "pct": 2.1
-    },
-    {
       "code": "Belgium",
       "pct": 1.9
+    },
+    {
+      "code": "Japan",
+      "pct": 1.8
     },
     {
       "code": "Colombia",
@@ -647,7 +653,7 @@
       },
       {
         "code": "South Africa",
-        "pct": 0.7
+        "pct": 0.8
       }
     ],
     "B": [
@@ -661,7 +667,7 @@
       },
       {
         "code": "Bosnia and Herzegovina",
-        "pct": 14.5
+        "pct": 15.5
       },
       {
         "code": "Qatar",
@@ -679,11 +685,11 @@
       },
       {
         "code": "Scotland",
-        "pct": 10.8
+        "pct": 11.2
       },
       {
         "code": "Haiti",
-        "pct": 0.5
+        "pct": 0.7
       }
     ],
     "D": [
@@ -693,7 +699,7 @@
       },
       {
         "code": "Australia",
-        "pct": 20.2
+        "pct": 19.6
       },
       {
         "code": "Turkey",
@@ -701,7 +707,7 @@
       },
       {
         "code": "Paraguay",
-        "pct": 2.1
+        "pct": 1.9
       }
     ],
     "E": [
@@ -711,69 +717,69 @@
       },
       {
         "code": "Ivory Coast",
-        "pct": 20.9
+        "pct": 20.0
       },
       {
         "code": "Ecuador",
-        "pct": 5.0
+        "pct": 4.5
       },
       {
         "code": "Curaçao",
-        "pct": 0.4
+        "pct": 0.2
       }
     ],
     "F": [
       {
         "code": "Netherlands",
-        "pct": 46.5
+        "pct": 44.5
       },
       {
         "code": "Japan",
-        "pct": 26.5
+        "pct": 28.5
       },
       {
         "code": "Sweden",
-        "pct": 25.5
+        "pct": 26.5
       },
       {
         "code": "Tunisia",
-        "pct": 1.2
+        "pct": 1.1
       }
     ],
     "G": [
       {
         "code": "Belgium",
-        "pct": 71.5
+        "pct": 73.5
       },
       {
         "code": "Egypt",
-        "pct": 16.5
+        "pct": 15.5
       },
       {
         "code": "Iran",
-        "pct": 7.4
+        "pct": 7.2
       },
       {
         "code": "New Zealand",
-        "pct": 3.3
+        "pct": 3.2
       }
     ],
     "H": [
       {
         "code": "Spain",
-        "pct": 78.5
+        "pct": 80.5
       },
       {
         "code": "Uruguay",
-        "pct": 19.5
-      },
-      {
-        "code": "Saudi Arabia",
-        "pct": 1.3
+        "pct": 17.5
       },
       {
         "code": "Cape Verde",
-        "pct": 1.2
+        "pct": 1.1
+      },
+      {
+        "code": "Saudi Arabia",
+        "pct": 1.1
       }
     ],
     "I": [
@@ -801,7 +807,7 @@
       },
       {
         "code": "Austria",
-        "pct": 19.0
+        "pct": 18.5
       },
       {
         "code": "Algeria",
@@ -809,21 +815,21 @@
       },
       {
         "code": "Jordan",
-        "pct": 1.1
+        "pct": 1.4
       }
     ],
     "K": [
       {
         "code": "Portugal",
-        "pct": 63.5
+        "pct": 64.0
       },
       {
         "code": "Colombia",
-        "pct": 32.5
+        "pct": 31.5
       },
       {
         "code": "DR Congo",
-        "pct": 2.6
+        "pct": 2.9
       },
       {
         "code": "Uzbekistan",
@@ -833,11 +839,11 @@
     "L": [
       {
         "code": "England",
-        "pct": 71.5
+        "pct": 68.5
       },
       {
         "code": "Croatia",
-        "pct": 21.5
+        "pct": 22.0
       },
       {
         "code": "Ghana",
@@ -850,37 +856,27 @@
     ]
   },
   "news": [
-    "World Cup 2026: Premier League stars score as Germany and Sweden dominate",
-    "U.S. has some of the best players in the world. They just aren’t playing in the 2026 World Cup",
-    "Saudi Arabia vs. Uruguay Prediction, Odds, Picks For World Cup Match",
-    "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
-    "World Cup 2026 LIVE: Fifa blamed after squad’s arrival to US delayed and Iran prepare for controversial opener",
-    "Political tension has undermined World Cup joy, says Iran striker",
-    "Sweden vs Tunisia Highlights | 2026 FIFA World Cup™",
-    "Sweden 5-1 Tunisia: World Cup 2026 – as it happened"
+    "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – as it happened",
+    "Belgium vs Egypt live updates: World Cup 2026 game latest news and buildup",
+    "Spain vs Cape Verde live updates: World Cup 2026 game latest score as Yamal left on bench",
+    "Spain v Cape Verde: World Cup 2026 – live",
+    "World Cup 2026 schedule, live updates: Spain opens vs. Cape Verde; Uruguay debuts as Iran arrive in U.S. to face New Zealand",
+    "World Cup 2026: Shaun Evans - Fifa seeks explanation over VAR official's hand gesture",
+    "World Cup 2026: Calls for World Cup VAR official Shaun Evans to be removed after 'white supremacist sign'",
+    "China didn’t qualify for the World Cup. But its fans still have a star: a card-wielding referee"
   ],
   "nextMatch": {
-    "a": "Spain",
-    "b": "Cape Verde",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-06-15T16:00:00Z",
-    "when": "Mon 12:00 PM ET",
-    "venue": "Mercedes-Benz Stadium",
-    "city": "Atlanta, Georgia",
-    "stadium": "Mercedes-Benz Stadium",
+    "a": "Belgium",
+    "b": "Egypt",
+    "grp": "GROUP G",
+    "kickoffISO": "2026-06-15T19:00:00Z",
+    "when": "Mon 3:00 PM ET",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "stadium": "Lumen Field",
     "weather": null
   },
   "remainingFixtures": {
-    "Spain": [
-      "vs Cape Verde (Jun 15)",
-      "vs Saudi Arabia (Jun 21)",
-      "vs Uruguay (Jun 26)"
-    ],
-    "Cape Verde": [
-      "vs Spain (Jun 15)",
-      "vs Uruguay (Jun 21)",
-      "vs Saudi Arabia (Jun 26)"
-    ],
     "Belgium": [
       "vs Egypt (Jun 15)",
       "vs Iran (Jun 21)",
@@ -1064,6 +1060,14 @@
     "Japan": [
       "vs Tunisia (Jun 21)",
       "vs Sweden (Jun 25)"
+    ],
+    "Spain": [
+      "vs Saudi Arabia (Jun 21)",
+      "vs Uruguay (Jun 26)"
+    ],
+    "Cape Verde": [
+      "vs Uruguay (Jun 21)",
+      "vs Saudi Arabia (Jun 26)"
     ],
     "Switzerland": [
       "vs Canada (Jun 24)"
