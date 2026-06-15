@@ -1,10 +1,14 @@
 """
 Pulls FIFA World Cup 2026 match data from ESPN's public (no-auth) scoreboard API,
 headlines from Google News RSS, tournament/group odds from Polymarket's public
-Gamma API, and host-city weather from Open-Meteo (also no-auth) — then writes
+Gamma API, host-city weather from Open-Meteo, fan photos from Wikimedia Commons,
+and fan reaction snippets from Reddit's public JSON endpoints — then writes
 data.json for the HUD page to consume.
 
-No API key or signup required for any of these sources.
+No API key or signup required for any of these sources. Note: Reddit's public
+.json endpoints sometimes block requests from GitHub Actions runner IPs
+regardless of User-Agent; fetch_fan_reactions() is written to fail gracefully
+(empty list) if that happens.
 """
 
 import json
@@ -20,6 +24,9 @@ SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.worl
 NEWS_URL = "https://news.google.com/rss/search"
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
 POLYMARKET_EVENTS_URL = "https://gamma-api.polymarket.com/events"
+COMMONS_API_URL = "https://commons.wikimedia.org/w/api.php"
+REDDIT_BASE_URL = "https://www.reddit.com"
+REDDIT_HEADERS = {"User-Agent": "WorldCupHUD/1.0 (GitHub Pages dashboard; non-commercial)"}
 
 # Group stage runs through June 27, 2026 — used to distinguish "remaining group
 # fixtures" from later knockout-round placeholder matches in the events feed.
@@ -482,6 +489,144 @@ def fetch_news(limit=8):
         return []
 
 
+def _search_commons(query, n):
+    """Plain-text Commons file search -> [{title, thumbUrl, pageUrl, attribution, license}, ...]."""
+    params = {
+        "action": "query",
+        "format": "json",
+        "generator": "search",
+        "gsrsearch": query,
+        "gsrnamespace": 6,  # File namespace
+        "gsrlimit": n,
+        "prop": "imageinfo",
+        "iiprop": "url|extmetadata|mime",
+        "iiurlwidth": 640,
+    }
+    resp = requests.get(
+        COMMONS_API_URL, params=params, timeout=15,
+        headers={"User-Agent": "WorldCupHUD/1.0 (GitHub Pages dashboard; non-commercial)"},
+    )
+    resp.raise_for_status()
+    pages = resp.json().get("query", {}).get("pages", {})
+
+    results = []
+    for page in pages.values():
+        info = (page.get("imageinfo") or [None])[0]
+        if not info or not info.get("mime", "").startswith("image/"):
+            continue
+        thumb = info.get("thumburl") or info.get("url")
+        if not thumb:
+            continue
+        meta = info.get("extmetadata", {})
+        artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
+        results.append({
+            "title": page.get("title", "").replace("File:", ""),
+            "thumbUrl": thumb,
+            "pageUrl": info.get("descriptionurl", ""),
+            "attribution": artist,
+            "license": meta.get("LicenseShortName", {}).get("value", ""),
+        })
+    return results
+
+
+def fetch_fan_photos(limit=8):
+    """Fan/crowd photos from around the world, from Wikimedia Commons (CC-licensed, attributed).
+
+    Uses broad "fans/supporters" searches rather than match-specific ones —
+    Commons' coverage of specific matchups is sparse, but fan/crowd photos
+    from host cities worldwide are more plentiful.
+    """
+    queries = [
+        "2026 FIFA World Cup fans celebration",
+        "2026 FIFA World Cup supporters",
+        "FIFA World Cup 2026 fan zone",
+        "2026 FIFA World Cup crowd stadium",
+    ]
+
+    seen = set()
+    results = []
+    for q in queries:
+        if len(results) >= limit:
+            break
+        try:
+            for photo in _search_commons(q, limit - len(results) + 2):
+                if photo["title"] not in seen:
+                    seen.add(photo["title"])
+                    results.append(photo)
+        except Exception as e:
+            print(f"Fan photo search failed for '{q}':", e)
+
+    return results[:limit]
+
+
+def fetch_fan_reactions(limit=10):
+    """Short fan-reaction snippets from r/soccer match-thread comments (no auth).
+
+    Finds today's "Match Thread" posts, pulls their top comments, and filters
+    down to short, clean, well-upvoted one-liners. Reddit's public JSON
+    endpoints sometimes block requests from GitHub Actions runner IPs
+    regardless of User-Agent — if that happens here, this returns [] and the
+    HUD falls back to its sample reactions.
+    """
+    try:
+        resp = requests.get(
+            f"{REDDIT_BASE_URL}/r/soccer/search.json",
+            params={"q": "Match Thread", "restrict_sr": 1, "sort": "new", "t": "day", "limit": 8},
+            headers=REDDIT_HEADERS, timeout=15,
+        )
+        resp.raise_for_status()
+        posts = resp.json().get("data", {}).get("children", [])
+    except Exception as e:
+        print("Fan reactions: thread search failed:", e)
+        return []
+
+    reactions = []
+    for post in posts:
+        p = post.get("data", {})
+        if p.get("over_18") or not p.get("id"):
+            continue
+        try:
+            cresp = requests.get(
+                f"{REDDIT_BASE_URL}/r/soccer/comments/{p['id']}.json",
+                params={"sort": "top", "limit": 20},
+                headers=REDDIT_HEADERS, timeout=15,
+            )
+            cresp.raise_for_status()
+            thread = cresp.json()
+            if len(thread) < 2:
+                continue
+            for c in thread[1].get("data", {}).get("children", []):
+                cd = c.get("data", {})
+                body = (cd.get("body") or "").strip()
+                if not body or body in ("[deleted]", "[removed]") or cd.get("stickied"):
+                    continue
+                if "http://" in body or "https://" in body:
+                    continue
+                if not (8 <= len(body) <= 180):
+                    continue
+                if cd.get("score", 0) < 5:
+                    continue
+                clean = re.sub(r"[*_`>#]", "", " ".join(body.split()))
+                reactions.append({"text": clean, "score": cd.get("score", 0)})
+        except Exception as e:
+            print(f"Fan reactions: comments fetch failed for post {p.get('id')}:", e)
+            continue
+
+        if len(reactions) >= limit * 3:
+            break
+
+    reactions.sort(key=lambda r: r["score"], reverse=True)
+    seen = set()
+    out = []
+    for r in reactions:
+        if r["text"] not in seen:
+            seen.add(r["text"])
+            out.append(r["text"])
+        if len(out) >= limit:
+            break
+    return out
+
+
 def main():
     events = fetch_events()
     today_et = datetime.now(ET_ZONE).date()
@@ -494,6 +639,8 @@ def main():
     news = fetch_news()
     top_scorers = fetch_top_scorers(events)
     next_match, remaining_fixtures = compute_next_match_and_fixtures(events)
+    fan_photos = fetch_fan_photos()
+    fan_reactions = fetch_fan_reactions()
 
     if next_match:
         venue = lookup_venue(next_match.get("city"))
@@ -515,6 +662,8 @@ def main():
         "nextMatch": next_match,
         "remainingFixtures": remaining_fixtures,
         "topScorers": top_scorers,
+        "fanPhotos": fan_photos,
+        "fanReactions": fan_reactions,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
@@ -524,6 +673,7 @@ def main():
     print(f"Wrote data.json: {len(matches)} matches today ({upsets} upsets), "
           f"{len(probabilities)} title-odds entries, group odds for {len(group_odds)} groups, "
           f"{len(news)} headlines, {len(top_scorers)} top scorers, "
+          f"{len(fan_photos)} fan photos, {len(fan_reactions)} fan reactions, "
           f"next match: {next_match['a'] + ' vs ' + next_match['b'] if next_match else 'none found'}, "
           f"{len(live_teams)} live teams")
 
