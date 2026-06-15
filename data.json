@@ -1,131 +1,1176 @@
 {
-  "updated": "2026-06-13T22:30:00Z",
+  "updated": "2026-06-15T12:27:50.629696Z",
   "matches": [
-    { "id": "wc26-a-mex-kor", "when": "12:00 PM", "grp": "GROUP A", "a": "Mexico", "b": "South Korea", "status": "ft", "scoreA": 1, "scoreB": 2, "upset": true, "favored": "Mexico", "favoredPct": 45.0 },
-    { "id": "wc26-b-sui-qat", "when": "3:00 PM", "grp": "GROUP B", "a": "Switzerland", "b": "Qatar", "status": "ft", "scoreA": 1, "scoreB": 1 },
-    { "id": "wc26-c-bra-mar", "when": "6:00 PM", "grp": "GROUP C", "a": "Brazil", "b": "Morocco", "status": "live", "scoreA": 1, "scoreB": 1, "minute": "90+2'" },
-    { "id": "wc26-c-hai-sco", "when": "9:00 PM", "grp": "GROUP C", "a": "Haiti", "b": "Scotland", "status": "upcoming" },
-    { "id": "wc26-d-aus-tur", "when": "12:00 AM", "grp": "GROUP D (6/14)", "a": "Australia", "b": "Türkiye", "status": "upcoming" }
+    {
+      "id": "wc26-760428",
+      "when": "12:00 PM",
+      "grp": "GROUP H",
+      "a": "Spain",
+      "b": "Cape Verde",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760426",
+      "when": "3:00 PM",
+      "grp": "GROUP G",
+      "a": "Belgium",
+      "b": "Egypt",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760429",
+      "when": "6:00 PM",
+      "grp": "GROUP H",
+      "a": "Saudi Arabia",
+      "b": "Uruguay",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760427",
+      "when": "9:00 PM",
+      "grp": "GROUP G",
+      "a": "Iran",
+      "b": "New Zealand",
+      "status": "upcoming"
+    }
   ],
   "groups": {
-    "A": { "teams": [
-      ["South Korea", 1, 1, 0, 0, 2, 1, 3],
-      ["Mexico", 1, 0, 0, 1, 1, 2, 0],
-      ["Czechia", 0, 0, 0, 0, 0, 0, 0],
-      ["South Africa", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "B": { "teams": [
-      ["Canada", 1, 0, 1, 0, 1, 1, 1],
-      ["Bosnia & Herzegovina", 1, 0, 1, 0, 1, 1, 1],
-      ["Switzerland", 1, 0, 1, 0, 1, 1, 1],
-      ["Qatar", 1, 0, 1, 0, 1, 1, 1]
-    ]},
-    "C": { "teams": [
-      ["Brazil", 0, 0, 0, 0, 0, 0, 0],
-      ["Morocco", 0, 0, 0, 0, 0, 0, 0],
-      ["Scotland", 0, 0, 0, 0, 0, 0, 0],
-      ["Haiti", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "D": { "teams": [
-      ["United States", 1, 1, 0, 0, 4, 1, 3],
-      ["Australia", 0, 0, 0, 0, 0, 0, 0],
-      ["Türkiye", 0, 0, 0, 0, 0, 0, 0],
-      ["Paraguay", 1, 0, 0, 1, 1, 4, 0]
-    ]},
-    "E": { "teams": [
-      ["Germany", 0, 0, 0, 0, 0, 0, 0],
-      ["Ivory Coast", 0, 0, 0, 0, 0, 0, 0],
-      ["Ecuador", 0, 0, 0, 0, 0, 0, 0],
-      ["Curaçao", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "F": { "teams": [
-      ["Netherlands", 0, 0, 0, 0, 0, 0, 0],
-      ["Japan", 0, 0, 0, 0, 0, 0, 0],
-      ["Sweden", 0, 0, 0, 0, 0, 0, 0],
-      ["Tunisia", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "G": { "teams": [
-      ["Belgium", 0, 0, 0, 0, 0, 0, 0],
-      ["Egypt", 0, 0, 0, 0, 0, 0, 0],
-      ["Iran", 0, 0, 0, 0, 0, 0, 0],
-      ["New Zealand", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "H": { "teams": [
-      ["Spain", 0, 0, 0, 0, 0, 0, 0],
-      ["Uruguay", 0, 0, 0, 0, 0, 0, 0],
-      ["Saudi Arabia", 0, 0, 0, 0, 0, 0, 0],
-      ["Cape Verde", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "I": { "teams": [
-      ["France", 0, 0, 0, 0, 0, 0, 0],
-      ["Norway", 0, 0, 0, 0, 0, 0, 0],
-      ["Senegal", 0, 0, 0, 0, 0, 0, 0],
-      ["Iraq", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "J": { "teams": [
-      ["Argentina", 0, 0, 0, 0, 0, 0, 0],
-      ["Austria", 0, 0, 0, 0, 0, 0, 0],
-      ["Algeria", 0, 0, 0, 0, 0, 0, 0],
-      ["Jordan", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "K": { "teams": [
-      ["Portugal", 0, 0, 0, 0, 0, 0, 0],
-      ["Colombia", 0, 0, 0, 0, 0, 0, 0],
-      ["Uzbekistan", 0, 0, 0, 0, 0, 0, 0],
-      ["DR Congo", 0, 0, 0, 0, 0, 0, 0]
-    ]},
-    "L": { "teams": [
-      ["England", 0, 0, 0, 0, 0, 0, 0],
-      ["Croatia", 0, 0, 0, 0, 0, 0, 0],
-      ["Ghana", 0, 0, 0, 0, 0, 0, 0],
-      ["Panama", 0, 0, 0, 0, 0, 0, 0]
-    ]}
+    "A": {
+      "teams": [
+        [
+          "Mexico",
+          1,
+          1,
+          0,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          "South Africa",
+          1,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          "South Korea",
+          1,
+          1,
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          "Czechia",
+          1,
+          0,
+          0,
+          1,
+          1,
+          2,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "teams": [
+        [
+          "Canada",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Bosnia and Herzegovina",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Qatar",
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          "Switzerland",
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "C": {
+      "teams": [
+        [
+          "Brazil",
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          "Morocco",
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          "Haiti",
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          "Scotland",
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "D": {
+      "teams": [
+        [
+          "United States",
+          1,
+          1,
+          0,
+          0,
+          4,
+          1,
+          3
+        ],
+        [
+          "Paraguay",
+          1,
+          0,
+          0,
+          1,
+          1,
+          4,
+          0
+        ],
+        [
+          "Australia",
+          1,
+          1,
+          0,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          "Turkey",
+          1,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0
+        ]
+      ]
+    },
+    "E": {
+      "teams": [
+        [
+          "Germany",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Curacao",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Ivory Coast",
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          "Ecuador",
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "F": {
+      "teams": [
+        [
+          "Netherlands",
+          1,
+          0,
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          "Japan",
+          1,
+          0,
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          "Sweden",
+          1,
+          1,
+          0,
+          0,
+          5,
+          1,
+          3
+        ],
+        [
+          "Tunisia",
+          1,
+          0,
+          0,
+          1,
+          1,
+          5,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "teams": [
+        [
+          "Belgium",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Egypt",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Iran",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "New Zealand",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "H": {
+      "teams": [
+        [
+          "Spain",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Cape Verde",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Saudi Arabia",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Uruguay",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "I": {
+      "teams": [
+        [
+          "France",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Senegal",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Iraq",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Norway",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "J": {
+      "teams": [
+        [
+          "Argentina",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Algeria",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Austria",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Jordan",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "K": {
+      "teams": [
+        [
+          "Portugal",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "DR Congo",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Uzbekistan",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Colombia",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "L": {
+      "teams": [
+        [
+          "England",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Croatia",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Ghana",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Panama",
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
   },
-  "liveTeams": ["Brazil", "Morocco"],
+  "liveTeams": [],
   "probabilities": [
-    {"code": "Spain", "pct": 17.0},
-    {"code": "France", "pct": 16.0},
-    {"code": "Portugal", "pct": 11.3},
-    {"code": "England", "pct": 10.9},
-    {"code": "Argentina", "pct": 8.8},
-    {"code": "Brazil", "pct": 8.3}
+    {
+      "code": "Spain",
+      "pct": 16.2
+    },
+    {
+      "code": "France",
+      "pct": 16.1
+    },
+    {
+      "code": "Portugal",
+      "pct": 10.8
+    },
+    {
+      "code": "England",
+      "pct": 9.7
+    },
+    {
+      "code": "Argentina",
+      "pct": 8.1
+    },
+    {
+      "code": "Brazil",
+      "pct": 6.7
+    },
+    {
+      "code": "Germany",
+      "pct": 6.2
+    },
+    {
+      "code": "Netherlands",
+      "pct": 5.1
+    },
+    {
+      "code": "Norway",
+      "pct": 2.5
+    },
+    {
+      "code": "Morocco",
+      "pct": 2.2
+    },
+    {
+      "code": "USA",
+      "pct": 2.1
+    },
+    {
+      "code": "Japan",
+      "pct": 2.1
+    },
+    {
+      "code": "Belgium",
+      "pct": 1.9
+    },
+    {
+      "code": "Colombia",
+      "pct": 1.6
+    },
+    {
+      "code": "Mexico",
+      "pct": 1.4
+    },
+    {
+      "code": "Switzerland",
+      "pct": 0.9
+    }
   ],
   "groupOdds": {
     "A": [
-      {"code": "Mexico", "pct": 45.0},
-      {"code": "South Korea", "pct": 34.5},
-      {"code": "Czechia", "pct": 12.0},
-      {"code": "South Africa", "pct": 8.5}
+      {
+        "code": "Mexico",
+        "pct": 63.5
+      },
+      {
+        "code": "South Korea",
+        "pct": 33.5
+      },
+      {
+        "code": "Czechia",
+        "pct": 3.5
+      },
+      {
+        "code": "South Africa",
+        "pct": 0.7
+      }
+    ],
+    "B": [
+      {
+        "code": "Switzerland",
+        "pct": 44.5
+      },
+      {
+        "code": "Canada",
+        "pct": 36.5
+      },
+      {
+        "code": "Bosnia and Herzegovina",
+        "pct": 14.5
+      },
+      {
+        "code": "Qatar",
+        "pct": 3.4
+      }
+    ],
+    "C": [
+      {
+        "code": "Brazil",
+        "pct": 59.5
+      },
+      {
+        "code": "Morocco",
+        "pct": 29.5
+      },
+      {
+        "code": "Scotland",
+        "pct": 10.8
+      },
+      {
+        "code": "Haiti",
+        "pct": 0.5
+      }
+    ],
+    "D": [
+      {
+        "code": "USA",
+        "pct": 70.5
+      },
+      {
+        "code": "Australia",
+        "pct": 20.2
+      },
+      {
+        "code": "Turkey",
+        "pct": 8.5
+      },
+      {
+        "code": "Paraguay",
+        "pct": 2.1
+      }
+    ],
+    "E": [
+      {
+        "code": "Germany",
+        "pct": 75.5
+      },
+      {
+        "code": "Ivory Coast",
+        "pct": 20.9
+      },
+      {
+        "code": "Ecuador",
+        "pct": 5.0
+      },
+      {
+        "code": "Curaçao",
+        "pct": 0.4
+      }
+    ],
+    "F": [
+      {
+        "code": "Netherlands",
+        "pct": 46.5
+      },
+      {
+        "code": "Japan",
+        "pct": 26.5
+      },
+      {
+        "code": "Sweden",
+        "pct": 25.5
+      },
+      {
+        "code": "Tunisia",
+        "pct": 1.2
+      }
+    ],
+    "G": [
+      {
+        "code": "Belgium",
+        "pct": 71.5
+      },
+      {
+        "code": "Egypt",
+        "pct": 16.5
+      },
+      {
+        "code": "Iran",
+        "pct": 7.4
+      },
+      {
+        "code": "New Zealand",
+        "pct": 3.3
+      }
+    ],
+    "H": [
+      {
+        "code": "Spain",
+        "pct": 78.5
+      },
+      {
+        "code": "Uruguay",
+        "pct": 19.5
+      },
+      {
+        "code": "Saudi Arabia",
+        "pct": 1.3
+      },
+      {
+        "code": "Cape Verde",
+        "pct": 1.2
+      }
+    ],
+    "I": [
+      {
+        "code": "France",
+        "pct": 66.5
+      },
+      {
+        "code": "Norway",
+        "pct": 23.5
+      },
+      {
+        "code": "Senegal",
+        "pct": 9.5
+      },
+      {
+        "code": "Iraq",
+        "pct": 0.8
+      }
+    ],
+    "J": [
+      {
+        "code": "Argentina",
+        "pct": 71.5
+      },
+      {
+        "code": "Austria",
+        "pct": 19.0
+      },
+      {
+        "code": "Algeria",
+        "pct": 8.6
+      },
+      {
+        "code": "Jordan",
+        "pct": 1.1
+      }
+    ],
+    "K": [
+      {
+        "code": "Portugal",
+        "pct": 63.5
+      },
+      {
+        "code": "Colombia",
+        "pct": 32.5
+      },
+      {
+        "code": "DR Congo",
+        "pct": 2.6
+      },
+      {
+        "code": "Uzbekistan",
+        "pct": 2.4
+      }
+    ],
+    "L": [
+      {
+        "code": "England",
+        "pct": 71.5
+      },
+      {
+        "code": "Croatia",
+        "pct": 21.5
+      },
+      {
+        "code": "Ghana",
+        "pct": 4.2
+      },
+      {
+        "code": "Panama",
+        "pct": 2.6
+      }
     ]
   },
+  "news": [
+    "World Cup 2026: Premier League stars score as Germany and Sweden dominate",
+    "U.S. has some of the best players in the world. They just aren’t playing in the 2026 World Cup",
+    "Saudi Arabia vs. Uruguay Prediction, Odds, Picks For World Cup Match",
+    "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
+    "World Cup 2026 LIVE: Fifa blamed after squad’s arrival to US delayed and Iran prepare for controversial opener",
+    "Political tension has undermined World Cup joy, says Iran striker",
+    "Sweden vs Tunisia Highlights | 2026 FIFA World Cup™",
+    "Sweden 5-1 Tunisia: World Cup 2026 – as it happened"
+  ],
   "nextMatch": {
-    "a": "Haiti", "b": "Scotland", "grp": "GROUP C",
-    "kickoffISO": "2026-06-13T21:00:00Z", "when": "Sat 9:00 PM ET",
-    "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "stadium": "Mercedes-Benz Stadium",
-    "weather": {"tempF": 88, "windMph": 7, "description": "Partly cloudy"}
+    "a": "Spain",
+    "b": "Cape Verde",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-06-15T16:00:00Z",
+    "when": "Mon 12:00 PM ET",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "stadium": "Mercedes-Benz Stadium",
+    "weather": null
   },
   "remainingFixtures": {
-    "Mexico": ["vs Czechia (Jun 18)", "vs South Africa (Jun 24)"],
-    "South Korea": ["vs South Africa (Jun 18)", "vs Czechia (Jun 24)"],
-    "Czechia": ["vs Mexico (Jun 18)", "vs South Korea (Jun 24)"],
-    "South Africa": ["vs South Korea (Jun 18)", "vs Mexico (Jun 24)"]
+    "Spain": [
+      "vs Cape Verde (Jun 15)",
+      "vs Saudi Arabia (Jun 21)",
+      "vs Uruguay (Jun 26)"
+    ],
+    "Cape Verde": [
+      "vs Spain (Jun 15)",
+      "vs Uruguay (Jun 21)",
+      "vs Saudi Arabia (Jun 26)"
+    ],
+    "Belgium": [
+      "vs Egypt (Jun 15)",
+      "vs Iran (Jun 21)",
+      "vs New Zealand (Jun 26)"
+    ],
+    "Egypt": [
+      "vs Belgium (Jun 15)",
+      "vs New Zealand (Jun 21)",
+      "vs Iran (Jun 26)"
+    ],
+    "Saudi Arabia": [
+      "vs Uruguay (Jun 15)",
+      "vs Spain (Jun 21)",
+      "vs Cape Verde (Jun 26)"
+    ],
+    "Uruguay": [
+      "vs Saudi Arabia (Jun 15)",
+      "vs Cape Verde (Jun 21)",
+      "vs Spain (Jun 26)"
+    ],
+    "Iran": [
+      "vs New Zealand (Jun 15)",
+      "vs Belgium (Jun 21)",
+      "vs Egypt (Jun 26)"
+    ],
+    "New Zealand": [
+      "vs Iran (Jun 15)",
+      "vs Egypt (Jun 21)",
+      "vs Belgium (Jun 26)"
+    ],
+    "France": [
+      "vs Senegal (Jun 16)",
+      "vs Iraq (Jun 22)",
+      "vs Norway (Jun 26)"
+    ],
+    "Senegal": [
+      "vs France (Jun 16)",
+      "vs Norway (Jun 22)",
+      "vs Iraq (Jun 26)"
+    ],
+    "Iraq": [
+      "vs Norway (Jun 16)",
+      "vs France (Jun 22)",
+      "vs Senegal (Jun 26)"
+    ],
+    "Norway": [
+      "vs Iraq (Jun 16)",
+      "vs Senegal (Jun 22)",
+      "vs France (Jun 26)"
+    ],
+    "Argentina": [
+      "vs Algeria (Jun 16)",
+      "vs Austria (Jun 22)"
+    ],
+    "Algeria": [
+      "vs Argentina (Jun 16)",
+      "vs Jordan (Jun 22)"
+    ],
+    "Austria": [
+      "vs Jordan (Jun 17)",
+      "vs Argentina (Jun 22)"
+    ],
+    "Jordan": [
+      "vs Austria (Jun 17)",
+      "vs Algeria (Jun 22)"
+    ],
+    "Portugal": [
+      "vs DR Congo (Jun 17)",
+      "vs Uzbekistan (Jun 23)",
+      "vs Colombia (Jun 27)"
+    ],
+    "DR Congo": [
+      "vs Portugal (Jun 17)",
+      "vs Colombia (Jun 23)",
+      "vs Uzbekistan (Jun 27)"
+    ],
+    "England": [
+      "vs Croatia (Jun 17)",
+      "vs Ghana (Jun 23)",
+      "vs Panama (Jun 27)"
+    ],
+    "Croatia": [
+      "vs England (Jun 17)",
+      "vs Panama (Jun 23)",
+      "vs Ghana (Jun 27)"
+    ],
+    "Ghana": [
+      "vs Panama (Jun 17)",
+      "vs England (Jun 23)",
+      "vs Croatia (Jun 27)"
+    ],
+    "Panama": [
+      "vs Ghana (Jun 17)",
+      "vs Croatia (Jun 23)",
+      "vs England (Jun 27)"
+    ],
+    "Uzbekistan": [
+      "vs Colombia (Jun 17)",
+      "vs Portugal (Jun 23)",
+      "vs DR Congo (Jun 27)"
+    ],
+    "Colombia": [
+      "vs Uzbekistan (Jun 17)",
+      "vs DR Congo (Jun 23)",
+      "vs Portugal (Jun 27)"
+    ],
+    "Czechia": [
+      "vs South Africa (Jun 18)",
+      "vs Mexico (Jun 24)"
+    ],
+    "South Africa": [
+      "vs Czechia (Jun 18)",
+      "vs South Korea (Jun 24)"
+    ],
+    "Canada": [
+      "vs Qatar (Jun 18)",
+      "vs Switzerland (Jun 24)"
+    ],
+    "Qatar": [
+      "vs Canada (Jun 18)"
+    ],
+    "Mexico": [
+      "vs South Korea (Jun 18)",
+      "vs Czechia (Jun 24)"
+    ],
+    "South Korea": [
+      "vs Mexico (Jun 18)",
+      "vs South Africa (Jun 24)"
+    ],
+    "United States": [
+      "vs Australia (Jun 19)",
+      "vs Turkey (Jun 25)"
+    ],
+    "Australia": [
+      "vs United States (Jun 19)",
+      "vs Paraguay (Jun 25)"
+    ],
+    "Scotland": [
+      "vs Morocco (Jun 19)",
+      "vs Brazil (Jun 24)"
+    ],
+    "Morocco": [
+      "vs Scotland (Jun 19)",
+      "vs Haiti (Jun 24)"
+    ],
+    "Brazil": [
+      "vs Haiti (Jun 19)",
+      "vs Scotland (Jun 24)"
+    ],
+    "Haiti": [
+      "vs Brazil (Jun 19)",
+      "vs Morocco (Jun 24)"
+    ],
+    "Turkey": [
+      "vs Paraguay (Jun 19)",
+      "vs United States (Jun 25)"
+    ],
+    "Paraguay": [
+      "vs Turkey (Jun 19)",
+      "vs Australia (Jun 25)"
+    ],
+    "Netherlands": [
+      "vs Sweden (Jun 20)",
+      "vs Tunisia (Jun 25)"
+    ],
+    "Sweden": [
+      "vs Netherlands (Jun 20)",
+      "vs Japan (Jun 25)"
+    ],
+    "Germany": [
+      "vs Ivory Coast (Jun 20)",
+      "vs Ecuador (Jun 25)"
+    ],
+    "Ivory Coast": [
+      "vs Germany (Jun 20)"
+    ],
+    "Tunisia": [
+      "vs Japan (Jun 21)",
+      "vs Netherlands (Jun 25)"
+    ],
+    "Japan": [
+      "vs Tunisia (Jun 21)",
+      "vs Sweden (Jun 25)"
+    ],
+    "Switzerland": [
+      "vs Canada (Jun 24)"
+    ],
+    "Ecuador": [
+      "vs Germany (Jun 25)"
+    ]
   },
   "topScorers": [
-    {"player": "Son Heung-min", "team": "South Korea", "goals": 2},
-    {"player": "Folarin Balogun", "team": "United States", "goals": 2},
-    {"player": "Raul Jimenez", "team": "Mexico", "goals": 1}
+    {
+      "player": "Folarin Balogun",
+      "team": "United States",
+      "goals": 2
+    },
+    {
+      "player": "Yasin Ayari",
+      "team": "Sweden",
+      "goals": 2
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Raúl Jiménez",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Ladislav Krejcí",
+      "team": "Czechia",
+      "goals": 1
+    },
+    {
+      "player": "Hwang In-Beom",
+      "team": "South Korea",
+      "goals": 1
+    },
+    {
+      "player": "Oh Hyeon-Gyu",
+      "team": "South Korea",
+      "goals": 1
+    },
+    {
+      "player": "Jovo Lukic",
+      "team": "Bosnia-Herzegovina",
+      "goals": 1
+    }
   ],
-  "fanPhotos": [],
-  "fanReactions": [
-    "VAR strikes again, somehow",
-    "That keeper has been unbelievable all tournament",
-    "Group of death lives up to the name",
-    "This atmosphere is incredible, hosts are loving it"
+  "fanPhotos": [
+    {
+      "title": "FIFA Fan Festival CDMX - 120626 - 58.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg/960px-FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "FIFA Fan Festival CDMX - 130626 - 03.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "FIFA Fan Festival CDMX - 130626 - 47.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "FIFA Fan Festival CDMX - 130626 - 53.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "I proudly say that I am a supporter of Morocco- FIFA world cup 2026.png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/I_proudly_say_that_I_am_a_supporter_of_Morocco-_FIFA_world_cup_2026.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:I_proudly_say_that_I_am_a_supporter_of_Morocco-_FIFA_world_cup_2026.png",
+      "attribution": "",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "title": "Protestas por el inicio de la Copa Mundial de Fútbol de 2026 29.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg/960px-Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333328796).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333328796).jpg",
+      "attribution": "",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333329106).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333329106).jpg",
+      "attribution": "",
+      "license": "CC BY 4.0"
+    }
   ],
-  "news": [
-    "Brazilian supporters pack New York ahead of Group C opener against Morocco at MetLife Stadium",
-    "USMNT open the tournament with a 4-1 win over Paraguay behind a Folarin Balogun brace",
-    "South Korea pull off Group A upset, coming from behind to beat Mexico 2-1",
-    "Scotland's traveling fans arrive in force for their first World Cup appearance in decades"
-  ]
+  "fanReactions": []
 }
