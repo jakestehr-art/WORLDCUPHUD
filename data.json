@@ -1,41 +1,36 @@
 {
-  "updated": "2026-06-14T20:54:32.206096Z",
+  "updated": "2026-06-15T12:00:02.933208Z",
   "matches": [
     {
-      "id": "wc26-760421",
-      "when": "12:00 AM",
-      "grp": "GROUP D",
-      "a": "Australia",
-      "b": "Turkey",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760425",
-      "when": "4:00 PM",
-      "grp": "GROUP F",
-      "a": "Netherlands",
-      "b": "Japan",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "45'+3'"
-    },
-    {
-      "id": "wc26-760423",
-      "when": "7:00 PM",
-      "grp": "GROUP E",
-      "a": "Ivory Coast",
-      "b": "Ecuador",
+      "id": "wc26-760428",
+      "when": "12:00 PM",
+      "grp": "GROUP H",
+      "a": "Spain",
+      "b": "Cape Verde",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760424",
-      "when": "10:00 PM",
-      "grp": "GROUP F",
-      "a": "Sweden",
-      "b": "Tunisia",
+      "id": "wc26-760426",
+      "when": "3:00 PM",
+      "grp": "GROUP G",
+      "a": "Belgium",
+      "b": "Egypt",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760429",
+      "when": "6:00 PM",
+      "grp": "GROUP H",
+      "a": "Saudi Arabia",
+      "b": "Uruguay",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760427",
+      "when": "9:00 PM",
+      "grp": "GROUP G",
+      "a": "Iran",
+      "b": "New Zealand",
       "status": "upcoming"
     }
   ],
@@ -240,22 +235,22 @@
         ],
         [
           "Ivory Coast",
+          1,
+          1,
           0,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0
+          3
         ],
         [
           "Ecuador",
+          1,
           0,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
+          1,
           0
         ]
       ]
@@ -264,42 +259,42 @@
       "teams": [
         [
           "Netherlands",
+          1,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          2,
+          2,
+          1
         ],
         [
           "Japan",
+          1,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          2,
+          2,
+          1
         ],
         [
           "Sweden",
+          1,
+          1,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          5,
+          1,
+          3
         ],
         [
           "Tunisia",
+          1,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          5,
           0
         ]
       ]
@@ -569,22 +564,19 @@
       ]
     }
   },
-  "liveTeams": [
-    "Japan",
-    "Netherlands"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 16.4
+      "pct": 16.2
     },
     {
       "code": "France",
-      "pct": 16.4
+      "pct": 16.1
     },
     {
       "code": "Portugal",
-      "pct": 11.2
+      "pct": 10.8
     },
     {
       "code": "England",
@@ -592,11 +584,11 @@
     },
     {
       "code": "Argentina",
-      "pct": 7.8
+      "pct": 8.1
     },
     {
       "code": "Brazil",
-      "pct": 6.8
+      "pct": 6.7
     },
     {
       "code": "Germany",
@@ -604,23 +596,23 @@
     },
     {
       "code": "Netherlands",
-      "pct": 5.5
+      "pct": 5.1
     },
     {
       "code": "Norway",
       "pct": 2.5
     },
     {
+      "code": "Morocco",
+      "pct": 2.2
+    },
+    {
       "code": "USA",
       "pct": 2.1
     },
     {
-      "code": "Morocco",
-      "pct": 2.1
-    },
-    {
       "code": "Japan",
-      "pct": 1.9
+      "pct": 2.1
     },
     {
       "code": "Belgium",
@@ -643,7 +635,7 @@
     "A": [
       {
         "code": "Mexico",
-        "pct": 62.5
+        "pct": 63.5
       },
       {
         "code": "South Korea",
@@ -651,7 +643,7 @@
       },
       {
         "code": "Czechia",
-        "pct": 3.5
+        "pct": 3.6
       },
       {
         "code": "South Africa",
@@ -661,7 +653,7 @@
     "B": [
       {
         "code": "Switzerland",
-        "pct": 46.5
+        "pct": 44.5
       },
       {
         "code": "Canada",
@@ -669,11 +661,11 @@
       },
       {
         "code": "Bosnia and Herzegovina",
-        "pct": 15.5
+        "pct": 14.5
       },
       {
         "code": "Qatar",
-        "pct": 2.4
+        "pct": 2.5
       }
     ],
     "C": [
@@ -683,21 +675,21 @@
       },
       {
         "code": "Morocco",
-        "pct": 28.5
+        "pct": 29.5
       },
       {
         "code": "Scotland",
-        "pct": 10.1
+        "pct": 10.5
       },
       {
         "code": "Haiti",
-        "pct": 0.6
+        "pct": 0.5
       }
     ],
     "D": [
       {
         "code": "USA",
-        "pct": 71.5
+        "pct": 70.5
       },
       {
         "code": "Australia",
@@ -705,53 +697,53 @@
       },
       {
         "code": "Turkey",
-        "pct": 7.5
+        "pct": 8.0
       },
       {
         "code": "Paraguay",
-        "pct": 1.6
+        "pct": 2.1
       }
     ],
     "E": [
       {
         "code": "Germany",
-        "pct": 70.5
-      },
-      {
-        "code": "Ecuador",
-        "pct": 19.5
+        "pct": 74.5
       },
       {
         "code": "Ivory Coast",
-        "pct": 10.2
+        "pct": 20.9
+      },
+      {
+        "code": "Ecuador",
+        "pct": 4.5
       },
       {
         "code": "Curaçao",
-        "pct": 0.1
+        "pct": 0.4
       }
     ],
     "F": [
       {
         "code": "Netherlands",
-        "pct": 55.5
+        "pct": 46.5
       },
       {
         "code": "Japan",
-        "pct": 27.5
+        "pct": 26.5
       },
       {
         "code": "Sweden",
-        "pct": 14.5
+        "pct": 25.5
       },
       {
         "code": "Tunisia",
-        "pct": 4.0
+        "pct": 1.2
       }
     ],
     "G": [
       {
         "code": "Belgium",
-        "pct": 70.5
+        "pct": 71.5
       },
       {
         "code": "Egypt",
@@ -759,11 +751,11 @@
       },
       {
         "code": "Iran",
-        "pct": 10.9
+        "pct": 7.0
       },
       {
         "code": "New Zealand",
-        "pct": 2.9
+        "pct": 3.2
       }
     ],
     "H": [
@@ -773,29 +765,29 @@
       },
       {
         "code": "Uruguay",
-        "pct": 19.0
+        "pct": 19.5
       },
       {
         "code": "Saudi Arabia",
-        "pct": 2.0
+        "pct": 1.3
       },
       {
         "code": "Cape Verde",
-        "pct": 1.1
+        "pct": 1.2
       }
     ],
     "I": [
       {
         "code": "France",
-        "pct": 68.0
+        "pct": 66.5
       },
       {
         "code": "Norway",
-        "pct": 23.0
+        "pct": 23.5
       },
       {
         "code": "Senegal",
-        "pct": 10.0
+        "pct": 9.5
       },
       {
         "code": "Iraq",
@@ -805,25 +797,25 @@
     "J": [
       {
         "code": "Argentina",
-        "pct": 72.0
+        "pct": 71.5
       },
       {
         "code": "Austria",
-        "pct": 19.5
+        "pct": 19.0
       },
       {
         "code": "Algeria",
-        "pct": 8.9
+        "pct": 8.5
       },
       {
         "code": "Jordan",
-        "pct": 1.1
+        "pct": 1.2
       }
     ],
     "K": [
       {
         "code": "Portugal",
-        "pct": 62.0
+        "pct": 63.5
       },
       {
         "code": "Colombia",
@@ -831,17 +823,17 @@
       },
       {
         "code": "DR Congo",
-        "pct": 3.5
+        "pct": 2.9
       },
       {
         "code": "Uzbekistan",
-        "pct": 2.5
+        "pct": 2.4
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 71.0
+        "pct": 71.5
       },
       {
         "code": "Croatia",
@@ -849,54 +841,36 @@
       },
       {
         "code": "Ghana",
-        "pct": 4.4
+        "pct": 4.2
       },
       {
         "code": "Panama",
-        "pct": 2.5
+        "pct": 2.6
       }
     ]
   },
   "news": [
-    "Netherlands v Japan: World Cup 2026 – live",
-    "LIVE: Netherlands vs Japan – World Cup 2026",
-    "Germany in seventh heaven after big win over Curacao at 2026 World Cup: Live updates and reaction",
-    "World Cup scores, results: Brazil and Morocco battle to 1-1 draw while Australia stuns Türkiye in the nightcap",
-    "World Cup 2026: Has Vinicius Jr brilliance just papered over the Brazilian cracks?",
-    "World Cup 2026: Ugly win has Scotland sitting pretty but what next?",
-    "2026 World Cup Opening Ceremonies: How to Watch Today, Who is Performing, Start Times",
-    "Shakira, Burna Boy, J Balvin & More Kick Off 2026 World Cup Opening Ceremony in Mexico: Best Moments"
+    "World Cup hydration breaks - who are the winners and losers?",
+    "It's been a thrilling start to the World Cup. Here are the highlights and what's next",
+    "Sweden 5-1 Tunisia: World Cup 2026 – as it happened",
+    "World Cup 2026: What is football's 'Snicko' and how does it work?",
+    "Sweden beats Tunisia: Did Ayari score the best World Cup goal so far? Is this soccer’s snicko?",
+    "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
+    "Political tension has undermined World Cup joy, says Iran striker",
+    "World Cup 2026 LIVE: Fifa blamed after squad’s arrival to US delayed and Iran prepare for controversial opener"
   ],
   "nextMatch": {
-    "a": "Ivory Coast",
-    "b": "Ecuador",
-    "grp": "GROUP E",
-    "kickoffISO": "2026-06-14T23:00:00Z",
-    "when": "Sun 7:00 PM ET",
-    "venue": "Lincoln Financial Field",
-    "city": "Philadelphia, Pennsylvania",
-    "stadium": "Lincoln Financial Field",
+    "a": "Spain",
+    "b": "Cape Verde",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-06-15T16:00:00Z",
+    "when": "Mon 12:00 PM ET",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "stadium": "Mercedes-Benz Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Ivory Coast": [
-      "vs Ecuador (Jun 14)",
-      "vs Germany (Jun 20)"
-    ],
-    "Ecuador": [
-      "vs Ivory Coast (Jun 14)",
-      "vs Germany (Jun 25)"
-    ],
-    "Sweden": [
-      "vs Tunisia (Jun 14)",
-      "vs Netherlands (Jun 20)",
-      "vs Japan (Jun 25)"
-    ],
-    "Tunisia": [
-      "vs Sweden (Jun 14)",
-      "vs Japan (Jun 21)",
-      "vs Netherlands (Jun 25)"
-    ],
     "Spain": [
       "vs Cape Verde (Jun 15)",
       "vs Saudi Arabia (Jun 21)",
@@ -1072,9 +1046,20 @@
       "vs Sweden (Jun 20)",
       "vs Tunisia (Jun 25)"
     ],
+    "Sweden": [
+      "vs Netherlands (Jun 20)",
+      "vs Japan (Jun 25)"
+    ],
     "Germany": [
       "vs Ivory Coast (Jun 20)",
       "vs Ecuador (Jun 25)"
+    ],
+    "Ivory Coast": [
+      "vs Germany (Jun 20)"
+    ],
+    "Tunisia": [
+      "vs Japan (Jun 21)",
+      "vs Netherlands (Jun 25)"
     ],
     "Japan": [
       "vs Tunisia (Jun 21)",
@@ -1082,12 +1067,20 @@
     ],
     "Switzerland": [
       "vs Canada (Jun 24)"
+    ],
+    "Ecuador": [
+      "vs Germany (Jun 25)"
     ]
   },
   "topScorers": [
     {
       "player": "Folarin Balogun",
       "team": "United States",
+      "goals": 2
+    },
+    {
+      "player": "Yasin Ayari",
+      "team": "Sweden",
       "goals": 2
     },
     {
@@ -1118,11 +1111,6 @@
     {
       "player": "Jovo Lukic",
       "team": "Bosnia-Herzegovina",
-      "goals": 1
-    },
-    {
-      "player": "Cyle Larin",
-      "team": "Canada",
       "goals": 1
     }
   ]
