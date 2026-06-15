@@ -103,6 +103,11 @@
     background: var(--text); color: var(--bg); border-right:1px solid rgba(10,10,12,.12);
     box-shadow: 14px 0 14px -8px var(--text);
   }
+  .ticker-wrap.reactions{ background: #11141a; padding: 10px 0; }
+  .ticker-wrap.reactions .ticker-tag{
+    background: #11141a; color: var(--blue); border-right:1px solid var(--line);
+    box-shadow: 14px 0 14px -8px #11141a;
+  }
   .ticker-track{
     display:inline-flex; align-items:center; gap:36px;
     padding-left: 130px;
@@ -130,6 +135,13 @@
     letter-spacing:0.08em; margin-right:8px; color:#fff;
     background: var(--red); padding:2px 7px; border-radius:2px;
   }
+
+  .reaction-item{
+    font-family:'Inter',sans-serif; font-size:13px; font-weight:500; color: var(--text);
+    padding: 3px 14px; font-style: italic;
+  }
+  .reaction-item::before{ content:'\201C'; color: var(--blue); font-weight:700; margin-right:2px; font-style:normal; }
+  .reaction-item::after{ content:'\201D'; color: var(--blue); font-weight:700; margin-left:2px; font-style:normal; }
 
   /* ============ LAYOUT ============ */
   .dash{
@@ -280,6 +292,20 @@
     text-transform:uppercase; letter-spacing:0.1em; margin-top:2px;
   }
 
+  /* ---- Fan Photos strip ---- */
+  .fanphotos{ grid-column: 1 / -1; }
+  .fanphoto-row{ display:flex; overflow-x:auto; gap:10px; padding:10px; }
+  .fanphoto-item{
+    flex: 0 0 200px; display:block; border:1px solid var(--line); border-radius:4px;
+    overflow:hidden; background: var(--panel-2); text-decoration:none; color: inherit;
+  }
+  .fanphoto-item .thumb{ height:120px; background-size:cover; background-position:center; }
+  .fanphoto-item .info{ padding:6px 8px; }
+  .fanphoto-item .info p{
+    font-size:10px; color: var(--text-dim); white-space:nowrap;
+    overflow:hidden; text-overflow:ellipsis;
+  }
+
   /* ---- Bracket strip ---- */
   .bracket{
     grid-column: 1 / -1;
@@ -345,6 +371,12 @@
     <div class="ticker-track" id="newsTrack"></div>
   </div>
 
+  <!-- FAN REACTIONS TICKER -->
+  <div class="ticker-wrap reactions">
+    <div class="ticker-tag">FAN REAX ▸</div>
+    <div class="ticker-track" id="reactionsTrack"></div>
+  </div>
+
   <!-- DASHBOARD -->
   <div class="dash">
 
@@ -397,6 +429,15 @@
         <span class="tag">TOP SCORERS</span>
       </div>
       <div class="scorer-row" id="goldenBoot"></div>
+    </div>
+
+    <!-- FAN PHOTOS -->
+    <div class="panel fanphotos">
+      <div class="panel-head">
+        <h2>Fans Around The World</h2>
+        <span class="tag">WIKIMEDIA COMMONS</span>
+      </div>
+      <div class="fanphoto-row" id="fanPhotoRow"></div>
     </div>
 
   </div>
@@ -487,6 +528,24 @@
     track.innerHTML = html + html;
   }
   buildNewsTrack([]);
+
+  // ---------- FAN REACTIONS TICKER ----------
+  // Top comments from r/soccer match threads (no auth). Falls back to sample
+  // reactions if Reddit blocks the request (common from GitHub Actions IPs).
+  const fallbackReactions = [
+    "VAR strikes again, somehow",
+    "That keeper has been unbelievable all tournament",
+    "Group of death lives up to the name",
+    "This atmosphere is incredible, hosts are loving it",
+    "Did NOT expect that result today",
+  ];
+  function buildReactionsTrack(items){
+    const track = document.getElementById('reactionsTrack');
+    const data = (items && items.length) ? items : fallbackReactions;
+    const html = data.map(r => `<span class="reaction-item">${r}</span>`).join('');
+    track.innerHTML = html + html;
+  }
+  buildReactionsTrack([]);
 
   // ---------- TODAY'S MATCHES ----------
   // Populated from data.json (written by the scheduled GitHub Action)
@@ -655,6 +714,32 @@
   }
   buildGoldenBoot([]);
 
+  // ---------- FAN PHOTOS ----------
+  // Worldwide fan/crowd photos from Wikimedia Commons (CC-licensed, attributed).
+  const fallbackFanPhotos = [
+    { title: 'Fans gather for the opening match', grad: '135deg,#0a6b3f,#c8102e' },
+    { title: 'Supporters celebrate in the streets', grad: '135deg,#0a3161,#b22234' },
+    { title: 'Fan zone crowd watches on big screens', grad: '135deg,#c60c30,#0047a0' },
+    { title: 'Traveling supporters fill the stands', grad: '135deg,#ff0000,#002395' },
+  ];
+  function buildFanPhotos(items){
+    const row = document.getElementById('fanPhotoRow');
+    if (!items || !items.length){
+      row.innerHTML = fallbackFanPhotos.map(p => `
+        <div class="fanphoto-item">
+          <div class="thumb" style="background:linear-gradient(${p.grad})"></div>
+          <div class="info"><p>${p.title}</p></div>
+        </div>`).join('');
+      return;
+    }
+    row.innerHTML = items.map(p => `
+      <a class="fanphoto-item" href="${p.pageUrl}" target="_blank" rel="noopener">
+        <div class="thumb" style="background-image:url('${p.thumbUrl}')"></div>
+        <div class="info"><p>${p.attribution ? 'Photo: ' + p.attribution : p.title}</p></div>
+      </a>`).join('');
+  }
+  buildFanPhotos([]);
+
   // ---------- DATA REFRESH ----------
   // data.json is rewritten every ~5 minutes by a scheduled GitHub Action.
   // We re-fetch it on the same cadence so the open tab picks up each rebuild.
@@ -675,8 +760,10 @@
       buildMatches();
       renderStandings(activeGroup);
       buildNewsTrack(data.news || []);
+      buildReactionsTrack(data.fanReactions || []);
       buildNextUp(nextMatch);
       buildGoldenBoot(data.topScorers || []);
+      buildFanPhotos(data.fanPhotos || []);
       buildProbTrack(data.probabilities || []);
       const stamp = document.getElementById('lastUpdated');
       if (stamp && data.updated){
