@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T14:12:25.197809Z",
+  "updated": "2026-06-16T18:13:46.286352Z",
   "matches": [
     {
       "id": "wc26-760432",
@@ -560,7 +560,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 17.4
+      "pct": 17.6
     },
     {
       "code": "Spain",
@@ -592,7 +592,7 @@
     },
     {
       "code": "Norway",
-      "pct": 2.5
+      "pct": 2.9
     },
     {
       "code": "USA",
@@ -639,7 +639,7 @@
       },
       {
         "code": "South Africa",
-        "pct": 0.5
+        "pct": 0.4
       }
     ],
     "B": [
@@ -657,7 +657,7 @@
       },
       {
         "code": "Qatar",
-        "pct": 3.4
+        "pct": 3.2
       }
     ],
     "C": [
@@ -671,11 +671,11 @@
       },
       {
         "code": "Scotland",
-        "pct": 10.7
+        "pct": 11.1
       },
       {
         "code": "Haiti",
-        "pct": 0.5
+        "pct": 0.4
       }
     ],
     "D": [
@@ -685,7 +685,7 @@
       },
       {
         "code": "Australia",
-        "pct": 20.5
+        "pct": 20.6
       },
       {
         "code": "Turkey",
@@ -703,7 +703,7 @@
       },
       {
         "code": "Ivory Coast",
-        "pct": 20.6
+        "pct": 19.6
       },
       {
         "code": "Ecuador",
@@ -711,7 +711,7 @@
       },
       {
         "code": "Curaçao",
-        "pct": 0.1
+        "pct": 0.4
       }
     ],
     "F": [
@@ -720,12 +720,12 @@
         "pct": 43.5
       },
       {
-        "code": "Sweden",
+        "code": "Japan",
         "pct": 28.5
       },
       {
-        "code": "Japan",
-        "pct": 28.0
+        "code": "Sweden",
+        "pct": 28.5
       },
       {
         "code": "Tunisia",
@@ -735,19 +735,19 @@
     "G": [
       {
         "code": "Belgium",
-        "pct": 64.5
+        "pct": 62.5
       },
       {
         "code": "Egypt",
-        "pct": 23.0
+        "pct": 26.5
       },
       {
         "code": "Iran",
-        "pct": 8.5
+        "pct": 8.0
       },
       {
         "code": "New Zealand",
-        "pct": 4.3
+        "pct": 3.6
       }
     ],
     "H": [
@@ -765,7 +765,7 @@
       },
       {
         "code": "Saudi Arabia",
-        "pct": 2.5
+        "pct": 2.8
       }
     ],
     "I": [
@@ -783,13 +783,13 @@
       },
       {
         "code": "Iraq",
-        "pct": 0.9
+        "pct": 1.0
       }
     ],
     "J": [
       {
         "code": "Argentina",
-        "pct": 72.5
+        "pct": 67.5
       },
       {
         "code": "Austria",
@@ -797,25 +797,25 @@
       },
       {
         "code": "Algeria",
-        "pct": 8.5
+        "pct": 12.0
       },
       {
         "code": "Jordan",
-        "pct": 1.4
+        "pct": 1.3
       }
     ],
     "K": [
       {
         "code": "Portugal",
-        "pct": 61.5
+        "pct": 62.5
       },
       {
         "code": "Colombia",
-        "pct": 31.5
+        "pct": 32.0
       },
       {
         "code": "DR Congo",
-        "pct": 3.2
+        "pct": 3.4
       },
       {
         "code": "Uzbekistan",
@@ -833,7 +833,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 5.1
+        "pct": 5.3
       },
       {
         "code": "Panama",
@@ -842,14 +842,14 @@
     ]
   },
   "news": [
+    "US says Iran was always supposed to fly back to Mexico immediately after World Cup match, despite coach’s complaints",
     "Iran vs New Zealand Highlights | 2026 FIFA World Cup™",
-    "World Cup 2026: England’s Livramento ruled out; Iran player’s visa expires after opener; Tunisia hire Renard – live",
-    "England defender Tino Livramento could miss World Cup 2026 after suffering fresh injury",
-    "England vs Croatia Prediction: World Cup 2026 Match Preview",
-    "Spain vs Cape Verde LIVE! World Cup 2026 Group H fixture, score, live updates and team news",
-    "World Cup 2026: N'Golo Kante is still crucial for France - Olivier Giroud",
-    "World Cup Match Day 6: Messi, Mbappé, Haaland Headline Star-Studded Slate",
-    "The 2026 World Cup — Day 6"
+    "World Cup 2026: England’s Livramento ruled out; Ghana seek to overturn Partey ban; Iran player’s visa expires – live",
+    "France vs Senegal live updates: World Cup 2026 game latest news and buildup - The Athletic",
+    "Uruguay’s Maximiliano Araújo scores equalizer against Saudi Arabia | 2026 FIFA World Cup",
+    "Saudi Arabia 1-1 Uruguay: World Cup 2026 – as it happened",
+    "World Cup 2026: Are billions flooding into Saudi Pro League helping national team?",
+    "What is happening with World Cup ticket prices?"
   ],
   "nextMatch": {
     "a": "France",
@@ -1145,14 +1145,14 @@
       "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333328796).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333328796).jpg",
-      "attribution": "",
+      "attribution": "Eneas De Troya",
       "license": "CC BY 4.0"
     },
     {
       "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333329106).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333329106).jpg",
-      "attribution": "",
+      "attribution": "Eneas De Troya",
       "license": "CC BY 4.0"
     }
   ],
