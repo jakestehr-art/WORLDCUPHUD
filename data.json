@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T18:13:46.286352Z",
+  "updated": "2026-06-16T23:52:00.670245Z",
   "matches": [
     {
       "id": "wc26-760432",
@@ -7,7 +7,9 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "Senegal",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 3,
+      "scoreB": 1
     },
     {
       "id": "wc26-760430",
@@ -15,7 +17,10 @@
       "grp": "GROUP I",
       "a": "Iraq",
       "b": "Norway",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 1,
+      "scoreB": 3,
+      "minute": "89'"
     },
     {
       "id": "wc26-760433",
@@ -383,22 +388,22 @@
       "teams": [
         [
           "France",
+          1,
+          1,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          3,
+          1,
+          3
         ],
         [
           "Senegal",
+          1,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          3,
           0
         ],
         [
@@ -556,27 +561,30 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Iraq",
+    "Norway"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 17.6
+      "pct": 18.1
     },
     {
       "code": "Spain",
-      "pct": 13.9
-    },
-    {
-      "code": "Portugal",
-      "pct": 10.8
+      "pct": 13.2
     },
     {
       "code": "England",
-      "pct": 10.5
+      "pct": 10.4
     },
     {
       "code": "Argentina",
-      "pct": 9.7
+      "pct": 10.2
+    },
+    {
+      "code": "Portugal",
+      "pct": 10.1
     },
     {
       "code": "Brazil",
@@ -584,7 +592,7 @@
     },
     {
       "code": "Germany",
-      "pct": 6.2
+      "pct": 5.9
     },
     {
       "code": "Netherlands",
@@ -592,23 +600,23 @@
     },
     {
       "code": "Norway",
-      "pct": 2.9
+      "pct": 2.8
+    },
+    {
+      "code": "Morocco",
+      "pct": 2.5
     },
     {
       "code": "USA",
       "pct": 2.1
     },
     {
-      "code": "Morocco",
-      "pct": 2.1
+      "code": "Belgium",
+      "pct": 1.8
     },
     {
       "code": "Japan",
-      "pct": 1.8
-    },
-    {
-      "code": "Belgium",
-      "pct": 1.8
+      "pct": 1.7
     },
     {
       "code": "Colombia",
@@ -627,7 +635,7 @@
     "A": [
       {
         "code": "Mexico",
-        "pct": 62.5
+        "pct": 61.5
       },
       {
         "code": "South Korea",
@@ -635,11 +643,11 @@
       },
       {
         "code": "Czechia",
-        "pct": 3.4
+        "pct": 3.5
       },
       {
         "code": "South Africa",
-        "pct": 0.4
+        "pct": 0.5
       }
     ],
     "B": [
@@ -671,11 +679,11 @@
       },
       {
         "code": "Scotland",
-        "pct": 11.1
+        "pct": 11.0
       },
       {
         "code": "Haiti",
-        "pct": 0.4
+        "pct": 0.5
       }
     ],
     "D": [
@@ -689,7 +697,7 @@
       },
       {
         "code": "Turkey",
-        "pct": 8.5
+        "pct": 7.5
       },
       {
         "code": "Paraguay",
@@ -699,11 +707,11 @@
     "E": [
       {
         "code": "Germany",
-        "pct": 73.5
+        "pct": 73.0
       },
       {
         "code": "Ivory Coast",
-        "pct": 19.6
+        "pct": 20.2
       },
       {
         "code": "Ecuador",
@@ -743,7 +751,7 @@
       },
       {
         "code": "Iran",
-        "pct": 8.0
+        "pct": 7.1
       },
       {
         "code": "New Zealand",
@@ -757,43 +765,43 @@
       },
       {
         "code": "Uruguay",
-        "pct": 22.5
+        "pct": 21.5
       },
       {
         "code": "Cape Verde",
-        "pct": 3.5
+        "pct": 3.4
       },
       {
         "code": "Saudi Arabia",
-        "pct": 2.8
+        "pct": 2.5
       }
     ],
     "I": [
       {
         "code": "France",
-        "pct": 65.5
+        "pct": 79.5
       },
       {
         "code": "Norway",
-        "pct": 24.5
+        "pct": 19.5
       },
       {
         "code": "Senegal",
-        "pct": 10.5
+        "pct": 1.7
       },
       {
         "code": "Iraq",
-        "pct": 1.0
+        "pct": 0.1
       }
     ],
     "J": [
       {
         "code": "Argentina",
-        "pct": 67.5
+        "pct": 69.5
       },
       {
         "code": "Austria",
-        "pct": 18.5
+        "pct": 17.5
       },
       {
         "code": "Algeria",
@@ -801,7 +809,7 @@
       },
       {
         "code": "Jordan",
-        "pct": 1.3
+        "pct": 1.1
       }
     ],
     "K": [
@@ -811,11 +819,11 @@
       },
       {
         "code": "Colombia",
-        "pct": 32.0
+        "pct": 31.5
       },
       {
         "code": "DR Congo",
-        "pct": 3.4
+        "pct": 2.9
       },
       {
         "code": "Uzbekistan",
@@ -833,7 +841,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 5.3
+        "pct": 5.1
       },
       {
         "code": "Panama",
@@ -842,47 +850,27 @@
     ]
   },
   "news": [
+    "Iraq vs Norway live updates: Erling Haaland scores twice on World Cup 2026 debut",
+    "Iraq v Norway: World Cup 2026 – live",
+    "Erling Haaland scores his second goal in FIFA World Cup™ debut to take lead vs Iraq | 2026 FIFA World Cup",
+    "Kylian Mbappe breaks scoring record as France kickstart 2026 World Cup with 3-1 win over Senegal",
     "US says Iran was always supposed to fly back to Mexico immediately after World Cup match, despite coach’s complaints",
-    "Iran vs New Zealand Highlights | 2026 FIFA World Cup™",
-    "World Cup 2026: England’s Livramento ruled out; Ghana seek to overturn Partey ban; Iran player’s visa expires – live",
-    "France vs Senegal live updates: World Cup 2026 game latest news and buildup - The Athletic",
-    "Uruguay’s Maximiliano Araújo scores equalizer against Saudi Arabia | 2026 FIFA World Cup",
-    "Saudi Arabia 1-1 Uruguay: World Cup 2026 – as it happened",
-    "World Cup 2026: Are billions flooding into Saudi Pro League helping national team?",
+    "World Cup 2026: England’s Livramento ruled out; Ghana seek to overturn Partey ban; Iran player’s visa expires – as it happened",
+    "Iran’s Mohammad Mohebi causes outrage with gun celebration during World Cup 2026",
     "What is happening with World Cup ticket prices?"
   ],
   "nextMatch": {
-    "a": "France",
-    "b": "Senegal",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-06-16T19:00:00Z",
-    "when": "Tue 3:00 PM ET",
-    "venue": "MetLife Stadium",
-    "city": "East Rutherford, New Jersey",
-    "stadium": "MetLife Stadium",
+    "a": "Argentina",
+    "b": "Algeria",
+    "grp": "GROUP J",
+    "kickoffISO": "2026-06-17T01:00:00Z",
+    "when": "Tue 9:00 PM ET",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "stadium": "GEHA Field at Arrowhead Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "France": [
-      "vs Senegal (Jun 16)",
-      "vs Iraq (Jun 22)",
-      "vs Norway (Jun 26)"
-    ],
-    "Senegal": [
-      "vs France (Jun 16)",
-      "vs Norway (Jun 22)",
-      "vs Iraq (Jun 26)"
-    ],
-    "Iraq": [
-      "vs Norway (Jun 16)",
-      "vs France (Jun 22)",
-      "vs Senegal (Jun 26)"
-    ],
-    "Norway": [
-      "vs Iraq (Jun 16)",
-      "vs Senegal (Jun 22)",
-      "vs France (Jun 26)"
-    ],
     "Argentina": [
       "vs Algeria (Jun 16)",
       "vs Austria (Jun 22)"
@@ -1049,6 +1037,22 @@
       "vs New Zealand (Jun 21)",
       "vs Iran (Jun 26)"
     ],
+    "France": [
+      "vs Iraq (Jun 22)",
+      "vs Norway (Jun 26)"
+    ],
+    "Iraq": [
+      "vs France (Jun 22)",
+      "vs Senegal (Jun 26)"
+    ],
+    "Norway": [
+      "vs Senegal (Jun 22)",
+      "vs France (Jun 26)"
+    ],
+    "Senegal": [
+      "vs Norway (Jun 22)",
+      "vs Iraq (Jun 26)"
+    ],
     "Switzerland": [
       "vs Canada (Jun 24)"
     ],
@@ -1073,6 +1077,16 @@
       "goals": 2
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 2
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 2
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
       "goals": 1
@@ -1086,16 +1100,6 @@
       "player": "Ladislav Krejcí",
       "team": "Czechia",
       "goals": 1
-    },
-    {
-      "player": "Hwang In-Beom",
-      "team": "South Korea",
-      "goals": 1
-    },
-    {
-      "player": "Oh Hyeon-Gyu",
-      "team": "South Korea",
-      "goals": 1
     }
   ],
   "fanPhotos": [
@@ -1107,25 +1111,39 @@
       "license": "CC BY 4.0"
     },
     {
-      "title": "FIFA Fan Festival CDMX - 130626 - 03.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_03.jpg",
-      "attribution": "ProtoplasmaKid",
-      "license": "CC BY 4.0"
+      "title": "Fans at 2026 FIFA World Cup by YantsImages 01.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "title": "FIFA Fan Festival CDMX - 130626 - 47.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_47.jpg",
-      "attribution": "ProtoplasmaKid",
-      "license": "CC BY 4.0"
+      "title": "Fans at 2026 FIFA World Cup by YantsImages 02.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "title": "FIFA Fan Festival CDMX - 130626 - 53.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg/960px-FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_130626_-_53.jpg",
-      "attribution": "ProtoplasmaKid",
-      "license": "CC BY 4.0"
+      "title": "Fans at 2026 FIFA World Cup by YantsImages 03.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fans at 2026 FIFA World Cup by YantsImages 04.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "Fans at 2026 FIFA World Cup by YantsImages 06.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
     },
     {
       "title": "I proudly say that I am a supporter of Morocco- FIFA world cup 2026.png",
@@ -1135,25 +1153,11 @@
       "license": "CC BY-SA 3.0"
     },
     {
-      "title": "Protestas por el inicio de la Copa Mundial de Fútbol de 2026 29.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg/960px-Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Protestas_por_el_inicio_de_la_Copa_Mundial_de_F%C3%BAtbol_de_2026_29.jpg",
-      "attribution": "ProtoplasmaKid",
-      "license": "CC BY 4.0"
-    },
-    {
-      "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333328796).jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333328796%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333328796).jpg",
-      "attribution": "Eneas De Troya",
-      "license": "CC BY 4.0"
-    },
-    {
-      "title": "World Cup 2026- Celebración en el Ángel de la Independencia (55333329106).jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg/960px-World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_%2855333329106%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_2026-_Celebraci%C3%B3n_en_el_%C3%81ngel_de_la_Independencia_(55333329106).jpg",
-      "attribution": "Eneas De Troya",
-      "license": "CC BY 4.0"
+      "title": "Neymar at 2026 FIFA World Cup by YantsImages.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg/960px-Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg",
+      "attribution": "YantsImages",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "fanReactions": []
