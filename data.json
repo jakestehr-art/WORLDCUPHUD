@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T13:03:06.170686Z",
+  "updated": "2026-06-17T20:38:36.969475Z",
   "matches": [
     {
       "id": "wc26-760431",
@@ -17,7 +17,9 @@
       "grp": "GROUP K",
       "a": "Portugal",
       "b": "DR Congo",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 1,
+      "scoreB": 1
     },
     {
       "id": "wc26-760437",
@@ -25,7 +27,10 @@
       "grp": "GROUP L",
       "a": "England",
       "b": "Croatia",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 1,
+      "scoreB": 1,
+      "minute": "38'"
     },
     {
       "id": "wc26-760434",
@@ -489,23 +494,23 @@
       "teams": [
         [
           "Portugal",
+          1,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          1,
+          1,
+          1
         ],
         [
           "DR Congo",
+          1,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          1,
+          1,
+          1
         ],
         [
           "Uzbekistan",
@@ -574,7 +579,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Croatia",
+    "England"
+  ],
   "probabilities": [
     {
       "code": "France",
@@ -582,19 +590,19 @@
     },
     {
       "code": "Spain",
-      "pct": 13.2
-    },
-    {
-      "code": "Argentina",
-      "pct": 11.5
+      "pct": 13.7
     },
     {
       "code": "England",
-      "pct": 10.4
+      "pct": 11.3
+    },
+    {
+      "code": "Argentina",
+      "pct": 11.2
     },
     {
       "code": "Portugal",
-      "pct": 10.2
+      "pct": 8.5
     },
     {
       "code": "Brazil",
@@ -606,7 +614,7 @@
     },
     {
       "code": "Netherlands",
-      "pct": 4.5
+      "pct": 4.3
     },
     {
       "code": "Norway",
@@ -653,11 +661,11 @@
       },
       {
         "code": "Czechia",
-        "pct": 3.9
+        "pct": 4.5
       },
       {
         "code": "South Africa",
-        "pct": 0.7
+        "pct": 0.6
       }
     ],
     "B": [
@@ -671,7 +679,7 @@
       },
       {
         "code": "Bosnia and Herzegovina",
-        "pct": 15.5
+        "pct": 15.0
       },
       {
         "code": "Qatar",
@@ -689,7 +697,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 11.7
+        "pct": 11.6
       },
       {
         "code": "Haiti",
@@ -703,7 +711,7 @@
       },
       {
         "code": "Australia",
-        "pct": 20.5
+        "pct": 20.9
       },
       {
         "code": "Turkey",
@@ -711,7 +719,7 @@
       },
       {
         "code": "Paraguay",
-        "pct": 2.2
+        "pct": 2.3
       }
     ],
     "E": [
@@ -721,15 +729,15 @@
       },
       {
         "code": "Ivory Coast",
-        "pct": 21.8
+        "pct": 20.8
       },
       {
         "code": "Ecuador",
-        "pct": 5.5
+        "pct": 4.5
       },
       {
         "code": "Curaçao",
-        "pct": 0.4
+        "pct": 0.7
       }
     ],
     "F": [
@@ -738,16 +746,16 @@
         "pct": 43.5
       },
       {
-        "code": "Japan",
-        "pct": 28.5
-      },
-      {
         "code": "Sweden",
         "pct": 28.5
       },
       {
+        "code": "Japan",
+        "pct": 27.5
+      },
+      {
         "code": "Tunisia",
-        "pct": 0.9
+        "pct": 0.6
       }
     ],
     "G": [
@@ -761,7 +769,7 @@
       },
       {
         "code": "Iran",
-        "pct": 7.6
+        "pct": 7.5
       },
       {
         "code": "New Zealand",
@@ -775,15 +783,15 @@
       },
       {
         "code": "Uruguay",
-        "pct": 21.5
+        "pct": 20.5
       },
       {
         "code": "Cape Verde",
-        "pct": 3.5
+        "pct": 3.2
       },
       {
         "code": "Saudi Arabia",
-        "pct": 2.1
+        "pct": 2.4
       }
     ],
     "I": [
@@ -797,11 +805,11 @@
       },
       {
         "code": "Senegal",
-        "pct": 1.2
+        "pct": 1.5
       },
       {
         "code": "Iraq",
-        "pct": 0.1
+        "pct": 0.2
       }
     ],
     "J": [
@@ -815,92 +823,76 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.2
+        "pct": 1.6
       },
       {
         "code": "Jordan",
-        "pct": 0.5
+        "pct": 0.3
       }
     ],
     "K": [
       {
         "code": "Portugal",
-        "pct": 62.5
+        "pct": 42.5
       },
       {
         "code": "Colombia",
-        "pct": 32.5
-      },
-      {
-        "code": "Uzbekistan",
-        "pct": 2.6
+        "pct": 41.5
       },
       {
         "code": "DR Congo",
-        "pct": 2.2
+        "pct": 8.0
+      },
+      {
+        "code": "Uzbekistan",
+        "pct": 4.0
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 70.5
+        "pct": 68.5
       },
       {
         "code": "Croatia",
-        "pct": 22.5
+        "pct": 23.0
       },
       {
         "code": "Ghana",
-        "pct": 5.1
+        "pct": 4.8
       },
       {
         "code": "Panama",
-        "pct": 2.6
+        "pct": 1.8
       }
     ]
   },
   "news": [
-    "World Cup 2026 schedule, scores, live updates: Cristiano Ronaldo begins sixth World Cup as Portugal opens play vs. Congo",
-    "World Cup 2026: Starmer tells England to ‘dare to dream’, Bernardo Silva signs for Real Madrid – live",
-    "Colombia vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets from elite expert",
-    "Lionel Messi Scores First Career HAT TRICK in FIFA World Cup™",
-    "France 3-1 Senegal: World Cup 2026 – as it happened",
-    "France vs Senegal Highlights | 2026 FIFA World Cup™",
-    "How France beat Senegal 3-1 as Mbappe opened his 2026 World Cup account",
-    "World Cup 2026: Austria nabs win over Jordan after handball and own-goal drama"
+    "England v Croatia: World Cup 2026 – live",
+    "Ghana vs Panama live updates: World Cup 2026 game latest news and buildup",
+    "'God Save The King' is played for the first time at the 2026 FIFA World Cup",
+    "Portugal 1-1 DR Congo: World Cup 2026 – as it happened",
+    "Argentina vs Algeria Extended Highlights | 2026 FIFA World Cup™",
+    "Argentina 3-0 Algeria: World Cup 2026 – as it happened",
+    "World Cup 2026: How Messi Completed His Hat-Trick of Goals for Argentina",
+    "World Cup 2026 today: Live updates, latest news as it happened - June 16"
   ],
   "nextMatch": {
-    "a": "Portugal",
-    "b": "DR Congo",
-    "grp": "GROUP K",
-    "kickoffISO": "2026-06-17T17:00:00Z",
-    "when": "Wed 1:00 PM ET",
-    "venue": "NRG Stadium",
-    "city": "Houston, Texas",
-    "stadium": "NRG Stadium",
-    "weather": null
+    "a": "Ghana",
+    "b": "Panama",
+    "grp": "GROUP L",
+    "kickoffISO": "2026-06-17T23:00:00Z",
+    "when": "Wed 7:00 PM ET",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "weather": {
+      "tempF": 67,
+      "windMph": 15,
+      "description": "Overcast"
+    }
   },
   "remainingFixtures": {
-    "Portugal": [
-      "vs DR Congo (Jun 17)",
-      "vs Uzbekistan (Jun 23)",
-      "vs Colombia (Jun 27)"
-    ],
-    "DR Congo": [
-      "vs Portugal (Jun 17)",
-      "vs Colombia (Jun 23)",
-      "vs Uzbekistan (Jun 27)"
-    ],
-    "England": [
-      "vs Croatia (Jun 17)",
-      "vs Ghana (Jun 23)",
-      "vs Panama (Jun 27)"
-    ],
-    "Croatia": [
-      "vs England (Jun 17)",
-      "vs Panama (Jun 23)",
-      "vs Ghana (Jun 27)"
-    ],
     "Ghana": [
       "vs Panama (Jun 17)",
       "vs England (Jun 23)",
@@ -1058,6 +1050,22 @@
     ],
     "Algeria": [
       "vs Jordan (Jun 22)"
+    ],
+    "Portugal": [
+      "vs Uzbekistan (Jun 23)",
+      "vs Colombia (Jun 27)"
+    ],
+    "England": [
+      "vs Ghana (Jun 23)",
+      "vs Panama (Jun 27)"
+    ],
+    "Croatia": [
+      "vs Panama (Jun 23)",
+      "vs Ghana (Jun 27)"
+    ],
+    "DR Congo": [
+      "vs Colombia (Jun 23)",
+      "vs Uzbekistan (Jun 27)"
     ],
     "Switzerland": [
       "vs Canada (Jun 24)"
