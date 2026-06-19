@@ -1,30 +1,36 @@
 {
-  "updated": "2026-06-18T20:01:21.049158Z",
+  "updated": "2026-06-19T11:56:14.531606Z",
   "matches": [
     {
-      "id": "wc26-760438",
-      "when": "12:00 PM",
-      "grp": "GROUP A",
-      "a": "Czechia",
-      "b": "South Africa",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760440",
-      "when": "6:00 PM",
-      "grp": "GROUP B",
-      "a": "Canada",
-      "b": "Qatar",
+      "id": "wc26-760442",
+      "when": "3:00 PM",
+      "grp": "GROUP D",
+      "a": "United States",
+      "b": "Australia",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760441",
-      "when": "9:00 PM",
-      "grp": "GROUP A",
-      "a": "Mexico",
-      "b": "South Korea",
+      "id": "wc26-760445",
+      "when": "6:00 PM",
+      "grp": "GROUP C",
+      "a": "Scotland",
+      "b": "Morocco",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760444",
+      "when": "8:30 PM",
+      "grp": "GROUP C",
+      "a": "Brazil",
+      "b": "Haiti",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760443",
+      "when": "11:00 PM",
+      "grp": "GROUP D",
+      "a": "Turkey",
+      "b": "Paraguay",
       "status": "upcoming"
     }
   ],
@@ -33,13 +39,13 @@
       "teams": [
         [
           "Mexico",
-          1,
-          1,
-          0,
-          0,
+          2,
           2,
           0,
-          3
+          0,
+          3,
+          0,
+          6
         ],
         [
           "South Africa",
@@ -53,12 +59,12 @@
         ],
         [
           "South Korea",
-          1,
-          1,
-          0,
-          0,
           2,
           1,
+          0,
+          1,
+          2,
+          2,
           3
         ],
         [
@@ -77,13 +83,13 @@
       "teams": [
         [
           "Canada",
+          1,
+          1,
           0,
           0,
+          6,
           0,
-          0,
-          0,
-          0,
-          0
+          3
         ],
         [
           "Bosnia and Herzegovina",
@@ -97,12 +103,12 @@
         ],
         [
           "Qatar",
-          1,
+          2,
           0,
           1,
-          0,
           1,
           1,
+          7,
           1
         ],
         [
@@ -578,7 +584,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.1
+      "pct": 7.3
     },
     {
       "code": "Brazil",
@@ -586,80 +592,84 @@
     },
     {
       "code": "Germany",
-      "pct": 5.9
+      "pct": 6.1
     },
     {
       "code": "Netherlands",
       "pct": 4.0
     },
     {
-      "code": "Norway",
-      "pct": 2.5
-    },
-    {
       "code": "Morocco",
-      "pct": 2.4
+      "pct": 2.9
     },
     {
       "code": "USA",
-      "pct": 2.2
+      "pct": 2.5
+    },
+    {
+      "code": "Norway",
+      "pct": 2.5
     },
     {
       "code": "Colombia",
       "pct": 1.7
     },
     {
+      "code": "Mexico",
+      "pct": 1.6
+    },
+    {
       "code": "Japan",
-      "pct": 1.7
+      "pct": 1.6
     },
     {
       "code": "Belgium",
       "pct": 1.6
     },
     {
-      "code": "Mexico",
-      "pct": 1.4
-    },
-    {
       "code": "Switzerland",
-      "pct": 0.8
+      "pct": 0.9
     }
   ],
   "groupOdds": {
     "A": [
       {
         "code": "Mexico",
-        "pct": 61.0
+        "pct": 100.0
       },
       {
         "code": "South Korea",
-        "pct": 35.5
+        "pct": 0.0
       },
       {
-        "code": "Czechia",
-        "pct": 0.8
+        "code": "Other",
+        "pct": 0.0
       },
       {
         "code": "South Africa",
-        "pct": 0.4
+        "pct": 0.0
+      },
+      {
+        "code": "Czechia",
+        "pct": 0.0
       }
     ],
     "B": [
       {
-        "code": "Switzerland",
-        "pct": 45.0
-      },
-      {
         "code": "Canada",
-        "pct": 35.0
+        "pct": 59.5
       },
       {
-        "code": "Bosnia and Herzegovina",
-        "pct": 14.0
+        "code": "Switzerland",
+        "pct": 40.5
       },
       {
         "code": "Qatar",
-        "pct": 3.0
+        "pct": 0.0
+      },
+      {
+        "code": "Bosnia and Herzegovina",
+        "pct": 0.0
       }
     ],
     "C": [
@@ -669,15 +679,15 @@
       },
       {
         "code": "Morocco",
-        "pct": 30.5
+        "pct": 29.5
       },
       {
         "code": "Scotland",
-        "pct": 10.9
+        "pct": 9.4
       },
       {
         "code": "Haiti",
-        "pct": 0.4
+        "pct": 0.3
       }
     ],
     "D": [
@@ -687,15 +697,15 @@
       },
       {
         "code": "Australia",
-        "pct": 21.1
+        "pct": 21.3
       },
       {
         "code": "Turkey",
-        "pct": 7.5
+        "pct": 9.5
       },
       {
         "code": "Paraguay",
-        "pct": 2.5
+        "pct": 2.1
       }
     ],
     "E": [
@@ -705,7 +715,7 @@
       },
       {
         "code": "Ivory Coast",
-        "pct": 21.4
+        "pct": 21.0
       },
       {
         "code": "Ecuador",
@@ -719,7 +729,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 42.5
+        "pct": 43.5
       },
       {
         "code": "Sweden",
@@ -731,7 +741,7 @@
       },
       {
         "code": "Tunisia",
-        "pct": 1.3
+        "pct": 1.1
       }
     ],
     "G": [
@@ -741,21 +751,21 @@
       },
       {
         "code": "Egypt",
-        "pct": 23.5
+        "pct": 24.5
       },
       {
         "code": "Iran",
-        "pct": 7.2
+        "pct": 7.3
       },
       {
         "code": "New Zealand",
-        "pct": 3.1
+        "pct": 3.4
       }
     ],
     "H": [
       {
         "code": "Spain",
-        "pct": 72.5
+        "pct": 73.5
       },
       {
         "code": "Uruguay",
@@ -763,11 +773,11 @@
       },
       {
         "code": "Saudi Arabia",
-        "pct": 3.5
+        "pct": 3.6
       },
       {
         "code": "Cape Verde",
-        "pct": 3.1
+        "pct": 2.8
       }
     ],
     "I": [
@@ -781,7 +791,7 @@
       },
       {
         "code": "Senegal",
-        "pct": 1.5
+        "pct": 1.7
       },
       {
         "code": "Iraq",
@@ -799,7 +809,7 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.5
+        "pct": 1.4
       },
       {
         "code": "Jordan",
@@ -809,81 +819,62 @@
     "K": [
       {
         "code": "Colombia",
-        "pct": 47.5
+        "pct": 48.5
       },
       {
         "code": "Portugal",
-        "pct": 45.5
+        "pct": 46.5
       },
       {
         "code": "DR Congo",
-        "pct": 6.2
+        "pct": 5.3
       },
       {
         "code": "Uzbekistan",
-        "pct": 0.5
+        "pct": 0.6
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 91.5
+        "pct": 92.0
       },
       {
         "code": "Ghana",
-        "pct": 4.8
+        "pct": 4.7
       },
       {
         "code": "Croatia",
-        "pct": 3.1
+        "pct": 3.5
       },
       {
         "code": "Panama",
-        "pct": 0.4
+        "pct": 0.9
       }
     ]
   },
   "news": [
-    "World Cup 2026 schedule, scores, live updates: Switzerland facing Bosnia and Herzegovina; Mexico, Canada return later",
-    "World Cup stadium rankings: Which venue is best for atmosphere, location and suitability for soccer?",
-    "Switzerland vs Bosnia live updates: World Cup 2026 game latest score and goal alerts",
-    "Switzerland v Bosnia and Herzegovina: World Cup 2026 – live",
-    "Switzerland vs Bosnia-Herzegovina LIVE: World Cup 2026 updates as Edin Dzeko returns to starting lineup",
-    "Czechia vs South Africa Extended Highlights | 2026 FIFA World Cup™",
-    "England 4-2 Croatia: World Cup 2026 – as it happened",
-    "England surge to thrilling opening win in World Cup cracker with Croatia"
+    "Mexico beat South Korea at World Cup but are still a work in progress",
+    "Mexico’s Luis Romo scores goal, taking lead vs South Korea | 2026 FIFA World Cup™",
+    "World Cup 2026 scores, results: Mexico caps off thrilling Day 8 with win after Canada makes history",
+    "Canada's Ismaël Koné stretchered off after scary leg injury vs. Qatar at 2026 World Cup",
+    "Canada rout nine-man Qatar but Koné injury sours first-ever World Cup win",
+    "World Cup 2026: Scotland fans take over Boston; Koné injury latest; USA v Australia buildup – live",
+    "Patriotism is great, but making money is better: 'Fade the public' in Team USA vs Australia in World Cup 2026",
+    "How Switzerland beat 10-man Bosnia behind Johan Manzambi double in World Cup 2026 game"
   ],
   "nextMatch": {
-    "a": "Canada",
-    "b": "Qatar",
-    "grp": "GROUP B",
-    "kickoffISO": "2026-06-18T22:00:00Z",
-    "when": "Thu 6:00 PM ET",
-    "venue": "BC Place",
-    "city": "Vancouver",
-    "stadium": "BC Place",
-    "weather": {
-      "tempF": 69,
-      "windMph": 12,
-      "description": "Clear sky"
-    }
+    "a": "United States",
+    "b": "Australia",
+    "grp": "GROUP D",
+    "kickoffISO": "2026-06-19T19:00:00Z",
+    "when": "Fri 3:00 PM ET",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "stadium": "Lumen Field",
+    "weather": null
   },
   "remainingFixtures": {
-    "Canada": [
-      "vs Qatar (Jun 18)",
-      "vs Switzerland (Jun 24)"
-    ],
-    "Qatar": [
-      "vs Canada (Jun 18)"
-    ],
-    "Mexico": [
-      "vs South Korea (Jun 18)",
-      "vs Czechia (Jun 24)"
-    ],
-    "South Korea": [
-      "vs Mexico (Jun 18)",
-      "vs South Africa (Jun 24)"
-    ],
     "United States": [
       "vs Australia (Jun 19)",
       "vs Turkey (Jun 25)"
@@ -1034,11 +1025,20 @@
     "Switzerland": [
       "vs Canada (Jun 24)"
     ],
+    "Canada": [
+      "vs Switzerland (Jun 24)"
+    ],
     "Czechia": [
       "vs Mexico (Jun 24)"
     ],
+    "Mexico": [
+      "vs Czechia (Jun 24)"
+    ],
     "South Africa": [
       "vs South Korea (Jun 24)"
+    ],
+    "South Korea": [
+      "vs South Africa (Jun 24)"
     ],
     "Ecuador": [
       "vs Germany (Jun 25)"
@@ -1049,6 +1049,16 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 3
+    },
+    {
+      "player": "Jonathan David",
+      "team": "Canada",
+      "goals": 3
+    },
+    {
+      "player": "Cyle Larin",
+      "team": "Canada",
+      "goals": 2
     },
     {
       "player": "Folarin Balogun",
@@ -1074,16 +1084,6 @@
       "player": "Erling Haaland",
       "team": "Norway",
       "goals": 2
-    },
-    {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 1
-    },
-    {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 1
     }
   ],
   "fanPhotos": [
