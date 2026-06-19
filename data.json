@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T11:56:14.531606Z",
+  "updated": "2026-06-19T18:20:57.879704Z",
   "matches": [
     {
       "id": "wc26-760442",
@@ -592,7 +592,7 @@
     },
     {
       "code": "Germany",
-      "pct": 6.1
+      "pct": 5.9
     },
     {
       "code": "Netherlands",
@@ -604,7 +604,7 @@
     },
     {
       "code": "USA",
-      "pct": 2.5
+      "pct": 2.7
     },
     {
       "code": "Norway",
@@ -619,12 +619,12 @@
       "pct": 1.6
     },
     {
-      "code": "Japan",
+      "code": "Belgium",
       "pct": 1.6
     },
     {
-      "code": "Belgium",
-      "pct": 1.6
+      "code": "Japan",
+      "pct": 1.5
     },
     {
       "code": "Switzerland",
@@ -679,29 +679,29 @@
       },
       {
         "code": "Morocco",
-        "pct": 29.5
+        "pct": 31.5
       },
       {
         "code": "Scotland",
-        "pct": 9.4
+        "pct": 9.3
       },
       {
         "code": "Haiti",
-        "pct": 0.3
+        "pct": 0.4
       }
     ],
     "D": [
       {
         "code": "USA",
-        "pct": 68.5
+        "pct": 69.5
       },
       {
         "code": "Australia",
-        "pct": 21.3
+        "pct": 21.4
       },
       {
         "code": "Turkey",
-        "pct": 9.5
+        "pct": 8.5
       },
       {
         "code": "Paraguay",
@@ -711,15 +711,15 @@
     "E": [
       {
         "code": "Germany",
-        "pct": 72.5
+        "pct": 73.5
       },
       {
         "code": "Ivory Coast",
-        "pct": 21.0
+        "pct": 20.8
       },
       {
         "code": "Ecuador",
-        "pct": 3.8
+        "pct": 3.5
       },
       {
         "code": "Curaçao",
@@ -741,7 +741,7 @@
       },
       {
         "code": "Tunisia",
-        "pct": 1.1
+        "pct": 0.9
       }
     ],
     "G": [
@@ -759,7 +759,7 @@
       },
       {
         "code": "New Zealand",
-        "pct": 3.4
+        "pct": 4.1
       }
     ],
     "H": [
@@ -773,17 +773,17 @@
       },
       {
         "code": "Saudi Arabia",
-        "pct": 3.6
+        "pct": 2.8
       },
       {
         "code": "Cape Verde",
-        "pct": 2.8
+        "pct": 2.6
       }
     ],
     "I": [
       {
         "code": "France",
-        "pct": 76.5
+        "pct": 77.0
       },
       {
         "code": "Norway",
@@ -809,7 +809,7 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.4
+        "pct": 1.6
       },
       {
         "code": "Jordan",
@@ -823,7 +823,7 @@
       },
       {
         "code": "Portugal",
-        "pct": 46.5
+        "pct": 45.5
       },
       {
         "code": "DR Congo",
@@ -831,21 +831,21 @@
       },
       {
         "code": "Uzbekistan",
-        "pct": 0.6
+        "pct": 0.8
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 92.0
+        "pct": 92.5
       },
       {
         "code": "Ghana",
-        "pct": 4.7
+        "pct": 4.5
       },
       {
         "code": "Croatia",
-        "pct": 3.5
+        "pct": 3.1
       },
       {
         "code": "Panama",
@@ -854,14 +854,14 @@
     ]
   },
   "news": [
-    "Mexico beat South Korea at World Cup but are still a work in progress",
-    "Mexico’s Luis Romo scores goal, taking lead vs South Korea | 2026 FIFA World Cup™",
-    "World Cup 2026 scores, results: Mexico caps off thrilling Day 8 with win after Canada makes history",
+    "USA v Australia: World Cup 2026 – live",
     "Canada's Ismaël Koné stretchered off after scary leg injury vs. Qatar at 2026 World Cup",
-    "Canada rout nine-man Qatar but Koné injury sours first-ever World Cup win",
-    "World Cup 2026: Scotland fans take over Boston; Koné injury latest; USA v Australia buildup – live",
-    "Patriotism is great, but making money is better: 'Fade the public' in Team USA vs Australia in World Cup 2026",
-    "How Switzerland beat 10-man Bosnia behind Johan Manzambi double in World Cup 2026 game"
+    "World Cup 2026: Koné grateful for support after injury; Kane’s Wonderwall moment; Pochettino on spies – live",
+    "World Cup 2026: Canada's Ismael Kone 'grateful' after surgery on broken leg",
+    "Mexico vs South Korea Highlights | 2026 FIFA World Cup™",
+    "World Cup recap: Mexico defeat South Korea, secure spot in next round",
+    "Mexico 1-0 South Korea: World Cup 2026 – as it happened",
+    "World Cup 2026: Thomas Tuchel throws first pitch as England enjoy downtime"
   ],
   "nextMatch": {
     "a": "United States",
