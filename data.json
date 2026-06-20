@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T10:12:35.856173Z",
+  "updated": "2026-06-20T15:57:37.418977Z",
   "matches": [
     {
       "id": "wc26-760447",
@@ -552,7 +552,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 18.9
+      "pct": 19.7
     },
     {
       "code": "Spain",
@@ -568,7 +568,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 7.3
+      "pct": 7.1
     },
     {
       "code": "Germany",
@@ -576,7 +576,7 @@
     },
     {
       "code": "Brazil",
-      "pct": 6.2
+      "pct": 5.9
     },
     {
       "code": "Netherlands",
@@ -641,7 +641,7 @@
     "B": [
       {
         "code": "Canada",
-        "pct": 60.0
+        "pct": 60.5
       },
       {
         "code": "Switzerland",
@@ -659,15 +659,15 @@
     "C": [
       {
         "code": "Brazil",
-        "pct": 67.5
+        "pct": 66.5
       },
       {
         "code": "Morocco",
-        "pct": 28.5
+        "pct": 29.5
       },
       {
         "code": "Scotland",
-        "pct": 1.7
+        "pct": 2.2
       },
       {
         "code": "Haiti",
@@ -699,11 +699,11 @@
     "E": [
       {
         "code": "Germany",
-        "pct": 76.0
+        "pct": 76.5
       },
       {
         "code": "Ivory Coast",
-        "pct": 21.5
+        "pct": 21.1
       },
       {
         "code": "Ecuador",
@@ -725,7 +725,7 @@
       },
       {
         "code": "Japan",
-        "pct": 27.5
+        "pct": 26.5
       },
       {
         "code": "Tunisia",
@@ -743,11 +743,11 @@
       },
       {
         "code": "Iran",
-        "pct": 6.9
+        "pct": 7.3
       },
       {
         "code": "New Zealand",
-        "pct": 4.0
+        "pct": 3.8
       }
     ],
     "H": [
@@ -761,11 +761,11 @@
       },
       {
         "code": "Saudi Arabia",
-        "pct": 3.2
+        "pct": 3.5
       },
       {
         "code": "Cape Verde",
-        "pct": 2.5
+        "pct": 2.4
       }
     ],
     "I": [
@@ -779,7 +779,7 @@
       },
       {
         "code": "Senegal",
-        "pct": 1.6
+        "pct": 1.7
       },
       {
         "code": "Iraq",
@@ -819,21 +819,21 @@
       },
       {
         "code": "Uzbekistan",
-        "pct": 1.5
+        "pct": 1.2
       }
     ],
     "L": [
       {
         "code": "England",
-        "pct": 92.0
+        "pct": 92.5
       },
       {
         "code": "Ghana",
-        "pct": 4.3
+        "pct": 4.5
       },
       {
         "code": "Croatia",
-        "pct": 2.5
+        "pct": 2.7
       },
       {
         "code": "Panama",
@@ -842,14 +842,14 @@
     ]
   },
   "news": [
-    "World Cup recap: USMNT defeat Australia 2-0 to advance to knockout stage",
-    "Turkey 0-1 Paraguay: World Cup 2026 – as it happened",
-    "Paraguay's Matías Galarza scores the quickest goal thus far of 2026 FIFA World Cup™",
-    "Paraguay’s Miguel Almiron becomes 1st player red-carded at World Cup for covering his mouth",
-    "Brazil vs Haiti Highlights | 2026 FIFA World Cup™",
-    "Brazil's Matheus Cunha scores goal off rebound to take lead vs Haiti | 2026 FIFA World Cup™",
-    "Brazil ease past Haiti at World Cup 2026 after Cunha, Vinicius Jr goals: Live updates and reaction",
-    "Morocco beat Scotland through quickest goal of 2026 World Cup so far: Live updates and reaction"
+    "Seattle might not be done hosting Team USA during World Cup",
+    "World Cup 2026 schedule, live updates: Germany, Netherlands, Japan all back in action on Day 10",
+    "World Cup 2026: Curacao's trailblazer doctor on football's big stage",
+    "Germany vs Ivory Coast live updates: World Cup 2026 game latest score and news",
+    "Türkiye vs Paraguay Quick Highlight | 2026 FIFA World Cup™",
+    "USA clinches first place in World Cup group after Paraguay's win over Turkey seals favorable bracket path",
+    "World Cup 2026: Paraguay's Miguel Almiron sent off for covering mouth while speaking to opponent",
+    "World Cup 2026: USA clinches Group D with win over Australia after Türkiye's loss to Paraguay"
   ],
   "nextMatch": {
     "a": "Netherlands",
