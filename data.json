@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T16:56:09.571069Z",
+  "updated": "2026-06-21T22:00:11.517767Z",
   "matches": [
     {
       "id": "wc26-760449",
@@ -17,10 +17,9 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Saudi Arabia",
-      "status": "live",
-      "scoreA": 3,
-      "scoreB": 0,
-      "minute": "45'+5'"
+      "status": "ft",
+      "scoreA": 4,
+      "scoreB": 0
     },
     {
       "id": "wc26-760451",
@@ -28,7 +27,9 @@
       "grp": "GROUP G",
       "a": "Belgium",
       "b": "Iran",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 0,
+      "scoreB": 0
     },
     {
       "id": "wc26-760450",
@@ -316,13 +317,13 @@
       "teams": [
         [
           "Belgium",
-          1,
+          2,
+          0,
+          2,
           0,
           1,
-          0,
           1,
-          1,
-          1
+          2
         ],
         [
           "Egypt",
@@ -336,13 +337,13 @@
         ],
         [
           "Iran",
-          1,
+          2,
           0,
-          1,
+          2,
           0,
           2,
           2,
-          1
+          2
         ],
         [
           "New Zealand",
@@ -360,13 +361,13 @@
       "teams": [
         [
           "Spain",
+          2,
+          1,
           1,
           0,
-          1,
+          4,
           0,
-          0,
-          0,
-          1
+          4
         ],
         [
           "Cape Verde",
@@ -380,12 +381,12 @@
         ],
         [
           "Saudi Arabia",
-          1,
+          2,
           0,
           1,
-          0,
           1,
           1,
+          5,
           1
         ],
         [
@@ -577,10 +578,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "Saudi Arabia",
-    "Spain"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
@@ -588,7 +586,7 @@
     },
     {
       "code": "Spain",
-      "pct": 14.4
+      "pct": 13.9
     },
     {
       "code": "England",
@@ -604,11 +602,11 @@
     },
     {
       "code": "Brazil",
-      "pct": 5.9
+      "pct": 5.8
     },
     {
       "code": "Netherlands",
-      "pct": 5.7
+      "pct": 5.5
     },
     {
       "code": "Germany",
@@ -616,23 +614,19 @@
     },
     {
       "code": "USA",
-      "pct": 4.0
+      "pct": 3.9
     },
     {
       "code": "Norway",
-      "pct": 2.5
-    },
-    {
-      "code": "Morocco",
       "pct": 2.4
     },
     {
       "code": "Japan",
-      "pct": 1.9
+      "pct": 2.2
     },
     {
-      "code": "Belgium",
-      "pct": 1.6
+      "code": "Morocco",
+      "pct": 2.2
     },
     {
       "code": "Colombia",
@@ -640,11 +634,15 @@
     },
     {
       "code": "Mexico",
-      "pct": 1.4
+      "pct": 1.2
+    },
+    {
+      "code": "Belgium",
+      "pct": 1.1
     },
     {
       "code": "Switzerland",
-      "pct": 0.8
+      "pct": 0.7
     }
   ],
   "groupOdds": {
@@ -699,7 +697,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 2.3
+        "pct": 2.2
       },
       {
         "code": "Haiti",
@@ -770,38 +768,38 @@
     ],
     "G": [
       {
-        "code": "Belgium",
-        "pct": 63.5
+        "code": "Egypt",
+        "pct": 45.0
       },
       {
-        "code": "Egypt",
-        "pct": 25.5
+        "code": "Belgium",
+        "pct": 35.5
       },
       {
         "code": "Iran",
-        "pct": 6.2
+        "pct": 12.7
       },
       {
         "code": "New Zealand",
-        "pct": 3.9
+        "pct": 6.5
       }
     ],
     "H": [
       {
         "code": "Spain",
-        "pct": 87.0
+        "pct": 86.0
       },
       {
         "code": "Uruguay",
-        "pct": 12.5
+        "pct": 13.0
       },
       {
         "code": "Cape Verde",
-        "pct": 1.1
+        "pct": 1.9
       },
       {
         "code": "Saudi Arabia",
-        "pct": 0.1
+        "pct": 0.7
       }
     ],
     "I": [
@@ -815,7 +813,7 @@
       },
       {
         "code": "Senegal",
-        "pct": 0.5
+        "pct": 0.1
       },
       {
         "code": "Iraq",
@@ -825,7 +823,7 @@
     "J": [
       {
         "code": "Argentina",
-        "pct": 84.5
+        "pct": 85.5
       },
       {
         "code": "Austria",
@@ -833,11 +831,11 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.7
+        "pct": 1.6
       },
       {
         "code": "Jordan",
-        "pct": 0.5
+        "pct": 0.1
       }
     ],
     "K": [
@@ -851,11 +849,11 @@
       },
       {
         "code": "DR Congo",
-        "pct": 4.7
+        "pct": 4.5
       },
       {
         "code": "Uzbekistan",
-        "pct": 0.1
+        "pct": 0.2
       }
     ],
     "L": [
@@ -865,7 +863,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 5.0
+        "pct": 5.1
       },
       {
         "code": "Croatia",
@@ -873,40 +871,36 @@
       },
       {
         "code": "Panama",
-        "pct": 0.4
+        "pct": 0.2
       }
     ]
   },
   "news": [
-    "LIVE: Spain vs Saudi Arabia – World Cup 2026",
-    "Spain v Saudi Arabia: World Cup 2026 – live",
-    "Andrew Giuliani discusses FIFA World Cup 2026 preparations and security",
-    "World Cup 2026 schedule, live updates: Spain taking on Saudi Arabia; Belgium, Uruguay return on Sunday",
-    "Was this the king of World Cup goalkeeper performances? Why the Japan fan backlash? Day 10 recap",
-    "Dutch royals enjoy two big results in one World Cup day",
-    "Ecuador vs Curaçao Highlights | 2026 FIFA World Cup™",
-    "Iran’s World Cup coach lashes out again after flight chaos: ‘They robbed us’"
+    "World Cup 2026 schedule, live updates: Uruguay takes on Cape Verde; Iran, Belgium draw; Spain routs Saudi Arabia",
+    "Iran’s Mehdi Taremi goal disallowed for offside, score stays level vs. Belgium | 2026 FIFA World Cup",
+    "Uruguay vs Cape Verde live updates: World Cup 2026 game latest team news and buildup",
+    "Iran’s beleaguered World Cup team finds hope with draw against Belgium",
+    "Spain vs Saudi Arabia Highlights | 2026 FIFA World Cup™",
+    "Spain 4-0 Saudi Arabia: World Cup 2026 – as it happened",
+    "World Cup 2026: Spain's Lamine Yamal shows why this could be his World Cup",
+    "World Cup 2026: Eloy Room equals saves record as Curacao create history"
   ],
   "nextMatch": {
-    "a": "Belgium",
-    "b": "Iran",
+    "a": "New Zealand",
+    "b": "Egypt",
     "grp": "GROUP G",
-    "kickoffISO": "2026-06-21T19:00:00Z",
-    "when": "Sun 3:00 PM ET",
-    "venue": "SoFi Stadium",
-    "city": "Inglewood, California",
-    "stadium": "SoFi Stadium",
-    "weather": null
+    "kickoffISO": "2026-06-22T01:00:00Z",
+    "when": "Sun 9:00 PM ET",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "weather": {
+      "tempF": 73,
+      "windMph": 9,
+      "description": "Clear sky"
+    }
   },
   "remainingFixtures": {
-    "Belgium": [
-      "vs Iran (Jun 21)",
-      "vs New Zealand (Jun 26)"
-    ],
-    "Iran": [
-      "vs Belgium (Jun 21)",
-      "vs Egypt (Jun 26)"
-    ],
     "Uruguay": [
       "vs Cape Verde (Jun 21)",
       "vs Spain (Jun 26)"
@@ -1048,6 +1042,12 @@
     ],
     "Spain": [
       "vs Uruguay (Jun 26)"
+    ],
+    "Iran": [
+      "vs Egypt (Jun 26)"
+    ],
+    "Belgium": [
+      "vs New Zealand (Jun 26)"
     ]
   },
   "topScorers": [
