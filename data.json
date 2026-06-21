@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T10:46:23.747238Z",
+  "updated": "2026-06-21T16:56:09.571069Z",
   "matches": [
     {
       "id": "wc26-760449",
@@ -17,7 +17,10 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Saudi Arabia",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 3,
+      "scoreB": 0,
+      "minute": "45'+5'"
     },
     {
       "id": "wc26-760451",
@@ -574,7 +577,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Saudi Arabia",
+    "Spain"
+  ],
   "probabilities": [
     {
       "code": "France",
@@ -582,7 +588,7 @@
     },
     {
       "code": "Spain",
-      "pct": 13.7
+      "pct": 14.4
     },
     {
       "code": "England",
@@ -594,7 +600,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.9
+      "pct": 6.7
     },
     {
       "code": "Brazil",
@@ -602,15 +608,15 @@
     },
     {
       "code": "Netherlands",
-      "pct": 5.8
-    },
-    {
-      "code": "Germany",
       "pct": 5.7
     },
     {
+      "code": "Germany",
+      "pct": 5.3
+    },
+    {
       "code": "USA",
-      "pct": 3.9
+      "pct": 4.0
     },
     {
       "code": "Norway",
@@ -622,7 +628,7 @@
     },
     {
       "code": "Japan",
-      "pct": 2.1
+      "pct": 1.9
     },
     {
       "code": "Belgium",
@@ -747,7 +753,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 76.0
+        "pct": 76.5
       },
       {
         "code": "Japan",
@@ -755,7 +761,7 @@
       },
       {
         "code": "Sweden",
-        "pct": 4.0
+        "pct": 2.9
       },
       {
         "code": "Tunisia",
@@ -773,35 +779,35 @@
       },
       {
         "code": "Iran",
-        "pct": 6.6
+        "pct": 6.2
       },
       {
         "code": "New Zealand",
-        "pct": 4.0
+        "pct": 3.9
       }
     ],
     "H": [
       {
         "code": "Spain",
-        "pct": 73.5
+        "pct": 87.0
       },
       {
         "code": "Uruguay",
-        "pct": 20.5
-      },
-      {
-        "code": "Saudi Arabia",
-        "pct": 3.4
+        "pct": 12.5
       },
       {
         "code": "Cape Verde",
-        "pct": 2.9
+        "pct": 1.1
+      },
+      {
+        "code": "Saudi Arabia",
+        "pct": 0.1
       }
     ],
     "I": [
       {
         "code": "France",
-        "pct": 77.5
+        "pct": 78.5
       },
       {
         "code": "Norway",
@@ -809,7 +815,7 @@
       },
       {
         "code": "Senegal",
-        "pct": 1.4
+        "pct": 0.5
       },
       {
         "code": "Iraq",
@@ -827,11 +833,11 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.6
+        "pct": 1.7
       },
       {
         "code": "Jordan",
-        "pct": 0.1
+        "pct": 0.5
       }
     ],
     "K": [
@@ -872,35 +878,27 @@
     ]
   },
   "news": [
-    "World Cup 2026 schedule, live updates: Japan, Germany, Netherlands deliver big wins",
-    "World Cup 2026: Japan win 1000th game, highlights, reaction",
-    "Messi, Argentina play Austria in World Cup group match: All to know",
+    "LIVE: Spain vs Saudi Arabia – World Cup 2026",
+    "Spain v Saudi Arabia: World Cup 2026 – live",
+    "Andrew Giuliani discusses FIFA World Cup 2026 preparations and security",
+    "World Cup 2026 schedule, live updates: Spain taking on Saudi Arabia; Belgium, Uruguay return on Sunday",
+    "Was this the king of World Cup goalkeeper performances? Why the Japan fan backlash? Day 10 recap",
+    "Dutch royals enjoy two big results in one World Cup day",
     "Ecuador vs Curaçao Highlights | 2026 FIFA World Cup™",
-    "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
-    "FIFA World Cup 2026 Moment of the Day: No Room for goals",
-    "Ayase Ueda double helps Japan record first World Cup 2026 win and sends woeful Tunisia home: Live updates, reaction",
-    "Tunisia 0-4 Japan: World Cup 2026 – as it happened"
+    "Iran’s World Cup coach lashes out again after flight chaos: ‘They robbed us’"
   ],
   "nextMatch": {
-    "a": "Spain",
-    "b": "Saudi Arabia",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-06-21T16:00:00Z",
-    "when": "Sun 12:00 PM ET",
-    "venue": "Mercedes-Benz Stadium",
-    "city": "Atlanta, Georgia",
-    "stadium": "Mercedes-Benz Stadium",
+    "a": "Belgium",
+    "b": "Iran",
+    "grp": "GROUP G",
+    "kickoffISO": "2026-06-21T19:00:00Z",
+    "when": "Sun 3:00 PM ET",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "stadium": "SoFi Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Spain": [
-      "vs Saudi Arabia (Jun 21)",
-      "vs Uruguay (Jun 26)"
-    ],
-    "Saudi Arabia": [
-      "vs Spain (Jun 21)",
-      "vs Cape Verde (Jun 26)"
-    ],
     "Belgium": [
       "vs Iran (Jun 21)",
       "vs New Zealand (Jun 26)"
@@ -1044,6 +1042,12 @@
     ],
     "United States": [
       "vs Turkey (Jun 25)"
+    ],
+    "Saudi Arabia": [
+      "vs Cape Verde (Jun 26)"
+    ],
+    "Spain": [
+      "vs Uruguay (Jun 26)"
     ]
   },
   "topScorers": [
