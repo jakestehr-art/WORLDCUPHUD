@@ -1,50 +1,36 @@
 {
-  "updated": "2026-06-21T22:00:11.517767Z",
+  "updated": "2026-06-22T16:15:48.299963Z",
   "matches": [
     {
-      "id": "wc26-760449",
-      "when": "12:00 AM",
-      "grp": "GROUP F",
-      "a": "Tunisia",
-      "b": "Japan",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 4
-    },
-    {
-      "id": "wc26-760453",
-      "when": "12:00 PM",
-      "grp": "GROUP H",
-      "a": "Spain",
-      "b": "Saudi Arabia",
-      "status": "ft",
-      "scoreA": 4,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760451",
-      "when": "3:00 PM",
-      "grp": "GROUP G",
-      "a": "Belgium",
-      "b": "Iran",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760450",
-      "when": "6:00 PM",
-      "grp": "GROUP H",
-      "a": "Uruguay",
-      "b": "Cape Verde",
+      "id": "wc26-760456",
+      "when": "1:00 PM",
+      "grp": "GROUP J",
+      "a": "Argentina",
+      "b": "Austria",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760452",
-      "when": "9:00 PM",
-      "grp": "GROUP G",
-      "a": "New Zealand",
-      "b": "Egypt",
+      "id": "wc26-760457",
+      "when": "5:00 PM",
+      "grp": "GROUP I",
+      "a": "France",
+      "b": "Iraq",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760454",
+      "when": "8:00 PM",
+      "grp": "GROUP I",
+      "a": "Norway",
+      "b": "Senegal",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760455",
+      "when": "11:00 PM",
+      "grp": "GROUP J",
+      "a": "Jordan",
+      "b": "Algeria",
       "status": "upcoming"
     }
   ],
@@ -327,13 +313,13 @@
         ],
         [
           "Egypt",
+          2,
+          1,
           1,
           0,
-          1,
-          0,
-          1,
-          1,
-          1
+          4,
+          2,
+          4
         ],
         [
           "Iran",
@@ -347,12 +333,12 @@
         ],
         [
           "New Zealand",
-          1,
+          2,
           0,
           1,
-          0,
-          2,
-          2,
+          1,
+          3,
+          5,
           1
         ]
       ]
@@ -371,13 +357,13 @@
         ],
         [
           "Cape Verde",
-          1,
+          2,
           0,
-          1,
+          2,
           0,
-          0,
-          0,
-          1
+          2,
+          2,
+          2
         ],
         [
           "Saudi Arabia",
@@ -391,13 +377,13 @@
         ],
         [
           "Uruguay",
-          1,
+          2,
           0,
-          1,
+          2,
           0,
-          1,
-          1,
-          1
+          3,
+          3,
+          2
         ]
       ]
     },
@@ -589,48 +575,48 @@
       "pct": 13.9
     },
     {
+      "code": "Argentina",
+      "pct": 13.2
+    },
+    {
       "code": "England",
       "pct": 12.6
     },
     {
-      "code": "Argentina",
-      "pct": 11.8
+      "code": "Portugal",
+      "pct": 6.8
     },
     {
-      "code": "Portugal",
-      "pct": 6.7
+      "code": "Germany",
+      "pct": 5.7
     },
     {
       "code": "Brazil",
-      "pct": 5.8
+      "pct": 5.5
     },
     {
       "code": "Netherlands",
       "pct": 5.5
     },
     {
-      "code": "Germany",
-      "pct": 5.3
-    },
-    {
       "code": "USA",
-      "pct": 3.9
+      "pct": 3.5
     },
     {
       "code": "Norway",
-      "pct": 2.4
+      "pct": 2.2
     },
     {
       "code": "Japan",
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "code": "Morocco",
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "code": "Colombia",
-      "pct": 1.5
+      "pct": 1.6
     },
     {
       "code": "Mexico",
@@ -697,7 +683,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 2.2
+        "pct": 2.1
       },
       {
         "code": "Haiti",
@@ -755,11 +741,11 @@
       },
       {
         "code": "Japan",
-        "pct": 20.5
+        "pct": 21.5
       },
       {
         "code": "Sweden",
-        "pct": 2.9
+        "pct": 2.7
       },
       {
         "code": "Tunisia",
@@ -769,43 +755,43 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 45.0
+        "pct": 64.5
       },
       {
         "code": "Belgium",
-        "pct": 35.5
+        "pct": 25.5
       },
       {
         "code": "Iran",
-        "pct": 12.7
+        "pct": 11.3
       },
       {
         "code": "New Zealand",
-        "pct": 6.5
+        "pct": 0.0
       }
     ],
     "H": [
       {
         "code": "Spain",
-        "pct": 86.0
+        "pct": 86.5
       },
       {
         "code": "Uruguay",
-        "pct": 13.0
+        "pct": 9.5
       },
       {
         "code": "Cape Verde",
-        "pct": 1.9
+        "pct": 3.2
       },
       {
         "code": "Saudi Arabia",
-        "pct": 0.7
+        "pct": 0.0
       }
     ],
     "I": [
       {
         "code": "France",
-        "pct": 78.5
+        "pct": 77.5
       },
       {
         "code": "Norway",
@@ -813,7 +799,7 @@
       },
       {
         "code": "Senegal",
-        "pct": 0.1
+        "pct": 1.5
       },
       {
         "code": "Iraq",
@@ -831,7 +817,7 @@
       },
       {
         "code": "Algeria",
-        "pct": 1.6
+        "pct": 1.5
       },
       {
         "code": "Jordan",
@@ -841,19 +827,19 @@
     "K": [
       {
         "code": "Colombia",
-        "pct": 48.5
+        "pct": 50.0
       },
       {
         "code": "Portugal",
-        "pct": 45.5
+        "pct": 44.5
       },
       {
         "code": "DR Congo",
-        "pct": 4.5
+        "pct": 5.8
       },
       {
         "code": "Uzbekistan",
-        "pct": 0.2
+        "pct": 0.1
       }
     ],
     "L": [
@@ -863,60 +849,40 @@
       },
       {
         "code": "Ghana",
-        "pct": 5.1
+        "pct": 5.2
       },
       {
         "code": "Croatia",
-        "pct": 2.7
+        "pct": 2.5
       },
       {
         "code": "Panama",
-        "pct": 0.2
+        "pct": 0.1
       }
     ]
   },
   "news": [
-    "World Cup 2026 schedule, live updates: Uruguay takes on Cape Verde; Iran, Belgium draw; Spain routs Saudi Arabia",
-    "Iran’s Mehdi Taremi goal disallowed for offside, score stays level vs. Belgium | 2026 FIFA World Cup",
-    "Uruguay vs Cape Verde live updates: World Cup 2026 game latest team news and buildup",
+    "World Cup 2026: Cape Verde celebrations; Norway v Senegal weather warning; L’Équipe apologises to Doku – live",
+    "World Cup 2026 schedule, live updates: Messi, Mbappé and Haaland return on star-studded Monday",
+    "FIFA World Cup: Live updates, TV schedule, results, standings and highlights",
+    "World Cup 2026: Germany defender Nico Schlotterbeck to miss rest of tournament with ankle injury",
     "Iran’s beleaguered World Cup team finds hope with draw against Belgium",
-    "Spain vs Saudi Arabia Highlights | 2026 FIFA World Cup™",
-    "Spain 4-0 Saudi Arabia: World Cup 2026 – as it happened",
-    "World Cup 2026: Spain's Lamine Yamal shows why this could be his World Cup",
-    "World Cup 2026: Eloy Room equals saves record as Curacao create history"
+    "World Cup 2026: Iran leave message asking for peace after Belgium draw",
+    "Iran leave note in World Cup dressing room mentioning 'peace'",
+    "World Cup 2026: Lionel Messi Argentina v Austria, Kylian Mbappe France v Iraq"
   ],
   "nextMatch": {
-    "a": "New Zealand",
-    "b": "Egypt",
-    "grp": "GROUP G",
-    "kickoffISO": "2026-06-22T01:00:00Z",
-    "when": "Sun 9:00 PM ET",
-    "venue": "BC Place",
-    "city": "Vancouver",
-    "stadium": "BC Place",
-    "weather": {
-      "tempF": 73,
-      "windMph": 9,
-      "description": "Clear sky"
-    }
+    "a": "Argentina",
+    "b": "Austria",
+    "grp": "GROUP J",
+    "kickoffISO": "2026-06-22T17:00:00Z",
+    "when": "Mon 1:00 PM ET",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "stadium": "AT&T Stadium",
+    "weather": null
   },
   "remainingFixtures": {
-    "Uruguay": [
-      "vs Cape Verde (Jun 21)",
-      "vs Spain (Jun 26)"
-    ],
-    "Cape Verde": [
-      "vs Uruguay (Jun 21)",
-      "vs Saudi Arabia (Jun 26)"
-    ],
-    "New Zealand": [
-      "vs Egypt (Jun 21)",
-      "vs Belgium (Jun 26)"
-    ],
-    "Egypt": [
-      "vs New Zealand (Jun 21)",
-      "vs Iran (Jun 26)"
-    ],
     "Argentina": [
       "vs Austria (Jun 22)"
     ],
@@ -1037,14 +1003,26 @@
     "United States": [
       "vs Turkey (Jun 25)"
     ],
+    "Cape Verde": [
+      "vs Saudi Arabia (Jun 26)"
+    ],
     "Saudi Arabia": [
       "vs Cape Verde (Jun 26)"
+    ],
+    "Uruguay": [
+      "vs Spain (Jun 26)"
     ],
     "Spain": [
       "vs Uruguay (Jun 26)"
     ],
+    "Egypt": [
+      "vs Iran (Jun 26)"
+    ],
     "Iran": [
       "vs Egypt (Jun 26)"
+    ],
+    "New Zealand": [
+      "vs Belgium (Jun 26)"
     ],
     "Belgium": [
       "vs New Zealand (Jun 26)"
@@ -1094,60 +1072,60 @@
   ],
   "fanPhotos": [
     {
-      "title": "FIFA Fan Festival CDMX - 120626 - 58.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg/960px-FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:FIFA_Fan_Festival_CDMX_-_120626_-_58.jpg",
-      "attribution": "ProtoplasmaKid",
-      "license": "CC BY 4.0"
-    },
-    {
-      "title": "Fans at 2026 FIFA World Cup by YantsImages 01.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_01.jpg",
-      "attribution": "YantsImages",
+      "title": "Fan Zone by the Falls (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Fans at 2026 FIFA World Cup by YantsImages 02.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_02.jpg",
-      "attribution": "YantsImages",
+      "title": "Fan Zone by the Falls 2 (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fan_Zone_by_the_Falls_2_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_2_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_2_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Fans at 2026 FIFA World Cup by YantsImages 03.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_03.jpg",
-      "attribution": "YantsImages",
+      "title": "Fan Zone by the Falls 3 (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Fan_Zone_by_the_Falls_3_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_3_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_3_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Fans at 2026 FIFA World Cup by YantsImages 04.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_04.jpg",
-      "attribution": "YantsImages",
+      "title": "Fan Zone by the Falls 4 (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fan_Zone_by_the_Falls_4_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_4_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_4_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Fans at 2026 FIFA World Cup by YantsImages 06.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg/960px-Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fans_at_2026_FIFA_World_Cup_by_YantsImages_06.jpg",
-      "attribution": "YantsImages",
+      "title": "Fan Zone by the Falls 5 (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fan_Zone_by_the_Falls_5_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_5_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_5_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     },
     {
-      "title": "I proudly say that I am a supporter of Morocco- FIFA world cup 2026.png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/I_proudly_say_that_I_am_a_supporter_of_Morocco-_FIFA_world_cup_2026.png",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:I_proudly_say_that_I_am_a_supporter_of_Morocco-_FIFA_world_cup_2026.png",
-      "attribution": "",
-      "license": "CC BY-SA 3.0"
+      "title": "Fan Zone by the Falls 6 (FIFA World Cup Celebrations in Canada).jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Fan_Zone_by_the_Falls_6_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_6_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_6_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
+      "attribution": "Gogerr",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "title": "Neymar at 2026 FIFA World Cup by YantsImages.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg/960px-Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neymar_at_2026_FIFA_World_Cup_by_YantsImages.jpg",
-      "attribution": "YantsImages",
-      "license": "CC BY-SA 4.0"
+      "title": "Belgium v Iran, 2026 FIFA World Cup, Match 45.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_45.jpg/960px-Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_45.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Belgium_v_Iran,_2026_FIFA_World_Cup,_Match_45.jpg",
+      "attribution": "Teherangeles",
+      "license": "CC0"
+    },
+    {
+      "title": "Belgium v Iran, 2026 FIFA World Cup, Match 46.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_46.jpg/960px-Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_46.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Belgium_v_Iran,_2026_FIFA_World_Cup,_Match_46.jpg",
+      "attribution": "Teherangeles",
+      "license": "CC0"
     }
   ],
   "fanReactions": []
