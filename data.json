@@ -1,41 +1,36 @@
 {
-  "updated": "2026-06-22T22:27:45.002657Z",
+  "updated": "2026-06-23T10:48:35.951173Z",
   "matches": [
     {
-      "id": "wc26-760456",
+      "id": "wc26-760461",
       "when": "1:00 PM",
-      "grp": "GROUP J",
-      "a": "Argentina",
-      "b": "Austria",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760457",
-      "when": "5:00 PM",
-      "grp": "GROUP I",
-      "a": "France",
-      "b": "Iraq",
-      "status": "live",
-      "scoreA": 1,
-      "scoreB": 0,
-      "minute": "45'+3'"
-    },
-    {
-      "id": "wc26-760454",
-      "when": "8:00 PM",
-      "grp": "GROUP I",
-      "a": "Norway",
-      "b": "Senegal",
+      "grp": "GROUP K",
+      "a": "Portugal",
+      "b": "Uzbekistan",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760455",
-      "when": "11:00 PM",
-      "grp": "GROUP J",
-      "a": "Jordan",
-      "b": "Algeria",
+      "id": "wc26-760458",
+      "when": "4:00 PM",
+      "grp": "GROUP L",
+      "a": "England",
+      "b": "Ghana",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760460",
+      "when": "7:00 PM",
+      "grp": "GROUP L",
+      "a": "Panama",
+      "b": "Croatia",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760459",
+      "when": "10:00 PM",
+      "grp": "GROUP K",
+      "a": "Colombia",
+      "b": "DR Congo",
       "status": "upcoming"
     }
   ],
@@ -396,43 +391,43 @@
       "teams": [
         [
           "France",
-          1,
-          1,
+          2,
+          2,
           0,
           0,
-          3,
+          6,
           1,
-          3
+          6
         ],
         [
           "Senegal",
-          1,
+          2,
           0,
           0,
-          1,
-          1,
+          2,
           3,
+          6,
           0
         ],
         [
           "Iraq",
-          1,
+          2,
           0,
           0,
+          2,
           1,
-          1,
-          4,
+          7,
           0
         ],
         [
           "Norway",
-          1,
-          1,
+          2,
+          2,
           0,
           0,
-          4,
-          1,
-          3
+          7,
+          3,
+          6
         ]
       ]
     },
@@ -450,13 +445,13 @@
         ],
         [
           "Algeria",
+          2,
           1,
           0,
-          0,
           1,
-          0,
-          3,
-          0
+          2,
+          4,
+          3
         ],
         [
           "Austria",
@@ -470,12 +465,12 @@
         ],
         [
           "Jordan",
-          1,
+          2,
           0,
           0,
-          1,
-          1,
-          3,
+          2,
+          2,
+          5,
           0
         ]
       ]
@@ -569,26 +564,23 @@
       ]
     }
   },
-  "liveTeams": [
-    "France",
-    "Iraq"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
       "pct": 19.8
     },
     {
+      "code": "Argentina",
+      "pct": 14.3
+    },
+    {
       "code": "Spain",
       "pct": 13.9
     },
     {
-      "code": "Argentina",
-      "pct": 13.2
-    },
-    {
       "code": "England",
-      "pct": 12.6
+      "pct": 12.3
     },
     {
       "code": "Portugal",
@@ -599,32 +591,32 @@
       "pct": 5.7
     },
     {
-      "code": "Brazil",
-      "pct": 5.5
+      "code": "Netherlands",
+      "pct": 4.8
     },
     {
-      "code": "Netherlands",
-      "pct": 5.5
+      "code": "Brazil",
+      "pct": 4.5
     },
     {
       "code": "USA",
       "pct": 3.5
     },
     {
+      "code": "Norway",
+      "pct": 2.9
+    },
+    {
       "code": "Japan",
       "pct": 2.1
     },
     {
-      "code": "Norway",
-      "pct": 2.1
-    },
-    {
       "code": "Morocco",
-      "pct": 2.1
+      "pct": 1.7
     },
     {
       "code": "Colombia",
-      "pct": 1.6
+      "pct": 1.5
     },
     {
       "code": "Mexico",
@@ -691,7 +683,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 2.0
+        "pct": 2.1
       },
       {
         "code": "Haiti",
@@ -753,7 +745,7 @@
       },
       {
         "code": "Sweden",
-        "pct": 3.2
+        "pct": 3.1
       },
       {
         "code": "Tunisia",
@@ -763,7 +755,7 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 63.0
+        "pct": 63.5
       },
       {
         "code": "Belgium",
@@ -771,7 +763,7 @@
       },
       {
         "code": "Iran",
-        "pct": 12.2
+        "pct": 12.0
       },
       {
         "code": "New Zealand",
@@ -789,7 +781,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 4.0
+        "pct": 3.4
       },
       {
         "code": "Saudi Arabia",
@@ -799,36 +791,40 @@
     "I": [
       {
         "code": "France",
-        "pct": 80.0
+        "pct": 78.5
       },
       {
         "code": "Norway",
-        "pct": 19.5
+        "pct": 21.5
       },
       {
         "code": "Senegal",
-        "pct": 0.3
+        "pct": 0.0
       },
       {
         "code": "Iraq",
-        "pct": 0.1
+        "pct": 0.0
       }
     ],
     "J": [
       {
         "code": "Argentina",
-        "pct": 99.8
-      },
-      {
-        "code": "Jordan",
-        "pct": 0.2
-      },
-      {
-        "code": "Austria",
-        "pct": 0.1
+        "pct": 100.0
       },
       {
         "code": "Algeria",
+        "pct": 0.0
+      },
+      {
+        "code": "Jordan",
+        "pct": 0.0
+      },
+      {
+        "code": "Austria",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -843,7 +839,7 @@
       },
       {
         "code": "DR Congo",
-        "pct": 5.9
+        "pct": 5.2
       },
       {
         "code": "Uzbekistan",
@@ -853,15 +849,15 @@
     "L": [
       {
         "code": "England",
-        "pct": 93.5
+        "pct": 94.0
       },
       {
         "code": "Ghana",
-        "pct": 4.8
+        "pct": 4.2
       },
       {
         "code": "Croatia",
-        "pct": 2.0
+        "pct": 1.5
       },
       {
         "code": "Panama",
@@ -870,41 +866,27 @@
     ]
   },
   "news": [
-    "World Cup 2026 scores, live updates: Mbappé, France leading Iraq; Messi breaks scoring record; Haaland, Norway up next",
-    "France's Kylian Mbappé scores screamer, taking early lead vs Iraq | 2026 FIFA World Cup™",
-    "Egypt denied flight to Seattle ahead of final World Cup group match",
-    "World Cup 2026 live updates: Mbappe puts France ahead 1-0 on Iraq at halftime; Argentina’s Messi makes history with 2-0 win vs. Austria",
-    "World Cup 2026 knockout stage tracker: Argentina joins USA, Mexico, Germany in Round of 32; who's in and who's out?",
-    "Which teams have qualified for the World Cup 2026 knockouts, round of 32?",
-    "Uruguay on the slide as Spain find some rhythm. Re-ranking the 48 World Cup teams after day 11 - The Athletic",
-    "World Cup 2026: guide to all 1,248 players"
+    "World Cup 2026 updates, results: Norway, France, Argentina reach knockouts on star-studded day",
+    "World Cup 2026: England v Ghana - who will start for Thomas Tuchel's side?",
+    "How to watch Uzbekistan vs. Portugal 2026 World Cup match: TV channel, streaming options",
+    "Argentina 2-0 Austria: Messi breaks scoring record at World Cup 2026 – as it happened",
+    "France vs Iraq Highlights | 2026 FIFA World Cup™",
+    "France 3-0 Iraq after two-hour storm delay at World Cup 2026 – as it happened",
+    "What France & Iraq did during 'mentally draining' two-hour weather delay",
+    "Ecstatic Norway row their way to knockout stage with win over Senegal"
   ],
   "nextMatch": {
-    "a": "Norway",
-    "b": "Senegal",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-06-23T00:00:00Z",
-    "when": "Mon 8:00 PM ET",
-    "venue": "MetLife Stadium",
-    "city": "East Rutherford, New Jersey",
-    "stadium": "MetLife Stadium",
+    "a": "Portugal",
+    "b": "Uzbekistan",
+    "grp": "GROUP K",
+    "kickoffISO": "2026-06-23T17:00:00Z",
+    "when": "Tue 1:00 PM ET",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "stadium": "NRG Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Norway": [
-      "vs Senegal (Jun 22)",
-      "vs France (Jun 26)"
-    ],
-    "Senegal": [
-      "vs Norway (Jun 22)",
-      "vs Iraq (Jun 26)"
-    ],
-    "Jordan": [
-      "vs Algeria (Jun 22)"
-    ],
-    "Algeria": [
-      "vs Jordan (Jun 22)"
-    ],
     "Portugal": [
       "vs Uzbekistan (Jun 23)",
       "vs Colombia (Jun 27)"
@@ -997,8 +979,14 @@
     "United States": [
       "vs Turkey (Jun 25)"
     ],
+    "Norway": [
+      "vs France (Jun 26)"
+    ],
     "France": [
       "vs Norway (Jun 26)"
+    ],
+    "Senegal": [
+      "vs Iraq (Jun 26)"
     ],
     "Iraq": [
       "vs Senegal (Jun 26)"
@@ -1035,13 +1023,18 @@
       "goals": 5
     },
     {
-      "player": "Deniz Undav",
-      "team": "Germany",
-      "goals": 3
-    },
-    {
       "player": "Kylian Mbappé",
       "team": "France",
+      "goals": 4
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4
+    },
+    {
+      "player": "Deniz Undav",
+      "team": "Germany",
       "goals": 3
     },
     {
@@ -1062,11 +1055,6 @@
     {
       "player": "Ismael Saibari",
       "team": "Morocco",
-      "goals": 2
-    },
-    {
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
       "goals": 2
     }
   ],
