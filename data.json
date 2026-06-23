@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T10:48:35.951173Z",
+  "updated": "2026-06-23T17:30:29.747740Z",
   "matches": [
     {
       "id": "wc26-760461",
@@ -7,7 +7,10 @@
       "grp": "GROUP K",
       "a": "Portugal",
       "b": "Uzbekistan",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 2,
+      "scoreB": 1,
+      "minute": "30'"
     },
     {
       "id": "wc26-760458",
@@ -564,15 +567,18 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Portugal",
+    "Uzbekistan"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 19.8
+      "pct": 19.4
     },
     {
       "code": "Argentina",
-      "pct": 14.3
+      "pct": 14.8
     },
     {
       "code": "Spain",
@@ -584,7 +590,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.8
+      "pct": 8.2
     },
     {
       "code": "Germany",
@@ -592,7 +598,7 @@
     },
     {
       "code": "Netherlands",
-      "pct": 4.8
+      "pct": 5.1
     },
     {
       "code": "Brazil",
@@ -604,11 +610,11 @@
     },
     {
       "code": "Norway",
-      "pct": 2.9
+      "pct": 3.0
     },
     {
       "code": "Japan",
-      "pct": 2.1
+      "pct": 1.9
     },
     {
       "code": "Morocco",
@@ -616,7 +622,7 @@
     },
     {
       "code": "Colombia",
-      "pct": 1.5
+      "pct": 1.6
     },
     {
       "code": "Mexico",
@@ -657,7 +663,7 @@
     "B": [
       {
         "code": "Canada",
-        "pct": 61.5
+        "pct": 60.5
       },
       {
         "code": "Switzerland",
@@ -679,11 +685,11 @@
       },
       {
         "code": "Morocco",
-        "pct": 32.5
+        "pct": 33.5
       },
       {
         "code": "Scotland",
-        "pct": 2.1
+        "pct": 2.2
       },
       {
         "code": "Haiti",
@@ -737,7 +743,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 76.5
+        "pct": 77.0
       },
       {
         "code": "Japan",
@@ -745,7 +751,7 @@
       },
       {
         "code": "Sweden",
-        "pct": 3.1
+        "pct": 2.7
       },
       {
         "code": "Tunisia",
@@ -755,7 +761,7 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 63.5
+        "pct": 63.0
       },
       {
         "code": "Belgium",
@@ -763,7 +769,7 @@
       },
       {
         "code": "Iran",
-        "pct": 12.0
+        "pct": 11.9
       },
       {
         "code": "New Zealand",
@@ -791,11 +797,11 @@
     "I": [
       {
         "code": "France",
-        "pct": 78.5
+        "pct": 79.5
       },
       {
         "code": "Norway",
-        "pct": 21.5
+        "pct": 20.5
       },
       {
         "code": "Senegal",
@@ -830,16 +836,16 @@
     ],
     "K": [
       {
-        "code": "Colombia",
-        "pct": 49.5
+        "code": "Portugal",
+        "pct": 56.0
       },
       {
-        "code": "Portugal",
-        "pct": 44.5
+        "code": "Colombia",
+        "pct": 42.5
       },
       {
         "code": "DR Congo",
-        "pct": 5.2
+        "pct": 3.5
       },
       {
         "code": "Uzbekistan",
@@ -849,52 +855,44 @@
     "L": [
       {
         "code": "England",
-        "pct": 94.0
+        "pct": 94.5
       },
       {
         "code": "Ghana",
-        "pct": 4.2
+        "pct": 4.0
       },
       {
         "code": "Croatia",
-        "pct": 1.5
+        "pct": 1.4
       },
       {
         "code": "Panama",
-        "pct": 0.1
+        "pct": 0.4
       }
     ]
   },
   "news": [
-    "World Cup 2026 updates, results: Norway, France, Argentina reach knockouts on star-studded day",
-    "World Cup 2026: England v Ghana - who will start for Thomas Tuchel's side?",
-    "How to watch Uzbekistan vs. Portugal 2026 World Cup match: TV channel, streaming options",
-    "Argentina 2-0 Austria: Messi breaks scoring record at World Cup 2026 – as it happened",
+    "World Cup 2026 schedule, live updates: Portugal, England back in action as second round of group play wraps up",
+    "World Cup 2026: Can England fans win Boston hearts after Scottish party?",
+    "LIVE: Portugal vs Uzbekistan – World Cup 2026",
     "France vs Iraq Highlights | 2026 FIFA World Cup™",
     "France 3-0 Iraq after two-hour storm delay at World Cup 2026 – as it happened",
-    "What France & Iraq did during 'mentally draining' two-hour weather delay",
-    "Ecstatic Norway row their way to knockout stage with win over Senegal"
+    "Kylian Mbappe leads France past Iraq in World Cup 2026 match affected by two-hour weather delay",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026: All the key facts, in one place"
   ],
   "nextMatch": {
-    "a": "Portugal",
-    "b": "Uzbekistan",
-    "grp": "GROUP K",
-    "kickoffISO": "2026-06-23T17:00:00Z",
-    "when": "Tue 1:00 PM ET",
-    "venue": "NRG Stadium",
-    "city": "Houston, Texas",
-    "stadium": "NRG Stadium",
+    "a": "England",
+    "b": "Ghana",
+    "grp": "GROUP L",
+    "kickoffISO": "2026-06-23T20:00:00Z",
+    "when": "Tue 4:00 PM ET",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "stadium": "Gillette Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Portugal": [
-      "vs Uzbekistan (Jun 23)",
-      "vs Colombia (Jun 27)"
-    ],
-    "Uzbekistan": [
-      "vs Portugal (Jun 23)",
-      "vs DR Congo (Jun 27)"
-    ],
     "England": [
       "vs Ghana (Jun 23)",
       "vs Panama (Jun 27)"
@@ -1014,6 +1012,12 @@
     ],
     "Belgium": [
       "vs New Zealand (Jun 26)"
+    ],
+    "Portugal": [
+      "vs Colombia (Jun 27)"
+    ],
+    "Uzbekistan": [
+      "vs DR Congo (Jun 27)"
     ]
   },
   "topScorers": [
