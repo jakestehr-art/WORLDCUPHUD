@@ -1,40 +1,44 @@
 {
-  "updated": "2026-06-23T22:05:56.584792Z",
+  "updated": "2026-06-24T10:29:03.337361Z",
   "matches": [
     {
-      "id": "wc26-760461",
-      "when": "1:00 PM",
-      "grp": "GROUP K",
-      "a": "Portugal",
-      "b": "Uzbekistan",
-      "status": "ft",
-      "scoreA": 5,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760458",
-      "when": "4:00 PM",
-      "grp": "GROUP L",
-      "a": "England",
-      "b": "Ghana",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760460",
-      "when": "7:00 PM",
-      "grp": "GROUP L",
-      "a": "Panama",
-      "b": "Croatia",
+      "id": "wc26-760463",
+      "when": "3:00 PM",
+      "grp": "GROUP B",
+      "a": "Switzerland",
+      "b": "Canada",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760459",
-      "when": "10:00 PM",
-      "grp": "GROUP K",
-      "a": "Colombia",
-      "b": "DR Congo",
+      "id": "wc26-760464",
+      "when": "6:00 PM",
+      "grp": "GROUP C",
+      "a": "Morocco",
+      "b": "Haiti",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760465",
+      "when": "6:00 PM",
+      "grp": "GROUP C",
+      "a": "Scotland",
+      "b": "Brazil",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760467",
+      "when": "9:00 PM",
+      "grp": "GROUP A",
+      "a": "Czechia",
+      "b": "Mexico",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760466",
+      "when": "9:00 PM",
+      "grp": "GROUP A",
+      "a": "South Africa",
+      "b": "South Korea",
       "status": "upcoming"
     }
   ],
@@ -493,12 +497,12 @@
         ],
         [
           "DR Congo",
-          1,
+          2,
           0,
           1,
-          0,
           1,
           1,
+          2,
           1
         ],
         [
@@ -513,13 +517,13 @@
         ],
         [
           "Colombia",
-          1,
-          1,
+          2,
+          2,
           0,
           0,
-          3,
+          4,
           1,
-          3
+          6
         ]
       ]
     },
@@ -537,13 +541,13 @@
         ],
         [
           "Croatia",
-          1,
-          0,
-          0,
-          1,
           2,
+          1,
+          0,
+          1,
+          3,
           4,
-          0
+          3
         ],
         [
           "Ghana",
@@ -557,12 +561,12 @@
         ],
         [
           "Panama",
-          1,
+          2,
           0,
           0,
-          1,
+          2,
           0,
-          1,
+          2,
           0
         ]
       ]
@@ -572,7 +576,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 19.2
+      "pct": 19.1
     },
     {
       "code": "Argentina",
@@ -584,22 +588,22 @@
     },
     {
       "code": "England",
-      "pct": 10.4
+      "pct": 10.8
     },
     {
       "code": "Portugal",
-      "pct": 7.8
+      "pct": 8.2
     },
     {
       "code": "Germany",
-      "pct": 5.5
-    },
-    {
-      "code": "Brazil",
-      "pct": 5.1
+      "pct": 5.3
     },
     {
       "code": "Netherlands",
+      "pct": 5.3
+    },
+    {
+      "code": "Brazil",
       "pct": 5.1
     },
     {
@@ -612,15 +616,15 @@
     },
     {
       "code": "Japan",
-      "pct": 1.9
+      "pct": 2.1
+    },
+    {
+      "code": "Colombia",
+      "pct": 1.7
     },
     {
       "code": "Morocco",
       "pct": 1.7
-    },
-    {
-      "code": "Colombia",
-      "pct": 1.5
     },
     {
       "code": "Mexico",
@@ -661,11 +665,11 @@
     "B": [
       {
         "code": "Canada",
-        "pct": 60.5
+        "pct": 59.5
       },
       {
         "code": "Switzerland",
-        "pct": 39.5
+        "pct": 40.5
       },
       {
         "code": "Qatar",
@@ -679,7 +683,7 @@
     "C": [
       {
         "code": "Brazil",
-        "pct": 65.0
+        "pct": 65.5
       },
       {
         "code": "Morocco",
@@ -687,7 +691,7 @@
       },
       {
         "code": "Scotland",
-        "pct": 2.2
+        "pct": 2.1
       },
       {
         "code": "Haiti",
@@ -741,7 +745,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 76.5
+        "pct": 75.5
       },
       {
         "code": "Japan",
@@ -749,7 +753,7 @@
       },
       {
         "code": "Sweden",
-        "pct": 3.0
+        "pct": 2.9
       },
       {
         "code": "Tunisia",
@@ -759,7 +763,7 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 63.5
+        "pct": 62.5
       },
       {
         "code": "Belgium",
@@ -767,7 +771,7 @@
       },
       {
         "code": "Iran",
-        "pct": 11.9
+        "pct": 11.5
       },
       {
         "code": "New Zealand",
@@ -799,7 +803,7 @@
       },
       {
         "code": "Norway",
-        "pct": 19.5
+        "pct": 20.5
       },
       {
         "code": "Senegal",
@@ -835,19 +839,19 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 56.5
+        "pct": 52.5
       },
       {
         "code": "Colombia",
-        "pct": 41.5
+        "pct": 47.5
       },
       {
         "code": "DR Congo",
-        "pct": 3.2
+        "pct": 0.0
       },
       {
         "code": "Uzbekistan",
-        "pct": 0.1
+        "pct": 0.0
       }
     ],
     "L": [
@@ -856,61 +860,45 @@
         "pct": 87.5
       },
       {
-        "code": "Ghana",
-        "pct": 6.0
+        "code": "Croatia",
+        "pct": 8.3
       },
       {
-        "code": "Croatia",
-        "pct": 2.8
+        "code": "Ghana",
+        "pct": 4.7
       },
       {
         "code": "Panama",
-        "pct": 0.6
+        "pct": 0.0
       }
     ]
   },
   "news": [
-    "World Cup schedule, scores, live updates: England battling Ghana; Ronaldo, Portugal rout Uzbekistan",
-    "Why Thomas Partey Is Allowed to Play for Ghana vs. England—2026 World Cup",
-    "Panama vs Croatia LIVE: World Cup 2026 updates as Luka Modrić and co. look for first win",
-    "World Cup 2026: Fifa strip commentator of credentials after on-air rant over Miguel Almiron red card",
-    "Portugal vs Uzbekistan Highlights | 2026 FIFA World Cup™",
+    "How does Ronaldo turning up change things? Re-ranking the 48 World Cup teams after day 13 - The Athletic",
+    "World Cup 2026: Why Jude Bellingham was not sent off for covering his mouth",
+    "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
+    "England to face Scotland? World Cup knockout stage as it stands",
+    "World Cup 2026 - updates, news as Ghana hold England, Bafana brace for South Korea",
+    "Cristiano Ronaldo Nets Two Goals in First Half vs Uzbekistan 🤯 2026 FIFA World Cup™",
     "Portugal 5-0 Uzbekistan: World Cup 2026 – as it happened",
-    "World Cup 2026 live updates: England vs. Ghana, Cristiano Ronaldo scores as Portugal leads over Uzbekistan",
-    "World Cup 2026: Donald Trump to attend World Cup final and present winner"
+    "FIFA World Cup 2026 Moment of the Day: Cristiano Ronaldo is back"
   ],
   "nextMatch": {
-    "a": "Panama",
-    "b": "Croatia",
-    "grp": "GROUP L",
-    "kickoffISO": "2026-06-23T23:00:00Z",
-    "when": "Tue 7:00 PM ET",
-    "venue": "BMO Field",
-    "city": "Toronto",
-    "stadium": "BMO Field",
+    "a": "Switzerland",
+    "b": "Canada",
+    "grp": "GROUP B",
+    "kickoffISO": "2026-06-24T19:00:00Z",
+    "when": "Wed 3:00 PM ET",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "stadium": "BC Place",
     "weather": {
-      "tempF": 74,
-      "windMph": 11,
-      "description": "Clear sky"
+      "tempF": 64,
+      "windMph": 2,
+      "description": "Mainly clear"
     }
   },
   "remainingFixtures": {
-    "Panama": [
-      "vs Croatia (Jun 23)",
-      "vs England (Jun 27)"
-    ],
-    "Croatia": [
-      "vs Panama (Jun 23)",
-      "vs Ghana (Jun 27)"
-    ],
-    "Colombia": [
-      "vs DR Congo (Jun 23)",
-      "vs Portugal (Jun 27)"
-    ],
-    "DR Congo": [
-      "vs Colombia (Jun 23)",
-      "vs Uzbekistan (Jun 27)"
-    ],
     "Switzerland": [
       "vs Canada (Jun 24)"
     ],
@@ -1007,14 +995,26 @@
     "Belgium": [
       "vs New Zealand (Jun 26)"
     ],
+    "Croatia": [
+      "vs Ghana (Jun 27)"
+    ],
     "Ghana": [
       "vs Croatia (Jun 27)"
+    ],
+    "Panama": [
+      "vs England (Jun 27)"
     ],
     "England": [
       "vs Panama (Jun 27)"
     ],
+    "Colombia": [
+      "vs Portugal (Jun 27)"
+    ],
     "Portugal": [
       "vs Colombia (Jun 27)"
+    ],
+    "DR Congo": [
+      "vs Uzbekistan (Jun 27)"
     ],
     "Uzbekistan": [
       "vs DR Congo (Jun 27)"
