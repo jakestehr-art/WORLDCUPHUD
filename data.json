@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T10:29:03.337361Z",
+  "updated": "2026-06-24T17:31:34.347284Z",
   "matches": [
     {
       "id": "wc26-760463",
@@ -576,11 +576,11 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 19.1
+      "pct": 19.4
     },
     {
       "code": "Argentina",
-      "pct": 14.6
+      "pct": 15.2
     },
     {
       "code": "Spain",
@@ -592,14 +592,10 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.2
+      "pct": 7.7
     },
     {
       "code": "Germany",
-      "pct": 5.3
-    },
-    {
-      "code": "Netherlands",
       "pct": 5.3
     },
     {
@@ -607,24 +603,28 @@
       "pct": 5.1
     },
     {
+      "code": "Netherlands",
+      "pct": 5.0
+    },
+    {
       "code": "USA",
       "pct": 3.5
     },
     {
       "code": "Norway",
-      "pct": 3.0
+      "pct": 3.1
     },
     {
       "code": "Japan",
-      "pct": 2.1
-    },
-    {
-      "code": "Colombia",
-      "pct": 1.7
+      "pct": 1.9
     },
     {
       "code": "Morocco",
-      "pct": 1.7
+      "pct": 1.9
+    },
+    {
+      "code": "Colombia",
+      "pct": 1.8
     },
     {
       "code": "Mexico",
@@ -665,11 +665,11 @@
     "B": [
       {
         "code": "Canada",
-        "pct": 59.5
+        "pct": 61.5
       },
       {
         "code": "Switzerland",
-        "pct": 40.5
+        "pct": 38.5
       },
       {
         "code": "Qatar",
@@ -683,15 +683,15 @@
     "C": [
       {
         "code": "Brazil",
-        "pct": 65.5
+        "pct": 67.5
       },
       {
         "code": "Morocco",
-        "pct": 33.5
+        "pct": 32.5
       },
       {
         "code": "Scotland",
-        "pct": 2.1
+        "pct": 1.7
       },
       {
         "code": "Haiti",
@@ -745,7 +745,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 75.5
+        "pct": 76.0
       },
       {
         "code": "Japan",
@@ -763,7 +763,7 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 62.5
+        "pct": 62.0
       },
       {
         "code": "Belgium",
@@ -789,7 +789,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 3.4
+        "pct": 2.9
       },
       {
         "code": "Saudi Arabia",
@@ -803,7 +803,7 @@
       },
       {
         "code": "Norway",
-        "pct": 20.5
+        "pct": 20.0
       },
       {
         "code": "Senegal",
@@ -839,11 +839,11 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 52.5
+        "pct": 53.5
       },
       {
         "code": "Colombia",
-        "pct": 47.5
+        "pct": 46.5
       },
       {
         "code": "DR Congo",
@@ -857,15 +857,15 @@
     "L": [
       {
         "code": "England",
-        "pct": 87.5
+        "pct": 86.5
       },
       {
         "code": "Croatia",
-        "pct": 8.3
+        "pct": 8.2
       },
       {
         "code": "Ghana",
-        "pct": 4.7
+        "pct": 5.1
       },
       {
         "code": "Panama",
@@ -874,14 +874,14 @@
     ]
   },
   "news": [
-    "How does Ronaldo turning up change things? Re-ranking the 48 World Cup teams after day 13 - The Athletic",
-    "World Cup 2026: Why Jude Bellingham was not sent off for covering his mouth",
-    "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
+    "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
+    "World Cup 2026 Power Rankings after two games: Who is No. 1?",
+    "Switzerland vs Canada live updates: World Cup 2026 game latest news and buildup",
+    "What to know about how teams qualify for the World Cup knockout round and which squads need to do what today",
     "England to face Scotland? World Cup knockout stage as it stands",
-    "World Cup 2026 - updates, news as Ghana hold England, Bafana brace for South Korea",
-    "Cristiano Ronaldo Nets Two Goals in First Half vs Uzbekistan 🤯 2026 FIFA World Cup™",
-    "Portugal 5-0 Uzbekistan: World Cup 2026 – as it happened",
-    "FIFA World Cup 2026 Moment of the Day: Cristiano Ronaldo is back"
+    "World Cup Daily: England draw blank against Ghana, Ronaldo on target",
+    "England 0-0 Ghana: World Cup 2026 – as it happened",
+    "Cristiano Ronaldo Nets Two Goals in First Half vs Uzbekistan 🤯 2026 FIFA World Cup™"
   ],
   "nextMatch": {
     "a": "Switzerland",
@@ -893,9 +893,9 @@
     "city": "Vancouver",
     "stadium": "BC Place",
     "weather": {
-      "tempF": 64,
+      "tempF": 77,
       "windMph": 2,
-      "description": "Mainly clear"
+      "description": "Overcast"
     }
   },
   "remainingFixtures": {
