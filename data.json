@@ -1,52 +1,44 @@
 {
-  "updated": "2026-06-24T22:02:38.710248Z",
+  "updated": "2026-06-25T10:20:47.496509Z",
   "matches": [
     {
-      "id": "wc26-760463",
-      "when": "3:00 PM",
-      "grp": "GROUP B",
-      "a": "Switzerland",
-      "b": "Canada",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760464",
-      "when": "6:00 PM",
-      "grp": "GROUP C",
-      "a": "Morocco",
-      "b": "Haiti",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "1'"
-    },
-    {
-      "id": "wc26-760465",
-      "when": "6:00 PM",
-      "grp": "GROUP C",
-      "a": "Scotland",
-      "b": "Brazil",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "1'"
-    },
-    {
-      "id": "wc26-760467",
-      "when": "9:00 PM",
-      "grp": "GROUP A",
-      "a": "Czechia",
-      "b": "Mexico",
+      "id": "wc26-760468",
+      "when": "4:00 PM",
+      "grp": "GROUP E",
+      "a": "Ecuador",
+      "b": "Germany",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760466",
-      "when": "9:00 PM",
-      "grp": "GROUP A",
-      "a": "South Africa",
-      "b": "South Korea",
+      "id": "wc26-760471",
+      "when": "7:00 PM",
+      "grp": "GROUP F",
+      "a": "Japan",
+      "b": "Sweden",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760472",
+      "when": "7:00 PM",
+      "grp": "GROUP F",
+      "a": "Tunisia",
+      "b": "Netherlands",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760469",
+      "when": "10:00 PM",
+      "grp": "GROUP D",
+      "a": "Paraguay",
+      "b": "Australia",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760470",
+      "when": "10:00 PM",
+      "grp": "GROUP D",
+      "a": "Turkey",
+      "b": "United States",
       "status": "upcoming"
     }
   ],
@@ -55,42 +47,42 @@
       "teams": [
         [
           "Mexico",
-          2,
-          2,
-          0,
-          0,
+          3,
           3,
           0,
-          6
+          0,
+          6,
+          0,
+          9
         ],
         [
           "South Africa",
-          2,
-          0,
-          1,
-          1,
-          1,
           3,
-          1
+          1,
+          1,
+          1,
+          2,
+          3,
+          4
         ],
         [
           "South Korea",
-          2,
+          3,
           1,
           0,
-          1,
           2,
           2,
+          3,
           3
         ],
         [
           "Czechia",
-          2,
+          3,
           0,
           1,
-          1,
           2,
-          3,
+          2,
+          6,
           1
         ]
       ]
@@ -143,42 +135,42 @@
       "teams": [
         [
           "Brazil",
+          3,
           2,
           1,
-          1,
           0,
-          4,
+          7,
           1,
-          4
+          7
         ],
         [
           "Morocco",
+          3,
           2,
-          1,
           1,
           0,
-          2,
-          1,
-          4
+          6,
+          3,
+          7
         ],
         [
           "Haiti",
+          3,
+          0,
+          0,
+          3,
           2,
-          0,
-          0,
-          2,
-          0,
-          4,
+          8,
           0
         ],
         [
           "Scotland",
-          2,
+          3,
           1,
           0,
+          2,
           1,
-          1,
-          1,
+          4,
           3
         ]
       ]
@@ -580,12 +572,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "Brazil",
-    "Haiti",
-    "Morocco",
-    "Scotland"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
@@ -593,7 +580,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 15.2
+      "pct": 14.8
     },
     {
       "code": "Spain",
@@ -601,23 +588,23 @@
     },
     {
       "code": "England",
-      "pct": 10.8
+      "pct": 10.5
     },
     {
       "code": "Portugal",
-      "pct": 7.8
-    },
-    {
-      "code": "Germany",
-      "pct": 5.3
-    },
-    {
-      "code": "Brazil",
-      "pct": 5.1
+      "pct": 7.5
     },
     {
       "code": "Netherlands",
-      "pct": 5.0
+      "pct": 5.7
+    },
+    {
+      "code": "Brazil",
+      "pct": 5.5
+    },
+    {
+      "code": "Germany",
+      "pct": 5.2
     },
     {
       "code": "USA",
@@ -625,19 +612,19 @@
     },
     {
       "code": "Norway",
-      "pct": 3.1
-    },
-    {
-      "code": "Morocco",
-      "pct": 2.1
-    },
-    {
-      "code": "Japan",
-      "pct": 1.9
+      "pct": 2.6
     },
     {
       "code": "Colombia",
       "pct": 1.8
+    },
+    {
+      "code": "Japan",
+      "pct": 1.8
+    },
+    {
+      "code": "Morocco",
+      "pct": 1.7
     },
     {
       "code": "Mexico",
@@ -682,10 +669,14 @@
       },
       {
         "code": "Canada",
-        "pct": 0.1
+        "pct": 0.0
       },
       {
         "code": "Qatar",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       },
       {
@@ -696,19 +687,23 @@
     "C": [
       {
         "code": "Brazil",
-        "pct": 69.5
-      },
-      {
-        "code": "Morocco",
-        "pct": 30.5
-      },
-      {
-        "code": "Scotland",
-        "pct": 1.2
+        "pct": 100.0
       },
       {
         "code": "Haiti",
         "pct": 0.1
+      },
+      {
+        "code": "Scotland",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      },
+      {
+        "code": "Morocco",
+        "pct": 0.0
       }
     ],
     "D": [
@@ -758,15 +753,15 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 75.5
+        "pct": 79.5
       },
       {
         "code": "Japan",
-        "pct": 19.5
+        "pct": 18.5
       },
       {
         "code": "Sweden",
-        "pct": 3.7
+        "pct": 2.5
       },
       {
         "code": "Tunisia",
@@ -776,15 +771,15 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 63.5
+        "pct": 61.0
       },
       {
         "code": "Belgium",
-        "pct": 25.5
+        "pct": 26.5
       },
       {
         "code": "Iran",
-        "pct": 10.8
+        "pct": 11.1
       },
       {
         "code": "New Zealand",
@@ -802,7 +797,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 3.2
+        "pct": 2.9
       },
       {
         "code": "Saudi Arabia",
@@ -852,7 +847,7 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 53.5
+        "pct": 52.5
       },
       {
         "code": "Colombia",
@@ -870,7 +865,7 @@
     "L": [
       {
         "code": "England",
-        "pct": 86.5
+        "pct": 87.5
       },
       {
         "code": "Croatia",
@@ -878,7 +873,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 5.1
+        "pct": 4.7
       },
       {
         "code": "Panama",
@@ -887,43 +882,27 @@
     ]
   },
   "news": [
-    "Switzerland 2-1 Canada: World Cup 2026 – as it happened",
-    "Bosnia vs Qatar live updates: USMNT awaiting likely World Cup 2026 round-of-32 opponent as two-goal lead restored",
-    "Bosnia and Herzegovina 3-1 Qatar: World Cup 2026 – as it happened",
-    "World Cup live updates, scores: Switzerland tops Canada to win Group B; Bosnia and Herzegovina most likely to meet USMNT",
-    "LIVE: Scotland vs Brazil – World Cup 2026",
-    "Scotland v Brazil: World Cup 2026 – live",
-    "Scotland vs Brazil live updates: World Cup 2026 game latest team news and buildup",
-    "FIFA World Cup 2026 stats: Ronaldo breaks Messi's WC record; England's unlucky 13; Modric fourth all-time with 200"
+    "World Cup 2026 Power Rankings after two games: Who is No. 1?",
+    "World Cup 2026: third-place table, who has qualified and who needs what?",
+    "World Cup 2026: What's the best World Cup stadium? BBC Sport experts have their say",
+    "Curaçao vs. Ivory Coast Prediction, Odds, Picks For World Cup Match",
+    "Scotland vs Brazil Highlights | 2026 FIFA World Cup™",
+    "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
+    "World Cup 2026: Neymar - the return of Brazil's forgotten hero",
+    "World Cup 2026: guide to all 1,248 players"
   ],
   "nextMatch": {
-    "a": "Czechia",
-    "b": "Mexico",
-    "grp": "GROUP A",
-    "kickoffISO": "2026-06-25T01:00:00Z",
-    "when": "Wed 9:00 PM ET",
-    "venue": "Estadio Banorte",
-    "city": "Mexico City",
-    "stadium": "Estadio Banorte",
-    "weather": {
-      "tempF": 66,
-      "windMph": 3,
-      "description": "Drizzle"
-    }
+    "a": "Ecuador",
+    "b": "Germany",
+    "grp": "GROUP E",
+    "kickoffISO": "2026-06-25T20:00:00Z",
+    "when": "Thu 4:00 PM ET",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "stadium": "MetLife Stadium",
+    "weather": null
   },
   "remainingFixtures": {
-    "Czechia": [
-      "vs Mexico (Jun 24)"
-    ],
-    "Mexico": [
-      "vs Czechia (Jun 24)"
-    ],
-    "South Africa": [
-      "vs South Korea (Jun 24)"
-    ],
-    "South Korea": [
-      "vs South Africa (Jun 24)"
-    ],
     "Ecuador": [
       "vs Germany (Jun 25)"
     ],
@@ -1022,6 +1001,11 @@
       "goals": 5
     },
     {
+      "player": "Vinícius Júnior",
+      "team": "Brazil",
+      "goals": 4
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "France",
       "goals": 4
@@ -1030,6 +1014,11 @@
       "player": "Erling Haaland",
       "team": "Norway",
       "goals": 4
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 3
     },
     {
       "player": "Deniz Undav",
@@ -1045,16 +1034,6 @@
       "player": "Jonathan David",
       "team": "Canada",
       "goals": 3
-    },
-    {
-      "player": "Cyle Larin",
-      "team": "Canada",
-      "goals": 2
-    },
-    {
-      "player": "Folarin Balogun",
-      "team": "United States",
-      "goals": 2
     }
   ],
   "fanPhotos": [
