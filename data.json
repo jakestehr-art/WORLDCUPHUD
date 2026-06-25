@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T18:28:43.545716Z",
+  "updated": "2026-06-25T23:03:40.316673Z",
   "matches": [
     {
       "id": "wc26-760468",
@@ -7,7 +7,12 @@
       "grp": "GROUP E",
       "a": "Ecuador",
       "b": "Germany",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 2,
+      "scoreB": 1,
+      "upset": true,
+      "favored": "Germany",
+      "favoredPct": 100.0
     },
     {
       "id": "wc26-760471",
@@ -15,7 +20,10 @@
       "grp": "GROUP F",
       "a": "Japan",
       "b": "Sweden",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "3'"
     },
     {
       "id": "wc26-760472",
@@ -23,7 +31,10 @@
       "grp": "GROUP F",
       "a": "Tunisia",
       "b": "Netherlands",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 1,
+      "minute": "4'"
     },
     {
       "id": "wc26-760469",
@@ -223,12 +234,12 @@
       "teams": [
         [
           "Germany",
-          1,
-          1,
-          0,
-          0,
           2,
           1,
+          0,
+          1,
+          3,
+          3,
           3
         ],
         [
@@ -253,13 +264,13 @@
         ],
         [
           "Ecuador",
-          1,
-          0,
-          0,
+          2,
           1,
           0,
           1,
-          0
+          2,
+          2,
+          3
         ]
       ]
     },
@@ -572,15 +583,20 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Japan",
+    "Netherlands",
+    "Sweden",
+    "Tunisia"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 19.1
+      "pct": 18.6
     },
     {
       "code": "Argentina",
-      "pct": 14.8
+      "pct": 14.4
     },
     {
       "code": "Spain",
@@ -592,38 +608,38 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.2
+      "pct": 8.1
     },
     {
       "code": "Netherlands",
-      "pct": 5.7
+      "pct": 5.9
     },
     {
       "code": "Brazil",
-      "pct": 5.5
+      "pct": 5.7
     },
     {
       "code": "Germany",
-      "pct": 5.2
-    },
-    {
-      "code": "USA",
-      "pct": 3.5
+      "pct": 4.5
     },
     {
       "code": "Norway",
       "pct": 3.2
     },
     {
-      "code": "Colombia",
-      "pct": 1.8
+      "code": "USA",
+      "pct": 2.9
     },
     {
       "code": "Japan",
-      "pct": 1.8
+      "pct": 1.9
     },
     {
       "code": "Morocco",
+      "pct": 1.7
+    },
+    {
+      "code": "Colombia",
       "pct": 1.6
     },
     {
@@ -753,15 +769,15 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 80.5
+        "pct": 82.5
       },
       {
         "code": "Japan",
-        "pct": 18.5
+        "pct": 14.5
       },
       {
         "code": "Sweden",
-        "pct": 1.8
+        "pct": 2.6
       },
       {
         "code": "Tunisia",
@@ -771,7 +787,7 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 60.5
+        "pct": 60.0
       },
       {
         "code": "Belgium",
@@ -779,7 +795,7 @@
       },
       {
         "code": "Iran",
-        "pct": 9.9
+        "pct": 9.7
       },
       {
         "code": "New Zealand",
@@ -797,7 +813,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 3.0
+        "pct": 3.6
       },
       {
         "code": "Saudi Arabia",
@@ -807,11 +823,11 @@
     "I": [
       {
         "code": "France",
-        "pct": 79.5
+        "pct": 80.5
       },
       {
         "code": "Norway",
-        "pct": 20.5
+        "pct": 19.5
       },
       {
         "code": "Senegal",
@@ -847,11 +863,11 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 52.5
+        "pct": 52.0
       },
       {
         "code": "Colombia",
-        "pct": 47.5
+        "pct": 48.0
       },
       {
         "code": "DR Congo",
@@ -873,7 +889,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 4.3
+        "pct": 4.6
       },
       {
         "code": "Panama",
@@ -882,45 +898,27 @@
     ]
   },
   "news": [
-    "World Cup 2026: car hits crowd in Mexico, Scotland face waiting game and more – live",
-    "World Cup 2026: NYC mayor Zohran Mamdani says tournament 'makes more than enough money'",
-    "World Cup 2026 live updates: Germany vs. Ecuador, Ivory Coast vs. Curaçao kick off early action",
-    "FIFA World Cup: Live updates, TV schedule, results, standings and highlights",
-    "The games that show the flaws in a 48-team World Cup",
-    "World Cup 2026 standings: Who's in, who's out and every team's path to the Round of 32",
-    "Everything you need to know as the World Cup – including Team USA – sprints toward the knockout rounds",
-    "2026 World Cup Group A: South Africa makes knockout rounds with stunning win over South Korea"
+    "Curaçao 0-2 Côte d’Ivoire: World Cup 2026 – as it happened",
+    "Haiti’s World Cup run ends with a Supreme Court ruling striking a blow to many fans",
+    "Ecuador vs Germany Highlights | 2026 FIFA World Cup™",
+    "Japan v Sweden: World Cup 2026 – live",
+    "Japan vs Sweden live updates: World Cup 2026 game latest line-ups and buildup",
+    "LIVE | Japan vs Sweden World Cup 2026: Score, lineups, and live updates from Dallas Stadium",
+    "World Cup 2026: How every team can make the knockout rounds",
+    "World Cup 2026: car hits crowd in Mexico, Scotland face waiting game and more – as it happened"
   ],
   "nextMatch": {
-    "a": "Ecuador",
-    "b": "Germany",
-    "grp": "GROUP E",
-    "kickoffISO": "2026-06-25T20:00:00Z",
-    "when": "Thu 4:00 PM ET",
-    "venue": "MetLife Stadium",
-    "city": "East Rutherford, New Jersey",
-    "stadium": "MetLife Stadium",
+    "a": "Paraguay",
+    "b": "Australia",
+    "grp": "GROUP D",
+    "kickoffISO": "2026-06-26T02:00:00Z",
+    "when": "Thu 10:00 PM ET",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "stadium": "Levi's Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Ecuador": [
-      "vs Germany (Jun 25)"
-    ],
-    "Germany": [
-      "vs Ecuador (Jun 25)"
-    ],
-    "Japan": [
-      "vs Sweden (Jun 25)"
-    ],
-    "Sweden": [
-      "vs Japan (Jun 25)"
-    ],
-    "Tunisia": [
-      "vs Netherlands (Jun 25)"
-    ],
-    "Netherlands": [
-      "vs Tunisia (Jun 25)"
-    ],
     "Paraguay": [
       "vs Australia (Jun 25)"
     ],
