@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T10:20:47.496509Z",
+  "updated": "2026-06-25T18:28:43.545716Z",
   "matches": [
     {
       "id": "wc26-760468",
@@ -576,7 +576,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 19.4
+      "pct": 19.1
     },
     {
       "code": "Argentina",
@@ -592,7 +592,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 7.5
+      "pct": 8.2
     },
     {
       "code": "Netherlands",
@@ -612,7 +612,7 @@
     },
     {
       "code": "Norway",
-      "pct": 2.6
+      "pct": 3.2
     },
     {
       "code": "Colombia",
@@ -624,11 +624,11 @@
     },
     {
       "code": "Morocco",
-      "pct": 1.7
+      "pct": 1.6
     },
     {
       "code": "Mexico",
-      "pct": 1.1
+      "pct": 1.2
     },
     {
       "code": "Belgium",
@@ -753,7 +753,7 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 79.5
+        "pct": 80.5
       },
       {
         "code": "Japan",
@@ -761,7 +761,7 @@
       },
       {
         "code": "Sweden",
-        "pct": 2.5
+        "pct": 1.8
       },
       {
         "code": "Tunisia",
@@ -771,15 +771,15 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 61.0
+        "pct": 60.5
       },
       {
         "code": "Belgium",
-        "pct": 26.5
+        "pct": 30.5
       },
       {
         "code": "Iran",
-        "pct": 11.1
+        "pct": 9.9
       },
       {
         "code": "New Zealand",
@@ -797,7 +797,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 2.9
+        "pct": 3.0
       },
       {
         "code": "Saudi Arabia",
@@ -851,7 +851,7 @@
       },
       {
         "code": "Colombia",
-        "pct": 46.5
+        "pct": 47.5
       },
       {
         "code": "DR Congo",
@@ -873,7 +873,7 @@
       },
       {
         "code": "Ghana",
-        "pct": 4.7
+        "pct": 4.3
       },
       {
         "code": "Panama",
@@ -882,14 +882,14 @@
     ]
   },
   "news": [
-    "World Cup 2026 Power Rankings after two games: Who is No. 1?",
-    "World Cup 2026: third-place table, who has qualified and who needs what?",
-    "World Cup 2026: What's the best World Cup stadium? BBC Sport experts have their say",
-    "Curaçao vs. Ivory Coast Prediction, Odds, Picks For World Cup Match",
-    "Scotland vs Brazil Highlights | 2026 FIFA World Cup™",
-    "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
-    "World Cup 2026: Neymar - the return of Brazil's forgotten hero",
-    "World Cup 2026: guide to all 1,248 players"
+    "World Cup 2026: car hits crowd in Mexico, Scotland face waiting game and more – live",
+    "World Cup 2026: NYC mayor Zohran Mamdani says tournament 'makes more than enough money'",
+    "World Cup 2026 live updates: Germany vs. Ecuador, Ivory Coast vs. Curaçao kick off early action",
+    "FIFA World Cup: Live updates, TV schedule, results, standings and highlights",
+    "The games that show the flaws in a 48-team World Cup",
+    "World Cup 2026 standings: Who's in, who's out and every team's path to the Round of 32",
+    "Everything you need to know as the World Cup – including Team USA – sprints toward the knockout rounds",
+    "2026 World Cup Group A: South Africa makes knockout rounds with stunning win over South Korea"
   ],
   "nextMatch": {
     "a": "Ecuador",
