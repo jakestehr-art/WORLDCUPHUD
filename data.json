@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T17:18:24.622204Z",
+  "updated": "2026-06-26T21:50:22.561048Z",
   "matches": [
     {
       "id": "wc26-760475",
@@ -7,7 +7,9 @@
       "grp": "GROUP I",
       "a": "Norway",
       "b": "France",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 1,
+      "scoreB": 4
     },
     {
       "id": "wc26-760474",
@@ -15,7 +17,9 @@
       "grp": "GROUP I",
       "a": "Senegal",
       "b": "Iraq",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 5,
+      "scoreB": 0
     },
     {
       "id": "wc26-760478",
@@ -407,42 +411,42 @@
       "teams": [
         [
           "France",
-          2,
-          2,
+          3,
+          3,
           0,
           0,
-          6,
-          1,
-          6
+          10,
+          2,
+          9
         ],
         [
           "Senegal",
-          2,
-          0,
-          0,
-          2,
           3,
+          1,
+          0,
+          2,
+          8,
           6,
-          0
+          3
         ],
         [
           "Iraq",
-          2,
+          3,
           0,
           0,
-          2,
+          3,
           1,
-          7,
+          12,
           0
         ],
         [
           "Norway",
-          2,
-          2,
-          0,
-          0,
-          7,
           3,
+          2,
+          0,
+          1,
+          8,
+          7,
           6
         ]
       ]
@@ -584,15 +588,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 18.9
+      "pct": 20.8
     },
     {
       "code": "Argentina",
-      "pct": 15.2
+      "pct": 14.8
     },
     {
       "code": "Spain",
-      "pct": 13.8
+      "pct": 13.7
     },
     {
       "code": "England",
@@ -600,7 +604,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.3
+      "pct": 8.1
     },
     {
       "code": "Netherlands",
@@ -608,27 +612,27 @@
     },
     {
       "code": "Brazil",
-      "pct": 5.5
+      "pct": 5.7
     },
     {
       "code": "Germany",
-      "pct": 4.7
-    },
-    {
-      "code": "Norway",
-      "pct": 3.1
+      "pct": 4.5
     },
     {
       "code": "USA",
       "pct": 2.9
     },
     {
-      "code": "Colombia",
-      "pct": 1.7
+      "code": "Norway",
+      "pct": 2.6
     },
     {
       "code": "Japan",
       "pct": 1.7
+    },
+    {
+      "code": "Colombia",
+      "pct": 1.6
     },
     {
       "code": "Morocco",
@@ -783,11 +787,11 @@
     "G": [
       {
         "code": "Egypt",
-        "pct": 60.5
+        "pct": 59.5
       },
       {
         "code": "Belgium",
-        "pct": 30.5
+        "pct": 29.5
       },
       {
         "code": "Iran",
@@ -801,15 +805,15 @@
     "H": [
       {
         "code": "Spain",
-        "pct": 85.5
+        "pct": 85.0
       },
       {
         "code": "Uruguay",
-        "pct": 11.5
+        "pct": 12.0
       },
       {
         "code": "Cape Verde",
-        "pct": 3.4
+        "pct": 3.5
       },
       {
         "code": "Saudi Arabia",
@@ -819,11 +823,11 @@
     "I": [
       {
         "code": "France",
-        "pct": 85.5
+        "pct": 100.0
       },
       {
         "code": "Norway",
-        "pct": 14.5
+        "pct": 0.1
       },
       {
         "code": "Senegal",
@@ -859,7 +863,7 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 51.5
+        "pct": 52.0
       },
       {
         "code": "Colombia",
@@ -877,15 +881,15 @@
     "L": [
       {
         "code": "England",
-        "pct": 87.5
+        "pct": 88.5
       },
       {
         "code": "Croatia",
-        "pct": 7.6
+        "pct": 6.3
       },
       {
         "code": "Ghana",
-        "pct": 5.0
+        "pct": 5.1
       },
       {
         "code": "Panama",
@@ -894,39 +898,27 @@
     ]
   },
   "news": [
-    "World Cup 2026: James set to miss Panama match; Schweinsteiger’s comments criticised; Ecuador’s national holiday – live",
-    "World Cup 2026: USMNT stunned by Türkiye in stoppage time, losing perfect group stage run",
-    "World Cup ticket scams target desperate fans",
-    "World Cup 2026 live updates: France vs. Norway, Iraq vs. Senegal are first matches of the day",
-    "World Cup 2026: Which teams will get a third-place berth? Live tracker",
-    "World Cup 2026 standings: Who's in, who's out and every team's path to the Round of 32",
-    "Every Confirmed Round of 32 Match at the 2026 World Cup",
-    "World Cup 2026: guide to all 1,248 players"
+    "World Cup 2026 Round of 32 tracker: Who’s qualified, who’s eliminated and who’s still alive",
+    "Turkey 3-2 USA: World Cup 2026 – as it happened",
+    "Pape Gueye scores Senegal’s third goal vs Iraq | 2026 FIFA World Cup™",
+    "Ousmane Dembele fires France to victory over Norway at 2026 World Cup: Live updates and reaction",
+    "World Cup 2026: guide to all 1,248 players",
+    "A team-by-team guide to the 2026 World Cup: What to expect and who to watch - The Athletic",
+    "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+    "Why has Trump stayed away from the World Cup?"
   ],
   "nextMatch": {
-    "a": "Norway",
-    "b": "France",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-06-26T19:00:00Z",
-    "when": "Fri 3:00 PM ET",
-    "venue": "Gillette Stadium",
-    "city": "Foxborough, Massachusetts",
-    "stadium": "Gillette Stadium",
+    "a": "Cape Verde",
+    "b": "Saudi Arabia",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-06-27T00:00:00Z",
+    "when": "Fri 8:00 PM ET",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "stadium": "NRG Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Norway": [
-      "vs France (Jun 26)"
-    ],
-    "France": [
-      "vs Norway (Jun 26)"
-    ],
-    "Senegal": [
-      "vs Iraq (Jun 26)"
-    ],
-    "Iraq": [
-      "vs Senegal (Jun 26)"
-    ],
     "Cape Verde": [
       "vs Saudi Arabia (Jun 26)"
     ],
@@ -998,6 +990,11 @@
       "goals": 4
     },
     {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 4
+    },
+    {
       "player": "Ismael Saibari",
       "team": "Morocco",
       "goals": 3
@@ -1010,11 +1007,6 @@
     {
       "player": "Johan Manzambi",
       "team": "Switzerland",
-      "goals": 3
-    },
-    {
-      "player": "Jonathan David",
-      "team": "Canada",
       "goals": 3
     }
   ],
