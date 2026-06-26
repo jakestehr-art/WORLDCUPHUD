@@ -1,55 +1,52 @@
 {
-  "updated": "2026-06-25T23:03:40.316673Z",
+  "updated": "2026-06-26T10:37:59.692543Z",
   "matches": [
     {
-      "id": "wc26-760468",
-      "when": "4:00 PM",
-      "grp": "GROUP E",
-      "a": "Ecuador",
-      "b": "Germany",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 1,
-      "upset": true,
-      "favored": "Germany",
-      "favoredPct": 100.0
-    },
-    {
-      "id": "wc26-760471",
-      "when": "7:00 PM",
-      "grp": "GROUP F",
-      "a": "Japan",
-      "b": "Sweden",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "3'"
-    },
-    {
-      "id": "wc26-760472",
-      "when": "7:00 PM",
-      "grp": "GROUP F",
-      "a": "Tunisia",
-      "b": "Netherlands",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 1,
-      "minute": "4'"
-    },
-    {
-      "id": "wc26-760469",
-      "when": "10:00 PM",
-      "grp": "GROUP D",
-      "a": "Paraguay",
-      "b": "Australia",
+      "id": "wc26-760475",
+      "when": "3:00 PM",
+      "grp": "GROUP I",
+      "a": "Norway",
+      "b": "France",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760470",
-      "when": "10:00 PM",
-      "grp": "GROUP D",
-      "a": "Turkey",
-      "b": "United States",
+      "id": "wc26-760474",
+      "when": "3:00 PM",
+      "grp": "GROUP I",
+      "a": "Senegal",
+      "b": "Iraq",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760478",
+      "when": "8:00 PM",
+      "grp": "GROUP H",
+      "a": "Cape Verde",
+      "b": "Saudi Arabia",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760479",
+      "when": "8:00 PM",
+      "grp": "GROUP H",
+      "a": "Uruguay",
+      "b": "Spain",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760476",
+      "when": "11:00 PM",
+      "grp": "GROUP G",
+      "a": "Egypt",
+      "b": "Iran",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760477",
+      "when": "11:00 PM",
+      "grp": "GROUP G",
+      "a": "New Zealand",
+      "b": "Belgium",
       "status": "upcoming"
     }
   ],
@@ -190,43 +187,43 @@
       "teams": [
         [
           "United States",
-          2,
+          3,
           2,
           0,
-          0,
-          6,
           1,
+          8,
+          4,
           6
         ],
         [
           "Paraguay",
-          2,
+          3,
           1,
-          0,
+          1,
           1,
           2,
           4,
-          3
+          4
         ],
         [
           "Australia",
-          2,
+          3,
           1,
-          0,
+          1,
           1,
           2,
           2,
-          3
+          4
         ],
         [
           "Turkey",
-          2,
-          0,
-          0,
-          2,
-          0,
           3,
-          0
+          1,
+          0,
+          2,
+          3,
+          5,
+          3
         ]
       ]
     },
@@ -278,42 +275,42 @@
       "teams": [
         [
           "Netherlands",
+          3,
           2,
           1,
-          1,
           0,
-          7,
-          3,
-          4
+          10,
+          4,
+          7
         ],
         [
           "Japan",
+          3,
+          1,
           2,
-          1,
-          1,
           0,
-          6,
-          2,
-          4
+          7,
+          3,
+          5
         ],
         [
           "Sweden",
-          2,
+          3,
           1,
-          0,
           1,
-          6,
-          6,
-          3
+          1,
+          7,
+          7,
+          4
         ],
         [
           "Tunisia",
-          2,
+          3,
           0,
           0,
+          3,
           2,
-          1,
-          9,
+          12,
           0
         ]
       ]
@@ -583,40 +580,35 @@
       ]
     }
   },
-  "liveTeams": [
-    "Japan",
-    "Netherlands",
-    "Sweden",
-    "Tunisia"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 18.6
+      "pct": 18.9
     },
     {
       "code": "Argentina",
-      "pct": 14.4
+      "pct": 15.2
     },
     {
       "code": "Spain",
-      "pct": 13.9
+      "pct": 13.8
     },
     {
       "code": "England",
-      "pct": 10.5
+      "pct": 10.1
     },
     {
       "code": "Portugal",
-      "pct": 8.1
+      "pct": 8.2
     },
     {
       "code": "Netherlands",
-      "pct": 5.9
+      "pct": 5.8
     },
     {
       "code": "Brazil",
-      "pct": 5.7
+      "pct": 5.5
     },
     {
       "code": "Germany",
@@ -624,23 +616,23 @@
     },
     {
       "code": "Norway",
-      "pct": 3.2
+      "pct": 3.1
     },
     {
       "code": "USA",
-      "pct": 2.9
-    },
-    {
-      "code": "Japan",
-      "pct": 1.9
-    },
-    {
-      "code": "Morocco",
-      "pct": 1.7
+      "pct": 3.0
     },
     {
       "code": "Colombia",
-      "pct": 1.6
+      "pct": 1.5
+    },
+    {
+      "code": "Morocco",
+      "pct": 1.5
+    },
+    {
+      "code": "Japan",
+      "pct": 1.4
     },
     {
       "code": "Mexico",
@@ -769,25 +761,29 @@
     "F": [
       {
         "code": "Netherlands",
-        "pct": 82.5
-      },
-      {
-        "code": "Japan",
-        "pct": 14.5
-      },
-      {
-        "code": "Sweden",
-        "pct": 2.6
+        "pct": 100.0
       },
       {
         "code": "Tunisia",
+        "pct": 0.0
+      },
+      {
+        "code": "Japan",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      },
+      {
+        "code": "Sweden",
         "pct": 0.0
       }
     ],
     "G": [
       {
         "code": "Egypt",
-        "pct": 60.0
+        "pct": 60.5
       },
       {
         "code": "Belgium",
@@ -795,7 +791,7 @@
       },
       {
         "code": "Iran",
-        "pct": 9.7
+        "pct": 9.8
       },
       {
         "code": "New Zealand",
@@ -805,7 +801,7 @@
     "H": [
       {
         "code": "Spain",
-        "pct": 86.5
+        "pct": 85.5
       },
       {
         "code": "Uruguay",
@@ -813,7 +809,7 @@
       },
       {
         "code": "Cape Verde",
-        "pct": 3.6
+        "pct": 3.4
       },
       {
         "code": "Saudi Arabia",
@@ -823,7 +819,7 @@
     "I": [
       {
         "code": "France",
-        "pct": 80.5
+        "pct": 79.5
       },
       {
         "code": "Norway",
@@ -863,11 +859,11 @@
     "K": [
       {
         "code": "Portugal",
-        "pct": 52.0
+        "pct": 51.5
       },
       {
         "code": "Colombia",
-        "pct": 48.0
+        "pct": 47.5
       },
       {
         "code": "DR Congo",
@@ -885,11 +881,11 @@
       },
       {
         "code": "Croatia",
-        "pct": 8.2
+        "pct": 7.5
       },
       {
         "code": "Ghana",
-        "pct": 4.6
+        "pct": 5.0
       },
       {
         "code": "Panama",
@@ -898,39 +894,27 @@
     ]
   },
   "news": [
-    "Curaçao 0-2 Côte d’Ivoire: World Cup 2026 – as it happened",
-    "Haiti’s World Cup run ends with a Supreme Court ruling striking a blow to many fans",
-    "Ecuador vs Germany Highlights | 2026 FIFA World Cup™",
-    "Japan v Sweden: World Cup 2026 – live",
-    "Japan vs Sweden live updates: World Cup 2026 game latest line-ups and buildup",
-    "LIVE | Japan vs Sweden World Cup 2026: Score, lineups, and live updates from Dallas Stadium",
-    "World Cup 2026: How every team can make the knockout rounds",
-    "World Cup 2026: car hits crowd in Mexico, Scotland face waiting game and more – as it happened"
+    "Does Ecuador’s shock knock Germany down? Re-ranking the 48 World Cup teams after day 15 - The Athletic",
+    "World Cup 2026: England's current last 32 opponents, Declan Rice, Reece James update & Eze quotes",
+    "World Cup 2026: USMNT stunned by Türkiye in stoppage time, losing perfect group stage run",
+    "Ecuador 2-1 Germany: World Cup 2026 – as it happened",
+    "Australia reach World Cup 2026 knockout stage on drab goalless draw, Paraguay set to progress: Live updates, reaction",
+    "Paraguay 0-0 Australia: World Cup 2026 – as it happened",
+    "After goals galore at World Cup, Paraguay and Australia serve up a snoozefest",
+    "Tunisia vs Netherlands Extended Highlights | 2026 FIFA World Cup™"
   ],
   "nextMatch": {
-    "a": "Paraguay",
-    "b": "Australia",
-    "grp": "GROUP D",
-    "kickoffISO": "2026-06-26T02:00:00Z",
-    "when": "Thu 10:00 PM ET",
-    "venue": "Levi's Stadium",
-    "city": "Santa Clara, California",
-    "stadium": "Levi's Stadium",
+    "a": "Norway",
+    "b": "France",
+    "grp": "GROUP I",
+    "kickoffISO": "2026-06-26T19:00:00Z",
+    "when": "Fri 3:00 PM ET",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "stadium": "Gillette Stadium",
     "weather": null
   },
   "remainingFixtures": {
-    "Paraguay": [
-      "vs Australia (Jun 25)"
-    ],
-    "Australia": [
-      "vs Paraguay (Jun 25)"
-    ],
-    "Turkey": [
-      "vs United States (Jun 25)"
-    ],
-    "United States": [
-      "vs Turkey (Jun 25)"
-    ],
     "Norway": [
       "vs France (Jun 26)"
     ],
