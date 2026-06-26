@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T10:37:59.692543Z",
+  "updated": "2026-06-26T17:18:24.622204Z",
   "matches": [
     {
       "id": "wc26-760475",
@@ -596,11 +596,11 @@
     },
     {
       "code": "England",
-      "pct": 10.1
+      "pct": 10.2
     },
     {
       "code": "Portugal",
-      "pct": 8.2
+      "pct": 8.3
     },
     {
       "code": "Netherlands",
@@ -612,7 +612,7 @@
     },
     {
       "code": "Germany",
-      "pct": 4.5
+      "pct": 4.7
     },
     {
       "code": "Norway",
@@ -620,19 +620,19 @@
     },
     {
       "code": "USA",
-      "pct": 3.0
+      "pct": 2.9
     },
     {
       "code": "Colombia",
-      "pct": 1.5
-    },
-    {
-      "code": "Morocco",
-      "pct": 1.5
+      "pct": 1.7
     },
     {
       "code": "Japan",
-      "pct": 1.4
+      "pct": 1.7
+    },
+    {
+      "code": "Morocco",
+      "pct": 1.6
     },
     {
       "code": "Mexico",
@@ -640,7 +640,7 @@
     },
     {
       "code": "Belgium",
-      "pct": 1.1
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
@@ -805,7 +805,7 @@
       },
       {
         "code": "Uruguay",
-        "pct": 9.5
+        "pct": 11.5
       },
       {
         "code": "Cape Verde",
@@ -819,11 +819,11 @@
     "I": [
       {
         "code": "France",
-        "pct": 79.5
+        "pct": 85.5
       },
       {
         "code": "Norway",
-        "pct": 19.5
+        "pct": 14.5
       },
       {
         "code": "Senegal",
@@ -881,7 +881,7 @@
       },
       {
         "code": "Croatia",
-        "pct": 7.5
+        "pct": 7.6
       },
       {
         "code": "Ghana",
@@ -894,14 +894,14 @@
     ]
   },
   "news": [
-    "Does Ecuador’s shock knock Germany down? Re-ranking the 48 World Cup teams after day 15 - The Athletic",
-    "World Cup 2026: England's current last 32 opponents, Declan Rice, Reece James update & Eze quotes",
+    "World Cup 2026: James set to miss Panama match; Schweinsteiger’s comments criticised; Ecuador’s national holiday – live",
     "World Cup 2026: USMNT stunned by Türkiye in stoppage time, losing perfect group stage run",
-    "Ecuador 2-1 Germany: World Cup 2026 – as it happened",
-    "Australia reach World Cup 2026 knockout stage on drab goalless draw, Paraguay set to progress: Live updates, reaction",
-    "Paraguay 0-0 Australia: World Cup 2026 – as it happened",
-    "After goals galore at World Cup, Paraguay and Australia serve up a snoozefest",
-    "Tunisia vs Netherlands Extended Highlights | 2026 FIFA World Cup™"
+    "World Cup ticket scams target desperate fans",
+    "World Cup 2026 live updates: France vs. Norway, Iraq vs. Senegal are first matches of the day",
+    "World Cup 2026: Which teams will get a third-place berth? Live tracker",
+    "World Cup 2026 standings: Who's in, who's out and every team's path to the Round of 32",
+    "Every Confirmed Round of 32 Match at the 2026 World Cup",
+    "World Cup 2026: guide to all 1,248 players"
   ],
   "nextMatch": {
     "a": "Norway",
