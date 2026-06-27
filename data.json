@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T16:19:46.716137Z",
+  "updated": "2026-06-27T20:37:36.778885Z",
   "matches": [
     {
       "id": "wc26-760480",
@@ -588,11 +588,11 @@
     },
     {
       "code": "Argentina",
-      "pct": 18.9
+      "pct": 18.1
     },
     {
       "code": "Spain",
-      "pct": 11.8
+      "pct": 11.5
     },
     {
       "code": "England",
@@ -600,7 +600,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.1
+      "pct": 8.5
     },
     {
       "code": "Brazil",
@@ -608,7 +608,7 @@
     },
     {
       "code": "Netherlands",
-      "pct": 4.7
+      "pct": 4.8
     },
     {
       "code": "Germany",
@@ -623,6 +623,10 @@
       "pct": 2.2
     },
     {
+      "code": "Colombia",
+      "pct": 1.5
+    },
+    {
       "code": "Japan",
       "pct": 1.5
     },
@@ -631,16 +635,12 @@
       "pct": 1.5
     },
     {
-      "code": "Colombia",
-      "pct": 1.4
-    },
-    {
       "code": "Belgium",
       "pct": 1.4
     },
     {
       "code": "Mexico",
-      "pct": 1.2
+      "pct": 1.1
     },
     {
       "code": "Switzerland",
@@ -893,11 +893,11 @@
       },
       {
         "code": "Croatia",
-        "pct": 7.1
+        "pct": 7.5
       },
       {
         "code": "Ghana",
-        "pct": 5.5
+        "pct": 5.3
       },
       {
         "code": "Panama",
@@ -906,14 +906,14 @@
     ]
   },
   "news": [
-    "The World Cup game that no one wants to win",
+    "Egypt 1-1 Iran: FIFA World Cup 2026 – as it happened",
+    "How to live stream Croatia vs Ghana: FIFA World Cup 2026, TV channel",
+    "Where does Scotland's World Cup campaign leave Clarke?",
+    "Panama v England: World Cup 2026 – live",
+    "Uruguay vs Spain Highlights | 2026 FIFA World Cup™",
+    "Uruguay 0-1 Spain: World Cup 2026 – as it happened",
     "Toxic Bielsa leaves ‘nothing good’ behind as Uruguay suffer World Cup shock",
-    "Iran set to progress at World Cup",
-    "2026 World Cup: Iran earns tie — and immediately needs to leave U.S.",
-    "The World Cup Pride Match was an exhausting, necessary, beautiful mess",
-    "World Cup 2026: How Cape Verde made history on their tournament debut",
-    "Cape Verde draw 0-0 with Saudi Arabia and reach last 32: World Cup 2026 – as it happened",
-    "World Cup 2026 - updates as Ghana prepare to face Croatia after Cape Verde set up Argentina clash"
+    "World Cup 2026: guide to all 1,248 players"
   ],
   "nextMatch": {
     "a": "Croatia",
