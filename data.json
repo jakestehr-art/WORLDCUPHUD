@@ -1,56 +1,52 @@
 {
-  "updated": "2026-06-26T21:50:22.561048Z",
+  "updated": "2026-06-27T08:10:10.183310Z",
   "matches": [
     {
-      "id": "wc26-760475",
-      "when": "3:00 PM",
-      "grp": "GROUP I",
-      "a": "Norway",
-      "b": "France",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 4
-    },
-    {
-      "id": "wc26-760474",
-      "when": "3:00 PM",
-      "grp": "GROUP I",
-      "a": "Senegal",
-      "b": "Iraq",
-      "status": "ft",
-      "scoreA": 5,
-      "scoreB": 0
-    },
-    {
-      "id": "wc26-760478",
-      "when": "8:00 PM",
-      "grp": "GROUP H",
-      "a": "Cape Verde",
-      "b": "Saudi Arabia",
+      "id": "wc26-760480",
+      "when": "5:00 PM",
+      "grp": "GROUP L",
+      "a": "Croatia",
+      "b": "Ghana",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760479",
-      "when": "8:00 PM",
-      "grp": "GROUP H",
-      "a": "Uruguay",
-      "b": "Spain",
+      "id": "wc26-760485",
+      "when": "5:00 PM",
+      "grp": "GROUP L",
+      "a": "Panama",
+      "b": "England",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760476",
-      "when": "11:00 PM",
-      "grp": "GROUP G",
-      "a": "Egypt",
-      "b": "Iran",
+      "id": "wc26-760481",
+      "when": "7:30 PM",
+      "grp": "GROUP K",
+      "a": "Colombia",
+      "b": "Portugal",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760477",
-      "when": "11:00 PM",
-      "grp": "GROUP G",
-      "a": "New Zealand",
-      "b": "Belgium",
+      "id": "wc26-760482",
+      "when": "7:30 PM",
+      "grp": "GROUP K",
+      "a": "DR Congo",
+      "b": "Uzbekistan",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760484",
+      "when": "10:00 PM",
+      "grp": "GROUP J",
+      "a": "Algeria",
+      "b": "Austria",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760483",
+      "when": "10:00 PM",
+      "grp": "GROUP J",
+      "a": "Jordan",
+      "b": "Argentina",
       "status": "upcoming"
     }
   ],
@@ -323,42 +319,42 @@
       "teams": [
         [
           "Belgium",
+          3,
+          1,
           2,
           0,
+          6,
           2,
-          0,
-          1,
-          1,
-          2
+          5
         ],
         [
           "Egypt",
+          3,
+          1,
           2,
-          1,
-          1,
           0,
-          4,
-          2,
-          4
+          5,
+          3,
+          5
         ],
         [
           "Iran",
-          2,
+          3,
           0,
-          2,
+          3,
           0,
-          2,
-          2,
-          2
+          3,
+          3,
+          3
         ],
         [
           "New Zealand",
-          2,
+          3,
           0,
           1,
-          1,
-          3,
-          5,
+          2,
+          4,
+          10,
           1
         ]
       ]
@@ -367,42 +363,42 @@
       "teams": [
         [
           "Spain",
+          3,
           2,
           1,
-          1,
           0,
-          4,
+          5,
           0,
-          4
+          7
         ],
         [
           "Cape Verde",
-          2,
+          3,
+          0,
+          3,
           0,
           2,
-          0,
           2,
-          2,
-          2
+          3
         ],
         [
           "Saudi Arabia",
-          2,
+          3,
           0,
-          1,
+          2,
           1,
           1,
           5,
-          1
+          2
         ],
         [
           "Uruguay",
-          2,
+          3,
           0,
           2,
-          0,
+          1,
           3,
-          3,
+          4,
           2
         ]
       ]
@@ -588,15 +584,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 20.8
+      "pct": 21.6
     },
     {
       "code": "Argentina",
-      "pct": 14.8
+      "pct": 17.6
     },
     {
       "code": "Spain",
-      "pct": 13.7
+      "pct": 12.4
     },
     {
       "code": "England",
@@ -604,11 +600,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 8.1
-    },
-    {
-      "code": "Netherlands",
-      "pct": 5.8
+      "pct": 7.8
     },
     {
       "code": "Brazil",
@@ -619,31 +611,35 @@
       "pct": 4.5
     },
     {
+      "code": "Netherlands",
+      "pct": 4.5
+    },
+    {
       "code": "USA",
-      "pct": 2.9
+      "pct": 2.5
     },
     {
       "code": "Norway",
-      "pct": 2.6
+      "pct": 2.5
     },
     {
       "code": "Japan",
-      "pct": 1.7
+      "pct": 1.6
     },
     {
       "code": "Colombia",
-      "pct": 1.6
+      "pct": 1.5
     },
     {
       "code": "Morocco",
-      "pct": 1.6
-    },
-    {
-      "code": "Mexico",
-      "pct": 1.2
+      "pct": 1.5
     },
     {
       "code": "Belgium",
+      "pct": 1.4
+    },
+    {
+      "code": "Mexico",
       "pct": 1.2
     },
     {
@@ -786,16 +782,16 @@
     ],
     "G": [
       {
-        "code": "Egypt",
-        "pct": 59.5
-      },
-      {
         "code": "Belgium",
-        "pct": 29.5
+        "pct": 100.0
       },
       {
         "code": "Iran",
-        "pct": 9.8
+        "pct": 0.1
+      },
+      {
+        "code": "Egypt",
+        "pct": 0.1
       },
       {
         "code": "New Zealand",
@@ -805,18 +801,22 @@
     "H": [
       {
         "code": "Spain",
-        "pct": 85.0
-      },
-      {
-        "code": "Uruguay",
-        "pct": 12.0
+        "pct": 100.0
       },
       {
         "code": "Cape Verde",
-        "pct": 3.5
+        "pct": 0.0
+      },
+      {
+        "code": "Uruguay",
+        "pct": 0.0
       },
       {
         "code": "Saudi Arabia",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -826,15 +826,19 @@
         "pct": 100.0
       },
       {
-        "code": "Norway",
-        "pct": 0.1
-      },
-      {
         "code": "Senegal",
         "pct": 0.0
       },
       {
+        "code": "Norway",
+        "pct": 0.0
+      },
+      {
         "code": "Iraq",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -862,12 +866,12 @@
     ],
     "K": [
       {
-        "code": "Portugal",
-        "pct": 52.0
+        "code": "Colombia",
+        "pct": 50.5
       },
       {
-        "code": "Colombia",
-        "pct": 47.5
+        "code": "Portugal",
+        "pct": 49.5
       },
       {
         "code": "DR Congo",
@@ -881,15 +885,15 @@
     "L": [
       {
         "code": "England",
-        "pct": 88.5
+        "pct": 87.5
       },
       {
         "code": "Croatia",
-        "pct": 6.3
+        "pct": 7.2
       },
       {
         "code": "Ghana",
-        "pct": 5.1
+        "pct": 5.2
       },
       {
         "code": "Panama",
@@ -898,51 +902,27 @@
     ]
   },
   "news": [
-    "World Cup 2026 Round of 32 tracker: Who’s qualified, who’s eliminated and who’s still alive",
-    "Turkey 3-2 USA: World Cup 2026 – as it happened",
-    "Pape Gueye scores Senegal’s third goal vs Iraq | 2026 FIFA World Cup™",
-    "Ousmane Dembele fires France to victory over Norway at 2026 World Cup: Live updates and reaction",
-    "World Cup 2026: guide to all 1,248 players",
-    "A team-by-team guide to the 2026 World Cup: What to expect and who to watch - The Athletic",
-    "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
-    "Why has Trump stayed away from the World Cup?"
+    "At the 2026 World Cup, Iraqi Shias reconcile celebration with grief during holy month",
+    "Alexis Saelemaekers finds the back of the net with powerful shot to seal Belgium's win over New Zealand | 2026 FIFA World Cup",
+    "World Cup 2026: How Cape Verde made history on their tournament debut",
+    "Cape Verde draw 0-0 with Saudi Arabia and reach last 32: World Cup 2026 – as it happened",
+    "Cape Verde draw with Saudi Arabia, reach round of 32 at 2026 World Cup: Live updates and reaction",
+    "Uruguay 0-1 Spain: World Cup 2026 – as it happened",
+    "Álex Baena puts Spain in front just before halftime vs. Uruguay | 2026 FIFA World Cup™",
+    "Uruguay eliminated from World Cup 2026 after Spain defeat in Group H: Live updates and reaction"
   ],
   "nextMatch": {
-    "a": "Cape Verde",
-    "b": "Saudi Arabia",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-06-27T00:00:00Z",
-    "when": "Fri 8:00 PM ET",
-    "venue": "NRG Stadium",
-    "city": "Houston, Texas",
-    "stadium": "NRG Stadium",
+    "a": "Croatia",
+    "b": "Ghana",
+    "grp": "GROUP L",
+    "kickoffISO": "2026-06-27T21:00:00Z",
+    "when": "Sat 5:00 PM ET",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "stadium": "Lincoln Financial Field",
     "weather": null
   },
   "remainingFixtures": {
-    "Cape Verde": [
-      "vs Saudi Arabia (Jun 26)"
-    ],
-    "Saudi Arabia": [
-      "vs Cape Verde (Jun 26)"
-    ],
-    "Uruguay": [
-      "vs Spain (Jun 26)"
-    ],
-    "Spain": [
-      "vs Uruguay (Jun 26)"
-    ],
-    "Egypt": [
-      "vs Iran (Jun 26)"
-    ],
-    "Iran": [
-      "vs Egypt (Jun 26)"
-    ],
-    "New Zealand": [
-      "vs Belgium (Jun 26)"
-    ],
-    "Belgium": [
-      "vs New Zealand (Jun 26)"
-    ],
     "Croatia": [
       "vs Ghana (Jun 27)"
     ],
@@ -1005,12 +985,19 @@
       "goals": 3
     },
     {
-      "player": "Johan Manzambi",
-      "team": "Switzerland",
+      "player": "Elijah Just",
+      "team": "New Zealand",
       "goals": 3
     }
   ],
   "fanPhotos": [
+    {
+      "title": "Celebraciones tras la victoria de México-Corea del Sur - 2026 - 01.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Celebraciones_tras_la_victoria_de_M%C3%A9xico-Corea_del_Sur_-_2026_-_01.jpg/960px-Celebraciones_tras_la_victoria_de_M%C3%A9xico-Corea_del_Sur_-_2026_-_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Celebraciones_tras_la_victoria_de_M%C3%A9xico-Corea_del_Sur_-_2026_-_01.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
     {
       "title": "Fan Zone by the Falls (FIFA World Cup Celebrations in Canada).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
@@ -1052,13 +1039,6 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_6_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
       "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "title": "Belgium v Iran, 2026 FIFA World Cup, Match 45.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_45.jpg/960px-Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_45.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Belgium_v_Iran,_2026_FIFA_World_Cup,_Match_45.jpg",
-      "attribution": "Teherangeles",
-      "license": "CC0"
     },
     {
       "title": "Belgium v Iran, 2026 FIFA World Cup, Match 46.jpg",
