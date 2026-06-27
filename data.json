@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:10:10.183310Z",
+  "updated": "2026-06-27T12:16:53.734512Z",
   "matches": [
     {
       "id": "wc26-760480",
@@ -588,11 +588,11 @@
     },
     {
       "code": "Argentina",
-      "pct": 17.6
+      "pct": 18.4
     },
     {
       "code": "Spain",
-      "pct": 12.4
+      "pct": 12.2
     },
     {
       "code": "England",
@@ -600,39 +600,39 @@
     },
     {
       "code": "Portugal",
-      "pct": 7.8
+      "pct": 8.1
     },
     {
       "code": "Brazil",
       "pct": 5.7
     },
     {
-      "code": "Germany",
-      "pct": 4.5
-    },
-    {
       "code": "Netherlands",
-      "pct": 4.5
+      "pct": 4.7
     },
     {
-      "code": "USA",
-      "pct": 2.5
+      "code": "Germany",
+      "pct": 4.3
     },
     {
       "code": "Norway",
       "pct": 2.5
     },
     {
-      "code": "Japan",
-      "pct": 1.6
+      "code": "USA",
+      "pct": 2.4
     },
     {
-      "code": "Colombia",
+      "code": "Japan",
       "pct": 1.5
     },
     {
       "code": "Morocco",
       "pct": 1.5
+    },
+    {
+      "code": "Colombia",
+      "pct": 1.4
     },
     {
       "code": "Belgium",
@@ -786,15 +786,19 @@
         "pct": 100.0
       },
       {
+        "code": "New Zealand",
+        "pct": 0.0
+      },
+      {
         "code": "Iran",
-        "pct": 0.1
+        "pct": 0.0
       },
       {
         "code": "Egypt",
-        "pct": 0.1
+        "pct": 0.0
       },
       {
-        "code": "New Zealand",
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -871,7 +875,7 @@
       },
       {
         "code": "Portugal",
-        "pct": 49.5
+        "pct": 48.5
       },
       {
         "code": "DR Congo",
@@ -885,11 +889,11 @@
     "L": [
       {
         "code": "England",
-        "pct": 87.5
+        "pct": 86.5
       },
       {
         "code": "Croatia",
-        "pct": 7.2
+        "pct": 7.7
       },
       {
         "code": "Ghana",
@@ -902,14 +906,14 @@
     ]
   },
   "news": [
-    "At the 2026 World Cup, Iraqi Shias reconcile celebration with grief during holy month",
-    "Alexis Saelemaekers finds the back of the net with powerful shot to seal Belgium's win over New Zealand | 2026 FIFA World Cup",
+    "World Cup 2026: England v Panama latest news and team selection debate",
+    "Uruguay eliminated from World Cup 2026 after Spain defeat in Group H: Live updates and reaction",
+    "2026 World Cup Group K Scenarios, Standings: Where Portugal, Colombia, DR Congo, Uzbekistan Stand",
+    "Iran set to progress at World Cup",
+    "Egypt 1-1 Iran: World Cup 2026 – as it happened",
+    "World Cup live updates, scores: Late VAR decision overturns Iran's game winner; Belgium overtakes Egypt to top Group G",
     "World Cup 2026: How Cape Verde made history on their tournament debut",
-    "Cape Verde draw 0-0 with Saudi Arabia and reach last 32: World Cup 2026 – as it happened",
-    "Cape Verde draw with Saudi Arabia, reach round of 32 at 2026 World Cup: Live updates and reaction",
-    "Uruguay 0-1 Spain: World Cup 2026 – as it happened",
-    "Álex Baena puts Spain in front just before halftime vs. Uruguay | 2026 FIFA World Cup™",
-    "Uruguay eliminated from World Cup 2026 after Spain defeat in Group H: Live updates and reaction"
+    "2026 World Cup Group H Scenarios, Standings: What Spain, Uruguay, Cape Verde, Saudi Arabia Need To Advance"
   ],
   "nextMatch": {
     "a": "Croatia",
