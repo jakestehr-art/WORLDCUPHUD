@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T12:16:53.734512Z",
+  "updated": "2026-06-27T16:19:46.716137Z",
   "matches": [
     {
       "id": "wc26-760480",
@@ -584,15 +584,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 21.6
+      "pct": 22.9
     },
     {
       "code": "Argentina",
-      "pct": 18.4
+      "pct": 18.9
     },
     {
       "code": "Spain",
-      "pct": 12.2
+      "pct": 11.8
     },
     {
       "code": "England",
@@ -612,7 +612,7 @@
     },
     {
       "code": "Germany",
-      "pct": 4.3
+      "pct": 4.0
     },
     {
       "code": "Norway",
@@ -620,7 +620,7 @@
     },
     {
       "code": "USA",
-      "pct": 2.4
+      "pct": 2.2
     },
     {
       "code": "Japan",
@@ -871,7 +871,7 @@
     "K": [
       {
         "code": "Colombia",
-        "pct": 50.5
+        "pct": 51.5
       },
       {
         "code": "Portugal",
@@ -889,15 +889,15 @@
     "L": [
       {
         "code": "England",
-        "pct": 86.5
+        "pct": 87.5
       },
       {
         "code": "Croatia",
-        "pct": 7.7
+        "pct": 7.1
       },
       {
         "code": "Ghana",
-        "pct": 5.2
+        "pct": 5.5
       },
       {
         "code": "Panama",
@@ -906,14 +906,14 @@
     ]
   },
   "news": [
-    "World Cup 2026: England v Panama latest news and team selection debate",
-    "Uruguay eliminated from World Cup 2026 after Spain defeat in Group H: Live updates and reaction",
-    "2026 World Cup Group K Scenarios, Standings: Where Portugal, Colombia, DR Congo, Uzbekistan Stand",
+    "The World Cup game that no one wants to win",
+    "Toxic Bielsa leaves ‘nothing good’ behind as Uruguay suffer World Cup shock",
     "Iran set to progress at World Cup",
-    "Egypt 1-1 Iran: World Cup 2026 – as it happened",
-    "World Cup live updates, scores: Late VAR decision overturns Iran's game winner; Belgium overtakes Egypt to top Group G",
+    "2026 World Cup: Iran earns tie — and immediately needs to leave U.S.",
+    "The World Cup Pride Match was an exhausting, necessary, beautiful mess",
     "World Cup 2026: How Cape Verde made history on their tournament debut",
-    "2026 World Cup Group H Scenarios, Standings: What Spain, Uruguay, Cape Verde, Saudi Arabia Need To Advance"
+    "Cape Verde draw 0-0 with Saudi Arabia and reach last 32: World Cup 2026 – as it happened",
+    "World Cup 2026 - updates as Ghana prepare to face Croatia after Cape Verde set up Argentina clash"
   ],
   "nextMatch": {
     "a": "Croatia",
