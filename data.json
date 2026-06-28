@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T19:58:38.891097Z",
+  "updated": "2026-06-28T23:49:42.827497Z",
   "matches": [
     {
       "id": "wc26-760486",
@@ -7,10 +7,9 @@
       "grp": "GROUP A",
       "a": "South Africa",
       "b": "Canada",
-      "status": "live",
+      "status": "ft",
       "scoreA": 0,
-      "scoreB": 0,
-      "minute": "45'+3'"
+      "scoreB": 1
     }
   ],
   "groups": {
@@ -28,12 +27,12 @@
         ],
         [
           "South Africa",
-          3,
-          1,
+          4,
           1,
           1,
           2,
-          3,
+          2,
+          4,
           4
         ],
         [
@@ -62,13 +61,13 @@
       "teams": [
         [
           "Canada",
+          3,
           2,
-          1,
           0,
           1,
-          7,
+          8,
           2,
-          3
+          6
         ],
         [
           "Bosnia and Herzegovina",
@@ -543,10 +542,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "Canada",
-    "South Africa"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
@@ -554,7 +550,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 20.8
+      "pct": 20.6
     },
     {
       "code": "Spain",
@@ -566,7 +562,7 @@
     },
     {
       "code": "Brazil",
-      "pct": 6.0
+      "pct": 5.9
     },
     {
       "code": "Portugal",
@@ -578,7 +574,7 @@
     },
     {
       "code": "Germany",
-      "pct": 4.0
+      "pct": 3.9
     },
     {
       "code": "Colombia",
@@ -586,7 +582,7 @@
     },
     {
       "code": "USA",
-      "pct": 2.2
+      "pct": 2.4
     },
     {
       "code": "Norway",
@@ -880,14 +876,14 @@
     ]
   },
   "news": [
-    "World Cup 2026 Power Rankings after group stage: Who's No. 1?",
-    "Open 2026 World Cup Watch Thread: Day 18",
-    "South Korea president calls for 'thorough investigation' into dismal 2026 World Cup campaign as head coach resigns",
-    "South Africa v Canada: World Cup 2026 last 32 – live",
-    "Algeria and Austria's dramatic draw sends Iran out of World Cup",
+    "Argentina, France & Spain battle, England, Portugal make cut in FIFA World Cup Now Power Rankings",
+    "The Athletic’s Unsung XI of the 2026 World Cup group stage",
+    "South Africa 0-1 Canada: World Cup 2026 last 32 – as it happened",
+    "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
     "Algeria 3-3 Austria: World Cup 2026 – as it happened",
-    "Does Algeria 3-3 Austria take top spot? Ranking every match at the 2026 World Cup - The Athletic",
-    "World Cup knockout bracket predictions: Picking the biggest shocks, best games and winners - The Athletic"
+    "Algeria and Austria's dramatic draw sends Iran out of World Cup",
+    "World Cup 2026: South Korea president calls for government investigation into team's early exit, head coach Hong Myung-bo resigns",
+    "Furious South Korea president wants government to probe early World Cup exit as coach quits: ‘Utterly baffled’"
   ],
   "nextMatch": {
     "a": "Brazil",
