@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:06:34.981550Z",
+  "updated": "2026-06-28T19:58:38.891097Z",
   "matches": [
     {
       "id": "wc26-760486",
@@ -7,7 +7,10 @@
       "grp": "GROUP A",
       "a": "South Africa",
       "b": "Canada",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "45'+3'"
     }
   ],
   "groups": {
@@ -540,7 +543,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Canada",
+    "South Africa"
+  ],
   "probabilities": [
     {
       "code": "France",
@@ -552,19 +558,19 @@
     },
     {
       "code": "Spain",
-      "pct": 10.5
+      "pct": 11.2
     },
     {
       "code": "England",
       "pct": 10.2
     },
     {
-      "code": "Portugal",
-      "pct": 5.9
+      "code": "Brazil",
+      "pct": 6.0
     },
     {
-      "code": "Brazil",
-      "pct": 5.3
+      "code": "Portugal",
+      "pct": 5.8
     },
     {
       "code": "Netherlands",
@@ -572,19 +578,19 @@
     },
     {
       "code": "Germany",
-      "pct": 3.6
+      "pct": 4.0
     },
     {
       "code": "Colombia",
-      "pct": 2.5
+      "pct": 2.6
     },
     {
       "code": "USA",
-      "pct": 2.1
+      "pct": 2.2
     },
     {
       "code": "Norway",
-      "pct": 2.1
+      "pct": 1.9
     },
     {
       "code": "Morocco",
@@ -592,7 +598,7 @@
     },
     {
       "code": "Belgium",
-      "pct": 1.2
+      "pct": 1.4
     },
     {
       "code": "Mexico",
@@ -874,24 +880,24 @@
     ]
   },
   "news": [
-    "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
-    "South Africa vs Canada live updates: World Cup 2026 round of 32 game latest news and buildup",
-    "Iran’s ‘disaster World Cup’ comes to a dramatic end",
     "World Cup 2026 Power Rankings after group stage: Who's No. 1?",
-    "World Cup knockout bracket predictions: Picking the biggest shocks, best games and winners - The Athletic",
-    "Colombia vs Portugal Highlights | 2026 FIFA World Cup™",
-    "Colombia 0-0 Portugal: World Cup 2026 – as it happened",
-    "Colombia vs Portugal 0-0: FIFA World Cup 2026 – as it happened"
+    "Open 2026 World Cup Watch Thread: Day 18",
+    "South Korea president calls for 'thorough investigation' into dismal 2026 World Cup campaign as head coach resigns",
+    "South Africa v Canada: World Cup 2026 last 32 – live",
+    "Algeria and Austria's dramatic draw sends Iran out of World Cup",
+    "Algeria 3-3 Austria: World Cup 2026 – as it happened",
+    "Does Algeria 3-3 Austria take top spot? Ranking every match at the 2026 World Cup - The Athletic",
+    "World Cup knockout bracket predictions: Picking the biggest shocks, best games and winners - The Athletic"
   ],
   "nextMatch": {
-    "a": "South Africa",
-    "b": "Canada",
-    "grp": "GROUP A",
-    "kickoffISO": "2026-06-28T19:00:00Z",
-    "when": "Sun 3:00 PM ET",
-    "venue": "SoFi Stadium",
-    "city": "Inglewood, California",
-    "stadium": "SoFi Stadium",
+    "a": "Brazil",
+    "b": "Japan",
+    "grp": "GROUP C",
+    "kickoffISO": "2026-06-29T17:00:00Z",
+    "when": "Mon 1:00 PM ET",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "stadium": "NRG Stadium",
     "weather": null
   },
   "remainingFixtures": {},
