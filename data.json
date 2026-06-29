@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T14:39:30.618710Z",
+  "updated": "2026-06-29T20:59:21.588544Z",
   "matches": [
     {
       "id": "wc26-760487",
@@ -7,7 +7,9 @@
       "grp": "GROUP C",
       "a": "Brazil",
       "b": "Japan",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 2,
+      "scoreB": 1
     },
     {
       "id": "wc26-760489",
@@ -15,7 +17,10 @@
       "grp": "GROUP E",
       "a": "Germany",
       "b": "Paraguay",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "29'"
     },
     {
       "id": "wc26-760488",
@@ -119,13 +124,13 @@
       "teams": [
         [
           "Brazil",
+          4,
           3,
-          2,
           1,
           0,
-          7,
-          1,
-          7
+          9,
+          2,
+          10
         ],
         [
           "Morocco",
@@ -261,12 +266,12 @@
         ],
         [
           "Japan",
-          3,
+          4,
           1,
           2,
-          0,
-          7,
-          3,
+          1,
+          8,
+          5,
           5
         ],
         [
@@ -556,7 +561,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Germany",
+    "Paraguay"
+  ],
   "probabilities": [
     {
       "code": "France",
@@ -564,7 +572,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 20.8
+      "pct": 19.6
     },
     {
       "code": "Spain",
@@ -575,12 +583,12 @@
       "pct": 10.2
     },
     {
-      "code": "Portugal",
-      "pct": 6.0
+      "code": "Brazil",
+      "pct": 7.0
     },
     {
-      "code": "Brazil",
-      "pct": 5.9
+      "code": "Portugal",
+      "pct": 6.3
     },
     {
       "code": "Netherlands",
@@ -588,7 +596,7 @@
     },
     {
       "code": "Germany",
-      "pct": 4.2
+      "pct": 4.5
     },
     {
       "code": "Colombia",
@@ -600,11 +608,7 @@
     },
     {
       "code": "Norway",
-      "pct": 1.8
-    },
-    {
-      "code": "Morocco",
-      "pct": 1.4
+      "pct": 2.2
     },
     {
       "code": "Belgium",
@@ -612,15 +616,19 @@
     },
     {
       "code": "Mexico",
-      "pct": 1.1
+      "pct": 1.2
     },
     {
-      "code": "Japan",
+      "code": "Morocco",
       "pct": 1.1
     },
     {
       "code": "Switzerland",
       "pct": 0.9
+    },
+    {
+      "code": "Ecuador",
+      "pct": 0.5
     }
   ],
   "groupOdds": {
@@ -890,24 +898,24 @@
     ]
   },
   "news": [
-    "World Cup 2026 Power Rankings after group stage: Who's No. 1?",
-    "One person killed and one injured in shooting at California World Cup ‘fan zone’",
-    "What Seattle's World Cup visitors had to say about Lumen Field",
-    "World Cup 2026 live updates: Brazil vs. Japan first knockout match of the day",
-    "South Africa vs Canada Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "South Africa 0-1 Canada: World Cup 2026 last 32 – as it happened",
+    "Brazil vs Japan Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "Germany vs Paraguay live updates: Latest score from today’s 2026 World Cup knockout clash",
+    "Germany vs. Paraguay Live Updates, Score: Latest World Cup News and Goals",
+    "Germany v Paraguay: World Cup 2026 last 32 – live",
     "'You are Canadian heroes' - the forgotten hosts making World Cup history",
-    "World Cup exit leaves South Korean football in crisis"
+    "South Africa vs Canada Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "What hosting the World Cup means for Canadian soccer: ‘The stakes are absolutely massive’",
+    "World Cup 2026 Power Rankings after group stage: Who's No. 1?"
   ],
   "nextMatch": {
-    "a": "Brazil",
-    "b": "Japan",
-    "grp": "GROUP C",
-    "kickoffISO": "2026-06-29T17:00:00Z",
-    "when": "Mon 1:00 PM ET",
-    "venue": "NRG Stadium",
-    "city": "Houston, Texas",
-    "stadium": "NRG Stadium",
+    "a": "Netherlands",
+    "b": "Morocco",
+    "grp": "GROUP F",
+    "kickoffISO": "2026-06-30T01:00:00Z",
+    "when": "Mon 9:00 PM ET",
+    "venue": "Estadio BBVA",
+    "city": "Guadalupe",
+    "stadium": "Estadio BBVA",
     "weather": null
   },
   "remainingFixtures": {},
