@@ -1,15 +1,29 @@
 {
-  "updated": "2026-06-28T23:49:42.827497Z",
+  "updated": "2026-06-29T14:39:30.618710Z",
   "matches": [
     {
-      "id": "wc26-760486",
-      "when": "3:00 PM",
-      "grp": "GROUP A",
-      "a": "South Africa",
-      "b": "Canada",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 1
+      "id": "wc26-760487",
+      "when": "1:00 PM",
+      "grp": "GROUP C",
+      "a": "Brazil",
+      "b": "Japan",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760489",
+      "when": "4:30 PM",
+      "grp": "GROUP E",
+      "a": "Germany",
+      "b": "Paraguay",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760488",
+      "when": "9:00 PM",
+      "grp": "GROUP F",
+      "a": "Netherlands",
+      "b": "Morocco",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -546,11 +560,11 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 22.9
+      "pct": 23.4
     },
     {
       "code": "Argentina",
-      "pct": 20.6
+      "pct": 20.8
     },
     {
       "code": "Spain",
@@ -561,12 +575,12 @@
       "pct": 10.2
     },
     {
-      "code": "Brazil",
-      "pct": 5.9
+      "code": "Portugal",
+      "pct": 6.0
     },
     {
-      "code": "Portugal",
-      "pct": 5.8
+      "code": "Brazil",
+      "pct": 5.9
     },
     {
       "code": "Netherlands",
@@ -574,11 +588,11 @@
     },
     {
       "code": "Germany",
-      "pct": 3.9
+      "pct": 4.2
     },
     {
       "code": "Colombia",
-      "pct": 2.6
+      "pct": 2.5
     },
     {
       "code": "USA",
@@ -586,7 +600,7 @@
     },
     {
       "code": "Norway",
-      "pct": 1.9
+      "pct": 1.8
     },
     {
       "code": "Morocco",
@@ -876,14 +890,14 @@
     ]
   },
   "news": [
-    "Argentina, France & Spain battle, England, Portugal make cut in FIFA World Cup Now Power Rankings",
-    "The Athletic’s Unsung XI of the 2026 World Cup group stage",
+    "World Cup 2026 Power Rankings after group stage: Who's No. 1?",
+    "One person killed and one injured in shooting at California World Cup ‘fan zone’",
+    "What Seattle's World Cup visitors had to say about Lumen Field",
+    "World Cup 2026 live updates: Brazil vs. Japan first knockout match of the day",
+    "South Africa vs Canada Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
     "South Africa 0-1 Canada: World Cup 2026 last 32 – as it happened",
-    "Algeria vs Austria Extended Highlights | 2026 FIFA World Cup™",
-    "Algeria 3-3 Austria: World Cup 2026 – as it happened",
-    "Algeria and Austria's dramatic draw sends Iran out of World Cup",
-    "World Cup 2026: South Korea president calls for government investigation into team's early exit, head coach Hong Myung-bo resigns",
-    "Furious South Korea president wants government to probe early World Cup exit as coach quits: ‘Utterly baffled’"
+    "'You are Canadian heroes' - the forgotten hosts making World Cup history",
+    "World Cup exit leaves South Korean football in crisis"
   ],
   "nextMatch": {
     "a": "Brazil",
