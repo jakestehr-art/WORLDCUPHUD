@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T16:37:44.351048Z",
+  "updated": "2026-06-30T22:02:18.465577Z",
   "matches": [
     {
       "id": "wc26-760490",
@@ -7,7 +7,9 @@
       "grp": "GROUP E",
       "a": "Ivory Coast",
       "b": "Norway",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 1,
+      "scoreB": 2
     },
     {
       "id": "wc26-760492",
@@ -15,7 +17,10 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "Sweden",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 1,
+      "scoreB": 0,
+      "minute": "45'+4'"
     },
     {
       "id": "wc26-760491",
@@ -227,12 +232,12 @@
         ],
         [
           "Ivory Coast",
-          2,
+          3,
           1,
           0,
-          1,
           2,
-          2,
+          3,
+          4,
           3
         ],
         [
@@ -413,13 +418,13 @@
         ],
         [
           "Norway",
+          4,
           3,
-          2,
           0,
           1,
+          10,
           8,
-          7,
-          6
+          9
         ]
       ]
     },
@@ -556,11 +561,14 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "France",
+    "Sweden"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 28.1
+      "pct": 30.1
     },
     {
       "code": "Argentina",
@@ -568,7 +576,7 @@
     },
     {
       "code": "Spain",
-      "pct": 11.3
+      "pct": 11.2
     },
     {
       "code": "England",
@@ -580,31 +588,31 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.1
+      "pct": 5.5
     },
     {
       "code": "Morocco",
-      "pct": 3.8
+      "pct": 3.6
+    },
+    {
+      "code": "USA",
+      "pct": 3.0
     },
     {
       "code": "Colombia",
       "pct": 2.8
     },
     {
-      "code": "USA",
-      "pct": 2.8
-    },
-    {
       "code": "Norway",
-      "pct": 2.1
+      "pct": 2.2
     },
     {
       "code": "Mexico",
-      "pct": 1.7
+      "pct": 2.1
     },
     {
       "code": "Belgium",
-      "pct": 1.2
+      "pct": 1.1
     },
     {
       "code": "Switzerland",
@@ -616,10 +624,10 @@
     },
     {
       "code": "Senegal",
-      "pct": 0.4
+      "pct": 0.5
     },
     {
-      "code": "Ivory Coast",
+      "code": "Canada",
       "pct": 0.4
     }
   ],
@@ -890,25 +898,29 @@
     ]
   },
   "news": [
+    "Haaland hits late winner as Norway beat Ivory Coast at 2026 World Cup: Live updates and reaction",
+    "Ivory Coast vs Norway Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "World Cup 2026 live updates: Norway defeats Ivory Coast 2-1; France to face Sweden",
     "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – as it happened",
-    "Germany vs Paraguay Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Germany were once World Cup kings. Now they’re simply not that good - The Athletic",
-    "Netherlands vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Morocco win wild penalty shootout as Netherlands pay heavy price for misses",
-    "Morocco beat Netherlands on penalties to reach World Cup 2026 last 16: Live updates and reaction",
-    "Ivory Coast vs Norway live updates: Haaland starts 2026 World Cup knockout clash",
-    "LIVE: Ivory Coast and Norway clash with last 16 tie against Brazil at stake"
+    "World Cup 2026: Is the penalty stutter run-up that cost Germany and Netherlands at the end of its lifespan?",
+    "World Cup 2026: Germany fans in need of hope after exit as Jurgen Klopp looms",
+    "Mexico fans upset Team Ecuador with sleep deprivation tactics before World Cup showdown",
+    "Mexico vs Ecuador live updates: World Cup 2026 round of 32 game latest score and news"
   ],
   "nextMatch": {
-    "a": "Ivory Coast",
-    "b": "Norway",
-    "grp": "GROUP E",
-    "kickoffISO": "2026-06-30T17:00:00Z",
-    "when": "Tue 1:00 PM ET",
-    "venue": "AT&T Stadium",
-    "city": "Arlington, Texas",
-    "stadium": "AT&T Stadium",
-    "weather": null
+    "a": "Mexico",
+    "b": "Ecuador",
+    "grp": "GROUP A",
+    "kickoffISO": "2026-07-01T01:00:00Z",
+    "when": "Tue 9:00 PM ET",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "stadium": "Estadio Banorte",
+    "weather": {
+      "tempF": 67,
+      "windMph": 3,
+      "description": "Overcast"
+    }
   },
   "remainingFixtures": {},
   "topScorers": [
@@ -918,18 +930,18 @@
       "goals": 6
     },
     {
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
-      "goals": 4
-    },
-    {
       "player": "Kylian Mbappé",
       "team": "France",
-      "goals": 4
+      "goals": 5
     },
     {
       "player": "Erling Haaland",
       "team": "Norway",
+      "goals": 5
+    },
+    {
+      "player": "Vinícius Júnior",
+      "team": "Brazil",
       "goals": 4
     },
     {
