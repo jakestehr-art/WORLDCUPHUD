@@ -1,33 +1,28 @@
 {
-  "updated": "2026-06-29T20:59:21.588544Z",
+  "updated": "2026-06-30T08:46:51.816878Z",
   "matches": [
     {
-      "id": "wc26-760487",
+      "id": "wc26-760490",
       "when": "1:00 PM",
-      "grp": "GROUP C",
-      "a": "Brazil",
-      "b": "Japan",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760489",
-      "when": "4:30 PM",
       "grp": "GROUP E",
-      "a": "Germany",
-      "b": "Paraguay",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "29'"
+      "a": "Ivory Coast",
+      "b": "Norway",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760488",
+      "id": "wc26-760492",
+      "when": "5:00 PM",
+      "grp": "GROUP I",
+      "a": "France",
+      "b": "Sweden",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760491",
       "when": "9:00 PM",
-      "grp": "GROUP F",
-      "a": "Netherlands",
-      "b": "Morocco",
+      "grp": "GROUP A",
+      "a": "Mexico",
+      "b": "Ecuador",
       "status": "upcoming"
     }
   ],
@@ -134,13 +129,13 @@
         ],
         [
           "Morocco",
-          3,
+          4,
           2,
-          1,
+          2,
           0,
-          6,
-          3,
-          7
+          7,
+          4,
+          8
         ],
         [
           "Haiti",
@@ -178,13 +173,13 @@
         ],
         [
           "Paraguay",
-          3,
-          1,
-          1,
+          4,
           1,
           2,
-          4,
-          4
+          1,
+          3,
+          5,
+          5
         ],
         [
           "Australia",
@@ -212,13 +207,13 @@
       "teams": [
         [
           "Germany",
-          2,
-          1,
-          0,
-          1,
           3,
-          3,
-          3
+          1,
+          1,
+          1,
+          4,
+          4,
+          4
         ],
         [
           "Curacao",
@@ -256,13 +251,13 @@
       "teams": [
         [
           "Netherlands",
-          3,
-          2,
-          1,
-          0,
-          10,
           4,
-          7
+          2,
+          2,
+          0,
+          11,
+          5,
+          8
         ],
         [
           "Japan",
@@ -561,18 +556,15 @@
       ]
     }
   },
-  "liveTeams": [
-    "Germany",
-    "Paraguay"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 23.4
+      "pct": 28.9
     },
     {
       "code": "Argentina",
-      "pct": 19.6
+      "pct": 19.4
     },
     {
       "code": "Spain",
@@ -580,7 +572,7 @@
     },
     {
       "code": "England",
-      "pct": 10.2
+      "pct": 10.1
     },
     {
       "code": "Brazil",
@@ -588,39 +580,31 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.3
+      "pct": 6.0
     },
     {
-      "code": "Netherlands",
-      "pct": 5.1
-    },
-    {
-      "code": "Germany",
-      "pct": 4.5
+      "code": "Morocco",
+      "pct": 3.8
     },
     {
       "code": "Colombia",
-      "pct": 2.5
+      "pct": 2.8
     },
     {
       "code": "USA",
-      "pct": 2.4
+      "pct": 2.8
     },
     {
       "code": "Norway",
-      "pct": 2.2
+      "pct": 1.9
+    },
+    {
+      "code": "Mexico",
+      "pct": 1.8
     },
     {
       "code": "Belgium",
       "pct": 1.4
-    },
-    {
-      "code": "Mexico",
-      "pct": 1.2
-    },
-    {
-      "code": "Morocco",
-      "pct": 1.1
     },
     {
       "code": "Switzerland",
@@ -629,6 +613,14 @@
     {
       "code": "Ecuador",
       "pct": 0.5
+    },
+    {
+      "code": "Senegal",
+      "pct": 0.4
+    },
+    {
+      "code": "Ivory Coast",
+      "pct": 0.4
     }
   ],
   "groupOdds": {
@@ -898,24 +890,24 @@
     ]
   },
   "news": [
-    "Brazil vs Japan Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Germany vs Paraguay live updates: Latest score from today’s 2026 World Cup knockout clash",
-    "Germany vs. Paraguay Live Updates, Score: Latest World Cup News and Goals",
-    "Germany v Paraguay: World Cup 2026 last 32 – live",
-    "'You are Canadian heroes' - the forgotten hosts making World Cup history",
-    "South Africa vs Canada Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "What hosting the World Cup means for Canadian soccer: ‘The stakes are absolutely massive’",
-    "World Cup 2026 Power Rankings after group stage: Who's No. 1?"
+    "Ivory Coast vs Norway: FIFA World Cup Round of 32: Prediction, how to watch",
+    "World Cup 2026: Why England and Thomas Tuchel should be worried about DR Congo ahead of last-32 clash",
+    "Germany vs Paraguay as it happened: Germans knocked out of 2026 World Cup after dramatic shootout",
+    "Netherlands vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "Brazil 2-1 Japan: World Cup 2026 last 32 – as it happened",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026 knockouts: England's path to the final explained after topping Group L",
+    "On to the knockout round: 4 takeaways from the FIFA World Cup so far"
   ],
   "nextMatch": {
-    "a": "Netherlands",
-    "b": "Morocco",
-    "grp": "GROUP F",
-    "kickoffISO": "2026-06-30T01:00:00Z",
-    "when": "Mon 9:00 PM ET",
-    "venue": "Estadio BBVA",
-    "city": "Guadalupe",
-    "stadium": "Estadio BBVA",
+    "a": "Ivory Coast",
+    "b": "Norway",
+    "grp": "GROUP E",
+    "kickoffISO": "2026-06-30T17:00:00Z",
+    "when": "Tue 1:00 PM ET",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "stadium": "AT&T Stadium",
     "weather": null
   },
   "remainingFixtures": {},
