@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T08:46:51.816878Z",
+  "updated": "2026-06-30T16:37:44.351048Z",
   "matches": [
     {
       "id": "wc26-760490",
@@ -560,7 +560,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 28.9
+      "pct": 28.1
     },
     {
       "code": "Argentina",
@@ -568,11 +568,11 @@
     },
     {
       "code": "Spain",
-      "pct": 11.2
+      "pct": 11.3
     },
     {
       "code": "England",
-      "pct": 10.1
+      "pct": 10.0
     },
     {
       "code": "Brazil",
@@ -580,7 +580,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.0
+      "pct": 6.1
     },
     {
       "code": "Morocco",
@@ -596,15 +596,15 @@
     },
     {
       "code": "Norway",
-      "pct": 1.9
+      "pct": 2.1
     },
     {
       "code": "Mexico",
-      "pct": 1.8
+      "pct": 1.7
     },
     {
       "code": "Belgium",
-      "pct": 1.4
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
@@ -890,14 +890,14 @@
     ]
   },
   "news": [
-    "Ivory Coast vs Norway: FIFA World Cup Round of 32: Prediction, how to watch",
-    "World Cup 2026: Why England and Thomas Tuchel should be worried about DR Congo ahead of last-32 clash",
-    "Germany vs Paraguay as it happened: Germans knocked out of 2026 World Cup after dramatic shootout",
+    "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – as it happened",
+    "Germany vs Paraguay Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "Germany were once World Cup kings. Now they’re simply not that good - The Athletic",
     "Netherlands vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Brazil 2-1 Japan: World Cup 2026 last 32 – as it happened",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup 2026 knockouts: England's path to the final explained after topping Group L",
-    "On to the knockout round: 4 takeaways from the FIFA World Cup so far"
+    "Morocco win wild penalty shootout as Netherlands pay heavy price for misses",
+    "Morocco beat Netherlands on penalties to reach World Cup 2026 last 16: Live updates and reaction",
+    "Ivory Coast vs Norway live updates: Haaland starts 2026 World Cup knockout clash",
+    "LIVE: Ivory Coast and Norway clash with last 16 tie against Brazil at stake"
   ],
   "nextMatch": {
     "a": "Ivory Coast",
