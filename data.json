@@ -1,33 +1,20 @@
 {
-  "updated": "2026-06-30T22:02:18.465577Z",
+  "updated": "2026-07-01T10:56:21.768489Z",
   "matches": [
     {
-      "id": "wc26-760490",
-      "when": "1:00 PM",
-      "grp": "GROUP E",
-      "a": "Ivory Coast",
-      "b": "Norway",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 2
+      "id": "wc26-760495",
+      "when": "12:00 PM",
+      "grp": "GROUP L",
+      "a": "England",
+      "b": "DR Congo",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760492",
-      "when": "5:00 PM",
-      "grp": "GROUP I",
-      "a": "France",
-      "b": "Sweden",
-      "status": "live",
-      "scoreA": 1,
-      "scoreB": 0,
-      "minute": "45'+4'"
-    },
-    {
-      "id": "wc26-760491",
-      "when": "9:00 PM",
-      "grp": "GROUP A",
-      "a": "Mexico",
-      "b": "Ecuador",
+      "id": "wc26-760493",
+      "when": "4:00 PM",
+      "grp": "GROUP G",
+      "a": "Belgium",
+      "b": "Senegal",
       "status": "upcoming"
     }
   ],
@@ -36,13 +23,13 @@
       "teams": [
         [
           "Mexico",
-          3,
-          3,
+          4,
+          4,
           0,
           0,
-          6,
+          8,
           0,
-          9
+          12
         ],
         [
           "South Africa",
@@ -242,12 +229,12 @@
         ],
         [
           "Ecuador",
-          2,
+          3,
           1,
           0,
-          1,
           2,
           2,
+          4,
           3
         ]
       ]
@@ -276,12 +263,12 @@
         ],
         [
           "Sweden",
-          3,
+          4,
           1,
           1,
-          1,
+          2,
           7,
-          7,
+          10,
           4
         ],
         [
@@ -388,13 +375,13 @@
       "teams": [
         [
           "France",
-          3,
-          3,
+          4,
+          4,
           0,
           0,
-          10,
+          13,
           2,
-          9
+          12
         ],
         [
           "Senegal",
@@ -561,54 +548,51 @@
       ]
     }
   },
-  "liveTeams": [
-    "France",
-    "Sweden"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 30.1
+      "pct": 32.8
     },
     {
       "code": "Argentina",
-      "pct": 19.4
+      "pct": 18.9
     },
     {
       "code": "Spain",
-      "pct": 11.2
+      "pct": 10.3
     },
     {
       "code": "England",
-      "pct": 10.0
+      "pct": 9.3
     },
     {
       "code": "Brazil",
-      "pct": 7.0
+      "pct": 6.7
     },
     {
       "code": "Portugal",
-      "pct": 5.5
-    },
-    {
-      "code": "Morocco",
-      "pct": 3.6
+      "pct": 5.9
     },
     {
       "code": "USA",
-      "pct": 3.0
+      "pct": 2.9
     },
     {
       "code": "Colombia",
       "pct": 2.8
     },
     {
-      "code": "Norway",
-      "pct": 2.2
+      "code": "Mexico",
+      "pct": 2.6
     },
     {
-      "code": "Mexico",
-      "pct": 2.1
+      "code": "Morocco",
+      "pct": 2.4
+    },
+    {
+      "code": "Norway",
+      "pct": 1.8
     },
     {
       "code": "Belgium",
@@ -619,16 +603,16 @@
       "pct": 0.9
     },
     {
-      "code": "Ecuador",
-      "pct": 0.5
-    },
-    {
       "code": "Senegal",
       "pct": 0.5
     },
     {
-      "code": "Canada",
+      "code": "Croatia",
       "pct": 0.4
+    },
+    {
+      "code": "Canada",
+      "pct": 0.2
     }
   ],
   "groupOdds": {
@@ -898,41 +882,37 @@
     ]
   },
   "news": [
-    "Haaland hits late winner as Norway beat Ivory Coast at 2026 World Cup: Live updates and reaction",
+    "Mexico into the top six. Re-ranking the 48 World Cup teams after day 20 - The Athletic",
+    "USA vs Bosnia-Herzegovina: World Cup Round of 32: Prediction, team lineups",
+    "Can a historic World Cup run finally fix America’s youth soccer system?",
+    "France vs Sweden Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "Mexico ease past Ecuador to reach World Cup 2026 last 16 as Hincapie sent off late: Live updates and reaction",
+    "Côte d’Ivoire 1-2 Norway: World Cup 2026 last 32 – as it happened",
     "Ivory Coast vs Norway Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup 2026 live updates: Norway defeats Ivory Coast 2-1; France to face Sweden",
-    "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – as it happened",
-    "World Cup 2026: Is the penalty stutter run-up that cost Germany and Netherlands at the end of its lifespan?",
-    "World Cup 2026: Germany fans in need of hope after exit as Jurgen Klopp looms",
-    "Mexico fans upset Team Ecuador with sleep deprivation tactics before World Cup showdown",
-    "Mexico vs Ecuador live updates: World Cup 2026 round of 32 game latest score and news"
+    "Mexico batters Ecuador and everything else you need to know about Tuesday’s World Cup action"
   ],
   "nextMatch": {
-    "a": "Mexico",
-    "b": "Ecuador",
-    "grp": "GROUP A",
-    "kickoffISO": "2026-07-01T01:00:00Z",
-    "when": "Tue 9:00 PM ET",
-    "venue": "Estadio Banorte",
-    "city": "Mexico City",
-    "stadium": "Estadio Banorte",
-    "weather": {
-      "tempF": 67,
-      "windMph": 3,
-      "description": "Overcast"
-    }
+    "a": "England",
+    "b": "DR Congo",
+    "grp": "GROUP L",
+    "kickoffISO": "2026-07-01T16:00:00Z",
+    "when": "Wed 12:00 PM ET",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "stadium": "Mercedes-Benz Stadium",
+    "weather": null
   },
   "remainingFixtures": {},
   "topScorers": [
     {
-      "player": "Lionel Messi",
-      "team": "Argentina",
+      "player": "Kylian Mbappé",
+      "team": "France",
       "goals": 6
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 5
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 6
     },
     {
       "player": "Erling Haaland",
@@ -950,6 +930,11 @@
       "goals": 4
     },
     {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 3
+    },
+    {
       "player": "Ismael Saibari",
       "team": "Morocco",
       "goals": 3
@@ -957,11 +942,6 @@
     {
       "player": "Deniz Undav",
       "team": "Germany",
-      "goals": 3
-    },
-    {
-      "player": "Elijah Just",
-      "team": "New Zealand",
       "goals": 3
     }
   ],
