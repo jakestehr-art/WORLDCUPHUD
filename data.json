@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:56:21.768489Z",
+  "updated": "2026-07-01T18:21:33.502588Z",
   "matches": [
     {
       "id": "wc26-760495",
@@ -7,7 +7,9 @@
       "grp": "GROUP L",
       "a": "England",
       "b": "DR Congo",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 2,
+      "scoreB": 1
     },
     {
       "id": "wc26-760493",
@@ -473,12 +475,12 @@
         ],
         [
           "DR Congo",
-          3,
-          1,
-          1,
-          1,
           4,
-          3,
+          1,
+          1,
+          2,
+          5,
+          5,
           4
         ],
         [
@@ -507,13 +509,13 @@
       "teams": [
         [
           "England",
+          4,
           3,
-          2,
           1,
           0,
-          6,
-          2,
-          7
+          8,
+          3,
+          10
         ],
         [
           "Croatia",
@@ -552,7 +554,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.8
+      "pct": 34.9
     },
     {
       "code": "Argentina",
@@ -560,19 +562,19 @@
     },
     {
       "code": "Spain",
-      "pct": 10.3
+      "pct": 10.2
     },
     {
       "code": "England",
-      "pct": 9.3
+      "pct": 9.2
     },
     {
       "code": "Brazil",
-      "pct": 6.7
+      "pct": 6.8
     },
     {
       "code": "Portugal",
-      "pct": 5.9
+      "pct": 5.3
     },
     {
       "code": "USA",
@@ -584,11 +586,11 @@
     },
     {
       "code": "Mexico",
-      "pct": 2.6
+      "pct": 2.8
     },
     {
       "code": "Morocco",
-      "pct": 2.4
+      "pct": 2.5
     },
     {
       "code": "Norway",
@@ -600,11 +602,11 @@
     },
     {
       "code": "Switzerland",
-      "pct": 0.9
+      "pct": 0.8
     },
     {
       "code": "Senegal",
-      "pct": 0.5
+      "pct": 0.4
     },
     {
       "code": "Croatia",
@@ -882,24 +884,24 @@
     ]
   },
   "news": [
-    "Mexico into the top six. Re-ranking the 48 World Cup teams after day 20 - The Athletic",
-    "USA vs Bosnia-Herzegovina: World Cup Round of 32: Prediction, team lineups",
-    "Can a historic World Cup run finally fix America’s youth soccer system?",
-    "France vs Sweden Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Mexico ease past Ecuador to reach World Cup 2026 last 16 as Hincapie sent off late: Live updates and reaction",
+    "Mexico into the top six: Re-ranking the 48 World Cup teams after day 20 - The Athletic",
     "Côte d’Ivoire 1-2 Norway: World Cup 2026 last 32 – as it happened",
-    "Ivory Coast vs Norway Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Mexico batters Ecuador and everything else you need to know about Tuesday’s World Cup action"
+    "England vs DR Congo live updates: Kane double turns round World Cup knockout clash",
+    "FIFA World Cup 2026 stats: Mbappe tops Messi, beats Ronaldo record; Olise one behind Pele; Haaland 25 in 13",
+    "World Cup 2026: France are united, free and brilliant - can anyone stop them?",
+    "Chapter 3 of the Messi-Mbappé trilogy coming in the 2026 FIFA World Cup™ Final? 🍿",
+    "Mexico vs Ecuador Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "World Cup 2026: Mexico's strong start buoys 2-0 win over Ecuador to move on to Round of 16"
   ],
   "nextMatch": {
-    "a": "England",
-    "b": "DR Congo",
-    "grp": "GROUP L",
-    "kickoffISO": "2026-07-01T16:00:00Z",
-    "when": "Wed 12:00 PM ET",
-    "venue": "Mercedes-Benz Stadium",
-    "city": "Atlanta, Georgia",
-    "stadium": "Mercedes-Benz Stadium",
+    "a": "Belgium",
+    "b": "Senegal",
+    "grp": "GROUP G",
+    "kickoffISO": "2026-07-01T20:00:00Z",
+    "when": "Wed 4:00 PM ET",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "stadium": "Lumen Field",
     "weather": null
   },
   "remainingFixtures": {},
@@ -925,6 +927,11 @@
       "goals": 4
     },
     {
+      "player": "Harry Kane",
+      "team": "England",
+      "goals": 4
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 4
@@ -937,11 +944,6 @@
     {
       "player": "Ismael Saibari",
       "team": "Morocco",
-      "goals": 3
-    },
-    {
-      "player": "Deniz Undav",
-      "team": "Germany",
       "goals": 3
     }
   ],
