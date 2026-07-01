@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T18:21:33.502588Z",
+  "updated": "2026-07-01T22:50:29.971306Z",
   "matches": [
     {
       "id": "wc26-760495",
@@ -17,7 +17,10 @@
       "grp": "GROUP G",
       "a": "Belgium",
       "b": "Senegal",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 3,
+      "scoreB": 2,
+      "minute": "120'+12'"
     }
   ],
   "groups": {
@@ -550,15 +553,18 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Belgium",
+    "Senegal"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 34.9
+      "pct": 36.0
     },
     {
       "code": "Argentina",
-      "pct": 18.9
+      "pct": 18.1
     },
     {
       "code": "Spain",
@@ -566,47 +572,43 @@
     },
     {
       "code": "England",
-      "pct": 9.2
+      "pct": 8.2
     },
     {
       "code": "Brazil",
-      "pct": 6.8
+      "pct": 6.5
     },
     {
       "code": "Portugal",
-      "pct": 5.3
+      "pct": 5.8
     },
     {
       "code": "USA",
       "pct": 2.9
     },
     {
-      "code": "Colombia",
-      "pct": 2.8
-    },
-    {
       "code": "Mexico",
       "pct": 2.8
     },
     {
-      "code": "Morocco",
+      "code": "Colombia",
       "pct": 2.5
     },
     {
+      "code": "Morocco",
+      "pct": 2.4
+    },
+    {
       "code": "Norway",
-      "pct": 1.8
+      "pct": 2.2
     },
     {
       "code": "Belgium",
-      "pct": 1.1
+      "pct": 1.5
     },
     {
       "code": "Switzerland",
       "pct": 0.8
-    },
-    {
-      "code": "Senegal",
-      "pct": 0.4
     },
     {
       "code": "Croatia",
@@ -615,6 +617,10 @@
     {
       "code": "Canada",
       "pct": 0.2
+    },
+    {
+      "code": "Ghana",
+      "pct": 0.1
     }
   ],
   "groupOdds": {
@@ -884,24 +890,24 @@
     ]
   },
   "news": [
-    "Mexico into the top six: Re-ranking the 48 World Cup teams after day 20 - The Athletic",
-    "Côte d’Ivoire 1-2 Norway: World Cup 2026 last 32 – as it happened",
-    "England vs DR Congo live updates: Kane double turns round World Cup knockout clash",
-    "FIFA World Cup 2026 stats: Mbappe tops Messi, beats Ronaldo record; Olise one behind Pele; Haaland 25 in 13",
-    "World Cup 2026: France are united, free and brilliant - can anyone stop them?",
-    "Chapter 3 of the Messi-Mbappé trilogy coming in the 2026 FIFA World Cup™ Final? 🍿",
-    "Mexico vs Ecuador Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup 2026: Mexico's strong start buoys 2-0 win over Ecuador to move on to Round of 16"
+    "Belgium's Romelu Lukaku slots home cross against Senegal | 2026 FIFA World Cup™",
+    "Senegal's Habib Diarra scores goal to take early lead vs Belgium | 2026 FIFA World Cup™",
+    "Belgium vs Senegal LIVE: World Cup 2026 updates as Sarr scores with explosive finish",
+    "England 2-1 DR Congo: World Cup 2026 last 32 – as it happened",
+    "LIVE: USA vs Bosnia and Herzegovina – FIFA World Cup 2026",
+    "USA v Bosnia and Herzegovina: World Cup 2026 last 32 – live",
+    "How to Watch USA vs. Bosnia and Herzegovina: TV Channel, Live Stream, Time",
+    "In a World Cup of chaos, France look unstoppable"
   ],
   "nextMatch": {
-    "a": "Belgium",
-    "b": "Senegal",
-    "grp": "GROUP G",
-    "kickoffISO": "2026-07-01T20:00:00Z",
-    "when": "Wed 4:00 PM ET",
-    "venue": "Lumen Field",
-    "city": "Seattle, Washington",
-    "stadium": "Lumen Field",
+    "a": "Spain",
+    "b": "Austria",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-07-02T19:00:00Z",
+    "when": "Thu 3:00 PM ET",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "stadium": "SoFi Stadium",
     "weather": null
   },
   "remainingFixtures": {},
@@ -937,13 +943,13 @@
       "goals": 4
     },
     {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 3
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 4
     },
     {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
+      "player": "Julián Quiñones",
+      "team": "Mexico",
       "goals": 3
     }
   ],
