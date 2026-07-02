@@ -1,26 +1,29 @@
 {
-  "updated": "2026-07-01T22:50:29.971306Z",
+  "updated": "2026-07-02T10:15:46.401161Z",
   "matches": [
     {
-      "id": "wc26-760495",
-      "when": "12:00 PM",
-      "grp": "GROUP L",
-      "a": "England",
-      "b": "DR Congo",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 1
+      "id": "wc26-760497",
+      "when": "3:00 PM",
+      "grp": "GROUP H",
+      "a": "Spain",
+      "b": "Austria",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760493",
-      "when": "4:00 PM",
-      "grp": "GROUP G",
-      "a": "Belgium",
-      "b": "Senegal",
-      "status": "live",
-      "scoreA": 3,
-      "scoreB": 2,
-      "minute": "120'+12'"
+      "id": "wc26-760496",
+      "when": "7:00 PM",
+      "grp": "GROUP K",
+      "a": "Portugal",
+      "b": "Croatia",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760498",
+      "when": "11:00 PM",
+      "grp": "GROUP B",
+      "a": "Switzerland",
+      "b": "Algeria",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -292,13 +295,13 @@
       "teams": [
         [
           "Belgium",
-          3,
-          1,
+          4,
+          2,
           2,
           0,
-          6,
-          2,
-          5
+          9,
+          4,
+          8
         ],
         [
           "Egypt",
@@ -390,12 +393,12 @@
         ],
         [
           "Senegal",
-          3,
+          4,
           1,
           0,
-          2,
-          8,
-          6,
+          3,
+          10,
+          9,
           3
         ],
         [
@@ -553,14 +556,11 @@
       ]
     }
   },
-  "liveTeams": [
-    "Belgium",
-    "Senegal"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 36.0
+      "pct": 35.0
     },
     {
       "code": "Argentina",
@@ -568,7 +568,7 @@
     },
     {
       "code": "Spain",
-      "pct": 10.2
+      "pct": 10.0
     },
     {
       "code": "England",
@@ -580,14 +580,14 @@
     },
     {
       "code": "Portugal",
-      "pct": 5.8
-    },
-    {
-      "code": "USA",
-      "pct": 2.9
+      "pct": 6.0
     },
     {
       "code": "Mexico",
+      "pct": 3.5
+    },
+    {
+      "code": "USA",
       "pct": 2.8
     },
     {
@@ -596,15 +596,15 @@
     },
     {
       "code": "Morocco",
-      "pct": 2.4
+      "pct": 2.5
     },
     {
       "code": "Norway",
-      "pct": 2.2
+      "pct": 1.8
     },
     {
       "code": "Belgium",
-      "pct": 1.5
+      "pct": 1.6
     },
     {
       "code": "Switzerland",
@@ -890,14 +890,14 @@
     ]
   },
   "news": [
-    "Belgium's Romelu Lukaku slots home cross against Senegal | 2026 FIFA World Cup™",
-    "Senegal's Habib Diarra scores goal to take early lead vs Belgium | 2026 FIFA World Cup™",
-    "Belgium vs Senegal LIVE: World Cup 2026 updates as Sarr scores with explosive finish",
+    "Alexi Lalas released his latest Power Rankings at the 2026 FIFA World Cup™! What would you change?",
+    "Ranking all 22 World Cup teams from worst to first as round of 32 unfolds",
+    "United States vs Bosnia and Herzegovina Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
     "England 2-1 DR Congo: World Cup 2026 last 32 – as it happened",
-    "LIVE: USA vs Bosnia and Herzegovina – FIFA World Cup 2026",
-    "USA v Bosnia and Herzegovina: World Cup 2026 last 32 – live",
-    "How to Watch USA vs. Bosnia and Herzegovina: TV Channel, Live Stream, Time",
-    "In a World Cup of chaos, France look unstoppable"
+    "England vs DR Congo Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "World Cup 2026: England to play Mexico as Belgium & USA progress to last 16",
+    "Belgium vs Senegal as it happened: late penalty drama sees Belgium through to 2026 World Cup round of 16",
+    "Belgium vs Senegal Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32"
   ],
   "nextMatch": {
     "a": "Spain",
@@ -962,6 +962,13 @@
       "license": "CC BY 4.0"
     },
     {
+      "title": "Celebraciones tras la victoria de México contra Ecuador - 2026 - 14.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Celebraciones_tras_la_victoria_de_M%C3%A9xico_contra_Ecuador_-_2026_-_14.jpg/960px-Celebraciones_tras_la_victoria_de_M%C3%A9xico_contra_Ecuador_-_2026_-_14.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Celebraciones_tras_la_victoria_de_M%C3%A9xico_contra_Ecuador_-_2026_-_14.jpg",
+      "attribution": "ProtoplasmaKid",
+      "license": "CC BY 4.0"
+    },
+    {
       "title": "Fan Zone by the Falls (FIFA World Cup Celebrations in Canada).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
@@ -1002,13 +1009,6 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_6_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
       "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "title": "Belgium v Iran, 2026 FIFA World Cup, Match 46.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_46.jpg/960px-Belgium_v_Iran%2C_2026_FIFA_World_Cup%2C_Match_46.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Belgium_v_Iran,_2026_FIFA_World_Cup,_Match_46.jpg",
-      "attribution": "Teherangeles",
-      "license": "CC0"
     }
   ],
   "fanReactions": []
