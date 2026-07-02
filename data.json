@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T10:15:46.401161Z",
+  "updated": "2026-07-02T16:30:24.410260Z",
   "matches": [
     {
       "id": "wc26-760497",
@@ -560,15 +560,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 35.0
+      "pct": 34.8
     },
     {
       "code": "Argentina",
-      "pct": 18.1
+      "pct": 18.4
     },
     {
       "code": "Spain",
-      "pct": 10.0
+      "pct": 10.1
     },
     {
       "code": "England",
@@ -588,15 +588,15 @@
     },
     {
       "code": "USA",
-      "pct": 2.8
-    },
-    {
-      "code": "Colombia",
       "pct": 2.5
     },
     {
       "code": "Morocco",
       "pct": 2.5
+    },
+    {
+      "code": "Colombia",
+      "pct": 2.4
     },
     {
       "code": "Norway",
@@ -619,7 +619,7 @@
       "pct": 0.2
     },
     {
-      "code": "Ghana",
+      "code": "Paraguay",
       "pct": 0.1
     }
   ],
@@ -630,19 +630,19 @@
         "pct": 100.0
       },
       {
-        "code": "South Korea",
-        "pct": 0.0
-      },
-      {
-        "code": "Other",
-        "pct": 0.0
-      },
-      {
         "code": "South Africa",
         "pct": 0.0
       },
       {
+        "code": "South Korea",
+        "pct": 0.0
+      },
+      {
         "code": "Czechia",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -656,15 +656,15 @@
         "pct": 0.0
       },
       {
+        "code": "Bosnia and Herzegovina",
+        "pct": 0.0
+      },
+      {
         "code": "Qatar",
         "pct": 0.0
       },
       {
         "code": "Other",
-        "pct": 0.0
-      },
-      {
-        "code": "Bosnia and Herzegovina",
         "pct": 0.0
       }
     ],
@@ -678,15 +678,15 @@
         "pct": 0.1
       },
       {
+        "code": "Morocco",
+        "pct": 0.0
+      },
+      {
         "code": "Scotland",
         "pct": 0.0
       },
       {
         "code": "Other",
-        "pct": 0.0
-      },
-      {
-        "code": "Morocco",
         "pct": 0.0
       }
     ],
@@ -700,11 +700,11 @@
         "pct": 0.0
       },
       {
-        "code": "Turkey",
+        "code": "Australia",
         "pct": 0.0
       },
       {
-        "code": "Australia",
+        "code": "Turkey",
         "pct": 0.0
       },
       {
@@ -722,11 +722,11 @@
         "pct": 0.0
       },
       {
-        "code": "Ecuador",
+        "code": "Ivory Coast",
         "pct": 0.0
       },
       {
-        "code": "Ivory Coast",
+        "code": "Ecuador",
         "pct": 0.0
       },
       {
@@ -740,19 +740,19 @@
         "pct": 100.0
       },
       {
-        "code": "Tunisia",
-        "pct": 0.0
-      },
-      {
         "code": "Japan",
         "pct": 0.0
       },
       {
-        "code": "Other",
+        "code": "Sweden",
         "pct": 0.0
       },
       {
-        "code": "Sweden",
+        "code": "Tunisia",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -762,7 +762,7 @@
         "pct": 100.0
       },
       {
-        "code": "New Zealand",
+        "code": "Egypt",
         "pct": 0.0
       },
       {
@@ -770,7 +770,7 @@
         "pct": 0.0
       },
       {
-        "code": "Egypt",
+        "code": "New Zealand",
         "pct": 0.0
       },
       {
@@ -788,11 +788,11 @@
         "pct": 0.0
       },
       {
-        "code": "Uruguay",
+        "code": "Saudi Arabia",
         "pct": 0.0
       },
       {
-        "code": "Saudi Arabia",
+        "code": "Uruguay",
         "pct": 0.0
       },
       {
@@ -810,11 +810,11 @@
         "pct": 0.0
       },
       {
-        "code": "Norway",
+        "code": "Iraq",
         "pct": 0.0
       },
       {
-        "code": "Iraq",
+        "code": "Norway",
         "pct": 0.0
       },
       {
@@ -832,11 +832,11 @@
         "pct": 0.0
       },
       {
-        "code": "Jordan",
+        "code": "Austria",
         "pct": 0.0
       },
       {
-        "code": "Austria",
+        "code": "Jordan",
         "pct": 0.0
       },
       {
@@ -850,19 +850,19 @@
         "pct": 100.0
       },
       {
-        "code": "DR Congo",
-        "pct": 0.0
-      },
-      {
         "code": "Portugal",
         "pct": 0.0
       },
       {
-        "code": "Other",
+        "code": "DR Congo",
         "pct": 0.0
       },
       {
         "code": "Uzbekistan",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
         "pct": 0.0
       }
     ],
@@ -872,32 +872,32 @@
         "pct": 100.0
       },
       {
-        "code": "Ghana",
-        "pct": 0.0
-      },
-      {
-        "code": "Other",
-        "pct": 0.0
-      },
-      {
         "code": "Croatia",
+        "pct": 0.0
+      },
+      {
+        "code": "Ghana",
         "pct": 0.0
       },
       {
         "code": "Panama",
         "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
       }
     ]
   },
   "news": [
-    "Alexi Lalas released his latest Power Rankings at the 2026 FIFA World Cup™! What would you change?",
-    "Ranking all 22 World Cup teams from worst to first as round of 32 unfolds",
-    "United States vs Bosnia and Herzegovina Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "England 2-1 DR Congo: World Cup 2026 last 32 – as it happened",
+    "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Spain, Portugal, More",
+    "World Cup Round of 32 bracket, schedule, live updates: Spain, Portugal return for Thursday's slate of action",
+    "USMNT beats Bosnia-Herzegovina, 1st World Cup knockout win since '02",
+    "‘Why do they always start so slowly?’ – your England World Cup questions answered",
     "England vs DR Congo Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup 2026: England to play Mexico as Belgium & USA progress to last 16",
-    "Belgium vs Senegal as it happened: late penalty drama sees Belgium through to 2026 World Cup round of 16",
-    "Belgium vs Senegal Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32"
+    "World Cup 2026: Will Spain and Portugal set up last-16 tie?",
+    "Belgium vs Senegal Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "Controversial penalty ends Senegal’s FIFA World Cup run against Belgium"
   ],
   "nextMatch": {
     "a": "Spain",
