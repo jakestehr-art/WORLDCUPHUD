@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T16:30:24.410260Z",
+  "updated": "2026-07-02T20:43:37.633873Z",
   "matches": [
     {
       "id": "wc26-760497",
@@ -7,7 +7,10 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Austria",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 2,
+      "scoreB": 0,
+      "minute": "82'"
     },
     {
       "id": "wc26-760496",
@@ -556,11 +559,14 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Austria",
+    "Spain"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 34.8
+      "pct": 34.4
     },
     {
       "code": "Argentina",
@@ -568,11 +574,11 @@
     },
     {
       "code": "Spain",
-      "pct": 10.1
+      "pct": 11.8
     },
     {
       "code": "England",
-      "pct": 8.2
+      "pct": 7.6
     },
     {
       "code": "Brazil",
@@ -580,7 +586,7 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.0
+      "pct": 5.9
     },
     {
       "code": "Mexico",
@@ -588,6 +594,10 @@
     },
     {
       "code": "USA",
+      "pct": 2.8
+    },
+    {
+      "code": "Colombia",
       "pct": 2.5
     },
     {
@@ -595,16 +605,12 @@
       "pct": 2.5
     },
     {
-      "code": "Colombia",
-      "pct": 2.4
-    },
-    {
       "code": "Norway",
       "pct": 1.8
     },
     {
       "code": "Belgium",
-      "pct": 1.6
+      "pct": 1.5
     },
     {
       "code": "Switzerland",
@@ -891,24 +897,28 @@
   },
   "news": [
     "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Spain, Portugal, More",
-    "World Cup Round of 32 bracket, schedule, live updates: Spain, Portugal return for Thursday's slate of action",
-    "USMNT beats Bosnia-Herzegovina, 1st World Cup knockout win since '02",
-    "‘Why do they always start so slowly?’ – your England World Cup questions answered",
-    "England vs DR Congo Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "World Cup fever takes off as fans launch reporter into air, Johnny Manziel goes nuts & viral cat lady ID'd",
+    "What to know about US soccer star Folarin Balogun's 1-game red card suspension, why team can't appeal - ABC News",
+    "Spain v Austria: World Cup 2026 last 32 – live",
     "World Cup 2026: Will Spain and Portugal set up last-16 tie?",
-    "Belgium vs Senegal Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Controversial penalty ends Senegal’s FIFA World Cup run against Belgium"
+    "World Cup 2026: England fans face ticket prices of at least £2,600 for Mexico game",
+    "World Cup 2026: Klopp linked with Germany job; Spain and Portugal face last-32 tests – as it happened",
+    "LIVE: Portugal vs Croatia – FIFA World Cup 2026"
   ],
   "nextMatch": {
-    "a": "Spain",
-    "b": "Austria",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-07-02T19:00:00Z",
-    "when": "Thu 3:00 PM ET",
-    "venue": "SoFi Stadium",
-    "city": "Inglewood, California",
-    "stadium": "SoFi Stadium",
-    "weather": null
+    "a": "Portugal",
+    "b": "Croatia",
+    "grp": "GROUP K",
+    "kickoffISO": "2026-07-02T23:00:00Z",
+    "when": "Thu 7:00 PM ET",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "weather": {
+      "tempF": 89,
+      "windMph": 10,
+      "description": "Clear sky"
+    }
   },
   "remainingFixtures": {},
   "topScorers": [
