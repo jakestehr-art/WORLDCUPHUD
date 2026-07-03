@@ -1,31 +1,28 @@
 {
-  "updated": "2026-07-02T20:43:37.633873Z",
+  "updated": "2026-07-03T08:37:12.923266Z",
   "matches": [
     {
-      "id": "wc26-760497",
-      "when": "3:00 PM",
-      "grp": "GROUP H",
-      "a": "Spain",
-      "b": "Austria",
-      "status": "live",
-      "scoreA": 2,
-      "scoreB": 0,
-      "minute": "82'"
-    },
-    {
-      "id": "wc26-760496",
-      "when": "7:00 PM",
-      "grp": "GROUP K",
-      "a": "Portugal",
-      "b": "Croatia",
+      "id": "wc26-760499",
+      "when": "2:00 PM",
+      "grp": "GROUP D",
+      "a": "Australia",
+      "b": "Egypt",
       "status": "upcoming"
     },
     {
-      "id": "wc26-760498",
-      "when": "11:00 PM",
-      "grp": "GROUP B",
-      "a": "Switzerland",
-      "b": "Algeria",
+      "id": "wc26-760500",
+      "when": "6:00 PM",
+      "grp": "GROUP J",
+      "a": "Argentina",
+      "b": "Cape Verde",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760501",
+      "when": "9:30 PM",
+      "grp": "GROUP K",
+      "a": "Colombia",
+      "b": "Ghana",
       "status": "upcoming"
     }
   ],
@@ -108,13 +105,13 @@
         ],
         [
           "Switzerland",
-          2,
-          1,
-          1,
-          0,
           3,
           2,
-          4
+          1,
+          0,
+          5,
+          2,
+          7
         ]
       ]
     },
@@ -342,13 +339,13 @@
       "teams": [
         [
           "Spain",
+          4,
           3,
-          2,
           1,
           0,
-          5,
+          8,
           0,
-          7
+          10
         ],
         [
           "Cape Verde",
@@ -440,22 +437,22 @@
         ],
         [
           "Algeria",
-          3,
+          4,
           1,
           1,
-          1,
+          2,
           5,
-          7,
+          9,
           4
         ],
         [
           "Austria",
-          3,
+          4,
           1,
           1,
-          1,
+          2,
           6,
-          6,
+          9,
           4
         ],
         [
@@ -474,13 +471,13 @@
       "teams": [
         [
           "Portugal",
-          3,
-          1,
+          4,
+          2,
           2,
           0,
-          6,
-          1,
-          5
+          8,
+          2,
+          8
         ],
         [
           "DR Congo",
@@ -528,12 +525,12 @@
         ],
         [
           "Croatia",
-          3,
+          4,
           2,
           0,
-          1,
-          5,
-          5,
+          2,
+          6,
+          7,
           6
         ],
         [
@@ -559,50 +556,47 @@
       ]
     }
   },
-  "liveTeams": [
-    "Austria",
-    "Spain"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 34.4
+      "pct": 33.6
     },
     {
       "code": "Argentina",
-      "pct": 18.4
+      "pct": 19.1
     },
     {
       "code": "Spain",
-      "pct": 11.8
+      "pct": 12.2
     },
     {
       "code": "England",
-      "pct": 7.6
+      "pct": 7.2
     },
     {
       "code": "Brazil",
-      "pct": 6.5
+      "pct": 6.2
     },
     {
       "code": "Portugal",
-      "pct": 5.9
+      "pct": 6.2
     },
     {
       "code": "Mexico",
-      "pct": 3.5
+      "pct": 3.1
     },
     {
       "code": "USA",
-      "pct": 2.8
-    },
-    {
-      "code": "Colombia",
       "pct": 2.5
     },
     {
       "code": "Morocco",
-      "pct": 2.5
+      "pct": 2.4
+    },
+    {
+      "code": "Colombia",
+      "pct": 2.2
     },
     {
       "code": "Norway",
@@ -610,15 +604,11 @@
     },
     {
       "code": "Belgium",
-      "pct": 1.5
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
-      "pct": 0.8
-    },
-    {
-      "code": "Croatia",
-      "pct": 0.4
+      "pct": 0.9
     },
     {
       "code": "Canada",
@@ -626,6 +616,10 @@
     },
     {
       "code": "Paraguay",
+      "pct": 0.1
+    },
+    {
+      "code": "Australia",
       "pct": 0.1
     }
   ],
@@ -896,29 +890,25 @@
     ]
   },
   "news": [
-    "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Spain, Portugal, More",
-    "World Cup fever takes off as fans launch reporter into air, Johnny Manziel goes nuts & viral cat lady ID'd",
-    "What to know about US soccer star Folarin Balogun's 1-game red card suspension, why team can't appeal - ABC News",
-    "Spain v Austria: World Cup 2026 last 32 – live",
-    "World Cup 2026: Will Spain and Portugal set up last-16 tie?",
-    "World Cup 2026: England fans face ticket prices of at least £2,600 for Mexico game",
+    "Portugal vs Croatia Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
+    "World Cup 2026: England keep Mexico venue quiet to avoid noisy locals",
     "World Cup 2026: Klopp linked with Germany job; Spain and Portugal face last-32 tests – as it happened",
-    "LIVE: Portugal vs Croatia – FIFA World Cup 2026"
+    "Is Mexico the 2026 World Cup's best host country?",
+    "Switzerland 2-0 Algeria: World Cup 2026 last 32 – as it happened",
+    "Dan Ndoye scores goal to extend Switzerland’s lead vs Algeria | 2026 FIFA World Cup™",
+    "How Manzambi’s magic helped Switzerland beat Algeria to reach 2026 World Cup last 16",
+    "Folarin Balogun’s red card will be hotly debated, but it revealed something about the USA that can’t be taken away"
   ],
   "nextMatch": {
-    "a": "Portugal",
-    "b": "Croatia",
-    "grp": "GROUP K",
-    "kickoffISO": "2026-07-02T23:00:00Z",
-    "when": "Thu 7:00 PM ET",
-    "venue": "BMO Field",
-    "city": "Toronto",
-    "stadium": "BMO Field",
-    "weather": {
-      "tempF": 89,
-      "windMph": 10,
-      "description": "Clear sky"
-    }
+    "a": "Australia",
+    "b": "Egypt",
+    "grp": "GROUP D",
+    "kickoffISO": "2026-07-03T18:00:00Z",
+    "when": "Fri 2:00 PM ET",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "stadium": "AT&T Stadium",
+    "weather": null
   },
   "remainingFixtures": {},
   "topScorers": [
@@ -948,6 +938,11 @@
       "goals": 4
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 4
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 4
@@ -956,11 +951,6 @@
       "player": "Ismaïla Sarr",
       "team": "Senegal",
       "goals": 4
-    },
-    {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 3
     }
   ],
   "fanPhotos": [
