@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T08:37:12.923266Z",
+  "updated": "2026-07-03T15:53:07.705523Z",
   "matches": [
     {
       "id": "wc26-760499",
@@ -560,27 +560,27 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 33.6
+      "pct": 33.4
     },
     {
       "code": "Argentina",
-      "pct": 19.1
+      "pct": 19.4
     },
     {
       "code": "Spain",
-      "pct": 12.2
+      "pct": 13.4
     },
     {
       "code": "England",
-      "pct": 7.2
+      "pct": 7.3
     },
     {
       "code": "Brazil",
-      "pct": 6.2
+      "pct": 6.8
     },
     {
       "code": "Portugal",
-      "pct": 6.2
+      "pct": 6.0
     },
     {
       "code": "Mexico",
@@ -592,11 +592,11 @@
     },
     {
       "code": "Morocco",
-      "pct": 2.4
+      "pct": 2.5
     },
     {
       "code": "Colombia",
-      "pct": 2.2
+      "pct": 2.4
     },
     {
       "code": "Norway",
@@ -891,13 +891,13 @@
   },
   "news": [
     "Portugal vs Croatia Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup 2026: England keep Mexico venue quiet to avoid noisy locals",
-    "World Cup 2026: Klopp linked with Germany job; Spain and Portugal face last-32 tests – as it happened",
-    "Is Mexico the 2026 World Cup's best host country?",
+    "World Cup live updates, latest bracket: Lionel Messi, Argentina headline Friday's final Round of 32 slate",
     "Switzerland 2-0 Algeria: World Cup 2026 last 32 – as it happened",
-    "Dan Ndoye scores goal to extend Switzerland’s lead vs Algeria | 2026 FIFA World Cup™",
+    "Switzerland vs Algeria Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
     "How Manzambi’s magic helped Switzerland beat Algeria to reach 2026 World Cup last 16",
-    "Folarin Balogun’s red card will be hotly debated, but it revealed something about the USA that can’t be taken away"
+    "Germany to start talks with Klopp after parting ways with Nagelsmann, says DFB",
+    "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Portugal to face Spain after VAR drama – live",
+    "World Cup 2026: Julian Nagelsmann out as Germany manager as Jürgen Klopp emerges as replacement"
   ],
   "nextMatch": {
     "a": "Australia",
