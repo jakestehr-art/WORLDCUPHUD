@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T15:53:07.705523Z",
+  "updated": "2026-07-03T20:21:23.474377Z",
   "matches": [
     {
       "id": "wc26-760499",
@@ -7,7 +7,10 @@
       "grp": "GROUP D",
       "a": "Australia",
       "b": "Egypt",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 1,
+      "scoreB": 1,
+      "minute": "105'"
     },
     {
       "id": "wc26-760500",
@@ -556,7 +559,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Australia",
+    "Egypt"
+  ],
   "probabilities": [
     {
       "code": "France",
@@ -568,11 +574,11 @@
     },
     {
       "code": "Spain",
-      "pct": 13.4
+      "pct": 12.8
     },
     {
       "code": "England",
-      "pct": 7.3
+      "pct": 7.1
     },
     {
       "code": "Brazil",
@@ -580,11 +586,11 @@
     },
     {
       "code": "Portugal",
-      "pct": 6.0
+      "pct": 5.9
     },
     {
       "code": "Mexico",
-      "pct": 3.1
+      "pct": 2.9
     },
     {
       "code": "USA",
@@ -889,25 +895,16 @@
       }
     ]
   },
-  "news": [
-    "Portugal vs Croatia Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup live updates, latest bracket: Lionel Messi, Argentina headline Friday's final Round of 32 slate",
-    "Switzerland 2-0 Algeria: World Cup 2026 last 32 – as it happened",
-    "Switzerland vs Algeria Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "How Manzambi’s magic helped Switzerland beat Algeria to reach 2026 World Cup last 16",
-    "Germany to start talks with Klopp after parting ways with Nagelsmann, says DFB",
-    "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Portugal to face Spain after VAR drama – live",
-    "World Cup 2026: Julian Nagelsmann out as Germany manager as Jürgen Klopp emerges as replacement"
-  ],
+  "news": [],
   "nextMatch": {
-    "a": "Australia",
-    "b": "Egypt",
-    "grp": "GROUP D",
-    "kickoffISO": "2026-07-03T18:00:00Z",
-    "when": "Fri 2:00 PM ET",
-    "venue": "AT&T Stadium",
-    "city": "Arlington, Texas",
-    "stadium": "AT&T Stadium",
+    "a": "Argentina",
+    "b": "Cape Verde",
+    "grp": "GROUP J",
+    "kickoffISO": "2026-07-03T22:00:00Z",
+    "when": "Fri 6:00 PM ET",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "stadium": "Hard Rock Stadium",
     "weather": null
   },
   "remainingFixtures": {},
