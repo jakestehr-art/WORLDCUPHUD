@@ -1,33 +1,20 @@
 {
-  "updated": "2026-07-04T00:16:29.525357Z",
+  "updated": "2026-07-04T09:10:52.590726Z",
   "matches": [
     {
-      "id": "wc26-760499",
-      "when": "2:00 PM",
+      "id": "wc26-760502",
+      "when": "1:00 PM",
+      "grp": "GROUP B",
+      "a": "Canada",
+      "b": "Morocco",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760503",
+      "when": "5:00 PM",
       "grp": "GROUP D",
-      "a": "Australia",
-      "b": "Egypt",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 1
-    },
-    {
-      "id": "wc26-760500",
-      "when": "6:00 PM",
-      "grp": "GROUP J",
-      "a": "Argentina",
-      "b": "Cape Verde",
-      "status": "live",
-      "scoreA": 2,
-      "scoreB": 1,
-      "minute": "101'"
-    },
-    {
-      "id": "wc26-760501",
-      "when": "9:30 PM",
-      "grp": "GROUP K",
-      "a": "Colombia",
-      "b": "Ghana",
+      "a": "Paraguay",
+      "b": "France",
       "status": "upcoming"
     }
   ],
@@ -354,12 +341,12 @@
         ],
         [
           "Cape Verde",
-          3,
+          4,
           0,
           3,
-          0,
-          2,
-          2,
+          1,
+          4,
+          5,
           3
         ],
         [
@@ -432,13 +419,13 @@
       "teams": [
         [
           "Argentina",
-          3,
-          3,
+          4,
+          4,
           0,
           0,
-          8,
-          1,
-          9
+          11,
+          3,
+          12
         ],
         [
           "Algeria",
@@ -506,13 +493,13 @@
         ],
         [
           "Colombia",
+          4,
           3,
-          2,
           1,
           0,
-          4,
+          5,
           1,
-          7
+          10
         ]
       ]
     },
@@ -540,12 +527,12 @@
         ],
         [
           "Ghana",
+          4,
+          1,
+          1,
+          2,
+          2,
           3,
-          1,
-          1,
-          1,
-          2,
-          2,
           4
         ],
         [
@@ -561,42 +548,39 @@
       ]
     }
   },
-  "liveTeams": [
-    "Argentina",
-    "Cape Verde"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 33.6
+      "pct": 35.4
     },
     {
       "code": "Argentina",
-      "pct": 18.6
+      "pct": 17.2
     },
     {
       "code": "Spain",
-      "pct": 12.4
+      "pct": 12.2
     },
     {
       "code": "England",
-      "pct": 7.0
+      "pct": 7.6
     },
     {
       "code": "Brazil",
-      "pct": 6.8
+      "pct": 6.2
     },
     {
       "code": "Portugal",
-      "pct": 5.9
+      "pct": 6.0
     },
     {
       "code": "Mexico",
-      "pct": 3.2
+      "pct": 3.4
     },
     {
       "code": "Colombia",
-      "pct": 2.6
+      "pct": 3.0
     },
     {
       "code": "USA",
@@ -608,7 +592,7 @@
     },
     {
       "code": "Norway",
-      "pct": 1.8
+      "pct": 1.7
     },
     {
       "code": "Belgium",
@@ -898,24 +882,24 @@
     ]
   },
   "news": [
-    "Argentina vs Cape Verde LIVE: FIFA World Cup 2026",
-    "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Neymar unhappy with Brazil role – as it happened",
-    "World Cup 2026: England vs Mexico set to be rescheduled to 7pm kick-off time due to storm threat",
-    "Mexico vs. England kick-off time to stay as planned despite FIFA talks over rescheduling",
-    "Mexico vs England at World Cup 2026: TV channel, how to watch in UK, kick-off time, live stream, referee, predicted line-ups",
+    "Ghana FIFA World Cup 2026 kits: Home, away, release dates & prices",
+    "Man Utd ‘Making Checks’ on Breakout Star of 2026 World Cup",
+    "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
+    "Five and a half hours that left England's World Cup tie in chaos",
     "Australia equalizes through Egypt own goal | 2026 FIFA World Cup™",
     "Egypt beat Australia on penalties in World Cup last 32 – as it happened",
-    "Egypt say Dallas police officer pushed player, team director at World Cup"
+    "Egypt say Dallas police officer pushed player, team director at World Cup",
+    "Colombia beat Ghana to complete last 16 line-up at World Cup 2026: Live updates and reaction - The Athletic"
   ],
   "nextMatch": {
-    "a": "Colombia",
-    "b": "Ghana",
-    "grp": "GROUP K",
-    "kickoffISO": "2026-07-04T01:30:00Z",
-    "when": "Fri 9:30 PM ET",
-    "venue": "GEHA Field at Arrowhead Stadium",
-    "city": "Kansas City, Missouri",
-    "stadium": "GEHA Field at Arrowhead Stadium",
+    "a": "Canada",
+    "b": "Morocco",
+    "grp": "GROUP B",
+    "kickoffISO": "2026-07-04T17:00:00Z",
+    "when": "Sat 1:00 PM ET",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "stadium": "NRG Stadium",
     "weather": null
   },
   "remainingFixtures": {},
