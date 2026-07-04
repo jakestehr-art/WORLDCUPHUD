@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T16:35:16.565876Z",
+  "updated": "2026-07-04T20:16:52.081077Z",
   "matches": [
     {
       "id": "wc26-760502",
@@ -7,7 +7,9 @@
       "grp": "GROUP B",
       "a": "Canada",
       "b": "Morocco",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 0,
+      "scoreB": 3
     },
     {
       "id": "wc26-760503",
@@ -67,12 +69,12 @@
       "teams": [
         [
           "Canada",
-          3,
+          4,
           2,
           0,
-          1,
-          8,
           2,
+          8,
+          5,
           6
         ],
         [
@@ -121,13 +123,13 @@
         ],
         [
           "Morocco",
-          4,
-          2,
+          5,
+          3,
           2,
           0,
-          7,
+          10,
           4,
-          8
+          11
         ],
         [
           "Haiti",
@@ -552,7 +554,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 35.1
+      "pct": 37.4
     },
     {
       "code": "Argentina",
@@ -560,15 +562,15 @@
     },
     {
       "code": "Spain",
-      "pct": 12.7
-    },
-    {
-      "code": "Brazil",
-      "pct": 6.7
+      "pct": 12.3
     },
     {
       "code": "England",
-      "pct": 6.6
+      "pct": 6.8
+    },
+    {
+      "code": "Brazil",
+      "pct": 6.5
     },
     {
       "code": "Portugal",
@@ -583,12 +585,12 @@
       "pct": 3.0
     },
     {
-      "code": "USA",
+      "code": "Morocco",
       "pct": 2.5
     },
     {
-      "code": "Morocco",
-      "pct": 2.5
+      "code": "USA",
+      "pct": 2.4
     },
     {
       "code": "Norway",
@@ -604,15 +606,15 @@
     },
     {
       "code": "Canada",
-      "pct": 0.2
+      "pct": 0.1
     },
     {
       "code": "Paraguay",
-      "pct": 0.2
+      "pct": 0.1
     },
     {
       "code": "Egypt",
-      "pct": 0.2
+      "pct": 0.1
     }
   ],
   "groupOdds": {
@@ -882,24 +884,24 @@
     ]
   },
   "news": [
-    "Canada vs Morocco live updates: Davies on bench again for 2026 World Cup knockout clash",
+    "Why England won't fear Mexico or the Azteca - Shearer",
     "United States vs Belgium Preview: Tim Ream on USA's Development In 2026 FIFA World Cup",
+    "Updated World Cup 2026 Bracket, Odds and Schedule After Saturday's Round of 16 Results",
+    "Canada vs. Morocco live updates, score: World Cup Round of 16 action begins",
     "Argentina vs Cape Verde Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-    "World Cup 2026 power rankings: undisputed No 1, co-hosts surge and giants fall",
-    "Ranking All 16 Teams Left in the 2026 World Cup",
-    "How Egypt beat Australia on penalties to reach 2026 World Cup last 16 - The Athletic",
-    "Australia equalizes through Egypt own goal | 2026 FIFA World Cup™"
+    "Paraguay v France: World Cup last 16 – live",
+    "World Cup Round of 16 bracket, schedule, live updates: France vs. Paraguay kicks off second round",
+    "France vs Paraguay LIVE: FIFA World Cup 2026 last 16"
   ],
   "nextMatch": {
-    "a": "Canada",
-    "b": "Morocco",
-    "grp": "GROUP B",
-    "kickoffISO": "2026-07-04T17:00:00Z",
-    "when": "Sat 1:00 PM ET",
-    "venue": "NRG Stadium",
-    "city": "Houston, Texas",
-    "stadium": "NRG Stadium",
+    "a": "Paraguay",
+    "b": "France",
+    "grp": "GROUP D",
+    "kickoffISO": "2026-07-04T21:00:00Z",
+    "when": "Sat 5:00 PM ET",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "stadium": "Lincoln Financial Field",
     "weather": null
   },
   "remainingFixtures": {},
