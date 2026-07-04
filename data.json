@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T12:50:05.330829Z",
+  "updated": "2026-07-04T16:35:16.565876Z",
   "matches": [
     {
       "id": "wc26-760502",
@@ -556,23 +556,23 @@
     },
     {
       "code": "Argentina",
-      "pct": 17.1
+      "pct": 16.9
     },
     {
       "code": "Spain",
-      "pct": 12.2
-    },
-    {
-      "code": "England",
-      "pct": 7.2
+      "pct": 12.7
     },
     {
       "code": "Brazil",
-      "pct": 6.3
+      "pct": 6.7
+    },
+    {
+      "code": "England",
+      "pct": 6.6
     },
     {
       "code": "Portugal",
-      "pct": 6.2
+      "pct": 6.0
     },
     {
       "code": "Mexico",
@@ -596,7 +596,7 @@
     },
     {
       "code": "Belgium",
-      "pct": 1.1
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
@@ -607,12 +607,12 @@
       "pct": 0.2
     },
     {
-      "code": "Egypt",
+      "code": "Paraguay",
       "pct": 0.2
     },
     {
-      "code": "Paraguay",
-      "pct": 0.1
+      "code": "Egypt",
+      "pct": 0.2
     }
   ],
   "groupOdds": {
@@ -882,14 +882,14 @@
     ]
   },
   "news": [
-    "World Cup last 16 bracket predictions: Picking biggest shocks, best games and who wins",
-    "Man City 2026 World Cup Watch: Antoine Semenyo heads home as Ghana fall to Colombia",
-    "The 2026 World Cup’s Most Political Team Is Also (Probably) Its Best",
+    "Canada vs Morocco live updates: Davies on bench again for 2026 World Cup knockout clash",
+    "United States vs Belgium Preview: Tim Ream on USA's Development In 2026 FIFA World Cup",
     "Argentina vs Cape Verde Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 32",
-    "Sources: Mexico vs. England World Cup kickoff time unchanged after talks",
-    "Five and a half hours that left England's World Cup tie in chaos",
-    "England get hostile welcome on arrival at Mexico City hotel for World Cup showdown",
-    "Ranking All 16 Teams Left in the 2026 World Cup"
+    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
+    "World Cup 2026 power rankings: undisputed No 1, co-hosts surge and giants fall",
+    "Ranking All 16 Teams Left in the 2026 World Cup",
+    "How Egypt beat Australia on penalties to reach 2026 World Cup last 16 - The Athletic",
+    "Australia equalizes through Egypt own goal | 2026 FIFA World Cup™"
   ],
   "nextMatch": {
     "a": "Canada",
