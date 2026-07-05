@@ -1,25 +1,21 @@
 {
-  "updated": "2026-07-04T23:46:30.614043Z",
+  "updated": "2026-07-05T09:46:16.083792Z",
   "matches": [
     {
-      "id": "wc26-760502",
-      "when": "1:00 PM",
-      "grp": "GROUP B",
-      "a": "Canada",
-      "b": "Morocco",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 3
+      "id": "wc26-760504",
+      "when": "4:00 PM",
+      "grp": "GROUP C",
+      "a": "Brazil",
+      "b": "Norway",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760503",
-      "when": "5:00 PM",
-      "grp": "GROUP D",
-      "a": "Paraguay",
-      "b": "France",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 1
+      "id": "wc26-760505",
+      "when": "8:00 PM",
+      "grp": "GROUP A",
+      "a": "Mexico",
+      "b": "England",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -556,43 +552,43 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 36.1
+      "pct": 35.6
     },
     {
       "code": "Argentina",
-      "pct": 16.7
+      "pct": 17.0
     },
     {
       "code": "Spain",
-      "pct": 12.4
+      "pct": 12.6
+    },
+    {
+      "code": "Brazil",
+      "pct": 7.1
     },
     {
       "code": "England",
       "pct": 6.9
     },
     {
-      "code": "Brazil",
-      "pct": 6.5
-    },
-    {
       "code": "Portugal",
-      "pct": 6.0
+      "pct": 6.2
     },
     {
       "code": "Mexico",
-      "pct": 3.5
+      "pct": 3.4
     },
     {
       "code": "Colombia",
       "pct": 3.1
     },
     {
-      "code": "USA",
-      "pct": 2.4
+      "code": "Morocco",
+      "pct": 2.9
     },
     {
-      "code": "Morocco",
-      "pct": 2.4
+      "code": "USA",
+      "pct": 2.5
     },
     {
       "code": "Norway",
@@ -607,15 +603,15 @@
       "pct": 0.9
     },
     {
-      "code": "Paraguay",
-      "pct": 0.1
-    },
-    {
       "code": "Egypt",
       "pct": 0.1
     },
     {
       "code": "Germany",
+      "pct": 0.0
+    },
+    {
+      "code": "Netherlands",
       "pct": 0.0
     }
   ],
@@ -886,14 +882,14 @@
     ]
   },
   "news": [
-    "Bob Bradley and Brad Guzan share their Top 5 All-Time USA Men's FIFA World Cup Moments 🇺🇸⚽️",
-    "World Cup 2026: Reece James doubtful for Mexico tie but Jarell Quansah fit again",
-    "Paraguay vs France Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "World Cup 2026: Canada 0-3 Morocco – as it happened",
+    "Paraguay vs France Extended Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
     "World Cup 2026: Why England players won't fear Mexico or the Azteca - Alan Shearer",
-    "England get hostile welcome on arrival at Mexico City hotel for World Cup showdown",
-    "World Cup 2026: Mexico fans find England's team hotel, greet Three Lions with boos before World Cup clash",
-    "Are Argentina on slide after Cape Verde game?: Re-ranking the 48 World Cup teams after day 23"
+    "France ousts Paraguay after World Cup Round of 16 kicks off with Morocco's rout of Canada",
+    "World Cup 2026: Canada 0-3 Morocco – as it happened",
+    "France ekes past Paraguay and everything else to know from Saturday’s World Cup matches",
+    "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
+    "World Cup 2026: Cape Verde say goodbye after defeat by Argentina",
+    "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes"
   ],
   "nextMatch": {
     "a": "Brazil",
