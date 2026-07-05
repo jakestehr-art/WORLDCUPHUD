@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T09:46:16.083792Z",
+  "updated": "2026-07-05T15:00:19.946459Z",
   "matches": [
     {
       "id": "wc26-760504",
@@ -552,27 +552,27 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 35.6
+      "pct": 35.1
     },
     {
       "code": "Argentina",
-      "pct": 17.0
+      "pct": 16.8
     },
     {
       "code": "Spain",
-      "pct": 12.6
-    },
-    {
-      "code": "Brazil",
-      "pct": 7.1
+      "pct": 12.3
     },
     {
       "code": "England",
-      "pct": 6.9
+      "pct": 7.1
+    },
+    {
+      "code": "Brazil",
+      "pct": 7.0
     },
     {
       "code": "Portugal",
-      "pct": 6.2
+      "pct": 5.9
     },
     {
       "code": "Mexico",
@@ -580,14 +580,14 @@
     },
     {
       "code": "Colombia",
-      "pct": 3.1
-    },
-    {
-      "code": "Morocco",
-      "pct": 2.9
+      "pct": 3.0
     },
     {
       "code": "USA",
+      "pct": 2.5
+    },
+    {
+      "code": "Morocco",
       "pct": 2.5
     },
     {
@@ -604,7 +604,7 @@
     },
     {
       "code": "Egypt",
-      "pct": 0.1
+      "pct": 0.2
     },
     {
       "code": "Germany",
@@ -882,14 +882,14 @@
     ]
   },
   "news": [
-    "Paraguay vs France Extended Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "World Cup 2026: Why England players won't fear Mexico or the Azteca - Alan Shearer",
-    "France ousts Paraguay after World Cup Round of 16 kicks off with Morocco's rout of Canada",
-    "World Cup 2026: Canada 0-3 Morocco – as it happened",
-    "France ekes past Paraguay and everything else to know from Saturday’s World Cup matches",
-    "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
-    "World Cup 2026: Cape Verde say goodbye after defeat by Argentina",
-    "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes"
+    "World Cup Round of 16 schedule, live updates: Brazil vs. Norway, England vs. Mexico on tap",
+    "2026 World Cup: 5 Seattle sporting events to rival U.S.-Belgium match",
+    "Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude",
+    "Paraguay vs France Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+    "World Cup 2026: 'Disgraceful' and 'embarrassing' - France survive Paraguay's dark arts",
+    "The Ref: Do players need more protection from referees at this World Cup?",
+    "World Cup 2026: Jesse Marsch insists Canada was 'the better team' in loss to Morocco: 'I'd rather be us than them'",
+    "World Cup 2026: Canada 0-3 Morocco – as it happened"
   ],
   "nextMatch": {
     "a": "Brazil",
