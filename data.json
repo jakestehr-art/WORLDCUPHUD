@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T15:00:19.946459Z",
+  "updated": "2026-07-05T18:47:06.174634Z",
   "matches": [
     {
       "id": "wc26-760504",
@@ -552,11 +552,11 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 35.1
+      "pct": 34.6
     },
     {
       "code": "Argentina",
-      "pct": 16.8
+      "pct": 16.9
     },
     {
       "code": "Spain",
@@ -564,7 +564,7 @@
     },
     {
       "code": "England",
-      "pct": 7.1
+      "pct": 7.3
     },
     {
       "code": "Brazil",
@@ -584,7 +584,7 @@
     },
     {
       "code": "USA",
-      "pct": 2.5
+      "pct": 2.9
     },
     {
       "code": "Morocco",
@@ -592,11 +592,11 @@
     },
     {
       "code": "Norway",
-      "pct": 1.7
+      "pct": 1.8
     },
     {
       "code": "Belgium",
-      "pct": 1.4
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
@@ -883,13 +883,13 @@
   },
   "news": [
     "World Cup Round of 16 schedule, live updates: Brazil vs. Norway, England vs. Mexico on tap",
-    "2026 World Cup: 5 Seattle sporting events to rival U.S.-Belgium match",
-    "Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude",
-    "Paraguay vs France Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "World Cup 2026: 'Disgraceful' and 'embarrassing' - France survive Paraguay's dark arts",
-    "The Ref: Do players need more protection from referees at this World Cup?",
-    "World Cup 2026: Jesse Marsch insists Canada was 'the better team' in loss to Morocco: 'I'd rather be us than them'",
-    "World Cup 2026: Canada 0-3 Morocco – as it happened"
+    "German World Cup fan breaks down in tears after being blown away by kindness of Americans",
+    "Erling Haaland is dominating the 2026 World Cup, shop his Nike collection now",
+    "2026 World Cup: USMNT striker Folarin Balogun available vs. Belgium after red-card ban suspended",
+    "World Cup 2026: US striker Folarin Balogun's one-game red card ban suspended by Fifa",
+    "USA World Cup star Folarin Balogun available to play vs Belgium in stunning twist",
+    "World Cup 2026: England fighting against history in Mexico",
+    "Brazil vs Norway World Cup preview: Predictions, form guide, key players and how to watch - The Athletic"
   ],
   "nextMatch": {
     "a": "Brazil",
