@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T19:19:13.999619Z",
+  "updated": "2026-07-06T23:37:47.859307Z",
   "matches": [
     {
       "id": "wc26-760506",
@@ -7,10 +7,9 @@
       "grp": "GROUP K",
       "a": "Portugal",
       "b": "Spain",
-      "status": "live",
+      "status": "ft",
       "scoreA": 0,
-      "scoreB": 0,
-      "minute": "19'"
+      "scoreB": 1
     },
     {
       "id": "wc26-760507",
@@ -334,13 +333,13 @@
       "teams": [
         [
           "Spain",
+          5,
           4,
-          3,
           1,
           0,
-          8,
+          9,
           0,
-          10
+          13
         ],
         [
           "Cape Verde",
@@ -466,12 +465,12 @@
       "teams": [
         [
           "Portugal",
-          4,
+          5,
           2,
           2,
-          0,
+          1,
           8,
-          2,
+          3,
           8
         ],
         [
@@ -551,58 +550,55 @@
       ]
     }
   },
-  "liveTeams": [
-    "Portugal",
-    "Spain"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.8
+      "pct": 32.9
+    },
+    {
+      "code": "Spain",
+      "pct": 18.4
     },
     {
       "code": "Argentina",
-      "pct": 17.2
+      "pct": 17.1
     },
     {
       "code": "England",
       "pct": 14.5
     },
     {
-      "code": "Spain",
-      "pct": 12.7
-    },
-    {
-      "code": "Portugal",
-      "pct": 5.9
-    },
-    {
       "code": "Norway",
-      "pct": 4.7
+      "pct": 4.9
     },
     {
       "code": "Colombia",
-      "pct": 3.1
+      "pct": 3.2
     },
     {
       "code": "USA",
-      "pct": 3.0
+      "pct": 2.9
     },
     {
       "code": "Morocco",
-      "pct": 2.6
+      "pct": 2.8
     },
     {
       "code": "Belgium",
-      "pct": 1.5
+      "pct": 1.2
     },
     {
       "code": "Switzerland",
-      "pct": 0.9
+      "pct": 1.1
     },
     {
       "code": "Egypt",
-      "pct": 0.2
+      "pct": 0.4
+    },
+    {
+      "code": "Portugal",
+      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -888,14 +884,14 @@
     ]
   },
   "news": [
-    "World Cup 2026: Trump admits lobbying Fifa over Balogun red card; Starmer intervened on England kick-off time – live",
-    "Spain vs. Portugal live updates, score: World Cup Round of 16 continues Monday with USA vs. Belgium up next",
-    "Inside the White House push to get Folarin Balogun back on the field - Live Updates",
-    "Balogun available to play for USMNT vs. Belgium in growing World Cup controversy: Live updates",
-    "Mark Kelly proudly backs Team Mexico in World Cup after barely mentioning U.S. men's team",
-    "Brazil vs Norway Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "Belgium loses appeal of Balogun eligibility after Trump defends intervention with FIFA",
-    "25 Hottest Soccer Stars at the 2026 World Cup: Rodrigo De Paul, Jude Bellingham, Christian Pulisic and More"
+    "World Cup 2026: Belgium has appeal denied after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card",
+    "Portugal vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+    "World Cup 2026 tactics: How England beat Mexico in five mini games",
+    "Mexico 2-3 England: World Cup 2026 last 16 updates – as it happened",
+    "British PM Keir Starmer pushed to keep England's World Cup win over Mexico from being moved up earlier in the day",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
+    "Explained: Folarin Balogun’s World Cup red-card reversal, Trump’s phone calls and Fifa’s rationale"
   ],
   "nextMatch": {
     "a": "United States",
