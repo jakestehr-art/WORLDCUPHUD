@@ -1,22 +1,20 @@
 {
-  "updated": "2026-07-05T22:16:41.395918Z",
+  "updated": "2026-07-06T12:32:09.805128Z",
   "matches": [
     {
-      "id": "wc26-760504",
-      "when": "4:00 PM",
-      "grp": "GROUP C",
-      "a": "Brazil",
-      "b": "Norway",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 2
+      "id": "wc26-760506",
+      "when": "3:00 PM",
+      "grp": "GROUP K",
+      "a": "Portugal",
+      "b": "Spain",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760505",
+      "id": "wc26-760507",
       "when": "8:00 PM",
-      "grp": "GROUP A",
-      "a": "Mexico",
-      "b": "England",
+      "grp": "GROUP D",
+      "a": "United States",
+      "b": "Belgium",
       "status": "upcoming"
     }
   ],
@@ -25,12 +23,12 @@
       "teams": [
         [
           "Mexico",
+          5,
           4,
-          4,
           0,
-          0,
-          8,
-          0,
+          1,
+          10,
+          3,
           12
         ],
         [
@@ -509,13 +507,13 @@
       "teams": [
         [
           "England",
+          5,
           4,
-          3,
           1,
           0,
-          8,
-          3,
-          10
+          11,
+          5,
+          13
         ],
         [
           "Croatia",
@@ -554,47 +552,43 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 34.6
+      "pct": 32.6
     },
     {
       "code": "Argentina",
-      "pct": 17.5
-    },
-    {
-      "code": "Spain",
-      "pct": 12.6
+      "pct": 16.7
     },
     {
       "code": "England",
-      "pct": 8.7
+      "pct": 14.0
+    },
+    {
+      "code": "Spain",
+      "pct": 12.7
     },
     {
       "code": "Portugal",
-      "pct": 6.0
+      "pct": 5.8
     },
     {
       "code": "Norway",
-      "pct": 5.1
-    },
-    {
-      "code": "Mexico",
-      "pct": 4.0
-    },
-    {
-      "code": "Colombia",
-      "pct": 3.2
+      "pct": 4.7
     },
     {
       "code": "USA",
-      "pct": 2.9
+      "pct": 3.0
+    },
+    {
+      "code": "Colombia",
+      "pct": 3.0
     },
     {
       "code": "Morocco",
-      "pct": 2.8
+      "pct": 2.6
     },
     {
       "code": "Belgium",
-      "pct": 1.2
+      "pct": 1.4
     },
     {
       "code": "Switzerland",
@@ -606,7 +600,7 @@
     },
     {
       "code": "Brazil",
-      "pct": 0.1
+      "pct": 0.0
     },
     {
       "code": "Germany",
@@ -614,6 +608,10 @@
     },
     {
       "code": "Netherlands",
+      "pct": 0.0
+    },
+    {
+      "code": "Italy",
       "pct": 0.0
     }
   ],
@@ -884,29 +882,25 @@
     ]
   },
   "news": [
-    "Brazil vs Norway LIVE: FIFA World Cup 2026 – last 16",
     "2026 World Cup: USMNT striker Folarin Balogun available vs. Belgium after red-card ban suspended following President Trump's reported call to FIFA",
-    "Mexico v England: World Cup 2026 last 16 tie hit by thunderstorm in buildup – live",
-    "World Cup 2026: England v Mexico latest - team news, predictions & weather update",
-    "Inside Mexico's Iconic Mexico City Stadium Before the FIFA World Cup™",
-    "Portugal's Cristiano Ronaldo: 'This will be my last World Cup'",
-    "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
-    "FIFA World Cup: All to know as Ronaldo’s Portugal play Spain in the last 16"
+    "Ten-man England survive siege of the Azteca to reach quarter-finals in World Cup classic - The Athletic",
+    "Brazil vs Norway Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+    "Brazil 1-2 Norway: World Cup 2026 last 16 – as it happened",
+    "Watch World Cup Day 25: England beats Mexico; Norway eliminates Brazil",
+    "'You've been trying to kill me for 23 years' - should Ronaldo start?",
+    "FIFA World Cup round of 16: Bracket, schedule, Portugal vs Spain prediction",
+    "Portugal's Cristiano Ronaldo: 'This will be my last World Cup'"
   ],
   "nextMatch": {
-    "a": "Mexico",
-    "b": "England",
-    "grp": "GROUP A",
-    "kickoffISO": "2026-07-06T00:00:00Z",
-    "when": "Sun 8:00 PM ET",
-    "venue": "Estadio Banorte",
-    "city": "Mexico City",
-    "stadium": "Estadio Banorte",
-    "weather": {
-      "tempF": 70,
-      "windMph": 3,
-      "description": "Drizzle"
-    }
+    "a": "Portugal",
+    "b": "Spain",
+    "grp": "GROUP K",
+    "kickoffISO": "2026-07-06T19:00:00Z",
+    "when": "Mon 3:00 PM ET",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "stadium": "AT&T Stadium",
+    "weather": null
   },
   "remainingFixtures": {},
   "topScorers": [
@@ -926,6 +920,11 @@
       "goals": 6
     },
     {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 4
+    },
+    {
       "player": "Vinícius Júnior",
       "team": "Brazil",
       "goals": 4
@@ -936,18 +935,13 @@
       "goals": 4
     },
     {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 4
+    },
+    {
       "player": "Mikel Oyarzabal",
       "team": "Spain",
-      "goals": 4
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "goals": 4
-    },
-    {
-      "player": "Ismaïla Sarr",
-      "team": "Senegal",
       "goals": 4
     }
   ],
