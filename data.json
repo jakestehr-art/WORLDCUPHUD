@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T18:25:48.677595Z",
+  "updated": "2026-07-07T22:39:18.399096Z",
   "matches": [
     {
       "id": "wc26-760509",
@@ -17,7 +17,10 @@
       "grp": "GROUP B",
       "a": "Switzerland",
       "b": "Colombia",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "120'+1'"
     }
   ],
   "groups": {
@@ -550,31 +553,30 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Colombia",
+    "Switzerland"
+  ],
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.9
+      "pct": 32.8
     },
     {
       "code": "Spain",
-      "pct": 18.5
+      "pct": 18.8
     },
     {
       "code": "Argentina",
-      "pct": 17.4
+      "pct": 17.5
     },
     {
       "code": "England",
-      "pct": 15.0
+      "pct": 15.7
     },
     {
       "code": "Norway",
-      "pct": 6.0
-    },
-    {
-      "code": "Colombia",
-      "pct": 3.5
+      "pct": 6.2
     },
     {
       "code": "Morocco",
@@ -585,12 +587,12 @@
       "pct": 2.5
     },
     {
-      "code": "Switzerland",
-      "pct": 0.9
+      "code": "Colombia",
+      "pct": 2.1
     },
     {
-      "code": "Egypt",
-      "pct": 0.1
+      "code": "Switzerland",
+      "pct": 1.1
     },
     {
       "code": "Brazil",
@@ -614,6 +616,10 @@
     },
     {
       "code": "USA",
+      "pct": 0.0
+    },
+    {
+      "code": "Uruguay",
       "pct": 0.0
     }
   ],
@@ -884,29 +890,25 @@
     ]
   },
   "news": [
-    "Argentina 3-2 Egypt: World Cup 2026 last 16 – live",
-    "Instant Reactions to United States' Loss to Belgium in Round of 16 🇺🇸 2026 FIFA World Cup™",
-    "World Cup 2026: Reaction as the USMNT lose to Belgium at the last-16 stage and Cristiano Ronaldo's Portugal are knocked out",
-    "Portugal vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "So, Ronaldo's World Cup era is over. What have we learned?",
-    "Switzerland take on Colombia in World Cup’s final last-16 clash: Live updates",
-    "Switzerland v Colombia: World Cup 2026 last 16 – live",
-    "LIVE: Switzerland vs Colombia – FIFA World Cup 2026 round of 16"
+    "Argentina vs Egypt Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+    "Belgium ends the USA’s World Cup dream with a dominant 4-1 win in the Round of 16",
+    "Switzerland and Colombia level in cagey final World Cup last-16 clash: Live updates",
+    "(2) Switzerland v Colombia: World Cup 2026 last-16 tie goes to extra time – live",
+    "Switzerland vs Colombia LIVE: Updates from World Cup round of 16 clash as goalless game heads to extra time",
+    "World Cup 2026: Fifa launches investigation into alleged racist abuse of IShowSpeed",
+    "World Cup 2026: Fox Sports' Thierry Henry and Alexi Lalas get into heated exchange about Folarin Balogun's red card reversal",
+    "All the presidents’ meddling: the Balogun scandal shows how Fifa can break football | Barney Ronay"
   ],
   "nextMatch": {
-    "a": "Switzerland",
-    "b": "Colombia",
-    "grp": "GROUP B",
-    "kickoffISO": "2026-07-07T20:00:00Z",
-    "when": "Tue 4:00 PM ET",
-    "venue": "BC Place",
-    "city": "Vancouver",
-    "stadium": "BC Place",
-    "weather": {
-      "tempF": 67,
-      "windMph": 6,
-      "description": "Clear sky"
-    }
+    "a": "France",
+    "b": "Morocco",
+    "grp": "GROUP I",
+    "kickoffISO": "2026-07-09T20:00:00Z",
+    "when": "Thu 4:00 PM ET",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "stadium": "Gillette Stadium",
+    "weather": null
   },
   "remainingFixtures": {},
   "topScorers": [
