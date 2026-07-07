@@ -1,22 +1,20 @@
 {
-  "updated": "2026-07-06T23:37:47.859307Z",
+  "updated": "2026-07-07T10:40:56.997486Z",
   "matches": [
     {
-      "id": "wc26-760506",
-      "when": "3:00 PM",
-      "grp": "GROUP K",
-      "a": "Portugal",
-      "b": "Spain",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 1
+      "id": "wc26-760509",
+      "when": "12:00 PM",
+      "grp": "GROUP J",
+      "a": "Argentina",
+      "b": "Egypt",
+      "status": "upcoming"
     },
     {
-      "id": "wc26-760507",
-      "when": "8:00 PM",
-      "grp": "GROUP D",
-      "a": "United States",
-      "b": "Belgium",
+      "id": "wc26-760508",
+      "when": "4:00 PM",
+      "grp": "GROUP B",
+      "a": "Switzerland",
+      "b": "Colombia",
       "status": "upcoming"
     }
   ],
@@ -157,12 +155,12 @@
       "teams": [
         [
           "United States",
-          3,
+          4,
           2,
           0,
-          1,
+          2,
+          9,
           8,
-          4,
           6
         ],
         [
@@ -289,13 +287,13 @@
       "teams": [
         [
           "Belgium",
-          4,
-          2,
+          5,
+          3,
           2,
           0,
-          9,
-          4,
-          8
+          13,
+          5,
+          11
         ],
         [
           "Egypt",
@@ -554,31 +552,27 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.9
-    },
-    {
-      "code": "Spain",
-      "pct": 18.4
+      "pct": 33.1
     },
     {
       "code": "Argentina",
-      "pct": 17.1
+      "pct": 18.4
+    },
+    {
+      "code": "Spain",
+      "pct": 18.1
     },
     {
       "code": "England",
-      "pct": 14.5
+      "pct": 14.4
     },
     {
       "code": "Norway",
-      "pct": 4.9
+      "pct": 5.8
     },
     {
       "code": "Colombia",
-      "pct": 3.2
-    },
-    {
-      "code": "USA",
-      "pct": 2.9
+      "pct": 3.4
     },
     {
       "code": "Morocco",
@@ -586,19 +580,15 @@
     },
     {
       "code": "Belgium",
-      "pct": 1.2
+      "pct": 2.2
     },
     {
       "code": "Switzerland",
-      "pct": 1.1
+      "pct": 0.9
     },
     {
       "code": "Egypt",
-      "pct": 0.4
-    },
-    {
-      "code": "Portugal",
-      "pct": 0.1
+      "pct": 0.2
     },
     {
       "code": "Brazil",
@@ -609,11 +599,19 @@
       "pct": 0.0
     },
     {
+      "code": "Portugal",
+      "pct": 0.0
+    },
+    {
       "code": "Netherlands",
       "pct": 0.0
     },
     {
       "code": "Italy",
+      "pct": 0.0
+    },
+    {
+      "code": "USA",
       "pct": 0.0
     }
   ],
@@ -884,24 +882,24 @@
     ]
   },
   "news": [
-    "World Cup 2026: Belgium has appeal denied after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card",
+    "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
     "Portugal vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "World Cup 2026 tactics: How England beat Mexico in five mini games",
-    "Mexico 2-3 England: World Cup 2026 last 16 updates – as it happened",
-    "British PM Keir Starmer pushed to keep England's World Cup win over Mexico from being moved up earlier in the day",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-    "Explained: Folarin Balogun’s World Cup red-card reversal, Trump’s phone calls and Fifa’s rationale"
+    "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
+    "World Cup Daily live: Messi fans troll Speed after Ronaldo exit; Argentina, Colombia in action",
+    "US crashes out of World Cup as storm over Trump interference overshadows tournament",
+    "Trump’s World Cup intervention has ruined the game | Robert Reich",
+    "World Cup 2026: Trump admits lobbying Fifa over Balogun red; Mbappé hits out at Paraguayan senator – as it happened",
+    "World Cup 2026 tactics: How England beat Mexico in five mini games"
   ],
   "nextMatch": {
-    "a": "United States",
-    "b": "Belgium",
-    "grp": "GROUP D",
-    "kickoffISO": "2026-07-07T00:00:00Z",
-    "when": "Mon 8:00 PM ET",
-    "venue": "Lumen Field",
-    "city": "Seattle, Washington",
-    "stadium": "Lumen Field",
+    "a": "Argentina",
+    "b": "Egypt",
+    "grp": "GROUP J",
+    "kickoffISO": "2026-07-07T16:00:00Z",
+    "when": "Tue 12:00 PM ET",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "stadium": "Mercedes-Benz Stadium",
     "weather": null
   },
   "remainingFixtures": {},
@@ -963,6 +961,13 @@
       "license": "CC BY 4.0"
     },
     {
+      "title": "Egyptian Celebration in Seattle World Cup.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Egyptian_Celebration_in_Seattle_World_Cup.jpg/960px-Egyptian_Celebration_in_Seattle_World_Cup.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_Celebration_in_Seattle_World_Cup.jpg",
+      "attribution": "Sxchen1110",
+      "license": "CC BY 4.0"
+    },
+    {
       "title": "Fan Zone by the Falls (FIFA World Cup Celebrations in Canada).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
@@ -994,13 +999,6 @@
       "title": "Fan Zone by the Falls 5 (FIFA World Cup Celebrations in Canada).jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fan_Zone_by_the_Falls_5_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_5_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_5_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
-      "attribution": "Gogerr",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "title": "Fan Zone by the Falls 6 (FIFA World Cup Celebrations in Canada).jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Fan_Zone_by_the_Falls_6_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg/960px-Fan_Zone_by_the_Falls_6_%28FIFA_World_Cup_Celebrations_in_Canada%29.jpg",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fan_Zone_by_the_Falls_6_(FIFA_World_Cup_Celebrations_in_Canada).jpg",
       "attribution": "Gogerr",
       "license": "CC BY-SA 4.0"
     }
