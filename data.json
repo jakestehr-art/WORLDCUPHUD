@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T07:42:35.102683Z",
+  "updated": "2026-07-08T13:17:24.156843Z",
   "matches": [],
   "groups": {
     "A": {
@@ -535,19 +535,19 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.8
+      "pct": 32.6
     },
     {
       "code": "Spain",
-      "pct": 18.6
+      "pct": 18.8
     },
     {
       "code": "Argentina",
-      "pct": 18.6
+      "pct": 18.8
     },
     {
       "code": "England",
-      "pct": 15.6
+      "pct": 15.8
     },
     {
       "code": "Norway",
@@ -559,11 +559,11 @@
     },
     {
       "code": "Belgium",
-      "pct": 2.4
+      "pct": 2.5
     },
     {
       "code": "Switzerland",
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "code": "Brazil",
@@ -865,14 +865,14 @@
     ]
   },
   "news": [
+    "World Cup 2026: Egypt fury after Argentina win thriller, Croatia head coach Dalic quits – live",
     "World Cup 2026: Egypt fume at 'injustice' and make Messi favouritism claims after exit",
+    "FIFA World Cup 2026: Biggest takeaways from the round of 16",
+    "USMNT will look back at 2026 World Cup as a missed opportunity",
     "Switzerland vs Colombia Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
     "Switzerland beat Colombia on penalties: World Cup 2026 last 16 – as it happened",
-    "Switzerland beat Colombia on penalties to book World Cup quarter-final spot: Live updates",
-    "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – as it happened",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
-    "World Cup 2026: Reaction as Egypt accuse Fifa of 'fix' following Argentina's victory to set-up Switzerland tie"
+    "World Cup 2026: Switzerland vs Colombia - full penalty shootout",
+    "World Cup 2026: guide to all 1,248 players"
   ],
   "nextMatch": {
     "a": "France",
