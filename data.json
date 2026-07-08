@@ -1,28 +1,6 @@
 {
-  "updated": "2026-07-07T22:39:18.399096Z",
-  "matches": [
-    {
-      "id": "wc26-760509",
-      "when": "12:00 PM",
-      "grp": "GROUP J",
-      "a": "Argentina",
-      "b": "Egypt",
-      "status": "ft",
-      "scoreA": 3,
-      "scoreB": 2
-    },
-    {
-      "id": "wc26-760508",
-      "when": "4:00 PM",
-      "grp": "GROUP B",
-      "a": "Switzerland",
-      "b": "Colombia",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "120'+1'"
-    }
-  ],
+  "updated": "2026-07-08T07:42:35.102683Z",
+  "matches": [],
   "groups": {
     "A": {
       "teams": [
@@ -102,13 +80,13 @@
         ],
         [
           "Switzerland",
-          3,
+          4,
           2,
-          1,
+          2,
           0,
           5,
           2,
-          7
+          8
         ]
       ]
     },
@@ -498,13 +476,13 @@
         ],
         [
           "Colombia",
-          4,
+          5,
           3,
-          1,
+          2,
           0,
           5,
           1,
-          10
+          11
         ]
       ]
     },
@@ -553,10 +531,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "Colombia",
-    "Switzerland"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
@@ -564,35 +539,31 @@
     },
     {
       "code": "Spain",
-      "pct": 18.8
+      "pct": 18.6
     },
     {
       "code": "Argentina",
-      "pct": 17.5
+      "pct": 18.6
     },
     {
       "code": "England",
-      "pct": 15.7
+      "pct": 15.6
     },
     {
       "code": "Norway",
-      "pct": 6.2
+      "pct": 5.9
     },
     {
       "code": "Morocco",
-      "pct": 2.9
+      "pct": 3.0
     },
     {
       "code": "Belgium",
-      "pct": 2.5
-    },
-    {
-      "code": "Colombia",
-      "pct": 2.1
+      "pct": 2.4
     },
     {
       "code": "Switzerland",
-      "pct": 1.1
+      "pct": 2.2
     },
     {
       "code": "Brazil",
@@ -620,6 +591,10 @@
     },
     {
       "code": "Uruguay",
+      "pct": 0.0
+    },
+    {
+      "code": "Mexico",
       "pct": 0.0
     }
   ],
@@ -890,14 +865,14 @@
     ]
   },
   "news": [
-    "Argentina vs Egypt Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "Belgium ends the USA’s World Cup dream with a dominant 4-1 win in the Round of 16",
-    "Switzerland and Colombia level in cagey final World Cup last-16 clash: Live updates",
-    "(2) Switzerland v Colombia: World Cup 2026 last-16 tie goes to extra time – live",
-    "Switzerland vs Colombia LIVE: Updates from World Cup round of 16 clash as goalless game heads to extra time",
-    "World Cup 2026: Fifa launches investigation into alleged racist abuse of IShowSpeed",
-    "World Cup 2026: Fox Sports' Thierry Henry and Alexi Lalas get into heated exchange about Folarin Balogun's red card reversal",
-    "All the presidents’ meddling: the Balogun scandal shows how Fifa can break football | Barney Ronay"
+    "World Cup 2026: Egypt fume at 'injustice' and make Messi favouritism claims after exit",
+    "Switzerland vs Colombia Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
+    "Switzerland beat Colombia on penalties: World Cup 2026 last 16 – as it happened",
+    "Switzerland beat Colombia on penalties to book World Cup quarter-final spot: Live updates",
+    "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – as it happened",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?",
+    "World Cup 2026: Reaction as Egypt accuse Fifa of 'fix' following Argentina's victory to set-up Switzerland tie"
   ],
   "nextMatch": {
     "a": "France",
