@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-08T22:15:28.520390Z",
-  "matches": [],
+  "updated": "2026-07-09T10:36:13.590565Z",
+  "matches": [
+    {
+      "id": "wc26-760510",
+      "when": "4:00 PM",
+      "grp": "GROUP I",
+      "a": "France",
+      "b": "Morocco",
+      "status": "upcoming"
+    }
+  ],
   "groups": {
     "A": {
       "teams": [
@@ -535,7 +544,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.6
+      "pct": 31.9
     },
     {
       "code": "Argentina",
@@ -543,15 +552,15 @@
     },
     {
       "code": "Spain",
-      "pct": 18.8
+      "pct": 18.9
     },
     {
       "code": "England",
-      "pct": 15.8
+      "pct": 16.1
     },
     {
       "code": "Norway",
-      "pct": 5.9
+      "pct": 6.0
     },
     {
       "code": "Morocco",
@@ -864,16 +873,7 @@
       }
     ]
   },
-  "news": [
-    "World Cup 2026 Golden Boot: Messi, Mbappe, Haaland & Kane in race for the ages - who will win?",
-    "World Cup 2026: Ranking the 4 quarterfinal games from best to worst",
-    "White House’s World Cup head defends Trump lobbying Fifa over red card",
-    "USMNT’s World Cup $12.8M payout will be shared with women’s team after equal pay CBA",
-    "Argentina vs Egypt Highlights 🌎🏆 2026 FIFA World Cup™ | Round of 16",
-    "World Cup 2026: Egypt fury after Argentina win thriller, injured Henderson staying with England – as it happened",
-    "Who is still playing in the World Cup? Here's who is competing in the quarterfinals",
-    "Justin Bieber joins World Cup final halftime show lineup"
-  ],
+  "news": [],
   "nextMatch": {
     "a": "France",
     "b": "Morocco",
