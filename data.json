@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T10:36:13.590565Z",
+  "updated": "2026-07-09T17:32:15.016774Z",
   "matches": [
     {
       "id": "wc26-760510",
@@ -544,15 +544,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 31.9
+      "pct": 32.0
     },
     {
       "code": "Argentina",
-      "pct": 20.1
+      "pct": 19.6
     },
     {
       "code": "Spain",
-      "pct": 18.9
+      "pct": 19.4
     },
     {
       "code": "England",
@@ -560,11 +560,11 @@
     },
     {
       "code": "Norway",
-      "pct": 6.0
+      "pct": 5.9
     },
     {
       "code": "Morocco",
-      "pct": 2.9
+      "pct": 3.1
     },
     {
       "code": "Belgium",
