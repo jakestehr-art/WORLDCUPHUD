@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T17:32:15.016774Z",
+  "updated": "2026-07-09T22:46:00.169798Z",
   "matches": [
     {
       "id": "wc26-760510",
@@ -7,7 +7,9 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "Morocco",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 2,
+      "scoreB": 0
     }
   ],
   "groups": {
@@ -113,12 +115,12 @@
         ],
         [
           "Morocco",
-          5,
+          6,
           3,
           2,
-          0,
+          1,
           10,
-          4,
+          6,
           11
         ],
         [
@@ -367,13 +369,13 @@
       "teams": [
         [
           "France",
-          5,
-          5,
+          6,
+          6,
           0,
           0,
-          14,
+          16,
           2,
-          15
+          18
         ],
         [
           "Senegal",
@@ -544,35 +546,35 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 32.0
+      "pct": 38.8
     },
     {
       "code": "Argentina",
-      "pct": 19.6
+      "pct": 17.8
     },
     {
       "code": "Spain",
-      "pct": 19.4
+      "pct": 17.2
     },
     {
       "code": "England",
-      "pct": 16.1
+      "pct": 16.0
     },
     {
       "code": "Norway",
       "pct": 5.9
     },
     {
-      "code": "Morocco",
-      "pct": 3.1
-    },
-    {
       "code": "Belgium",
-      "pct": 2.5
+      "pct": 2.1
     },
     {
       "code": "Switzerland",
-      "pct": 2.1
+      "pct": 1.9
+    },
+    {
+      "code": "Morocco",
+      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -873,16 +875,25 @@
       }
     ]
   },
-  "news": [],
+  "news": [
+    "2026 World Cup Power Rankings After Round of 16",
+    "World Cup 2026, Jul 09, 2026",
+    "France v Morocco: World Cup 2026 quarter-final – as it happened",
+    "World Cup 2026: England have shown us why they can be champions - Alan Shearer",
+    "England’s Quansah banned for two matches after World Cup last-16 red card",
+    "World Cup 2026: Norway changes hotel due to excessive noise just days ahead of England game",
+    "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Quarterfinal Opener",
+    "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 9"
+  ],
   "nextMatch": {
-    "a": "France",
-    "b": "Morocco",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-07-09T20:00:00Z",
-    "when": "Thu 4:00 PM ET",
-    "venue": "Gillette Stadium",
-    "city": "Foxborough, Massachusetts",
-    "stadium": "Gillette Stadium",
+    "a": "Spain",
+    "b": "Belgium",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-07-10T19:00:00Z",
+    "when": "Fri 3:00 PM ET",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "stadium": "SoFi Stadium",
     "weather": null
   },
   "remainingFixtures": {},
@@ -893,14 +904,19 @@
       "goals": 8
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 7
+    },
+    {
       "player": "Erling Haaland",
       "team": "Norway",
       "goals": 7
     },
     {
-      "player": "Kylian Mbappé",
+      "player": "Ousmane Dembélé",
       "team": "France",
-      "goals": 6
+      "goals": 5
     },
     {
       "player": "Julián Quiñones",
@@ -920,11 +936,6 @@
     {
       "player": "Jude Bellingham",
       "team": "England",
-      "goals": 4
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 4
     }
   ],
