@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T17:22:54.435842Z",
+  "updated": "2026-07-10T21:32:26.829796Z",
   "matches": [
     {
       "id": "wc26-760511",
@@ -7,7 +7,9 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Belgium",
-      "status": "upcoming"
+      "status": "ft",
+      "scoreA": 2,
+      "scoreB": 1
     }
   ],
   "groups": {
@@ -279,12 +281,12 @@
       "teams": [
         [
           "Belgium",
-          5,
+          6,
           3,
           2,
-          0,
-          13,
-          5,
+          1,
+          14,
+          7,
           11
         ],
         [
@@ -323,13 +325,13 @@
       "teams": [
         [
           "Spain",
+          6,
           5,
-          4,
           1,
           0,
-          9,
-          0,
-          13
+          11,
+          1,
+          16
         ],
         [
           "Cape Verde",
@@ -544,31 +546,31 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 38.6
-    },
-    {
-      "code": "Argentina",
-      "pct": 17.8
+      "pct": 37.6
     },
     {
       "code": "Spain",
-      "pct": 16.6
+      "pct": 20.8
+    },
+    {
+      "code": "Argentina",
+      "pct": 18.1
     },
     {
       "code": "England",
-      "pct": 15.4
+      "pct": 14.8
     },
     {
       "code": "Norway",
-      "pct": 6.2
-    },
-    {
-      "code": "Belgium",
-      "pct": 2.1
+      "pct": 6.0
     },
     {
       "code": "Switzerland",
-      "pct": 1.8
+      "pct": 1.7
+    },
+    {
+      "code": "Belgium",
+      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -874,24 +876,24 @@
     ]
   },
   "news": [
+    "Belgium level with Spain in World Cup quarterfinal as Courtois forced off: Live updates",
+    "Norway World Cup team switches hotels in Florida after noise complaints: 'We must move'",
+    "Players and staff to reap £19m bonus bonanza if England win World Cup",
+    "England favourites to reach semis, says Norway boss",
     "France vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
-    "Spain vs. Belgium mega-preview: Predictions, form guide, key players and more - The Athletic",
-    "Spain vs Belgium LIVE: FIFA World Cup 2026 quarterfinal",
-    "Spain v Belgium: World Cup 2026 quarter-final – live",
-    "World Cup 2026: England reached rare heights at the Azteca. Now comes Erling Haaland's Norway",
-    "World Cup 2026: Norway changes hotel due to excessive noise just days ahead of England game",
-    "Erling Haaland's Rap Song Remix Tops Spotify Charts in Norway amid 2026 World Cup Run",
-    "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 10"
+    "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
+    "Hacking worry for Argentine FA over World Cup emails",
+    "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash"
   ],
   "nextMatch": {
-    "a": "Spain",
-    "b": "Belgium",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-07-10T19:00:00Z",
-    "when": "Fri 3:00 PM ET",
-    "venue": "SoFi Stadium",
-    "city": "Inglewood, California",
-    "stadium": "SoFi Stadium",
+    "a": "Norway",
+    "b": "England",
+    "grp": "GROUP I",
+    "kickoffISO": "2026-07-11T21:00:00Z",
+    "when": "Sat 5:00 PM ET",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "stadium": "Hard Rock Stadium",
     "weather": null
   },
   "remainingFixtures": {},
