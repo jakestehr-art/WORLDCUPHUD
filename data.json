@@ -1,15 +1,13 @@
 {
-  "updated": "2026-07-09T22:46:00.169798Z",
+  "updated": "2026-07-10T10:35:39.450808Z",
   "matches": [
     {
-      "id": "wc26-760510",
-      "when": "4:00 PM",
-      "grp": "GROUP I",
-      "a": "France",
-      "b": "Morocco",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 0
+      "id": "wc26-760511",
+      "when": "3:00 PM",
+      "grp": "GROUP H",
+      "a": "Spain",
+      "b": "Belgium",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -546,15 +544,15 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 38.8
+      "pct": 38.6
     },
     {
       "code": "Argentina",
-      "pct": 17.8
+      "pct": 18.8
     },
     {
       "code": "Spain",
-      "pct": 17.2
+      "pct": 16.8
     },
     {
       "code": "England",
@@ -571,10 +569,6 @@
     {
       "code": "Switzerland",
       "pct": 1.9
-    },
-    {
-      "code": "Morocco",
-      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -606,6 +600,10 @@
     },
     {
       "code": "Mexico",
+      "pct": 0.0
+    },
+    {
+      "code": "Colombia",
       "pct": 0.0
     }
   ],
@@ -876,14 +874,14 @@
     ]
   },
   "news": [
-    "2026 World Cup Power Rankings After Round of 16",
-    "World Cup 2026, Jul 09, 2026",
-    "France v Morocco: World Cup 2026 quarter-final – as it happened",
-    "World Cup 2026: England have shown us why they can be champions - Alan Shearer",
-    "England’s Quansah banned for two matches after World Cup last-16 red card",
-    "World Cup 2026: Norway changes hotel due to excessive noise just days ahead of England game",
-    "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Quarterfinal Opener",
-    "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 9"
+    "France vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
+    "World Cup 2026: England v Norway - Guehi injury, team news & Haaland on pressure",
+    "World Cup 2026: England defender Marc Guehi a serious doubt for quarter-final clash with Norway",
+    "What time is the England vs Norway World Cup quarterfinal tomorrow?",
+    "Spain face toughest World Cup test against Belgium, coach says",
+    "Spain vs Belgium World Cup prediction, picks, analysis",
+    "‘There is a magnificent balance’: how Spain built a record-breaking defence",
+    "FIFA World Cup 2026 stats: Messi passes Mbappe, beats Maradona, sets multiple records; Switzerland's 72 longest-ever in history"
   ],
   "nextMatch": {
     "a": "Spain",
