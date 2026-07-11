@@ -1,15 +1,21 @@
 {
-  "updated": "2026-07-10T21:32:26.829796Z",
+  "updated": "2026-07-11T06:03:37.965520Z",
   "matches": [
     {
-      "id": "wc26-760511",
-      "when": "3:00 PM",
-      "grp": "GROUP H",
-      "a": "Spain",
-      "b": "Belgium",
-      "status": "ft",
-      "scoreA": 2,
-      "scoreB": 1
+      "id": "wc26-760512",
+      "when": "5:00 PM",
+      "grp": "GROUP I",
+      "a": "Norway",
+      "b": "England",
+      "status": "upcoming"
+    },
+    {
+      "id": "wc26-760513",
+      "when": "9:00 PM",
+      "grp": "GROUP J",
+      "a": "Argentina",
+      "b": "Switzerland",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -546,31 +552,27 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 37.6
+      "pct": 37.0
     },
     {
       "code": "Spain",
-      "pct": 20.8
+      "pct": 21.1
     },
     {
       "code": "Argentina",
-      "pct": 18.1
+      "pct": 17.8
     },
     {
       "code": "England",
-      "pct": 14.8
+      "pct": 14.4
     },
     {
       "code": "Norway",
-      "pct": 6.0
+      "pct": 5.9
     },
     {
       "code": "Switzerland",
       "pct": 1.7
-    },
-    {
-      "code": "Belgium",
-      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -602,6 +604,10 @@
     },
     {
       "code": "Mexico",
+      "pct": 0.0
+    },
+    {
+      "code": "Belgium",
       "pct": 0.0
     },
     {
@@ -876,14 +882,14 @@
     ]
   },
   "news": [
-    "Belgium level with Spain in World Cup quarterfinal as Courtois forced off: Live updates",
-    "Norway World Cup team switches hotels in Florida after noise complaints: 'We must move'",
-    "Players and staff to reap £19m bonus bonanza if England win World Cup",
-    "England favourites to reach semis, says Norway boss",
-    "France vs Morocco Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
-    "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
-    "Hacking worry for Argentine FA over World Cup emails",
-    "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash"
+    "Spain vs Belgium Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
+    "World Cup 2026: England reached rare heights at the Azteca. Now comes Erling Haaland's Norway",
+    "Cutting off Erling Haaland is key but Norway are not just a one-man team | Emma Hayes",
+    "England set for open-air Miami heat - but do Norway hold the edge?",
+    "Argentina Coach Ends Silence On FIFA World Cup 'Fixing' Allegations, Gives Fitting Reply To Critics",
+    "Scaloni not surprised by Messi’s World Cup form at 39 – ‘He’s a machine’",
+    "World Cup 2026: Hacking worry for Argentina FA over Egypt game emails",
+    "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco; Spain v Belgium buildup; Jesus takes Portugal job – as it happened"
   ],
   "nextMatch": {
     "a": "Norway",
