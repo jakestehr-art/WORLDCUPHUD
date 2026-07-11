@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T14:35:59.266522Z",
+  "updated": "2026-07-11T17:41:53.475859Z",
   "matches": [
     {
       "id": "wc26-760512",
@@ -552,7 +552,7 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 38.5
+      "pct": 38.1
     },
     {
       "code": "Spain",
@@ -560,15 +560,15 @@
     },
     {
       "code": "Argentina",
-      "pct": 17.6
+      "pct": 17.5
     },
     {
       "code": "England",
-      "pct": 14.5
+      "pct": 14.4
     },
     {
       "code": "Norway",
-      "pct": 5.9
+      "pct": 6.0
     },
     {
       "code": "Switzerland",
@@ -882,14 +882,14 @@
     ]
   },
   "news": [
-    "South Africa’s Jayden Adams, 25, dies two weeks after playing at World Cup",
-    "All the celebrities spotted cheering on their favorite teams at the World Cup",
     "World Cup 2026: Norway v England buildup; Fifa to sell bits of MetLife pitch; Kane’s round of golf with Trump – live",
-    "England set for open-air Miami heat - but do Norway hold the edge?",
-    "World Cup live updates, bracket: Spain tops Belgium on late Mikel Merino goal, sets semifinal date with France",
+    "South Africa's FIFA World Cup 2026 Star Jayden Adams Dies At 25",
+    "South Africa World Cup midfielder Jayden Adams dies at 25",
+    "South Africa’s Jayden Adams, 25, dies two weeks after playing at World Cup",
     "World Cup 2026: Should Argentina take Lionel Messi off penalties?",
-    "Tunnel vision: candid photos of World Cup 2026 stars",
-    "Argentina vs Switzerland World Cup prediction, picks, analysis"
+    "Messi set to start as Argentina’s World Cup defence continues against Switzerland: Live updates",
+    "Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news",
+    "Spain vs Belgium Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals"
   ],
   "nextMatch": {
     "a": "Norway",
