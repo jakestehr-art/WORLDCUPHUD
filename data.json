@@ -1,26 +1,6 @@
 {
-  "updated": "2026-07-11T23:36:57.880734Z",
-  "matches": [
-    {
-      "id": "wc26-760512",
-      "when": "5:00 PM",
-      "grp": "GROUP I",
-      "a": "Norway",
-      "b": "England",
-      "status": "live",
-      "scoreA": 1,
-      "scoreB": 2,
-      "minute": "112'"
-    },
-    {
-      "id": "wc26-760513",
-      "when": "9:00 PM",
-      "grp": "GROUP J",
-      "a": "Argentina",
-      "b": "Switzerland",
-      "status": "upcoming"
-    }
-  ],
+  "updated": "2026-07-12T07:48:01.726249Z",
+  "matches": [],
   "groups": {
     "A": {
       "teams": [
@@ -100,12 +80,12 @@
         ],
         [
           "Switzerland",
-          4,
-          2,
-          2,
-          0,
           5,
           2,
+          2,
+          1,
+          6,
+          5,
           8
         ]
       ]
@@ -408,12 +388,12 @@
         ],
         [
           "Norway",
-          5,
+          6,
           4,
           0,
-          1,
-          12,
-          9,
+          2,
+          13,
+          11,
           12
         ]
       ]
@@ -422,13 +402,13 @@
       "teams": [
         [
           "Argentina",
-          5,
-          5,
+          6,
+          6,
           0,
           0,
-          14,
-          5,
-          15
+          17,
+          6,
+          18
         ],
         [
           "Algeria",
@@ -510,13 +490,13 @@
       "teams": [
         [
           "England",
+          6,
           5,
-          4,
           1,
           0,
-          11,
-          5,
-          13
+          13,
+          6,
+          16
         ],
         [
           "Croatia",
@@ -551,34 +531,23 @@
       ]
     }
   },
-  "liveTeams": [
-    "England",
-    "Norway"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "France",
-      "pct": 38.6
-    },
-    {
-      "code": "Spain",
-      "pct": 20.8
+      "pct": 38.4
     },
     {
       "code": "England",
-      "pct": 18.2
+      "pct": 20.9
+    },
+    {
+      "code": "Spain",
+      "pct": 20.0
     },
     {
       "code": "Argentina",
-      "pct": 17.2
-    },
-    {
-      "code": "Switzerland",
-      "pct": 1.7
-    },
-    {
-      "code": "Norway",
-      "pct": 1.2
+      "pct": 18.8
     },
     {
       "code": "Brazil",
@@ -618,6 +587,14 @@
     },
     {
       "code": "Colombia",
+      "pct": 0.0
+    },
+    {
+      "code": "Peru",
+      "pct": 0.0
+    },
+    {
+      "code": "Japan",
       "pct": 0.0
     }
   ],
@@ -888,24 +865,24 @@
     ]
   },
   "news": [
-    "England still level after Norway goal ruled out by VAR at World Cup: Live updates",
-    "World Cup 2026: Norway v England buildup; Kane’s round of golf with Trump – as it happened",
-    "England scores goal off Norway’s goal kick that defects off cable of cable camera | 2026 FIFA World Cup",
-    "Argentina v Switzerland: World Cup 2026 quarter-final – live",
-    "Messi set to start as Argentina’s World Cup defence continues against Switzerland: Live updates",
-    "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
+    "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
+    "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
+    "World Cup 2026: Neymar enters World Series of Poker event after Brazil's elimination",
+    "Norway vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
+    "World Cup 2026: Argentina 3-1 Switzerland (AET): Julian Alvarez scores stunner to set up blockbuster semi-final vs England",
     "South Africa World Cup midfielder Jayden Adams dies at 25",
-    "South Africa star Jayden Adams dies aged 25 just days after World Cup exit"
+    "South Africa midfielder Jayden Adams dies weeks after playing in World Cup",
+    "South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup"
   ],
   "nextMatch": {
-    "a": "Argentina",
-    "b": "Switzerland",
-    "grp": "GROUP J",
-    "kickoffISO": "2026-07-12T01:00:00Z",
-    "when": "Sat 9:00 PM ET",
-    "venue": "GEHA Field at Arrowhead Stadium",
-    "city": "Kansas City, Missouri",
-    "stadium": "GEHA Field at Arrowhead Stadium",
+    "a": "France",
+    "b": "Spain",
+    "grp": "GROUP I",
+    "kickoffISO": "2026-07-14T19:00:00Z",
+    "when": "Tue 3:00 PM ET",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "stadium": "AT&T Stadium",
     "weather": null
   },
   "remainingFixtures": {},
