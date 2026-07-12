@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T07:48:01.726249Z",
+  "updated": "2026-07-12T11:43:30.217592Z",
   "matches": [],
   "groups": {
     "A": {
@@ -535,19 +535,19 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 38.4
+      "pct": 38.8
     },
     {
       "code": "England",
-      "pct": 20.9
+      "pct": 21.6
     },
     {
       "code": "Spain",
-      "pct": 20.0
+      "pct": 20.1
     },
     {
       "code": "Argentina",
-      "pct": 18.8
+      "pct": 18.9
     },
     {
       "code": "Brazil",
@@ -865,14 +865,14 @@
     ]
   },
   "news": [
-    "World Cup 2026: Breel Embolo sent off as result of mistaken identity rule",
-    "World Cup semifinals bracket predictions: Picking the winners and key players for final four",
-    "World Cup 2026: Neymar enters World Series of Poker event after Brazil's elimination",
-    "Norway vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
-    "World Cup 2026: Argentina 3-1 Switzerland (AET): Julian Alvarez scores stunner to set up blockbuster semi-final vs England",
+    "Do England or Argentina have enough to challenge in final? Re-ranking the World Cup teams with four games left",
+    "United States 2026 FIFA World Cup™ Mini-Movie 🎥 🇺🇸 Why Not Us?",
+    "2026 World Cup: Predicted semi-final lineups",
+    "How VAR, a system designed to correct errors, became this World Cup’s biggest villain",
+    "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
+    "Argentina vs Switzerland Highlights 🌎🏆 2026 FIFA World Cup™ | Quarterfinals",
     "South Africa World Cup midfielder Jayden Adams dies at 25",
-    "South Africa midfielder Jayden Adams dies weeks after playing in World Cup",
-    "South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup"
+    "South Africa midfielder Jayden Adams dies weeks after playing in World Cup"
   ],
   "nextMatch": {
     "a": "France",
