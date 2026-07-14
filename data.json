@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T19:47:28.882692Z",
+  "updated": "2026-07-14T20:45:45.302488Z",
   "matches": [
     {
       "id": "wc26-760514",
@@ -9,8 +9,8 @@
       "b": "Spain",
       "status": "live",
       "scoreA": 0,
-      "scoreB": 1,
-      "minute": "45'+2'"
+      "scoreB": 2,
+      "minute": "84'"
     }
   ],
   "groups": {
@@ -550,19 +550,19 @@
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 34.6
+      "pct": 52.2
     },
     {
       "code": "England",
-      "pct": 23.2
-    },
-    {
-      "code": "France",
-      "pct": 20.9
+      "pct": 24.2
     },
     {
       "code": "Argentina",
-      "pct": 18.4
+      "pct": 19.8
+    },
+    {
+      "code": "France",
+      "pct": 3.4
     },
     {
       "code": "Brazil",
@@ -880,14 +880,14 @@
     ]
   },
   "news": [
-    "France v Spain: World Cup 2026 semi-final – live",
-    "The drama spoiling a city’s World Cup moment",
-    "FIFA targeting 20-minute break for World Cup half-time - The Athletic",
-    "Watch Spotting: The Wild Watches Of World Cup 2026",
-    "France vs. Spain LIVE: World Cup 2026 updates as European heavyweights collide",
+    "Spain lead France with early Oyarzabal penalty in World Cup semifinal: Live updates - The Athletic",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?",
-    "France vs Spain LIVE: FIFA World Cup 2026 semifinal"
+    "France vs Spain LIVE: FIFA World Cup 2026 semifinal",
+    "Your cheat sheet to the teams headed to the World Cup semi-finals",
+    "Last-Minute Tickets for England vs. Argentina: Best Prices, Seats for 2026 FIFA World Cup Semifinal Match",
+    "World Cup Daily live: Spain lead France; Haaland inspires baby name boom",
+    "World Cup 2026: Why do Argentina sing about the England and the Falklands?"
   ],
   "nextMatch": {
     "a": "England",
