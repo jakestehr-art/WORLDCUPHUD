@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T17:06:21.100853Z",
+  "updated": "2026-07-14T18:15:39.461484Z",
   "matches": [
     {
       "id": "wc26-760514",
@@ -544,11 +544,11 @@
   "probabilities": [
     {
       "code": "France",
-      "pct": 37.6
+      "pct": 37.2
     },
     {
       "code": "Spain",
-      "pct": 22.7
+      "pct": 22.6
     },
     {
       "code": "England",
@@ -556,7 +556,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 17.4
+      "pct": 17.6
     },
     {
       "code": "Brazil",
@@ -874,14 +874,14 @@
     ]
   },
   "news": [
-    "World Cup 2026: After 100 matches, the semifinals belong to soccer's heavyweights",
+    "Your cheat sheet to the teams headed to the World Cup semi-finals",
     "World Cup 2026 semifinals live updates: Schedule, how to watch and news",
-    "World Cup 2026: David Beckham's post-match interview after England faces Argentina in 2002",
-    "Watch Spotting: The Wild Watches Of World Cup 2026",
-    "France face Spain in 2026 World Cup’s first semifinal: Live updates - The Athletic",
+    "World Cup 2026: Folarin Balogun describes how red-card controversy affected USMNT: 'A lot of outside noise, and that's hard to avoid'",
+    "English referee will miss out on massive World Cup final bonus due to controversial ban",
+    "Mbappe starts as France face Spain in 2026 World Cup’s first semifinal: Live updates - The Athletic",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?",
-    "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live"
+    "Who will win the World Cup? The view from the semi-finalists"
   ],
   "nextMatch": {
     "a": "France",
