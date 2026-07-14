@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T20:45:45.302488Z",
+  "updated": "2026-07-14T21:41:07.969446Z",
   "matches": [
     {
       "id": "wc26-760514",
@@ -7,10 +7,9 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "Spain",
-      "status": "live",
+      "status": "ft",
       "scoreA": 0,
-      "scoreB": 2,
-      "minute": "84'"
+      "scoreB": 2
     }
   ],
   "groups": {
@@ -326,13 +325,13 @@
       "teams": [
         [
           "Spain",
+          7,
           6,
-          5,
           1,
           0,
-          11,
+          13,
           1,
-          16
+          19
         ],
         [
           "Cape Verde",
@@ -370,12 +369,12 @@
       "teams": [
         [
           "France",
-          6,
+          7,
           6,
           0,
-          0,
+          1,
           16,
-          2,
+          4,
           18
         ],
         [
@@ -543,26 +542,23 @@
       ]
     }
   },
-  "liveTeams": [
-    "France",
-    "Spain"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 52.2
+      "pct": 58.1
     },
     {
       "code": "England",
-      "pct": 24.2
+      "pct": 22.8
     },
     {
       "code": "Argentina",
-      "pct": 19.8
+      "pct": 19.2
     },
     {
       "code": "France",
-      "pct": 3.4
+      "pct": 0.1
     },
     {
       "code": "Brazil",
@@ -880,14 +876,14 @@
     ]
   },
   "news": [
-    "Spain lead France with early Oyarzabal penalty in World Cup semifinal: Live updates - The Athletic",
+    "France vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Semifinals",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?",
     "France vs Spain LIVE: FIFA World Cup 2026 semifinal",
-    "Your cheat sheet to the teams headed to the World Cup semi-finals",
-    "Last-Minute Tickets for England vs. Argentina: Best Prices, Seats for 2026 FIFA World Cup Semifinal Match",
+    "Spain’s Pedro Porro extends lead with goal vs France | 2026 FIFA World Cup™",
+    "Mikie Sherrill confronts FIFA in New Jersey turf battle",
     "World Cup Daily live: Spain lead France; Haaland inspires baby name boom",
-    "World Cup 2026: Why do Argentina sing about the England and the Falklands?"
+    "Spain beat France to reach their second World Cup final: Live updates - The Athletic"
   ],
   "nextMatch": {
     "a": "England",
