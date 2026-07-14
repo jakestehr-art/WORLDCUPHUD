@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T18:15:39.461484Z",
+  "updated": "2026-07-14T19:47:28.882692Z",
   "matches": [
     {
       "id": "wc26-760514",
@@ -7,7 +7,10 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "Spain",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 1,
+      "minute": "45'+2'"
     }
   ],
   "groups": {
@@ -540,23 +543,26 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "France",
+    "Spain"
+  ],
   "probabilities": [
     {
-      "code": "France",
-      "pct": 37.2
-    },
-    {
       "code": "Spain",
-      "pct": 22.6
+      "pct": 34.6
     },
     {
       "code": "England",
-      "pct": 21.4
+      "pct": 23.2
+    },
+    {
+      "code": "France",
+      "pct": 20.9
     },
     {
       "code": "Argentina",
-      "pct": 17.6
+      "pct": 18.4
     },
     {
       "code": "Brazil",
@@ -874,24 +880,24 @@
     ]
   },
   "news": [
-    "Your cheat sheet to the teams headed to the World Cup semi-finals",
-    "World Cup 2026 semifinals live updates: Schedule, how to watch and news",
-    "World Cup 2026: Folarin Balogun describes how red-card controversy affected USMNT: 'A lot of outside noise, and that's hard to avoid'",
-    "English referee will miss out on massive World Cup final bonus due to controversial ban",
-    "Mbappe starts as France face Spain in 2026 World Cup’s first semifinal: Live updates - The Athletic",
+    "France v Spain: World Cup 2026 semi-final – live",
+    "The drama spoiling a city’s World Cup moment",
+    "FIFA targeting 20-minute break for World Cup half-time - The Athletic",
+    "Watch Spotting: The Wild Watches Of World Cup 2026",
+    "France vs. Spain LIVE: World Cup 2026 updates as European heavyweights collide",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?",
-    "Who will win the World Cup? The view from the semi-finalists"
+    "France vs Spain LIVE: FIFA World Cup 2026 semifinal"
   ],
   "nextMatch": {
-    "a": "France",
-    "b": "Spain",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-07-14T19:00:00Z",
-    "when": "Tue 3:00 PM ET",
-    "venue": "AT&T Stadium",
-    "city": "Arlington, Texas",
-    "stadium": "AT&T Stadium",
+    "a": "England",
+    "b": "Argentina",
+    "grp": "GROUP L",
+    "kickoffISO": "2026-07-15T19:00:00Z",
+    "when": "Wed 3:00 PM ET",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "stadium": "Mercedes-Benz Stadium",
     "weather": null
   },
   "remainingFixtures": {},
