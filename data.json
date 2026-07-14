@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-13T23:37:47.406149Z",
-  "matches": [],
+  "updated": "2026-07-14T07:21:40.074023Z",
+  "matches": [
+    {
+      "id": "wc26-760514",
+      "when": "3:00 PM",
+      "grp": "GROUP I",
+      "a": "France",
+      "b": "Spain",
+      "status": "upcoming"
+    }
+  ],
   "groups": {
     "A": {
       "teams": [
@@ -539,15 +548,15 @@
     },
     {
       "code": "England",
-      "pct": 22.2
+      "pct": 21.6
     },
     {
       "code": "Spain",
-      "pct": 21.2
+      "pct": 21.1
     },
     {
       "code": "Argentina",
-      "pct": 17.4
+      "pct": 17.3
     },
     {
       "code": "Brazil",
@@ -866,13 +875,13 @@
   },
   "news": [
     "World Cup 2026: England’s James ready for semi-final, Bilic returns as Croatia coach – as it happened",
-    "Ten of the biggest FIFA World Cup 2026 controversies analyzed and graded - The Athletic",
-    "FIFA eyes World Cup format expansion from 48 to 64 teams: Should the US be the permanent host?",
-    "2026 World Cup Odds: Back Spain In Double Chance Market Against France",
-    "What to know about the World Cup semifinals: Which teams are playing, schedules, biggest stars - ABC News",
-    "World Cup semifinals bracket: Full schedule, matchups and path to the final",
-    "World Cup 2026 today as it happened: Updates and news as heavyweights prep for semifinals - July 13",
-    "World Cup 2026: guide to all 1,248 players"
+    "Who will win the World Cup? The view from the semi-finalists",
+    "#TSRZaddys: FIFA World Cup done brought the BALLERS ⚽️, and FOINEEE fellas to the main stage 😮‍💨! Babyyyy is was raining fineee fellas on the soccer field this season! GOALLLSSS, on GOALLLLSSS! (Swipe) (📸: @gettyimages) ✍🏾: #TSRStaffSTx #TS",
+    "Which Team Has Won The Soft Power World Cup?",
+    "Spain, France, Argentina and England beware: Demons haunt the World Cup semi-finals",
+    "World Cup 2026: guide to all 1,248 players",
+    "FIFA World Cup 2026: Biggest takeaways from the quarterfinals",
+    "World Cup 2026 Power Rankings before round of 16: Who's No. 1?"
   ],
   "nextMatch": {
     "a": "France",
