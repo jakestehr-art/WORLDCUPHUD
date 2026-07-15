@@ -1,15 +1,13 @@
 {
-  "updated": "2026-07-15T00:57:14.995187Z",
+  "updated": "2026-07-15T04:09:14.218273Z",
   "matches": [
     {
-      "id": "wc26-760514",
+      "id": "wc26-760515",
       "when": "3:00 PM",
-      "grp": "GROUP I",
-      "a": "France",
-      "b": "Spain",
-      "status": "ft",
-      "scoreA": 0,
-      "scoreB": 2
+      "grp": "GROUP L",
+      "a": "England",
+      "b": "Argentina",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -550,11 +548,11 @@
     },
     {
       "code": "England",
-      "pct": 22.6
+      "pct": 22.4
     },
     {
       "code": "Argentina",
-      "pct": 18.9
+      "pct": 19.1
     },
     {
       "code": "France",
@@ -876,14 +874,14 @@
     ]
   },
   "news": [
-    "Is it Spain’s tournament to lose? Re-ranking the World Cup teams with three games left - The Athletic",
-    "How to watch England vs Argentina: Live stream the 2026 FIFA World Cup Semifinals",
-    "Mikie Sherrill confronts FIFA in New Jersey turf battle",
     "Spain beat France to reach their second World Cup final: Live updates - The Athletic",
-    "World Cup 2026: England v Argentina semi-final - Marc Guehi says pressure is on reigning champions",
-    "Lionel Messi’s first meeting with England will be a contest of will and aura",
+    "World Cup 2026: Lionel Messi and the lengths to which Argentina have gone to protect him",
+    "BBC heads from Salford to Atlanta for live England v Argentina broadcast",
     "Your cheat sheet to the teams headed to the World Cup semi-finals",
-    "World Cup 2026: guide to all 1,248 players"
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026: Who has the most wins, goals and minutes played?",
+    "FIFA World Cup 2026 – live score, results & group matches",
+    "Spain DOMINATES Against Mbappé & France 🇪🇸 Will Spain Win FIFA World Cup™ Final?"
   ],
   "nextMatch": {
     "a": "England",
