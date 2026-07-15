@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T19:39:49.330774Z",
+  "updated": "2026-07-15T20:42:04.552823Z",
   "matches": [
     {
       "id": "wc26-760515",
@@ -8,9 +8,9 @@
       "a": "England",
       "b": "Argentina",
       "status": "live",
-      "scoreA": 0,
+      "scoreA": 1,
       "scoreB": 0,
-      "minute": "39'"
+      "minute": "80'"
     }
   ],
   "groups": {
@@ -554,11 +554,11 @@
     },
     {
       "code": "England",
-      "pct": 23.8
+      "pct": 31.3
     },
     {
       "code": "Argentina",
-      "pct": 19.2
+      "pct": 11.4
     },
     {
       "code": "France",
@@ -880,14 +880,14 @@
     ]
   },
   "news": [
-    "England face Argentina in second 2026 World Cup semifinal: Live updates",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup 2026: Who has the most wins, goals and minutes played?",
     "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 15",
-    "World Cup 2026: Reaction as Spain stun favourites France to reach final",
-    "England vs. Argentina live updates: Score, highlights and analysis from the World Cup semifinal",
-    "How to Watch the 2026 FIFA World Cup Semifinal Live Without Cable (Even for Free)",
-    "How to Watch the World Cup Today: Schedule, Time, TV, Streaming for Second Semifinal"
+    "Fifa hit by injunction in Germany over World Cup ticket resale prices",
+    "England lead Argentina in fractious 2026 World Cup semifinal: Live updates - The Athletic",
+    "France vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Semifinals",
+    "France 0-2 Spain: World Cup 2026 semi-final – as it happened",
+    "‘FIFA will hopefully fine them’: France players face criticism for behavior after World Cup loss",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup 2026: Who has the most wins, goals and minutes played?"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
