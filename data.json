@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T18:15:41.755301Z",
+  "updated": "2026-07-15T19:39:49.330774Z",
   "matches": [
     {
       "id": "wc26-760515",
@@ -7,7 +7,10 @@
       "grp": "GROUP L",
       "a": "England",
       "b": "Argentina",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "39'"
     }
   ],
   "groups": {
@@ -540,7 +543,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Argentina",
+    "England"
+  ],
   "probabilities": [
     {
       "code": "Spain",
@@ -548,11 +554,11 @@
     },
     {
       "code": "England",
-      "pct": 22.8
+      "pct": 23.8
     },
     {
       "code": "Argentina",
-      "pct": 19.7
+      "pct": 19.2
     },
     {
       "code": "France",
@@ -874,26 +880,16 @@
     ]
   },
   "news": [
-    "World Cup 2026: England v Argentina buildup, Spain stun listless France to reach final – as it happened",
-    "Watch FIFA World Cup: Spain defeats France to reach final",
     "England face Argentina in second 2026 World Cup semifinal: Live updates",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?",
-    "How to Watch the World Cup Today: Schedule, Time, TV, Streaming for Second Semifinal",
-    "Why so many Latin Americans are rooting against Argentina in the World Cup",
-    "2026 World Cup Stock Watch: Which players starred?"
+    "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 15",
+    "World Cup 2026: Reaction as Spain stun favourites France to reach final",
+    "England vs. Argentina live updates: Score, highlights and analysis from the World Cup semifinal",
+    "How to Watch the 2026 FIFA World Cup Semifinal Live Without Cable (Even for Free)",
+    "How to Watch the World Cup Today: Schedule, Time, TV, Streaming for Second Semifinal"
   ],
-  "nextMatch": {
-    "a": "England",
-    "b": "Argentina",
-    "grp": "GROUP L",
-    "kickoffISO": "2026-07-15T19:00:00Z",
-    "when": "Wed 3:00 PM ET",
-    "venue": "Mercedes-Benz Stadium",
-    "city": "Atlanta, Georgia",
-    "stadium": "Mercedes-Benz Stadium",
-    "weather": null
-  },
+  "nextMatch": null,
   "remainingFixtures": {},
   "topScorers": [
     {
