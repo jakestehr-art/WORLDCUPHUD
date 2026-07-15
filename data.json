@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T20:42:04.552823Z",
+  "updated": "2026-07-15T21:40:35.903749Z",
   "matches": [
     {
       "id": "wc26-760515",
@@ -7,10 +7,9 @@
       "grp": "GROUP L",
       "a": "England",
       "b": "Argentina",
-      "status": "live",
+      "status": "ft",
       "scoreA": 1,
-      "scoreB": 0,
-      "minute": "80'"
+      "scoreB": 2
     }
   ],
   "groups": {
@@ -414,13 +413,13 @@
       "teams": [
         [
           "Argentina",
-          6,
-          6,
+          7,
+          7,
           0,
           0,
-          17,
-          6,
-          18
+          19,
+          7,
+          21
         ],
         [
           "Algeria",
@@ -502,12 +501,12 @@
       "teams": [
         [
           "England",
-          6,
+          7,
           5,
           1,
-          0,
-          13,
-          6,
+          1,
+          14,
+          8,
           16
         ],
         [
@@ -543,22 +542,19 @@
       ]
     }
   },
-  "liveTeams": [
-    "Argentina",
-    "England"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
       "pct": 58.1
     },
     {
-      "code": "England",
-      "pct": 31.3
+      "code": "Argentina",
+      "pct": 41.9
     },
     {
-      "code": "Argentina",
-      "pct": 11.4
+      "code": "England",
+      "pct": 0.1
     },
     {
       "code": "France",
@@ -880,16 +876,26 @@
     ]
   },
   "news": [
-    "FIFA World Cup schedule today: Games, kickoff times, livestream info for July 15",
-    "Fifa hit by injunction in Germany over World Cup ticket resale prices",
-    "England lead Argentina in fractious 2026 World Cup semifinal: Live updates - The Athletic",
+    "ITV and BBC to screen full World Cup final half-time show despite time concerns",
+    "Who is in the World Cup final? Here are the teams, odds, spread for 2026 FIFA championship",
+    "Lionel Messi fuels Argentina’s stunning late rally past England into World Cup final",
+    "World Cup 2026 live updates: Argentina defeats England 2-1 after another comeback",
+    "England vs Argentina Highlights 🌎🏆 2026 FIFA World Cup™ | Semifinals",
     "France vs Spain Highlights 🌎🏆 2026 FIFA World Cup™ | Semifinals",
-    "France 0-2 Spain: World Cup 2026 semi-final – as it happened",
-    "‘FIFA will hopefully fine them’: France players face criticism for behavior after World Cup loss",
     "World Cup 2026: guide to all 1,248 players",
     "World Cup 2026: Who has the most wins, goals and minutes played?"
   ],
-  "nextMatch": null,
+  "nextMatch": {
+    "a": "France",
+    "b": "England",
+    "grp": "GROUP I",
+    "kickoffISO": "2026-07-18T21:00:00Z",
+    "when": "Sat 5:00 PM ET",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "stadium": "Hard Rock Stadium",
+    "weather": null
+  },
   "remainingFixtures": {},
   "topScorers": [
     {
