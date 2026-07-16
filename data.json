@@ -1,17 +1,6 @@
 {
-  "updated": "2026-07-16T01:08:46.901014Z",
-  "matches": [
-    {
-      "id": "wc26-760515",
-      "when": "3:00 PM",
-      "grp": "GROUP L",
-      "a": "England",
-      "b": "Argentina",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 2
-    }
-  ],
+  "updated": "2026-07-16T04:24:37.611351Z",
+  "matches": [],
   "groups": {
     "A": {
       "teams": [
@@ -550,7 +539,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 42.1
+      "pct": 41.6
     },
     {
       "code": "England",
@@ -877,13 +866,13 @@
   },
   "news": [
     "Argentina stun England with late comeback to reach World Cup final: Live updates - The Athletic",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup 2026: Who has the most wins, goals and minutes played?",
-    "World Cup 2026 semifinals recap: Argentina holds on to beat England, advances to final",
-    "Watch FIFA World Cup: Spain defeats France to reach final",
-    "World Cup top scorer: How will Messi, Mbappe, Kane Golden Boot race be decided? - The Athletic",
-    "World Cup Daily live: Martínez with winner vs. England to send Argentina to final",
-    "England vs Argentina Highlights 🌎🏆 2026 FIFA World Cup™ | Semifinals"
+    "Ultimate Performance - Round of Semi-Finals World Cup 2026 | SIFC",
+    "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
+    "FIFA World Cup 2026 stats: Messi 33-25 Mbappé, Messi 10-4 Pelé, Messi 99-71 Maradona",
+    "A look at the World Cup’s top players, according to the data",
+    "Is England out of 2026 World Cup after loss? Why it still has one more match",
+    "Why is there a World Cup third-place playoff between England and France?",
+    "FIFA World Cup 2026: England captain Harry Kane says they gave 'blood, sweat and tears' in dramatic semi-final defeat to Argentina"
   ],
   "nextMatch": {
     "a": "France",
