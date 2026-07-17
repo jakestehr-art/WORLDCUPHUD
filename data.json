@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T13:59:09.372945Z",
+  "updated": "2026-07-17T15:21:36.091938Z",
   "matches": [],
   "groups": {
     "A": {
@@ -535,11 +535,11 @@
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 58.6
+      "pct": 58.7
     },
     {
       "code": "Argentina",
-      "pct": 41.1
+      "pct": 40.6
     },
     {
       "code": "England",
@@ -865,14 +865,14 @@
     ]
   },
   "news": [
-    "The financial winners and losers from the World Cup",
+    "World Cup 2026: World Cup rings for winners as Donald Trump to attend final",
+    "World Cup semifinals bracket: Full schedule, matchups and path to the final",
+    "Will smoke smother out the World Cup final? Here’s the forecast",
     "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
-    "World Cup ref in charge of final has previous ‘sex party’ arrest",
-    "B/R Football Staff Predictions for the 2026 FIFA World Cup Final",
     "'That's why he's the king' - Messi sets up third World Cup final",
     "‘Never his fault’: England boss’ ‘cunning’ act sparks outrage as ‘toxic’ blame game ERUPTS",
-    "Inside England’s World Cup: Tuchel clauses, ‘tattoo’ plans and a happy camp clouded by one big regret",
-    "World Cup news latest: Tuchel blames weakness in English football 'DNA' for World Cup semi-final defeat"
+    "World Cup 2026: Thomas Tuchel did not deliver for England, but his time is not up - Alan Shearer",
+    "What time is France vs England tomorrow? World Cup third-place game details"
   ],
   "nextMatch": {
     "a": "France",
