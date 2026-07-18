@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T20:24:00.063109Z",
+  "updated": "2026-07-18T21:13:51.015749Z",
   "matches": [
     {
       "id": "wc26-760516",
@@ -7,7 +7,10 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "England",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 1,
+      "minute": "13'"
     }
   ],
   "groups": {
@@ -540,7 +543,10 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "England",
+    "France"
+  ],
   "probabilities": [
     {
       "code": "Spain",
@@ -874,24 +880,24 @@
     ]
   },
   "news": [
+    "Mbappe starts for France vs. England in World Cup third-place clash: Live updates",
+    "FIFA World Cup 2026™ Final",
+    "France vs England LIVE: FIFA World Cup 2026",
+    "World Cup 2026: Spain training session cancelled before World Cup final",
+    "Trump interrupts FIFA President to make bitter USMNT World Cup comment",
+    "Everything you need to know about the World Cup game no one wants to play",
     "Beckham’s big haul, the end of the GOAT debate — and America’s fast-food superiority: The World Cup’s other winners & losers",
-    "Biggest controversies of the 2026 World Cup, from FIFA policies to Folarin Balogun's red card",
-    "All to know about Canadian wildfire smoke, air quality and World Cup final",
-    "Mbappe starts for France against England in World Cup third-place play-off game: Live updates",
-    "Zlatan's sentiments on Messi throughout the 2026 FIFA World Cup.",
-    "Thunderstorms disrupt Spain and Argentina World Cup final training plans",
-    "Spain vs. Argentina: Three Key Battles That Could Decide 2026 World Cup Final",
-    "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final – as it happened"
+    "What Do The World Cup Third-Place Winners Get?"
   ],
   "nextMatch": {
-    "a": "France",
-    "b": "England",
-    "grp": "GROUP I",
-    "kickoffISO": "2026-07-18T21:00:00Z",
-    "when": "Sat 5:00 PM ET",
-    "venue": "Hard Rock Stadium",
-    "city": "Miami Gardens, Florida",
-    "stadium": "Hard Rock Stadium",
+    "a": "Spain",
+    "b": "Argentina",
+    "grp": "GROUP H",
+    "kickoffISO": "2026-07-19T19:00:00Z",
+    "when": "Sun 3:00 PM ET",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "stadium": "MetLife Stadium",
     "weather": null
   },
   "remainingFixtures": {},
