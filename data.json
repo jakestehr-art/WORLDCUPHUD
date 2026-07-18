@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T21:13:51.015749Z",
+  "updated": "2026-07-18T22:09:14.789700Z",
   "matches": [
     {
       "id": "wc26-760516",
@@ -9,8 +9,8 @@
       "b": "England",
       "status": "live",
       "scoreA": 0,
-      "scoreB": 1,
-      "minute": "13'"
+      "scoreB": 4,
+      "minute": "46'"
     }
   ],
   "groups": {
@@ -554,7 +554,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 40.2
+      "pct": 40.4
     },
     {
       "code": "England",
@@ -880,14 +880,14 @@
     ]
   },
   "news": [
-    "Mbappe starts for France vs. England in World Cup third-place clash: Live updates",
-    "FIFA World Cup 2026™ Final",
     "France vs England LIVE: FIFA World Cup 2026",
+    "FIFA World Cup 2026™ Final",
+    "Mbappe starts for France vs. England in World Cup third-place clash: Live updates",
+    "France v England: World Cup third-place playoff – live",
+    "World Cup fever overflows in Utah and California",
     "World Cup 2026: Spain training session cancelled before World Cup final",
-    "Trump interrupts FIFA President to make bitter USMNT World Cup comment",
-    "Everything you need to know about the World Cup game no one wants to play",
     "Beckham’s big haul, the end of the GOAT debate — and America’s fast-food superiority: The World Cup’s other winners & losers",
-    "What Do The World Cup Third-Place Winners Get?"
+    "Everything you need to know about the World Cup game no one wants to play"
   ],
   "nextMatch": {
     "a": "Spain",
