@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T22:09:14.789700Z",
+  "updated": "2026-07-18T23:09:59.138436Z",
   "matches": [
     {
       "id": "wc26-760516",
@@ -7,10 +7,9 @@
       "grp": "GROUP I",
       "a": "France",
       "b": "England",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 4,
-      "minute": "46'"
+      "status": "ft",
+      "scoreA": 4,
+      "scoreB": 6
     }
   ],
   "groups": {
@@ -370,12 +369,12 @@
       "teams": [
         [
           "France",
-          7,
+          8,
           6,
           0,
-          1,
-          16,
-          4,
+          2,
+          20,
+          10,
           18
         ],
         [
@@ -502,13 +501,13 @@
       "teams": [
         [
           "England",
-          7,
-          5,
-          1,
-          1,
-          14,
           8,
-          16
+          6,
+          1,
+          1,
+          20,
+          12,
+          19
         ],
         [
           "Croatia",
@@ -543,10 +542,7 @@
       ]
     }
   },
-  "liveTeams": [
-    "England",
-    "France"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
@@ -554,7 +550,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 40.4
+      "pct": 40.9
     },
     {
       "code": "England",
@@ -880,14 +876,14 @@
     ]
   },
   "news": [
-    "France vs England LIVE: FIFA World Cup 2026",
-    "FIFA World Cup 2026™ Final",
-    "Mbappe starts for France vs. England in World Cup third-place clash: Live updates",
+    "Fifa to announce record $15bn World Cup revenue, smashing expectations",
+    "World Cup 2026: France's Michael Olise breaks Pelé's record for assists in a single tournament",
+    "Wildfire Smoke Hangs Over World Cup Final",
     "France v England: World Cup third-place playoff – live",
-    "World Cup fever overflows in Utah and California",
-    "World Cup 2026: Spain training session cancelled before World Cup final",
-    "Beckham’s big haul, the end of the GOAT debate — and America’s fast-food superiority: The World Cup’s other winners & losers",
-    "Everything you need to know about the World Cup game no one wants to play"
+    "FIFA World Cup 2026™ Final",
+    "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final – as it happened",
+    "World Cup final tickets near $2.3m mark on FIFA’s resale platform",
+    "World Cup winner Capdevila appeals to Trump after US travel permit denied"
   ],
   "nextMatch": {
     "a": "Spain",
@@ -903,14 +899,14 @@
   "remainingFixtures": {},
   "topScorers": [
     {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 9
+    },
+    {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 8
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 7
     },
     {
       "player": "Erling Haaland",
@@ -920,12 +916,12 @@
     {
       "player": "Jude Bellingham",
       "team": "England",
-      "goals": 6
+      "goals": 7
     },
     {
       "player": "Ousmane Dembélé",
       "team": "France",
-      "goals": 5
+      "goals": 6
     },
     {
       "player": "Julián Quiñones",
