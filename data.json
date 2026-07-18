@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-18T00:57:19.637271Z",
-  "matches": [],
+  "updated": "2026-07-18T04:04:36.154171Z",
+  "matches": [
+    {
+      "id": "wc26-760516",
+      "when": "5:00 PM",
+      "grp": "GROUP I",
+      "a": "France",
+      "b": "England",
+      "status": "upcoming"
+    }
+  ],
   "groups": {
     "A": {
       "teams": [
@@ -539,7 +548,7 @@
     },
     {
       "code": "Argentina",
-      "pct": 40.6
+      "pct": 40.5
     },
     {
       "code": "England",
@@ -866,13 +875,13 @@
   },
   "news": [
     "The financial winners and losers from the World Cup",
+    "France vs. England 2026 World Cup 3rd Place prediction, odds, pick",
     "Alan Rothenberg: World Cup 2026 has been 'spectacular’",
     "Trump wants the US to host another World Cup, but without Mexico and Canada",
-    "How to Watch the 2026 World Cup Final This Sunday",
-    "Ticket Prices for 2026 World Cup Final Soar, Set Record",
-    "World Cup 2026: UK government backs calls for Fifa to investigate Argentina over Falklands banner; Tuchel takes blame amid criticism of tactics – as it happened",
-    "Could wildfire smoke disrupt the World Cup final and what impact might it have on performance?",
-    "Authorities 'monitoring' wildfires' impact on 2026 World Cup final, sources say - ABC News"
+    "World Cup final: Argentina vs. Spain - What you need to know, predictions, odds",
+    "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – as it happened",
+    "Argentina like to leave mark on opponents - Laporte",
+    "Thousands of tickets still available for England v France"
   ],
   "nextMatch": {
     "a": "France",
