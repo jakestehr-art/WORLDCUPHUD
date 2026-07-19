@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T21:26:32.864061Z",
+  "updated": "2026-07-19T22:27:10.404039Z",
   "matches": [
     {
       "id": "wc26-760517",
@@ -7,10 +7,9 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Argentina",
-      "status": "live",
-      "scoreA": 0,
-      "scoreB": 0,
-      "minute": "95'"
+      "status": "ft",
+      "scoreA": 1,
+      "scoreB": 0
     }
   ],
   "groups": {
@@ -326,13 +325,13 @@
       "teams": [
         [
           "Spain",
+          8,
           7,
-          6,
           1,
           0,
-          13,
+          14,
           1,
-          19
+          22
         ],
         [
           "Cape Verde",
@@ -414,12 +413,12 @@
       "teams": [
         [
           "Argentina",
-          7,
+          8,
           7,
           0,
-          0,
+          1,
           19,
-          7,
+          8,
           21
         ],
         [
@@ -543,18 +542,15 @@
       ]
     }
   },
-  "liveTeams": [
-    "Argentina",
-    "Spain"
-  ],
+  "liveTeams": [],
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 69.5
+      "pct": 100.0
     },
     {
       "code": "Argentina",
-      "pct": 30.4
+      "pct": 0.1
     },
     {
       "code": "England",
@@ -880,14 +876,14 @@
     ]
   },
   "news": [
-    "All The Celebrities Spotted At 2026 FIFA World Cup Final Match",
-    "All the president’s guests",
-    "Timothée Chalamet and Kylie Jenner Kiss During 2026 World Cup Final Appearance",
-    "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
-    "Full 2026 FIFA World Cup™ Final Halftime Show ⭐️",
-    "World Cup 2026: England team is best for a long time - Declan Rice",
-    "England 2026 World Cup squad: player-by-player ratings",
-    "France vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Bronze Final"
+    "Spain vs. Argentina Live Updates, Score: Spain Finally Breaks Through",
+    "World Cup final: Trump, half-time show and everything but the football – live",
+    "Mbappe first to win World Cup Golden Boot twice",
+    "Over to you, Messi - Mbappe leads Golden Boot race for the ages",
+    "Mbappe beats Messi to win Fifa World Cup Golden Boot",
+    "England 6-4 France: FIFA World Cup 2026 – as it happened",
+    "Best England team for a long time - that's a fact, says Rice",
+    "England 2026 World Cup squad: player-by-player ratings"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
