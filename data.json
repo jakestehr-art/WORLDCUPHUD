@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T18:12:55.979668Z",
+  "updated": "2026-07-19T19:34:26.458907Z",
   "matches": [
     {
       "id": "wc26-760517",
@@ -7,7 +7,10 @@
       "grp": "GROUP H",
       "a": "Spain",
       "b": "Argentina",
-      "status": "upcoming"
+      "status": "live",
+      "scoreA": 0,
+      "scoreB": 0,
+      "minute": "28'"
     }
   ],
   "groups": {
@@ -540,15 +543,18 @@
       ]
     }
   },
-  "liveTeams": [],
+  "liveTeams": [
+    "Argentina",
+    "Spain"
+  ],
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 59.2
+      "pct": 59.9
     },
     {
       "code": "Argentina",
-      "pct": 41.2
+      "pct": 39.9
     },
     {
       "code": "England",
@@ -874,26 +880,16 @@
     ]
   },
   "news": [
-    "Trump to present FIFA World Cup winners with trophy",
-    "Honoring 250 Years of American History While Welcoming the World to the 2026 FIFA World Cup",
-    "FIFA dishing out $51 million to the winners of this year’s World Cup under expanded purse",
-    "Messi’s Argentina face Spain in today’s 2026 World Cup final: Live updates",
-    "France vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Bronze Final",
-    "France 4-6 England: World Cup third-place playoff – as it happened",
-    "England 6-4 France: FIFA World Cup 2026 – as it happened",
-    "Who has most goals in World Cup history? Kylian Mbappé passes Lionel Messi with 2 goals in third-place game"
+    "2026 FIFA World Cup™ Closing Ceremony Featuring IShowSpeed, Post Malone & Swae Lee",
+    "NYC swells with Spanish, Argentinian fans anticipating World Cup glory",
+    "2026 World Cup final opens with trophy in Louis Vuitton trunk, earnest Tom Cruise speech",
+    "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
+    "France vs England Extended Highlights 🌎🏆 2026 FIFA World Cup™ | Bronze Final",
+    "World Cup 2026: England team is best for a long time - Declan Rice",
+    "England 2026 World Cup squad: player-by-player ratings",
+    "World Cup 2026: guide to all 1,248 players"
   ],
-  "nextMatch": {
-    "a": "Spain",
-    "b": "Argentina",
-    "grp": "GROUP H",
-    "kickoffISO": "2026-07-19T19:00:00Z",
-    "when": "Sun 3:00 PM ET",
-    "venue": "MetLife Stadium",
-    "city": "East Rutherford, New Jersey",
-    "stadium": "MetLife Stadium",
-    "weather": null
-  },
+  "nextMatch": null,
   "remainingFixtures": {},
   "topScorers": [
     {
