@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T19:34:26.458907Z",
+  "updated": "2026-07-19T20:26:55.245049Z",
   "matches": [
     {
       "id": "wc26-760517",
@@ -10,7 +10,7 @@
       "status": "live",
       "scoreA": 0,
       "scoreB": 0,
-      "minute": "28'"
+      "minute": "49'"
     }
   ],
   "groups": {
@@ -550,11 +550,11 @@
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 59.9
+      "pct": 59.4
     },
     {
       "code": "Argentina",
-      "pct": 39.9
+      "pct": 41.1
     },
     {
       "code": "England",
@@ -880,14 +880,14 @@
     ]
   },
   "news": [
-    "2026 FIFA World Cup™ Closing Ceremony Featuring IShowSpeed, Post Malone & Swae Lee",
-    "NYC swells with Spanish, Argentinian fans anticipating World Cup glory",
-    "2026 World Cup final opens with trophy in Louis Vuitton trunk, earnest Tom Cruise speech",
-    "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
-    "France vs England Extended Highlights 🌎🏆 2026 FIFA World Cup™ | Bronze Final",
-    "World Cup 2026: England team is best for a long time - Declan Rice",
-    "England 2026 World Cup squad: player-by-player ratings",
-    "World Cup 2026: guide to all 1,248 players"
+    "World Cup final live updates: Spain vs. Argentina latest news, score, highlights and analysis",
+    "World Cup 2026: guide to all 1,248 players",
+    "World Cup hydration breaks - who are the winners and losers?",
+    "World Cup 2026: All the key facts, in one place",
+    "How to Watch the 2026 World Cup Halftime Show",
+    "Trump takes in Jennifer Hudson's incredible national anthem performance before World Cup final",
+    "How to Livestream the World Cup Halftime Show With BTS, Bieber, Madonna and Shakira",
+    "Who Is Performing At The 2026 World Cup Final? Every Artist Confirmed So Far"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
