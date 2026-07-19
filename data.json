@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T20:26:55.245049Z",
+  "updated": "2026-07-19T21:26:32.864061Z",
   "matches": [
     {
       "id": "wc26-760517",
@@ -10,7 +10,7 @@
       "status": "live",
       "scoreA": 0,
       "scoreB": 0,
-      "minute": "49'"
+      "minute": "95'"
     }
   ],
   "groups": {
@@ -550,11 +550,11 @@
   "probabilities": [
     {
       "code": "Spain",
-      "pct": 59.4
+      "pct": 69.5
     },
     {
       "code": "Argentina",
-      "pct": 41.1
+      "pct": 30.4
     },
     {
       "code": "England",
@@ -880,14 +880,14 @@
     ]
   },
   "news": [
-    "World Cup final live updates: Spain vs. Argentina latest news, score, highlights and analysis",
-    "World Cup 2026: guide to all 1,248 players",
-    "World Cup hydration breaks - who are the winners and losers?",
-    "World Cup 2026: All the key facts, in one place",
-    "How to Watch the 2026 World Cup Halftime Show",
-    "Trump takes in Jennifer Hudson's incredible national anthem performance before World Cup final",
-    "How to Livestream the World Cup Halftime Show With BTS, Bieber, Madonna and Shakira",
-    "Who Is Performing At The 2026 World Cup Final? Every Artist Confirmed So Far"
+    "All The Celebrities Spotted At 2026 FIFA World Cup Final Match",
+    "All the president’s guests",
+    "Timothée Chalamet and Kylie Jenner Kiss During 2026 World Cup Final Appearance",
+    "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
+    "Full 2026 FIFA World Cup™ Final Halftime Show ⭐️",
+    "World Cup 2026: England team is best for a long time - Declan Rice",
+    "England 2026 World Cup squad: player-by-player ratings",
+    "France vs England Highlights 🌎🏆 2026 FIFA World Cup™ | Bronze Final"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
