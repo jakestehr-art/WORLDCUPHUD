@@ -1,15 +1,13 @@
 {
-  "updated": "2026-07-19T03:53:49.682981Z",
+  "updated": "2026-07-19T06:27:33.251460Z",
   "matches": [
     {
-      "id": "wc26-760516",
-      "when": "5:00 PM",
-      "grp": "GROUP I",
-      "a": "France",
-      "b": "England",
-      "status": "ft",
-      "scoreA": 4,
-      "scoreB": 6
+      "id": "wc26-760517",
+      "when": "3:00 PM",
+      "grp": "GROUP H",
+      "a": "Spain",
+      "b": "Argentina",
+      "status": "upcoming"
     }
   ],
   "groups": {
@@ -877,13 +875,13 @@
   },
   "news": [
     "FIFA World Cup 2026 – live score, results & group matches",
-    "FIFA World Cup 2026 sees major increase in goals from outside the box",
+    "Welcome to the FIFA World Cup 2026 on FOX After Hours with James Corden Golden Globes Awards...it rolls right off the tongue",
     "2026 World Cup: England survives France rally to claim third place in 10-goal thriller",
     "Latin America unites to cheer against Argentina in FIFA World Cup final",
-    "The 2026 World Cup Final Deserves Better Than MetLife Stadium",
-    "Argentina fans are already partying in Times Square the night before the 2026 FIFA World Cup Final",
-    "‘For Sure’—Kylian Mbappe Drops Lionel Messi Prediction for 2026 World Cup Final",
-    "World Cup 2026: Spain training session cancelled before World Cup final"
+    "Spain vs. Argentina World Cup final has everything: Lionel Messi, Lamine Yamal and 2 super teams chasing history",
+    "World Cup 2026: Why Lionel Messi once retired from international football",
+    "World Cup 2026: England team is best for a long time - Declan Rice",
+    "Saka hat-trick seals 6-4 England win over France in epic World Cup third-place playoff"
   ],
   "nextMatch": {
     "a": "Spain",
