@@ -1,17 +1,6 @@
 {
-  "updated": "2026-07-20T01:08:12.633571Z",
-  "matches": [
-    {
-      "id": "wc26-760517",
-      "when": "3:00 PM",
-      "grp": "GROUP H",
-      "a": "Spain",
-      "b": "Argentina",
-      "status": "ft",
-      "scoreA": 1,
-      "scoreB": 0
-    }
-  ],
+  "updated": "2026-07-20T04:50:49.094367Z",
+  "matches": [],
   "groups": {
     "A": {
       "teams": [
@@ -549,10 +538,6 @@
       "pct": 100.0
     },
     {
-      "code": "Argentina",
-      "pct": 0.1
-    },
-    {
       "code": "England",
       "pct": 0.0
     },
@@ -562,6 +547,10 @@
     },
     {
       "code": "Brazil",
+      "pct": 0.0
+    },
+    {
+      "code": "Argentina",
       "pct": 0.0
     },
     {
@@ -876,14 +865,14 @@
     ]
   },
   "news": [
-    "Rodri wins World Cup Golden Ball as Spain dominate awards",
-    "First World Cup halftime show draws mixed reactions for Shakira, Justin Bieber, BTS, Madonna performances",
-    "The ‘hopeless, bad people’ just won Donald Trump's World Cup",
     "Spain suffocates Lionel Messi and Argentina, wins World Cup on Ferran Torres' extra-time winner",
-    "Spain outlasts Argentina 1-0 in extra time to win second World Cup title",
-    "President Trump presents the 2026 World Cup trophy to Spain",
-    "Spain's Ferran Torres scores go-ahead goal in extra time vs Argentina | 2026 FIFA World Cup",
-    "Spain vs Argentina 1-0 (aet): FIFA World Cup 2026 final – as it happened"
+    "Kylian Mbappé wins Golden Boot at 2026 World Cup after Lionel Messi's goalless final",
+    "World Cup 2026 Golden Boot race: Kylian Mbappe beats Lionel Messi to become top goalscorer",
+    "Mbappe takes home second Golden Boot, Spain sweeps World Cup awards",
+    "Hits, misses and Muppets: the star-studded World Cup half-time show nobody asked for",
+    "Full 2026 FIFA World Cup™ Final Halftime Show ⭐️",
+    "Matt Damon, Tom Cruise and Shakira headline packed celebrity crowd at World Cup final",
+    "Spain outlasts Argentina 1-0 in extra time to win second World Cup title"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
