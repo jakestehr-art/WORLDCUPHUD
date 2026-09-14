@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T01:06:55.664416Z",
+  "updated": "2026-09-14T06:13:51.075899Z",
   "matches": [],
   "groups": {
     "A": {
@@ -532,30 +532,347 @@
     }
   },
   "liveTeams": [],
-  "probabilities": [],
+  "probabilities": [
+    {
+      "code": "Spain",
+      "pct": 100.0
+    },
+    {
+      "code": "England",
+      "pct": 0.0
+    },
+    {
+      "code": "France",
+      "pct": 0.0
+    },
+    {
+      "code": "Brazil",
+      "pct": 0.0
+    },
+    {
+      "code": "Argentina",
+      "pct": 0.0
+    },
+    {
+      "code": "Germany",
+      "pct": 0.0
+    },
+    {
+      "code": "Portugal",
+      "pct": 0.0
+    },
+    {
+      "code": "Netherlands",
+      "pct": 0.0
+    },
+    {
+      "code": "Italy",
+      "pct": 0.0
+    },
+    {
+      "code": "USA",
+      "pct": 0.0
+    },
+    {
+      "code": "Uruguay",
+      "pct": 0.0
+    },
+    {
+      "code": "Mexico",
+      "pct": 0.0
+    },
+    {
+      "code": "Belgium",
+      "pct": 0.0
+    },
+    {
+      "code": "Colombia",
+      "pct": 0.0
+    },
+    {
+      "code": "Peru",
+      "pct": 0.0
+    },
+    {
+      "code": "Japan",
+      "pct": 0.0
+    }
+  ],
   "groupOdds": {
-    "A": [],
-    "B": [],
-    "C": [],
-    "D": [],
-    "E": [],
-    "F": [],
-    "G": [],
-    "H": [],
-    "I": [],
-    "J": [],
-    "K": [],
-    "L": []
+    "A": [
+      {
+        "code": "Mexico",
+        "pct": 100.0
+      },
+      {
+        "code": "South Africa",
+        "pct": 0.0
+      },
+      {
+        "code": "South Korea",
+        "pct": 0.0
+      },
+      {
+        "code": "Czechia",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "B": [
+      {
+        "code": "Switzerland",
+        "pct": 100.0
+      },
+      {
+        "code": "Canada",
+        "pct": 0.0
+      },
+      {
+        "code": "Bosnia and Herzegovina",
+        "pct": 0.0
+      },
+      {
+        "code": "Qatar",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "C": [
+      {
+        "code": "Brazil",
+        "pct": 100.0
+      },
+      {
+        "code": "Morocco",
+        "pct": 0.0
+      },
+      {
+        "code": "Haiti",
+        "pct": 0.0
+      },
+      {
+        "code": "Scotland",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "D": [
+      {
+        "code": "USA",
+        "pct": 100.0
+      },
+      {
+        "code": "Paraguay",
+        "pct": 0.0
+      },
+      {
+        "code": "Australia",
+        "pct": 0.0
+      },
+      {
+        "code": "Turkey",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "E": [
+      {
+        "code": "Germany",
+        "pct": 100.0
+      },
+      {
+        "code": "Curaçao",
+        "pct": 0.0
+      },
+      {
+        "code": "Ivory Coast",
+        "pct": 0.0
+      },
+      {
+        "code": "Ecuador",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "F": [
+      {
+        "code": "Netherlands",
+        "pct": 100.0
+      },
+      {
+        "code": "Japan",
+        "pct": 0.0
+      },
+      {
+        "code": "Sweden",
+        "pct": 0.0
+      },
+      {
+        "code": "Tunisia",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "G": [
+      {
+        "code": "Belgium",
+        "pct": 100.0
+      },
+      {
+        "code": "Egypt",
+        "pct": 0.0
+      },
+      {
+        "code": "Iran",
+        "pct": 0.0
+      },
+      {
+        "code": "New Zealand",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "H": [
+      {
+        "code": "Spain",
+        "pct": 100.0
+      },
+      {
+        "code": "Cape Verde",
+        "pct": 0.0
+      },
+      {
+        "code": "Saudi Arabia",
+        "pct": 0.0
+      },
+      {
+        "code": "Uruguay",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "I": [
+      {
+        "code": "France",
+        "pct": 100.0
+      },
+      {
+        "code": "Senegal",
+        "pct": 0.0
+      },
+      {
+        "code": "Iraq",
+        "pct": 0.0
+      },
+      {
+        "code": "Norway",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "J": [
+      {
+        "code": "Argentina",
+        "pct": 100.0
+      },
+      {
+        "code": "Algeria",
+        "pct": 0.0
+      },
+      {
+        "code": "Austria",
+        "pct": 0.0
+      },
+      {
+        "code": "Jordan",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "K": [
+      {
+        "code": "Colombia",
+        "pct": 100.0
+      },
+      {
+        "code": "Portugal",
+        "pct": 0.0
+      },
+      {
+        "code": "DR Congo",
+        "pct": 0.0
+      },
+      {
+        "code": "Uzbekistan",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ],
+    "L": [
+      {
+        "code": "England",
+        "pct": 100.0
+      },
+      {
+        "code": "Croatia",
+        "pct": 0.0
+      },
+      {
+        "code": "Ghana",
+        "pct": 0.0
+      },
+      {
+        "code": "Panama",
+        "pct": 0.0
+      },
+      {
+        "code": "Other",
+        "pct": 0.0
+      }
+    ]
   },
   "news": [
     "Women's World Cup 2026 All-Second Team",
-    "FIBA Women’s Basketball World Cup 2026: MVP Breanna Stewart and USA stalwarts maintain gold standard for historic fifth championship title in a row",
     "USA vs. France Box Score, Highlights for Clark, Reese from 2026 FIBA Women's World Cup Bracket Final",
-    "WBSC Women's Softball World Cup 2026 Group Oklahoma City: China, USA remain unbeaten after Day 2 wins; Netherlands-Mexico up next",
-    "2026 FIBA Women's World Cup: USA-France gold medal game preview",
-    "Team USA vs. France in Women’s World Cup final: Time, TV and what you need to know",
-    "2026 World Cup Day 9 schedule: USMNT, Brazil, Morocco back in play",
-    "FIBA Women's World Cup 2026 Prize Money: How much money players make and what does the winning team get?"
+    "FIBA Women’s Basketball World Cup 2026: MVP Breanna Stewart and USA stalwarts maintain gold standard for historic fifth championship title in a row",
+    "WBSC Women's Softball World Cup 2026 Group Oklahoma City: USA lead at 3-0; China also unbeaten after Day 2",
+    "Who won Women's Asia Cup 2026? Final score, result and highlights for India vs. Sri Lanka final",
+    "World Cup 2026 today: Live updates, latest news as it happened - June 26",
+    "FIBA Women’s World Cup 2026: USA beats France 97-79 to win Gold Medal",
+    "Gabby Williams is Women's World Cup 2026 Best Defensive Player"
   ],
   "nextMatch": null,
   "remainingFixtures": {},
